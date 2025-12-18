@@ -9,7 +9,19 @@
     <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
 </head>
 <body>
-
+{
+    "name": "Bootcamp",
+    "identifier": "bootcamp",
+    "title": "Intensive, fast-paced training focusing on skill development in a short time (e.g., coding bootcamp).",
+    "description": "Bootcamp is commonly used for learning models like focusing, coding, intensive and more.",
+    "keywords": [
+      "focusing",
+      "coding",
+      "intensive",
+      "paced",
+      "training"
+    ]
+  }
     <div class="container mt-5">
         <h2 class="text-center mb-4">Sortable Table</h2>
         <table class="table table-striped" id="data-table">
@@ -17,21 +29,26 @@
                 <tr>
                     <th onclick="sortTable(0)" style="cursor:pointer">ID</th>
                     <th onclick="sortTable(1)" style="cursor:pointer">Category</th>
-                    <th onclick="sortTable(2)" style="cursor:pointer">Unique ID</th>
                     <th onclick="sortTable(3)" style="cursor:pointer">Description</th>
-                    <th onclick="sortTable(4)" style="cursor:pointer">Keywords</th>
                     <th onclick="sortTable(5)" style="cursor:pointer">URL</th>
                     <th onclick="sortTable(6)" style="cursor:pointer">Accuracy</th>
-                    <th onclick="sortTable(7)" style="cursor:pointer">Issues</th>
-                    <th onclick="sortTable(8)" style="cursor:pointer">Total Moksy.ai</th>
-                    <th onclick="sortTable(9)" style="cursor:pointer">Total Moksy.com</th>
+                    <th onclick="sortTable(7)" style="cursor:pointer">Summary Issues</th>
+                    <th onclick="sortTable(10)" style="cursor:pointer">Goal</th>
                     <th onclick="sortTable(10)" style="cursor:pointer">Total</th>
+                     <th onclick="sortTable(10)" style="cursor:pointer">Remaining</th>
                 </tr>
             </thead>
             <tbody>
                 <!-- Empty table rows for data to be added dynamically -->
                 <tr>
-                    <td colspan="11" class="text-center">No data available</td>
+                    <td  class="text-left">AB12345</td>
+                     <td  class="text-left">Bootcamp</td>
+                     <td  class="text-left"><p> Intensive, fast-paced training focusing on skill development in a short time (e.g., coding bootcamp). </p></td>
+                     <td  class="text-left"><a href="https://moksy-lab.github.io/sandbox/requirements/bootcamps/">Bootcamp</a></td>
+                     <td  class="text-left">10%</td>
+                     <td  class="text-left">1000</td>
+                     <td  class="text-left">100</td>
+                     <td  class="text-left">900</td>
                 </tr>
             </tbody>
         </table>
