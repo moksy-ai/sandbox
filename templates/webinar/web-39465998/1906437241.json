@@ -1,0 +1,1170 @@
+{
+    "projectRequirements": {
+        "userid": "74263e5274d3fd92db2437daa43c7ad9",
+        "projectId": 1906437241,
+        "projectName": "Web",
+        "projectIndustry": "Technology",
+        "projectSubIndustry": "Web Development",
+        "projectType": "Webinar",
+        "projectPurpose": "The primary goal is to educate beginners and early-career developers about Web Development topics through a webinar. The objective is to equip participants with foundational knowledge, essential skills, and key takeaways that they can apply to their careers.",
+        "projectAudience": "Beginners,Early-career developers ,Aspiring developers",
+        "projectTags": "Web Development,Programming,Coding,Learning,Tech Education,Beginners,Early-career,Webinar,Development,HTML\/CSS",
+        "projectExamples": "Udemy Webinars,Codecademy Learning Paths",
+        "projectTheme": "Modern and Tech-focused",
+        "projectKeywords": {
+            "projectKeywords": {
+                "keywords": {
+                    "development": 7.1,
+                    "early-career": 5.5,
+                    "beginners": 5.5,
+                    "web": 5,
+                    "developers": 4.8,
+                    "education": 3.7,
+                    "webinar": 3.6,
+                    "events": 2.7,
+                    "registration": 2.7,
+                    "speakers": 2.7
+                },
+                "accuracy": "8%"
+            },
+            "projectFontsKeywords": {
+                "keywords": {
+                    "tech": 10,
+                    "modern": 10,
+                    "web": 2.7,
+                    "clean": 1.9,
+                    "friendly": 1.8,
+                    "professional": 1.7,
+                    "sans-serif": 1.7,
+                    "readable": 1.4,
+                    "neutral": 1.2,
+                    "ui-friendly": 1.1
+                },
+                "accuracy": "2.9%"
+            },
+            "projectColorsKeywords": {
+                "keywords": {
+                    "modern": 10,
+                    "tech": 10,
+                    "wellness": 2.4,
+                    "saas": 2.1,
+                    "clarity": 1.9,
+                    "professional": 1.7,
+                    "vibrant": 1.6,
+                    "calm": 1.6,
+                    "friendly": 1.6,
+                    "fintech": 1.5
+                },
+                "accuracy": "3.3%"
+            },
+            "projectBrandAssetsKeywords": {
+                "keywords": {
+                    "development": 5,
+                    "beginners": 4,
+                    "early-career": 4,
+                    "web": 3,
+                    "developers": 3,
+                    "events": 3,
+                    "registration": 3,
+                    "speakers": 3,
+                    "session": 3,
+                    "countdown": 3
+                },
+                "accuracy": "2%"
+            },
+            "projectThemeKeywords": {
+                "keywords": {
+                    "development": 5,
+                    "beginners": 4,
+                    "early-career": 4,
+                    "web": 3,
+                    "developers": 3,
+                    "events": 3,
+                    "registration": 3,
+                    "speakers": 3,
+                    "session": 3,
+                    "countdown": 3
+                },
+                "accuracy": "2%"
+            },
+            "projectLayoutsKeywords": {
+                "keywords": {
+                    "curriculum": 10,
+                    "modules": 10,
+                    "faqs": 10,
+                    "development": 5,
+                    "beginners": 4,
+                    "early-career": 4,
+                    "web": 3,
+                    "developers": 3,
+                    "events": 3,
+                    "registration": 3
+                },
+                "accuracy": "20%"
+            },
+            "projectTextsKeywords": {
+                "keywords": {
+                    "educational": 10,
+                    "motivational": 10,
+                    "concise": 10,
+                    "development": 5,
+                    "beginners": 4,
+                    "early-career": 4,
+                    "web": 3,
+                    "developers": 3,
+                    "events": 3,
+                    "registration": 3
+                },
+                "accuracy": "20%"
+            },
+            "projectImagesKeywords": {
+                "keywords": {
+                    "development": 10,
+                    "learning": 10,
+                    "technology": 6.1,
+                    "coding": 5.5,
+                    "programming": 4.5,
+                    "tech": 4.5,
+                    "modern": 3.9,
+                    "web": 2.4,
+                    "developers": 1.9,
+                    "webinar": 1.8
+                },
+                "accuracy": "0.4%"
+            },
+            "projectVideosKeywords": {
+                "keywords": {
+                    "learning": 10,
+                    "webinar": 5.6,
+                    "programming": 3.7,
+                    "technology": 3.1,
+                    "tech": 2.8,
+                    "coding": 2.8,
+                    "primary": 2.5,
+                    "assessment": 1.9,
+                    "tutorial": 1.6,
+                    "lecture": 1.6
+                },
+                "accuracy": "0.7%"
+            },
+            "projectBaseLibrariesKeywords": {
+                "keywords": {
+                    "modern": 4.7,
+                    "frontend": 3.3,
+                    "spa": 2.4,
+                    "performance": 1.9,
+                    "animation": 1.9,
+                    "lightweight": 1.9,
+                    "modular": 1.4,
+                    "legacy": 1.4,
+                    "react": 1.4,
+                    "components": 1.4
+                },
+                "accuracy": "0%"
+            },
+            "projectSupportLibrariesKeywords": {
+                "keywords": {
+                    "modern": 4.8,
+                    "frontend": 2.4,
+                    "spa": 2.4,
+                    "performance": 1.9,
+                    "animation": 1.9,
+                    "lightweight": 1.9,
+                    "modular": 1.4,
+                    "legacy": 1.4,
+                    "react": 1.4,
+                    "components": 1.4
+                },
+                "accuracy": "0%"
+            }
+        }
+    },
+    "projectInfo": {
+        "projectBranding": {
+            "fonts": {
+                "primaryFonts": "",
+                "secondaryFonts": "",
+                "thirdFonts": "",
+                "defaultFonts": ""
+            },
+            "colors": {
+                "primaryColor": "",
+                "secondaryColor": "",
+                "thirdColor": "",
+                "defaultColor": ""
+            }
+        },
+        "projectTheme": "flat-light",
+        "projectBrandingAssets": "lightbulb",
+        "projectLayout": [
+            "navbar\/nudge",
+            "hero\/hoist",
+            "overview",
+            "events\/exorn",
+            "teams\/treva",
+            "curriculum",
+            "learner",
+            "skills",
+            "registration\/regin",
+            "countdown\/camel",
+            "testimonials\/taylor",
+            "platform",
+            "bonus",
+            "faqs\/feign",
+            "limitedspots",
+            "calendar",
+            "socialshare\/sorix",
+            "clients\/calvo",
+            "contacts\/covel",
+            "footers\/flows"
+        ],
+        "projectText": {
+            "Navigation": [
+                "Home",
+                "About",
+                "Speaker Lineup",
+                "Agenda",
+                "Registration",
+                "Faqs",
+                "Watch Live",
+                "Recordings",
+                "Pricing",
+                "Sponsors",
+                "Testimonials",
+                "Blog",
+                "Contact",
+                "Support"
+            ],
+            "Primary-Headline": [
+                "  Unlock Insights with Industry Leaders",
+                "One Hour. Endless Value.",
+                "Discover the Future in Our Upcoming Webinar",
+                "Learn from the Best \u2014 Live!",
+                "Free Webinar: Register Now",
+                "Level Up Your Knowledge in 60 Minutes",
+                "Don\u2019t Miss This Exclusive Online Session",
+                "Join the Conversation That Matters",
+                "Your Front-Row Seat to Expert Insights"
+            ],
+            "Tagline": [
+                "Live. Insightful. Actionable.",
+                "Expert-Led Webinars That Inspire.",
+                "Bringing the Experts to Your Screen.",
+                "Real Conversations. Real Growth.",
+                "From Curious to Confident \u2014 in One Session.",
+                "Sharpen Your Skills in Under an Hour.",
+                "Connect. Learn. Transform.",
+                "Ideas Worth Sharing \u2014 Live.",
+                "The Smarter Way to Learn Online.",
+                "Tap Into Knowledge from Anywhere."
+            ],
+            "Sub-Headline": [
+                "Join our upcoming webinar to explore the latest trends, tools, and tactics shaping the industry.",
+                "Designed for professionals ready to grow, led by experts who know how.",
+                "A live online session packed with tips, Q&A, and practical insights.",
+                "Engage with our panel of thought leaders \u2014 all from the comfort of your desk.",
+                "Actionable knowledge in just one session.",
+                "Connect with innovators and decision-makers.",
+                "Your free pass to top-tier learning experiences.",
+                "Ask questions, get answers, and grow your expertise.",
+                "Simple to join, easy to learn, powerful to apply.",
+                "Everything you need to know, in one compact session."
+            ],
+            "Secondary-Headline": [
+                "What You\u2019ll Learn",
+                "Meet the Speakers",
+                "Webinar Agenda",
+                "Why Attend This Webinar?",
+                "Secure Your Spot Now",
+                "Bonus Q&A Session Included",
+                "Upcoming Webinar Topics",
+                "Our Live Webinar Experience",
+                "Learn Directly from Industry Experts",
+                "Trusted by 5,000+ Attendees Worldwide"
+            ],
+            "Paragraph": [
+                "Our webinars are crafted to deliver real value in a short time. Each session is led by professionals who share their expertise through engaging presentations, live Q&As, and downloadable resources.",
+                "We bring together experts, innovators, and passionate learners to share knowledge in a fast-paced, highly focused online format.",
+                "Whether you're a beginner or a seasoned pro, our webinars help you stay current with evolving trends and technologies.",
+                "Interact live with top experts in the field, ask questions, and gain practical knowledge you can use right away.",
+                "Each webinar is recorded so you can revisit the insights anytime. Plus, participants receive exclusive access to bonus content.",
+                "Our sessions are optimized for clarity, engagement, and takeaway value \u2014 because your time is precious.",
+                "We believe learning should be easy and accessible. That\u2019s why our webinars are live, online, and completely free to join.",
+                "Join thousands of other professionals who have benefited from our sessions \u2014 without leaving their home or office.",
+                "We handpick our speakers to ensure every session is packed with valuable takeaways and professional perspectives.",
+                "Stay competitive and informed \u2014 one webinar at a time."
+            ],
+            "Primary-Button": [
+                "Register Now",
+                "Save Your Seat",
+                "Join the Webinar",
+                "Watch Live",
+                "Sign Up Free",
+                "Reserve Spot",
+                "Get Access",
+                "Book My Place",
+                "Start Learning",
+                "Confirm Attendance"
+            ],
+            "Secondary-Button": [
+                "Learn More",
+                "View Agenda",
+                "Meet the Speakers",
+                "Watch Preview",
+                "Download Info",
+                "Add to Calendar",
+                "Share with Friends",
+                "Get Reminder",
+                "See FAQs",
+                "Explore Topics"
+            ],
+            "Footer-Nav": [
+                "Privacy Policy",
+                "Terms & Conditions",
+                "Cookie Policy",
+                "Accessibility Statement",
+                "Contact Us",
+                "Unsubscribe",
+                "Technical Support",
+                "Speaker Guidelines",
+                "Recording Policy",
+                "Site Map"
+            ],
+            "Promo": [
+                "Free registration \u2014 limited seats available!",
+                "Register today and get a free downloadable resource.",
+                "Early registrants receive bonus webinar access!",
+                "Join now \u2014 spots are filling fast!",
+                "Attend and receive a certificate of participation.",
+                "Invite a friend and get priority Q&A placement.",
+                "Webinar replays included with registration.",
+                "Exclusive Q&A access for early signups.",
+                "First 100 signups get bonus materials.",
+                "Live drawing for a surprise gift to attendees!"
+            ],
+            "Notices": [
+                "Live webinar starts on August 15 at 7PM GMT.",
+                "Please check your email for your confirmation link.",
+                "Replay will be available 24 hours after the session.",
+                "Technical support available before and during the event.",
+                "Limited seats \u2014 reserve yours now.",
+                "You will receive joining instructions via email.",
+                "Webinar platform works best on Chrome or Firefox.",
+                "Certificate of attendance available upon request.",
+                "Remember to check your timezone for accuracy.",
+                "Interactive Q&A included in the session."
+            ],
+            "Testimonial": [
+                "\"Such a powerful session \u2014 concise, clear, and incredibly useful!\" \u2013 James H.",
+                "\"I learned more in this 1-hour webinar than in a whole course.\" \u2013 Priya D.",
+                "\"Excellent speakers and well-organized presentation.\" \u2013 Mark L.",
+                "\"These webinars are always a highlight of my week.\" \u2013 Ayesha M.",
+                "\"I love how practical and relevant the content is.\" \u2013 Ethan R.",
+                "\"The live Q&A really helped clarify my doubts.\" \u2013 Nina W.",
+                "\"Highly recommended for anyone looking to upskill quickly.\" \u2013 Omar S.",
+                "\"The platform was seamless, and the insights were gold.\" \u2013 Fiona K.",
+                "\"Clear, concise, and directly applicable.\" \u2013 David N.",
+                "\"So glad I didn\u2019t miss this \u2014 looking forward to the next one!\" \u2013 Maria G."
+            ],
+            "Product-Name": [
+                "Digital Marketing Webinar",
+                "AI for Business Webinar",
+                "UX Trends 2025 Live Session",
+                "Remote Team Management Webinar",
+                "Cybersecurity Essentials Webinar",
+                "Intro to Data Analytics Webinar",
+                "Creative Thinking in Tech Webinar",
+                "Building Scalable Web Apps",
+                "SEO for Modern Websites",
+                "The Future of Work Webinar"
+            ],
+            "Product-Description": [
+                "Join us for a live session on mastering SEO, content marketing, and social strategies in today\u2019s digital landscape.",
+                "Learn how artificial intelligence is transforming industries and how your business can adapt.",
+                "A design-focused session exploring the latest trends and tools in user experience.",
+                "Remote work isn\u2019t going away \u2014 learn how to lead virtual teams more effectively.",
+                "Discover key practices for keeping your digital assets safe in 2025 and beyond.",
+                "Understand the power of data and how to start analyzing metrics that matter.",
+                "Explore the intersection of creativity and tech in today\u2019s innovation economy.",
+                "Get practical tips on building fast, scalable, and secure web applications.",
+                "Explore SEO strategies that actually work \u2014 no jargon, just clarity.",
+                "Get expert insights on how to navigate and thrive in the evolving world of work."
+            ],
+            "Product-Feature": [
+                "Live Q&A with speakers",
+                "Free downloadable resources",
+                "Interactive chat and polls",
+                "Replay access for 7 days",
+                "Certificate of participation",
+                "Industry expert speakers",
+                "Mobile-friendly platform",
+                "Real-time audience interaction",
+                "No software install required",
+                "Closed captions available"
+            ],
+            "Pricing": [
+                "Free \u2013 General Access",
+                "$19 \u2013 Premium Replay Access",
+                "$49 \u2013 VIP Access + Bonus Materials",
+                "Free for first 100 registrants",
+                "$10 \u2013 On-Demand Viewing",
+                "Corporate Access \u2013 Custom Pricing",
+                "$25 \u2013 All Sessions Pass",
+                "\u20ac15 \u2013 Single Session",
+                "\u20b9999 \u2013 Indian Market Edition",
+                "Free with Referral Code"
+            ],
+            "Form-Labels": [
+                "Full Name",
+                "Email Address",
+                "Organization",
+                "Job Title",
+                "Country",
+                "Select Webinar",
+                "Preferred Time Slot",
+                "How Did You Hear About Us?",
+                "Consent to Recording",
+                "Subscribe to Updates"
+            ],
+            "Placeholder": [
+                "Enter your full name",
+                "Enter your email address",
+                "Company or organization name",
+                "Your job title or role",
+                "Select your country",
+                "Choose a webinar session",
+                "Pick a convenient time slot",
+                "Tell us how you found this event",
+                "I agree to the terms and recording",
+                "Get notified about future webinars"
+            ],
+            "Messages": [
+                "Thank you for registering! Please check your inbox for the webinar link.",
+                "Oops! Something went wrong. Please try again later.",
+                "You are now subscribed to our upcoming webinars.",
+                "Reminder: Your webinar starts in 30 minutes.",
+                "Connection lost \u2014 please refresh the page.",
+                "We\u2019re currently live \u2014 join the session now!",
+                "You have already registered for this session.",
+                "The webinar has ended. Replay will be available soon.",
+                "Please complete all required fields before submitting.",
+                "Your response has been recorded. See you soon!"
+            ],
+            "404": [
+                "Oops! This webinar room doesn\u2019t exist.",
+                "404 \u2014 Page not found. Maybe the link expired?",
+                "Session ended or page moved.",
+                "We couldn\u2019t find what you\u2019re looking for.",
+                "Broken link? Let\u2019s get you back on track.",
+                "Looks like the session got rescheduled.",
+                "This webinar might be full or closed.",
+                "Nothing here but digital dust.",
+                "Try searching again or return to homepage.",
+                "Page Not Found \u2014 Webinar Edition"
+            ],
+            "Phone-Number": [
+                "+1 (888) 456-7890",
+                "+44 20 8000 1234",
+                "+61 3 9123 4567",
+                "+91 98765 43210",
+                "+49 89 123456",
+                "+33 1 44 55 66 77",
+                "+971 55 123 4567",
+                "+81 90-1234-5678",
+                "+27 21 456 7890",
+                "+55 21 98765-4321"
+            ],
+            "Email": [
+                "events@webinarconnect.com",
+                "support@livewebinars.io",
+                "team@insightseries.com",
+                "register@knowledgehub.live",
+                "info@futuretalks.net",
+                "hello@expertwebinar.org",
+                "questions@learnlive.co",
+                "join@smartseminars.io",
+                "inquiries@webstream.edu",
+                "contact@virtualsessions.tech"
+            ]
+        },
+        "projectImages": [
+            "url\/success\/green-dart-in-bullseye.jpg"
+        ],
+        "projectVideos": [],
+        "projectBaseLibraries": [],
+        "projectLibraries": {
+            "cssLibraries": [],
+            "jslibraries": []
+        }
+    },
+    "projectReviews": {
+        "projectRequirements": {
+            "userid": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "74263e5274d3fd92db2437daa43c7ad9"
+            },
+            "projectId": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "1906437241"
+            },
+            "projectName": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "Web"
+            },
+            "projectIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "Technology"
+            },
+            "projectSubIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "Web Development"
+            },
+            "projectType": {
+                "accuracy": "100%",
+                "feedback": "Commonly searched training type",
+                "correct": "Webinar"
+            },
+            "projectPurpose": {
+                "accuracy": "100%",
+                "feedback": "Clearly outlined what the user actually wants",
+                "correct": "The primary goal is to educate beginners and early-career developers about Web Development topics through a webinar. The objective is to equip participants with foundational knowledge, essential skills, and key takeaways that they can apply to their careers."
+            },
+            "projectAudience": {
+                "accuracy": "100%",
+                "feedback": "Well-defined target audience",
+                "correct": "Beginners, Early-career developers ,Aspiring developers"
+            },
+            "projectTags": {
+                "accuracy": "100%",
+                "feedback": "Relevant and comprehensive tags",
+                "correct": "Web Development,Programming,Coding,Learning,Tech Education,Beginners,Early-career,Webinar,Development,HTML"
+            },
+            "projectExamples": {
+                "accuracy": "100%",
+                "feedback": "Good examples that align with the project goals.",
+                "correct": "Udemy Webinars,Codecademy"
+            },
+            "projectTheme": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "Modern and Tech-focused"
+            },
+            "projectKeywords": {
+                "projectKeywords": {
+                    "accuracy": "50%",
+                    "feedback": "Keywords like 'events', 'registration', and 'speakers' are less relevant to the core topic of the webinar and should be more focused on technical terms like 'programming' and 'development'.",
+                    "correct": {
+                        "development": 10,
+                        "web": 9,
+                        "programming": 8,
+                        "coding": 8,
+                        "learning": 7,
+                        "beginners": 6,
+                        "education": 6,
+                        "developers": 5,
+                        "webinar": 4,
+                        "aspiring": 3
+                    }
+                },
+                "projectFontsKeywords": {
+                    "accuracy": "30%",
+                    "feedback": "Fonts should reflect a tech-savvy and modern aesthetic. Keywords like 'sans-serif' and 'readable' are good, but terms like 'friendly' and 'neutral' are less relevant.",
+                    "correct": {
+                        "modern": 10,
+                        "professional": 9,
+                        "elegant": 8,
+                        "refined": 7,
+                        "luxury": 6,
+                        "fashion": 5,
+                        "rounded": 4,
+                        "friendly": 3,
+                        "youthful": 2,
+                        "editorial": 1
+                    }
+                },
+                "projectColorsKeywords": {
+                    "accuracy": "10%",
+                    "feedback": "Colors should evoke a sense of technology and modernity. Keywords like 'tech' and 'modern' are appropriate, but terms like 'wellness' and 'calm' are less relevant to the webinar's theme.",
+                    "correct": {
+                        "reliable": 10,
+                        "electric": 9,
+                        "digital": 9,
+                        "authoritative": 8,
+                        "kinetic": 8,
+                        "warm": 7,
+                        "urgent": 7,
+                        "serious": 6,
+                        "dense": 6,
+                        "industrial": 5
+                    }
+                },
+                "projectBrandAssetsKeywords": {
+                    "accuracy": "50%",
+                    "feedback": [
+                        "Add more tech-focused keywords like 'coding' and 'learning'.",
+                        "Avoid using 'events' as it’s not relevant.",
+                        "Include keywords like 'development' for better relevance."
+                    ],
+                    "correct": {
+                        "modern": 10,
+                        "educational": 9,
+                        "professional": 8,
+                        "inspiring": 7,
+                        "innovative": 6,
+                        "tech-focused": 5,
+                        "approachable": 4,
+                        "empowering": 3,
+                        "dynamic": 2,
+                        "simple": 1
+                    }
+                },
+                "projectThemeKeywords": {
+                    "accuracy": "50%",
+                    "feedback": [
+                        "Keywords need more focus on web development tools.",
+                        "Include 'tech-focused' to align with project goals.",
+                        "Remove irrelevant keywords like 'events' and 'session'."
+                    ],
+                    "correct": {
+                        "modern": 10,
+                        "tech": 9,
+                        "innovative": 8,
+                        "dynamic": 7,
+                        "professional": 6,
+                        "educational": 5,
+                        "interactive": 4,
+                        "user-friendly": 3,
+                        "engaging": 2,
+                        "clean": 1
+                    }
+                },
+                "projectLayoutsKeywords": {
+                    "accuracy": "0%",
+                    "feedback": "Layouts should prioritize sections relevant to webinars, such as speaker bios, agenda, and registration forms. Keywords like 'curriculum' and 'modules' are not applicable here.",
+                    "correct": {
+                        "guide": 10,
+                        "focus": 10,
+                        "learning": 9,
+                        "people": 8,
+                        "schedule": 8,
+                        "audience": 7,
+                        "trust": 5,
+                        "enroll": 5,
+                        "help": 7,
+                        "anchor": 10
+                    }
+                },
+                "projectTextsKeywords": {
+                    "accuracy": "30%",
+                    "feedback": "Texts should be more focused on educational and motivational aspects. Keywords like 'concise' are good, but terms like 'development' and 'beginners' should be emphasized more.",
+                    "correct": {
+                        "educational": 10,
+                        "motivational": 9,
+                        "engaging": 8,
+                        "informative": 7,
+                        "interactive": 6,
+                        "user-friendly": 5,
+                        "professional": 4,
+                        "clear": 3,
+                        "accessible": 2,
+                        "dynamic": 1
+                    }
+                },
+                "projectImagesKeywords": {
+                    "accuracy": "50%",
+                    "feedback": [
+                        "Include 'dynamic' and 'innovative' for visual appeal.",
+                        "Add 'interactive' to reflect engagement-focused imagery.",
+                        "Remove irrelevant keywords like 'webinar' and 'developers'."
+                    ],
+                    "correct": {
+                        "modern": 10,
+                        "tech-focused": 9,
+                        "professional": 8,
+                        "dynamic": 7,
+                        "innovative": 6,
+                        "clean": 5,
+                        "engaging": 4,
+                        "interactive": 3,
+                        "user-friendly": 2,
+                        "minimalistic": 1
+                    }
+                },
+                "projectVideosKeywords": {
+                    "accuracy": "50%",
+                    "feedback": "Videos should highlight learning and educational aspects. Keywords like 'learning' and 'webinar' are relevant, but terms like 'primary' and 'assessment' are less so.",
+                    "correct": {
+                        "learning": 10,
+                        "webinar": 9,
+                        "programming": 8,
+                        "technology": 7,
+                        "tech": 6,
+                        "coding": 6,
+                        "primary": 5,
+                        "assessment": 4,
+                        "tutorial": 3,
+                        "lecture": 3
+                    }
+                },
+                "projectBaseLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        [
+                            "Keywords must reliably trigger selection of all mandatory base libraries.",
+                            "Use clear, canonical triggers (e.g., grid, forms, icons) instead of vague terms.",
+                            "Prioritise must-have libraries with higher weights and strict serial ordering.",
+                            "Remove filler/ambiguous words to avoid missing required base libraries.",
+                            "Add a fallback rule to auto-include core libraries if any trigger is absent."
+                        ]
+                    ],
+                    "correct": {
+                        "modern": 10,
+                        "responsive": 9,
+                        "frontend": 9,
+                        "components": 8,
+                        "grid": 8,
+                        "spa": 7,
+                        "widgets": 6,
+                        "icons": 6,
+                        "lightweight": 5,
+                        "performance": 5
+                    }
+                },
+                "projectSupportLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips.",
+                        "we can add another libraries if needed"
+                    ],
+                    "correct": {
+                        "animation": 10,
+                        "scroll": 9,
+                        "effects": 9,
+                        "motion": 8,
+                        "transition": 8,
+                        "interactive": 7,
+                        "visuals": 7,
+                        "dynamic": 6,
+                        "responsive": 6,
+                        "enhancement": 5
+                    }
+                }
+            }
+        },
+        "projectInfo": {
+            "projectBranding": {
+                "fonts": {
+                    "accuracy": "0%",
+                    "feedback": "Fonts should reflect a modern and tech-savvy aesthetic suitable for a webinar on web development.",
+                    "correct": {
+                        "primaryFonts": "Poppins",
+                        "secondaryFonts": "Playfair Display"
+                    }
+                },
+                "colors": {
+                    "accuracy": "0%",
+                    "feedback": "Colors should evoke a sense of technology and modernity, using shades that are vibrant yet professional.",
+                    "correct": {
+                        "primaryColor": "#2962FF",
+                        "secondaryColor": "#FF6D00",
+                        "tertiaryColor": "#212121"
+                    }
+                }
+            },
+            "projectTheme": {
+                "accuracy": "0%",
+                "feedback": "Theme should align with a modern, tech-focused aesthetic suitable for web development education.",
+                "correct": "Modern and Tech-focused"
+            },
+            "projectBrandingAssets": {
+                "accuracy": "0%",
+                "feedback": "Branding assets should reflect a modern and tech-savvy aesthetic suitable for a webinar on web development.",
+                "correct": "live-class-webinar"
+            },
+            "projectLayout": {
+                "accuracy": "",
+                "feedback": "",
+                "correct": [
+                    "navbar/nooks",
+                    "hero/hoist",
+                    "curriculum/catalyst",
+                    "teams/tlyon",
+                    "agenda/apex",
+                    "learner/lunar",
+                    "testimonials/tensor",
+                    "limitedspots/linen",
+                    "faqs/favor",
+                    "cta/charold",
+                    "footers/floss"
+                ]
+            },
+            "projectText": {
+    "projectText": {
+        "Navigation": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": [
+                "Roadmap",
+                "Mentors",
+                "Agenda",
+                "FAQ"
+            ]
+        },
+        "Headline": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": [
+                "Unlock Your Potential Through Code",
+                "Course Roadmap",
+                "Module 1: Foundations",
+                "Module 2: Frontend Engineering",
+                "Module 3: Advanced JavaScript",
+                "Module 4: Data & Backend",
+                "Module 5: Deployment & Career",
+                "Meet Your Mentors",
+                "Lauren Cox",
+                "Terry Fletcher",
+                "John Doe",
+                "Jessie Barnett",
+                "Webinar Agenda",
+                "Kickoff & State of the Web",
+                "Live Coding: Your First Component",
+                "The Roadmap to Hired",
+                "Live Q&A Session",
+                "Closing & Exclusive Resources",
+                "Who Should Attend?",
+                "Total Beginners",
+                "Self-Taught Devs",
+                "Career Switchers",
+                "CS Students",
+                "Past Webinar Feedback",
+                "Sarah Jenkins",
+                "David Chen",
+                "Seats Are Filling Fast!",
+                "Event Details",
+                "Frequently Asked Questions",
+                "Is this webinar really suitable for total beginners?",
+                "Will there be a recording if I can't join live?",
+                "How long is the session?",
+                "Do I need to install any software beforehand?",
+                "Is there a cost to attend?",
+                "Don't Miss Your Chance to Level Up",
+                "Web",
+                "Events",
+                "Resources",
+                "Stay Connected"
+            ]
+        },
+        "Paragraph": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": [
+                "Experience a curriculum designed for the modern web. We bridge the gap between theory and practice, offering interactive lessons, real-time mentorship, and industry-standard projects. whether you are starting from scratch or upskilling, our path prepares you for a high-impact career in technology.",
+                "Begin your journey by mastering the logic behind the web. Understand how the internet works and build your first static pages using semantic HTML5 and modern CSS techniques.",
+                "Dive deep into React.js. Learn to build dynamic, responsive single-page applications. Master component lifecycles, hooks, and state management to create seamless user experiences.",
+                "Go beyond the basics. Explore asynchronous programming, ES6+ syntax, and functional programming concepts. This module ensures you can write clean, scalable, and efficient code.",
+                "Connect your applications to the world. Learn to fetch data from APIs, manage databases, and visualize data trends. Understand the full stack by linking your frontend to server-side logic.",
+                "Prepare for launch. Learn CI/CD pipelines, cloud hosting, and version control with Git. We conclude with portfolio reviews and mock interviews to get you job-ready.",
+                "Learn from industry veterans who have shipped code for top-tier tech companies. Our team is dedicated to providing personalized feedback and guiding your professional growth.",
+                "Join us Live: Saturday, October 28th | 10:00 AM - 12:00 PM EST",
+                "We start by analyzing the 2024 web development landscape, discussing high-demand technologies, and setting the stage for your dev journey.",
+                "Watch a senior developer build a modern, responsive UI component from scratch using HTML5, CSS Grid, and basic JavaScript.",
+                "Learn exactly what hiring managers are looking for, how to structure your portfolio, and how to ace the technical interview.",
+                "An open floor to ask our expert speakers about coding challenges, career pivots, or specific tech stack recommendations.",
+                "We conclude with a giveaway of development cheat sheets, a project starter kit, and limited-time course discounts.",
+                "This session is curated for those ready to start their tech journey.",
+                "Curious about code but don't know where to start? We clarify the path.",
+                "Fill knowledge gaps and learn industry-standard best practices.",
+                "Professionals looking to pivot into a high-growth tech career.",
+                "Supplement your theory with practical, real-world development skills.",
+                "To ensure every attendee gets their questions answered during the live Q&A, we are capping registration.",
+                "Absolutely. We assume no prior knowledge. We start with the very basics of how the web works and build up from there. It is the perfect starting point for your journey.",
+                "Yes! All registered attendees will receive a high-quality recording of the entire session, plus the slide deck and code snippets, via email within 24 hours.",
+                "The main presentation and live coding demo will last approximately 90 minutes, followed by a 30-minute open Q&A session with the instructors.",
+                "You don't need to install anything to watch. However, if you want to code along with us, we recommend downloading VS Code (it's free!). We will send a setup guide in your confirmation email.",
+                "No, this webinar is completely free. Our goal is to make tech education accessible. There will be optional advanced resources available for purchase at the end, but the core content is free.",
+                "Join thousands of aspiring developers who have used this webinar to launch their careers. The industry is waiting for you—take the first step today.",
+                "Web is a leading provider of live tech education and career mentorship. We bridge the gap between traditional education and industry demands through interactive webinars and bootcamps.",
+                "Get notified about future free workshops, industry news, and exclusive coding tips delivered to your inbox.",
+                "Copyright 2024- by Web"
+            ]
+        },
+        "Button": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": [
+                "Enroll",
+                "Start Your Journey",
+                "Reserve Your Seat",
+                "Add to Calendar",
+                "Secure Your Free Spot →",
+                "Claim Your Spot",
+                "Register for Free"
+            ]
+        },
+        "Footer-Nav": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": [
+                "Upcoming Webinars",
+                "Past Recordings",
+                "Guest Speakers",
+                "Sponsorships",
+                "Blog",
+                "Free Cheatsheets",
+                "Success Stories",
+                "Help Center"
+            ]
+        },
+        "People": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": [
+                "Lauren Cox",
+                "Terry Fletcher",
+                "John Doe",
+                "Jessie Barnett",
+                "Sarah Jenkins",
+                "David Chen"
+            ]
+        },
+        "Job": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": [
+                "Lead Frontend Instructor",
+                "Backend Specialist",
+                "Product Design Mentor",
+                "Curriculum Director",
+                "Junior Frontend Dev",
+                "Career Switcher"
+            ]
+        },
+        "Announcement": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": [
+                "Registration closes in: 24h 00m 00s"
+            ]
+        },
+        "Testimonial": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": [
+                "\"I've watched dozens of tutorials, but this webinar finally made everything click. The live coding section was incredibly clear and the career advice was realistic and actionable.\"",
+                "\"Worth every minute. I realized exactly what was missing from my portfolio. Two months after attending this session, I landed my first freelance contract!\""
+            ]
+        },
+        "Product": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": [
+                "React.js",
+                "JavaScript",
+                "VS Code"
+            ]
+        },
+        "FAQs": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": []
+        },
+        "Portfolio": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": []
+        },
+        "Pricing": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": []
+        },
+        "Labels": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": [
+                "10:00 AM",
+                "Introduction",
+                "10:30 AM",
+                "Technical Demo",
+                "11:15 AM",
+                "Career Strategy",
+                "11:45 AM",
+                "Interactive",
+                "12:00 PM",
+                "Wrap Up",
+                "Entry Level",
+                "High Relevance",
+                "Career Track",
+                "850 Registered",
+                "150 Spots Left",
+                "Q1.",
+                "Q2.",
+                "Q3.",
+                "Q4.",
+                "Q5."
+            ]
+        },
+        "Numbers": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": [
+                "85%"
+            ]
+        },
+        "Placeholder": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": [
+                "Enter your email"
+            ]
+        },
+        "404": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": []
+        },
+        "Phone-Number": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": []
+        },
+        "Dates": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": [
+                "Saturday, October 28th"
+            ]
+        },
+        "Email": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": []
+        },
+        "Icons": {
+            "accuracy": "0%",
+            "feedback": [
+                "they are missing project context"
+            ],
+            "correct": [
+                "&#9776;",
+                "&times;",
+                "fas fa-brain",
+                "fas fa-code",
+                "fab fa-js-square",
+                "fas fa-chart-line",
+                "fa fa-arrow-right",
+                "fas fa-quote-right",
+                "fa fa-paper-plane"
+            ]
+        }
+    }
+},
+            "projectImages": {
+                "accuracy": "0%",
+                "feedback": [
+                    "There was a lack of images in the content.",
+                    "New images need to be added for better coverage.",
+                    "Visuals should align more closely with the project context."
+                ],
+                "correct": [
+                    "assets/images/logo.svg",
+                    "assets/images/team-grid-videoconference-call.jpg"
+                ]
+            },
+            "projectVideos": {
+                "accuracy": "0%",
+                "feedback": [
+                    "No videos need in this template"
+                ],
+                "correct": ""
+            },
+            "projectBaseLibraries": {
+                "accuracy": "0%",
+                "feedback": [
+                    "These libraries are permanent by design.",
+                    "They must always be included in every template without exception."
+                ],
+                "correct": [
+                    "Bootstrap",
+                    "Bootstrap Bundle",
+                    "Bootstrap Icons",
+                    "Remix Icon",
+                    "jQuery",
+                    "jQuery UI",
+                    "jQuery Slim"
+                ]
+            },
+            "projectLibraries": {
+                "cssLibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                },
+                "jslibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "If a CSS library also provides a JS CDN, it should be auto-included.",
+                        "This ensures consistency between style and functionality."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                }
+            }
+        }
+    }
+}
