@@ -1,0 +1,198 @@
+Crash-Course: Rapid, condensed learning experience covering the basics of a subject quickly.
+
+Hackathon: Sprint-like event where teams collaborate intensively to solve a problem or build a product.
+
+Masterclass: Advanced class taught by a renowned expert to students with existing skills.
+
+Summit: High-level meeting or conference involving top leaders and subject matter experts.
+
+Roundtable: Discussion format where participants meet on equal terms to debate specific topics.
+
+Fireside Chat: Informal, intimate conversation typically between a moderator and a guest speaker.
+
+Workshop: Interactive training session focused on practical skills and hands-on work.
+
+Town Hall: Large meeting where management and employees gather to discuss company updates.
+
+Think Tank: Expert group organized to research, discuss, and advocate on specific issues.
+
+Panel: Group of experts discussing a specific topic in front of an audience.
+
+Retreat: Withdrawing to a quiet or secluded place for focused learning and team building.
+
+Lunch & Learn: Informal training session held during a lunch break to combine eating and learning.
+
+Pop-Up Learning: Temporary, informal learning events set up in public or unexpected spaces.
+
+Knowledge Cafe: Open conversation process that brings people together to share ideas on a topic.
+
+Digital & Tech-Driven Learning
+MOOC: Massive Open Online Course aimed at unlimited participation via the web.
+
+VR Training: Immersive learning experience using virtual reality headsets to simulate environments.
+
+AR Training: Overlaying digital information onto the real world to enhance the learning experience.
+
+AI-Augmented Learning: Using artificial intelligence to personalize and enhance educational content.
+
+Adaptive Learning: Educational method that adjusts content difficulty based on learner performance.
+
+Cloud-Based: Learning materials and platforms accessible via the internet anytime, anywhere.
+
+Edutainment: Content designed to educate and entertain simultaneously to keep engagement high.
+
+Digital Badges: Web-enabled credentials that verify specific skills and achievements.
+
+Nano Learning: Ultra-short learning modules (usually under 2 minutes) focusing on a single outcome.
+
+Methodologies & Strategies
+Self-Paced: Learning method where students progress through material at their own speed.
+
+Blended: Mix of traditional face-to-face instruction and online digital media.
+
+Microlearning: Delivering content in small, specific bursts to prevent cognitive overload.
+
+Cohort Learning: Group of learners moving through a course together at the same pace.
+
+Project-Based: Learning by actively engaging in real-world and personally meaningful projects.
+
+Case Study: In-depth analysis of a specific real-world instance to draw conclusions.
+
+Scenario-Based: Training that places learners in hypothetical situations to practice decision-making.
+
+Problem-Based: Student-centered pedagogy learning about a subject through open-ended problems.
+
+Socratic: Cooperative argumentative dialogue to stimulate critical thinking and draw out ideas.
+
+Role-Playing: Acting out specific scenarios to practice responses and behavioral skills.
+
+Speed Learning: Techniques designed to increase the rate at which information is absorbed and retained.
+
+Prototyping & Design Thinking: Iterative process of creating models to solve user-centric problems.
+
+Learning by Doing: Acquiring knowledge through active participation and practice rather than theory.
+
+Behavioral & Growth Mindset: Training focused on changing attitudes and fostering a belief in development.
+
+Self-Directed: Process where individuals take initiative in diagnosing their own learning needs.
+
+Modular Learning: Breaking curriculum into small, discrete units or modules for flexibility.
+
+Mind Mapping: Visual technique for organizing information and brainstorming ideas hierarchically.
+
+Storytelling-Based: Using narrative structures to convey information and make it memorable.
+
+Accelerated Learning: Methods designed to make the learning process faster and more efficient.
+
+Flipped Learning: Strategy where students review content at home and practice it in class.
+
+Think-Aloud Training: Verbalizing thoughts while performing a task to make cognitive processes visible.
+
+Metacognitive Training: Teaching learners to think about their own thinking and learning processes.
+
+Interactive & Gamified
+DIY: Self-guided learning where individuals create or repair things without professional aid.
+
+Simulation: Imitation of a real-world process or system for training purposes.
+
+Demonstration: Practical exhibition of how to do something or how something works.
+
+Debate: Structured argument where two opposing sides discuss a specific motion.
+
+Q&A: Structured time for the audience to ask questions and speakers to answer.
+
+Open Forum: Public meeting place for open discussion and expression of ideas.
+
+Challenge-Based: Learning framework structured around solving difficult, real-world challenges.
+
+Competition-Based: Using contests to motivate learners to achieve higher performance.
+
+Game-Based: Incorporating game elements into learning activities to increase engagement.
+
+Leaderboard-Based: Using ranking systems to track progress and foster competition among learners.
+
+Escape Room: Immersive game where teams solve puzzles to "escape" within a set time limit.
+
+Live Coding: Programming in real-time in front of an audience to demonstrate techniques.
+
+Idea Incubator: Collaborative environment designed to nurture and develop new concepts.
+
+Whiteboarding: Visualizing thoughts and concepts on a board to facilitate brainstorming.
+
+TED Talks: Short, powerful talks aimed at spreading ideas on technology, entertainment, and design.
+
+Scenario Simulation: Replicating real-life situations to practice responses in a safe environment.
+
+Live Case Study: Analyzing a current, unfolding business problem with real-time data.
+
+Social & Collaborative
+Collaborative: Educational approach of using groups to enhance learning through working together.
+
+Apprenticeship: Training under a skilled employer while learning a trade or profession.
+
+Internship: Professional learning experience offering meaningful, practical work related to a field of study.
+
+Shadowing: Observing a professional in their job to understand their role and responsibilities.
+
+Synchronous: Learning where participants and instructors interact in real-time.
+
+Crowdsourced: Gathering information or solutions from a large group of people.
+
+Language Exchange: Two people engaging in conversation to learn each other's language.
+
+Virtual Apprenticeship: Gaining practical experience under a mentor via online collaboration tools.
+
+Networking-Based: Learning through connecting and interacting with professional peers.
+
+Team-Based: Collaborative learning where students work together in permanent teams.
+
+Community-Based: Learning situated in and focused on the needs of a specific community.
+
+Reverse Mentoring: Junior employees mentor senior executives, usually on technology or culture.
+
+Social Learning: Learning through observation and interaction with others in a social context.
+
+Peer-Led Training: Employees or students teaching their colleagues specific skills.
+
+Professional & Assessment-Based
+Reverse Learning: Deconstructing a finished product or concept to understand how it was built.
+
+Ethical Decision-Making: Training focused on evaluating choices through moral frameworks.
+
+Sprints-Based: Short, time-boxed periods of intense work to complete specific learning goals.
+
+Certification: Formal recognition that an individual has demonstrated proficiency in a skill.
+
+Accredited: Officially recognized as meeting essential requirements of academic excellence.
+
+Performance & Assessment-Based: Evaluating learners based on their ability to perform specific tasks.
+
+Mastery-Based: Students advance only after demonstrating proficiency in the prerequisite material.
+
+Skill-Based: Focus on acquiring specific practical abilities rather than general knowledge.
+
+Capstone: Culminating project integrating and applying what has been learned.
+
+Competency-Based: Advancing based on the ability to master a skill or competency at one's own pace.
+
+Course Modules: Self-contained units of a course covering a specific topic.
+
+Industry-Specific: Training tailored to the unique standards and needs of a particular sector.
+
+Personalized: Tailoring learning experiences to individual needs, skills, and interests.
+
+Performance Coaching: One-on-one guidance focused on improving specific job-related skills.
+
+Custom Learning Paths: Curated sequence of learning activities tailored to an individual's goals.
+
+Data-Driven: Using analytics to inform and optimize the learning process.
+
+Corporate L&D: Strategic training initiatives within a company to improve employee performance.
+
+Outdoor Learning: Educational activities that take place in natural settings.
+
+Multi-Disciplinary: Integrating insights and methods from different fields of study.
+
+Cultural Competency: Training to understand and interact effectively with people of different cultures.
+
+Interactive Coaching: Dynamic coaching involving active dialogue and immediate feedback.
