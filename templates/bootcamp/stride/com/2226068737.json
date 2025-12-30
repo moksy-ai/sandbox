@@ -546,317 +546,282 @@
                     "footers/flush"
                 ]
             },
-"projectText": {
-        "Navigation": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": [
-                "Skills",
-                "Courses",
-                "Testimonials",
-                "Pricing",
-                "Login",
-                "Register"
-            ]
-        },
-        "Headline": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": [
-                "Master In-Demand Skills on a Global Learning Marketplace",
-                "Skills You'll Learn",
-                "Trending Courses",
-                "Our happy clients",
-                "Trusted by Learners Worldwide",
-                "Industry-Recognized Credentials",
-                "Why Choose Our Marketplace?",
-                "Company",
-                "Discover",
-                "Support"
-            ]
-        },
-        "Paragraph": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": [
-                "Unlock your potential with expert-led courses in tech, business, and design. Our AI-driven platform personalizes your journey, helping you learn faster and achieve your career goals.",
-                "Join over 500,000 professionals who have advanced their careers with our industry-leading courses and certifications.",
-                "Prove your expertise. Earn certificates that validate your skills and boost your professional profile.",
-                "We provide the tools and support you need to reach your professional goals.",
-                "We are a leading global marketplace for learning and instruction. By connecting students all over the world to the best instructors, we help individuals reach their goals and pursue their dreams.",
-                "© 2024 Stride Academy. All rights reserved."
-            ]
-        },
-        "Button": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": [
-                "Explore Courses",
-                "Add to cart",
-                "Get Certified Today",
-                "Start Free Trial",
-                "Get Team Access",
-                "Contact Sales",
-                "Start Your Journey"
-            ]
-        },
-        "Footer-Nav": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": [
-                "About Us",
-                "Careers",
-                "Blog",
-                "Trending Courses",
-                "Top Instructors",
-                "New Categories",
-                "Help Center",
-                "Terms of Use",
-                "Privacy Policy"
-            ]
-        },
-        "People": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": [
-                "Sarah Jenkins",
-                "Michael Chen",
-                "David Hall",
-                "Emily Wong",
-                "Robert Garcia",
-                "Priya Patel"
-            ]
-        },
-        "Job": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": [
-                "Data Scientist",
-                "Product Manager",
-                "Full Stack Developer",
-                "UX/UI Designer",
-                "Marketing Director",
-                "Cloud Architect"
-            ]
-        },
-        "Announcement": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": []
-        },
-        "Testimonial": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": [
-                "The Python for Data Science masterclass was a game-changer. The real-world projects helped me build a portfolio that landed me a job at a top tech firm.",
-                "Incredible ROI. The Agile Management certification gave me the frameworks I needed to lead my cross-functional teams more effectively.",
-                "I finally understand React hooks thanks to the advanced frontend course. The instructors explain complex concepts clearly and concisely.",
-                "The portfolio building section was exactly what I needed. I received constructive feedback that significantly improved my design thinking process.",
-                "Comprehensive and up-to-date. The SEO and SEM strategies taught here are already boosting our organic traffic numbers.",
-                "The AWS preparation track is thorough. The practice exams were harder than the real thing, which made passing the certification easy!"
-            ]
-        },
-        "Product": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": [
-                "3D Animation Mastery",
-                "Mobile App UI/UX Design",
-                "Advanced Chemistry",
-                "Digital Content Creation"
-            ]
-        },
-        "FAQs": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": []
-        },
-        "Portfolio": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": []
-        },
-        "Pricing": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": [
-                "Individual",
-                "$29/mo",
-                "Team",
-                "$199/mo",
-                "Enterprise",
-                "Custom"
-            ]
-        },
-        "Labels": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": [
-                "Cloud Computing",
-                "Data Science",
-                "Python",
-                "3D Animation",
-                "Digital Marketing",
-                "Project Management",
-                "App Development",
-                "Business Strategy",
-                "Psychology",
-                "Full-Stack Dev",
-                "JavaScript",
-                "Graphic Design",
-                "UI/UX Design",
-                "Machine Learning",
-                "Cybersecurity",
-                "DevOps",
-                "Big Data",
-                "IoT",
-                "Leadership",
-                "Financial Analysis",
-                "Public Speaking",
-                "SEO & SEM",
-                "Agile Methods",
-                "AI Engineering",
-                "Video Editing",
-                "React.js",
-                "Blockchain",
-                "-75%",
-                "-20%",
-                "Verified Global Certification",
-                "Add to LinkedIn Profile",
-                "Download High-Res PDF",
-                "Unique Verification ID",
-                "Unlimited course access",
-                "Course certificates",
-                "Offline viewing on mobile",
-                "Access to community forums",
-                "Email Support",
-                "Everything in Individual",
-                "Team progress analytics",
-                "Assign courses to members",
-                "Centralized billing",
-                "Priority Support",
-                "Unlimited users & courses",
-                "SSO & API Integration",
-                "Advanced reporting suite",
-                "Custom learning paths",
-                "Dedicated Success Manager",
-                "Expert Instructors",
-                "Lifetime Access",
-                "Remote Learning",
-                "Self-Paced",
-                "Recognized Certs",
-                "Join over 10,000+ students learning today."
-            ]
-        },
-        "Numbers": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": [
-                "$24.99",
-                "$99.99",
-                "$75.00",
-                "$59.99",
-                "$74.99",
-                "$81.99"
-            ]
-        },
-        "Placeholder": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": []
-        },
-        "404": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": []
-        },
-        "Phone-Number": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": [
-                "(555) 123-4567"
-            ]
-        },
-        "Dates": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": [
-                "2024"
-            ]
-        },
-        "Email": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": [
-                "stride@gmail.com"
-            ]
-        },
-        "Icons": {
-            "accuracy": "0%",
-            "feedback": [
-                "Missing Project Context"
-            ],
-            "correct": [
-                "fa fa-search",
-                "fas fa-language",
-                "fas fa-user",
-                "fa fa-eye",
-                "fa fa-random",
-                "fas fa-heart",
-                "fas fa-lock",
-                "fas fa-trophy",
-                "fas fa-link",
-                "fas fa-file-pdf",
-                "fas fa-chalkboard-teacher",
-                "fas fa-infinity",
-                "fas fa-laptop-house",
-                "fas fa-clock",
-                "fas fa-award",
-                "fa fa-phone",
-                "fas fa-envelope"
-            ]
-        }
-    },
+            "projectText": {
+                "Navigation": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Skills",
+                        "Courses",
+                        "Testimonials",
+                        "Pricing",
+                        "Login",
+                        "Register"
+                    ]
+                },
+                "Headline": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Master In-Demand Skills on a Global Learning Marketplace",
+                        "Skills You'll Learn",
+                        "Trending Courses",
+                        "Our happy clients",
+                        "Trusted by Learners Worldwide",
+                        "Industry-Recognized Credentials",
+                        "Why Choose Our Marketplace?",
+                        "Company",
+                        "Discover",
+                        "Support"
+                    ]
+                },
+                "Paragraph": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Unlock your potential with expert-led courses in tech, business, and design. Our AI-driven platform personalizes your journey, helping you learn faster and achieve your career goals.",
+                        "Join over 500,000 professionals who have advanced their careers with our industry-leading courses and certifications.",
+                        "Prove your expertise. Earn certificates that validate your skills and boost your professional profile.",
+                        "We provide the tools and support you need to reach your professional goals.",
+                        "We are a leading global marketplace for learning and instruction. By connecting students all over the world to the best instructors, we help individuals reach their goals and pursue their dreams.",
+                        "© 2024 Stride Academy. All rights reserved."
+                    ]
+                },
+                "Button": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Explore Courses",
+                        "Add to cart",
+                        "Get Certified Today",
+                        "Start Free Trial",
+                        "Get Team Access",
+                        "Contact Sales",
+                        "Start Your Journey"
+                    ]
+                },
+                "Footer-Nav": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "About Us",
+                        "Careers",
+                        "Blog",
+                        "Trending Courses",
+                        "Top Instructors",
+                        "New Categories",
+                        "Help Center",
+                        "Terms of Use",
+                        "Privacy Policy"
+                    ]
+                },
+                "People": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Sarah Jenkins",
+                        "Michael Chen",
+                        "David Hall",
+                        "Emily Wong",
+                        "Robert Garcia",
+                        "Priya Patel"
+                    ]
+                },
+                "Job": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Data Scientist",
+                        "Product Manager",
+                        "Full Stack Developer",
+                        "UX/UI Designer",
+                        "Marketing Director",
+                        "Cloud Architect"
+                    ]
+                },
+                "Testimonial": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "The Python for Data Science masterclass was a game-changer. The real-world projects helped me build a portfolio that landed me a job at a top tech firm.",
+                        "Incredible ROI. The Agile Management certification gave me the frameworks I needed to lead my cross-functional teams more effectively.",
+                        "I finally understand React hooks thanks to the advanced frontend course. The instructors explain complex concepts clearly and concisely.",
+                        "The portfolio building section was exactly what I needed. I received constructive feedback that significantly improved my design thinking process.",
+                        "Comprehensive and up-to-date. The SEO and SEM strategies taught here are already boosting our organic traffic numbers.",
+                        "The AWS preparation track is thorough. The practice exams were harder than the real thing, which made passing the certification easy!"
+                    ]
+                },
+                "Product": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "3D Animation Mastery",
+                        "Mobile App UI/UX Design",
+                        "Advanced Chemistry",
+                        "Digital Content Creation"
+                    ]
+                },
+                "Pricing": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Individual",
+                        "$29/mo",
+                        "Team",
+                        "$199/mo",
+                        "Enterprise",
+                        "Custom"
+                    ]
+                },
+                "Labels": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Cloud Computing",
+                        "Data Science",
+                        "Python",
+                        "3D Animation",
+                        "Digital Marketing",
+                        "Project Management",
+                        "App Development",
+                        "Business Strategy",
+                        "Psychology",
+                        "Full-Stack Dev",
+                        "JavaScript",
+                        "Graphic Design",
+                        "UI/UX Design",
+                        "Machine Learning",
+                        "Cybersecurity",
+                        "DevOps",
+                        "Big Data",
+                        "IoT",
+                        "Leadership",
+                        "Financial Analysis",
+                        "Public Speaking",
+                        "SEO & SEM",
+                        "Agile Methods",
+                        "AI Engineering",
+                        "Video Editing",
+                        "React.js",
+                        "Blockchain",
+                        "-75%",
+                        "-20%",
+                        "Verified Global Certification",
+                        "Add to LinkedIn Profile",
+                        "Download High-Res PDF",
+                        "Unique Verification ID",
+                        "Unlimited course access",
+                        "Course certificates",
+                        "Offline viewing on mobile",
+                        "Access to community forums",
+                        "Email Support",
+                        "Everything in Individual",
+                        "Team progress analytics",
+                        "Assign courses to members",
+                        "Centralized billing",
+                        "Priority Support",
+                        "Unlimited users & courses",
+                        "SSO & API Integration",
+                        "Advanced reporting suite",
+                        "Custom learning paths",
+                        "Dedicated Success Manager",
+                        "Expert Instructors",
+                        "Lifetime Access",
+                        "Remote Learning",
+                        "Self-Paced",
+                        "Recognized Certs",
+                        "Join over 10,000+ students learning today."
+                    ]
+                },
+                "Numbers": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "$24.99",
+                        "$99.99",
+                        "$75.00",
+                        "$59.99",
+                        "$74.99",
+                        "$81.99"
+                    ]
+                },
+                "Phone-Number": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "(555) 123-4567"
+                    ]
+                },
+                "Dates": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "2024"
+                    ]
+                },
+                "Email": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "stride@gmail.com"
+                    ]
+                },
+                "Icons": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "fa fa-search",
+                        "fas fa-language",
+                        "fas fa-user",
+                        "fa fa-eye",
+                        "fa fa-random",
+                        "fas fa-heart",
+                        "fas fa-lock",
+                        "fas fa-trophy",
+                        "fas fa-link",
+                        "fas fa-file-pdf",
+                        "fas fa-chalkboard-teacher",
+                        "fas fa-infinity",
+                        "fas fa-laptop-house",
+                        "fas fa-clock",
+                        "fas fa-award",
+                        "fa fa-phone",
+                        "fas fa-envelope"
+                    ]
+                }
+            },
             "projectImages": {
                 "accuracy": "0%",
                 "feedback": [
