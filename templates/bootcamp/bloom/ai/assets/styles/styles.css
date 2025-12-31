@@ -1,0 +1,821 @@
+/* #uplift(upliftUrgency) #css starts  */
+    /* Main Urgency Banner */
+    .upliftUrgency .urgency-banner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--spacing-xl);
+      padding: var(--spacing-lg) var(--spacing-xl);
+      border: 2px solid #e5e7eb;
+      border-radius: .75rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,.05);
+      flex-wrap: wrap;
+    }
+
+    /* Promo Block Styles */
+    .upliftUrgency .promo .badge{
+      background: #ff5722;
+      color: #fff;
+      font-size: var(--font-size-xs);
+      font-weight: var(--font-weight-bold);
+      text-transform: uppercase;
+      padding: var(--spacing-xs) var(--spacing-sm);
+      border-radius: .25rem;
+      display: inline-block;
+      margin-bottom: var(--spacing-sm);
+      letter-spacing: .05em;
+    }
+    
+    .upliftUrgency .promo .headline{
+      font-weight: var(--font-weight-bold);
+      font-size: var(--font-size-lg);
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-sm);
+    }
+    
+    .upliftUrgency .promo .details{
+      margin: 0;
+      font-size: var(--font-size-sm);
+      opacity: .8;
+    }
+
+    /* Countdown Timer Styles */
+    .upliftUrgency .countdown{
+      display: flex;
+      gap: var(--spacing-md);
+      font-family: "Space Mono", monospace;
+      font-size: var(--font-size-md);
+      white-space: nowrap;
+    }
+    
+    .upliftUrgency .countdown .segment{
+      text-align: center;
+      min-width: 4rem;
+    }
+    
+    .upliftUrgency .countdown .number{
+      font-size: var(--font-size-lg);
+      font-weight: var(--font-weight-bold);
+      display: block;
+    }
+    
+    .upliftUrgency .countdown .label{
+      font-size: var(--font-size-xs);
+      letter-spacing: .05em;
+      text-transform: uppercase;
+      color: var(--color-text-secondary);
+    }
+
+    /* Call-to-Action Button */
+    .upliftUrgency .cta .btn{
+      background: var(--color-primary);
+      color: #fff;
+      padding: var(--spacing-sm) var(--spacing-lg);
+      border-radius: .5rem;
+      font-weight: var(--font-weight-semibold);
+      transition: background .25s ease, transform .25s ease;
+      display: inline-block;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    
+    .upliftUrgency .cta .btn:hover{
+      background: var(--color-secondary);
+      transform: translateY(-2px);
+    }
+
+    /* Expiry Notice */
+    .upliftUrgency .expires{
+      text-align: center;
+      margin-top: var(--spacing-md);
+      font-size: var(--font-size-sm);
+      opacity: .8;
+    }
+
+    /* Responsive Design */
+    @media(max-width: 768px){
+      .upliftUrgency .urgency-banner{
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      .upliftUrgency .cta{
+        width: 100%;
+      }
+      
+      .upliftUrgency .cta .btn{
+        width: 100%;
+        text-align: center;
+      }
+      
+      .upliftUrgency .countdown{
+        order: 2;
+      }
+    }
+    
+    /* Simple CSS Tick Effect (seconds) */
+    @keyframes tick {
+      from { opacity: 1; }
+      50%  { opacity: .6; }
+      to   { opacity: 1; }
+    }
+    
+    .upliftUrgency .countdown .number{
+      animation: tick 1s step-start infinite;
+    }
+/* #uplift(upliftUrgency) #css ends  */
+
+/* #nippy(nippyNavbar) #css starts  */
+.nippyNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.nippyNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.nippyNavbar .linkone {
+    color: var(--dark);
+    border: none;
+    margin-left: 0;
+}
+
+.nippyNavbar .btn:hover {
+    color: var(--color-white);
+
+}
+
+.nippyNavbar .col-3 {
+    padding-left: 0px !important;
+}
+
+@media (min-width: 992px) {
+    .nippyNavbar .col-lg-6 {
+        max-width: 40%;
+    }
+}
+
+@media (min-width: 768px) {
+    .nippyNavbar .linkone {
+        padding-left: 30px;
+    }
+}
+
+/* #nippy(nippyNavbar) #css ends  */
+
+/* #hope(hopeHero) #css starts  */
+.hopeHero .logo-header {
+    background: linear-gradient(rgb(117 123 129 / 60%), rgba(62, 63, 64, 0.6)), url(https://images.moksy.com/templates/default/banner/keyboard-background.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    color: var(--color-white);
+    padding-top: 150px;
+    padding-bottom: 100px
+}
+
+.hopeHero .logo-header h1 {
+    margin: 0 auto 0.2em auto
+}
+
+.hopeHero .logo-header p {
+    color: var(--color-white);
+    margin: 0 auto 2em auto
+}
+
+.hopeHero .logo-header .btn {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border-radius: var(--btn-radius-full);
+}
+
+
+@media (min-width: 992px) {
+    .hopeHero .logo-header {
+        height: 100vh;
+        padding-top: 0;
+        padding-bottom: 0
+    }
+}
+
+/* #hope(hopeHero) #css ends  */
+
+/* #parve(parveProduct) #css starts  */
+.parveProduct .product-grid {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+}
+
+.parveProduct .product-grid .product-image {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.parveProduct .product-grid .product-image a.image {
+    display: block;
+}
+
+.parveProduct .product-grid .product-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: all 0.5s ease 0s;
+}
+
+.parveProduct .product-grid .product-image .pic-1 {
+    transition: all 0.5s ease 0s;
+}
+
+.parveProduct .product-grid .product-image:hover .pic-1 {
+    opacity: 0;
+}
+
+.parveProduct .product-grid .product-image .pic-2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    backface-visibility: hidden;
+    opacity: 0;
+    transform: rotateY(90deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease 0s;
+}
+
+.parveProduct .product-grid .product-image:hover .pic-2 {
+    opacity: 1;
+    transform: rotateY(0);
+}
+
+.parveProduct .product-grid .product-new-label {
+    color: var(--color-background-primary);
+    background-color: var(--color-secondary);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-light);
+    text-transform: capitalize;
+    padding: 15px 30px 2px;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: -6px;
+    left: -31px;
+    z-index: 1;
+}
+
+.parveProduct .product-grid .product-links {
+    font-size: 0;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+}
+
+.parveProduct .product-grid .product-links li {
+    display: inline-block;
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 0.3s, transform 1s ease 0s;
+}
+
+.parveProduct .product-grid .product-image:hover .product-links li {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.parveProduct .product-grid .product-links li a {
+    color: var(--color-background-primary);
+    background: var(--dark);
+    font-size: var(--font-size-base);
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    transition: all 0.5s ease-out;
+}
+
+.parveProduct .product-grid:hover .product-links li a:hover {
+    color: var(--color-background-primary);
+    background-color: var(--color-secondary);
+}
+
+.parveProduct .product-grid .product-content {
+    padding: 12px 0 0;
+    position: relative;
+}
+
+.parveProduct .product-grid .title {
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-regular);
+    text-transform: capitalize;
+    margin: 0 0 5px;
+}
+
+.parveProduct .product-grid .title a {
+    color: var(--dark);
+    transition: all 0.3s ease 0s;
+}
+
+.parveProduct .product-grid .title a:hover {
+    color: var(--color-secondary);
+}
+
+.parveProduct .product-grid .price {
+    color: var(--color-secondary);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    transition: all 0.5s ease-in-out 0.2s;
+}
+
+.parveProduct .product-grid:hover .price {
+    transform: translateX(100%);
+}
+
+.parveProduct .product-grid .add-to-cart {
+    color: var(--color-secondary);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-medium);
+    text-transform: capitalize;
+    opacity: 0;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    transition: left 0.3s ease 0s, opacity 0.5s ease 0s;
+}
+
+.parveProduct .product-grid:hover .add-to-cart {
+    opacity: 1;
+    left: 50%;
+}
+
+
+@media screen and (max-width: 990px) {
+    .parveProduct .product-grid {
+        margin: 0 0 30px;
+    }
+}
+
+/* #parve(parveProduct) #css ends  */
+
+/* #fosil(fosilFeature) #css starts */
+.fosilFeature .mok-block img.mok-icon {
+    width: var(--icon-size-xl);
+}
+
+.fosilFeature h3 {
+    margin-top: var(--spacing-xl);
+    text-align: left;
+}
+
+.fosilFeature h2 {
+    margin-bottom: var(--spacing-xl);
+}
+
+.fosilFeature .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+    margin-top: var(--spacing-xl);
+}
+
+.fosilFeature .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+/* #fosil(fosilFeature) #css starts */
+
+/* #fiddle(fiddleFaq) #css starts  */
+.fiddleFaq .faq {
+    padding: 25px 0 30px;
+    background: var(--color-white);
+    min-height: 80vh;
+}
+
+.fiddleFaq .faq .section-title {
+    margin-bottom: 54px;
+}
+
+.fiddleFaq .faq .accordion .card {
+    border: none;
+    margin-bottom: 30px;
+}
+
+.fiddleFaq .faq .accordion .card:not(:first-of-type) .card-header:first-child {
+    border-radius: 10px;
+}
+
+.fiddleFaq .faq .accordion .card .card-header {
+    border: none;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.fiddleFaq .faq .accordion .card .card-header h5 {
+    padding: 0;
+}
+
+.fiddleFaq .faq .accordion .card .card-header h5 button {
+    color: var(--dark);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    text-decoration: none;
+    padding: 0 30px 0 70px;
+    height: 80px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: var(--color-background-primary);
+    -webkit-box-shadow: 0px -50px 140px 0px var(--shadow-light);
+    box-shadow: 0px -50px 140px 0px var(--shadow-light);
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.fiddleFaq .faq .accordion .card .card-header h5 button:after {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    margin-top: -10px;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    color: var(--color-secondary);
+    text-align: center;
+    border: 1px solid var(--color-secondary);
+    border-radius: 50%;
+    line-height: 100%;
+    content: '\f067';
+    font-size: var(--font-size-xs);
+    line-height: 18px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: var(--font-weight-extrabold);
+}
+
+.fiddleFaq .faq .accordion .card .card-header h5 button.collapsed {
+    background: var(--color-background-primary);
+    border-radius: 10px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid var(--color-white);
+}
+
+.fiddleFaq .faq .accordion .card .card-header h5 button[aria-expanded="true"]:after {
+    content: '\f068';
+    color: var(--color-background-primary);
+    background-image: -webkit-linear-gradient(-180deg, var(--color-primary) 0%, var(--color-tertiary) 30%, var(--color-secondary) 100%);
+}
+
+.fiddleFaq .faq .accordion .card .card-body {
+    -webkit-box-shadow: 0px 15px 140px 0px var(--shadow-dark);
+    box-shadow: 0px 15px 140px 0px var(--shadow-light);
+    border-radius: 0 0 10px 10px;
+    padding-top: 0;
+    margin-top: -6px;
+    padding-left: 72px;
+    padding-right: 70px;
+    padding-bottom: 23px;
+    color: var(--dark);
+    line-height: 30px;
+}
+
+/* #fiddle(fiddleFaq) #css ends  */
+
+/* #lance(lanceLearner) #css starts  */
+    /* Lance Learner Component Styles */
+    /* Audience cards container with center line */
+    .lanceLearner .audience-cards {
+        position: relative;
+      }
+      
+      /* Center divider line */
+      .lanceLearner .audience-cards::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        width: 1px;
+        background: var(--color-border);
+        transform: translateX(-50%);
+      }
+  
+      /* Card styling */
+      .lanceLearner .audience-wrapper .card {
+        border: none;
+        transition: transform var(--transition-duration) ease, box-shadow var(--transition-duration) ease;
+        background: var(--color-white);
+      }
+      
+      /* Card hover effect */
+      .lanceLearner .audience-wrapper .card:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-lg);
+      }
+  
+      /* Audience list item styling */
+      .lanceLearner .audience-list li {
+        padding: var(--spacing-xs) 0;
+        font-size: var(--font-size-base);
+        line-height: 1.4;
+        display: flex;
+        align-items: center;
+        transition: background var(--transition-duration) ease;
+        border-radius: var(--border-radius-sm);
+      }
+      
+      /* Audience list item hover effect */
+      .lanceLearner .audience-list li:hover {
+        background: rgba(0, 0, 0, 0.03);
+      }
+  
+      /* Floating CTA button with animation */
+      .lanceLearner .cta-match {
+        position: relative;
+        animation: float 3s ease-in-out infinite;
+      }
+      
+      /* Floating animation keyframes */
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-4px); }
+      }
+  
+      /* Responsive design for mobile */
+      @media (max-width: 767.98px) {
+        .lanceLearner .audience-cards::before {
+          display: none;
+        }
+      }
+/* #lance(lanceLearner) #css ends  */
+
+/* #pexus(pexusPricing) #css starts  */
+.pexusPricing .heading {
+    color: var(--dark)
+}
+
+.pexusPricing .small {
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-base)
+}
+
+.pexusPricing .btn {
+    background-color: var(--color-secondary);
+    border-radius: var(--btn-radius-full);
+}
+
+.pexusPricing .headline {
+    font-weight: var(--font-weight-semibold);
+}
+
+.pexusPricing .white {
+    color: var(--color-white);
+}
+
+/* #pexus(pexusPricing) #css ends  */
+
+/* #tolem(tolemTestimonial) #css starts  */
+.tolemTestimonial .mok-block {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: var(--color-background-primary)
+}
+
+.tolemTestimonial .mok-block .mok-box {
+    background: var(--color-background-primary);
+    padding: 3.75rem 2.5rem;
+    overflow: hidden;
+    color: var(--dark);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.3125rem 0.875rem 0 var(--shadow-dark)
+}
+
+.tolemTestimonial .img3 {
+    height: 71.25px;
+}
+
+.tolemTestimonial .lead {
+    color: var(--dark);
+}
+
+/* #tolem(tolemTestimonial) #css ends  */
+
+/* #funny(funnyFooter) #css starts */
+.funnyFooter {
+    min-height: 40vh
+}
+
+.funnyFooter ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.funnyFooter img {
+    max-width: 100%;
+    height: auto
+}
+
+.funnyFooter .footer-section {
+    background-color: var(--color-text-primary);
+    position: relative;
+    overflow: hidden;
+    z-index: 9
+}
+
+.funnyFooter .footer-section:before {
+    content: '';
+    position: absolute;
+    top: -146%;
+    left: -18%;
+    width: 44%;
+    height: 257%;
+    transform: rotate(54deg);
+    background-color: rgb(31, 47, 64);
+    -webkit-transform: rotate(54deg);
+    -moz-transform: rotate(54deg);
+    -ms-transform: rotate(54deg);
+    -o-transform: rotate(54deg);
+    z-index: -10
+}
+
+.funnyFooter .footer-section:after {
+    position: absolute;
+    content: '';
+    background-color: var(--shadow);
+    top: -24%;
+    right: 4%;
+    width: 26%;
+    height: 264%;
+    transform: rotate(44deg);
+    -webkit-transform: rotate(44deg);
+    -moz-transform: rotate(44deg);
+    -ms-transform: rotate(44deg);
+    -o-transform: rotate(44deg);
+    z-index: -10
+}
+
+.funnyFooter .footer-top {
+    padding-top: 40px;
+    padding-bottom: 50px
+}
+
+.funnyFooter .footer-top p,
+.funnyFooter .company-footer-contact-list li {
+    color: var(--color-white)
+}
+
+.funnyFooter .company-footer-contact-list {
+    margin-top: 30px
+}
+
+.funnyFooter .company-footer-contact-list li {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center
+}
+
+.funnyFooter .company-footer-contact-list li+li {
+    margin-top: 5px
+}
+
+.funnyFooter .company-footer-contact-list li i {
+    margin-right: 10px;
+    display: inline-block
+}
+
+.funnyFooter .footer-top .site-logo {
+    margin-bottom: 25px;
+    display: block;
+    max-width: 170px
+}
+
+.funnyFooter .widget-title {
+    text-transform: capitalize
+}
+
+.funnyFooter .footer-top .widget-title {
+    color: var(--color-white);
+    margin-bottom: 15px
+}
+
+.funnyFooter .courses-link-list li+li {
+    margin-top: 10px
+}
+
+.funnyFooter .courses-link-list li a {
+    color: var(--color-white);
+    text-transform: capitalize;
+}
+
+.funnyFooter .courses-link-list li a:hover {
+    color: var(--color-warning)
+}
+
+.funnyFooter .courses-link-list li i {
+    margin-right: 5px
+}
+
+.funnyFooter .footer-top .small-post-title a {
+
+    color: var(--color-white);
+}
+
+.funnyFooter .small-post-item .post-date {
+    color: var(--color-warning);
+    margin-bottom: 3px;
+}
+
+.funnyFooter .small-post-list li+li {
+    margin-top: 30px
+}
+
+.funnyFooter .news-letter-form {
+    margin-top: 15px
+}
+
+.funnyFooter .news-letter-form input {
+    width: 100%;
+    padding: 12px 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.funnyFooter .news-letter-form .email-btn {
+    width: auto;
+    border: none;
+    background-color: var(--color-warning);
+    padding: 9px 30px;
+    border-radius: var(--border-radius-lg);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: var(--color-white);
+    margin-top: 10px
+}
+
+.funnyFooter .footer-bottom {
+    padding: 15px 0;
+    border-top: 1px solid var(--shadow)
+}
+
+.funnyFooter .copy-right-text {
+    color: var(--color-white)
+}
+
+.funnyFooter .copy-right-text a {
+    color: var(--color-warning)
+}
+
+.funnyFooter .terms-privacy li+li {
+    margin-left: 30px
+}
+
+.funnyFooter .terms-privacy li a {
+    color: var(--color-white);
+    position: relative
+}
+
+.funnyFooter .terms-privacy li a:after {
+    position: absolute;
+    content: '-';
+    color: var(--color-white);
+    display: inline-block;
+    top: 0;
+    right: -18px
+}
+
+.funnyFooter .terms-privacy li+li a:after {
+    display: none
+}
+
+.funnyFooter .number {
+    color: var(--color-white);
+}
+
+@media (min-width: 564px) and (max-width: 767.98px) {
+    .funnyFooter .footer-top .widget-title {
+        margin-top: 25px !important;
+    }
+}
+
+/* #funny(funnyFooter) #css ends */
