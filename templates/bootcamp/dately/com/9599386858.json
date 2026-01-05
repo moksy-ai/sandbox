@@ -1,0 +1,926 @@
+{
+    "projectRequirements": {
+        "userid": "87ca5aefe7183d3c6b9e208dbb174e4b",
+        "projectId": 9599386858,
+        "projectName": "Dately",
+        "projectIndustry": "Education",
+        "projectSubIndustry": "Data Science",
+        "projectType": "MOOC",
+        "projectPurpose": "Convert visitors into active learners by showcasing structured career paths, interactive coding features, and successful alumni stories.",
+        "projectAudience": "Aspiring data scientists, students, career switchers, and professionals looking to upskill in Python, SQL, and AI.",
+        "projectTags": "Education, Data, Python, AI, Bootcamp, Coding, Analytics, Tech, Learning, Career",
+        "projectExamples": "Datacamp",
+        "projectTheme": "Modern, Clean, Encouraging",
+        "projectKeywords": {
+            "projectKeywords": {
+                "keywords": {
+                    "education": 5.2,
+                    "coding": 4.1,
+                    "healthcare": 4.1,
+                    "career": 3.1,
+                    "data": 2.8,
+                    "motivational": 2.8,
+                    "educational": 2.8,
+                    "certification": 2.8,
+                    "community": 2.8,
+                    "online": 2.8
+                },
+                "accuracy": "10%"
+            },
+            "projectFontsKeywords": {
+                "keywords": {
+                    "modern": 10,
+                    "clean": 10,
+                    "tech": 10,
+                    "professional": 2.4,
+                    "sans-serif": 1.5,
+                    "readable": 1.2,
+                    "structured": 1.2,
+                    "neutral": 1,
+                    "ui-friendly": 1,
+                    "refined": 0.8
+                },
+                "accuracy": "3%"
+            },
+            "projectColorsKeywords": {
+                "keywords": {
+                    "ai": 10,
+                    "modern": 10,
+                    "tech": 9.9,
+                    "clean": 4.5,
+                    "calm": 1.9,
+                    "wellness": 1.7,
+                    "trust": 1.6,
+                    "saas": 1.6,
+                    "clarity": 1.3,
+                    "vibrant": 1.2
+                },
+                "accuracy": "2.9%"
+            },
+            "projectBrandAssetsKeywords": {
+                "keywords": {
+                    "career": 5,
+                    "data": 4,
+                    "coding": 4,
+                    "python": 4,
+                    "community": 3,
+                    "online": 3,
+                    "massive": 3,
+                    "mooc": 3,
+                    "certification": 3,
+                    "ai": 2
+                },
+                "accuracy": "2%"
+            },
+            "projectThemeKeywords": {
+                "keywords": {
+                    "career": 5,
+                    "data": 4,
+                    "coding": 4,
+                    "python": 4,
+                    "community": 3,
+                    "online": 3,
+                    "massive": 3,
+                    "mooc": 3,
+                    "certification": 3,
+                    "ai": 2
+                },
+                "accuracy": "2%"
+            },
+            "projectLayoutsKeywords": {
+                "keywords": {
+                    "curriculum": 10,
+                    "policy": 10,
+                    "faqs": 10,
+                    "career": 5,
+                    "data": 4,
+                    "coding": 4,
+                    "python": 4,
+                    "community": 3,
+                    "online": 3,
+                    "massive": 3
+                },
+                "accuracy": "20%"
+            },
+            "projectTextsKeywords": {
+                "keywords": {
+                    "clear": 10,
+                    "educational": 10,
+                    "trustworthy": 10,
+                    "career": 5,
+                    "data": 4,
+                    "coding": 4,
+                    "python": 4,
+                    "community": 3,
+                    "online": 3,
+                    "massive": 3
+                },
+                "accuracy": "20%"
+            },
+            "projectImagesKeywords": {
+                "keywords": {
+                    "data": 10,
+                    "learning": 10,
+                    "coding": 9.4,
+                    "tech": 4.7,
+                    "analytics": 4.4,
+                    "modern": 4,
+                    "students": 3.6,
+                    "ai": 1.7,
+                    "python": 1.2,
+                    "science": 0.7
+                },
+                "accuracy": "0.5%"
+            },
+            "projectVideosKeywords": {
+                "keywords": {
+                    "data": 10,
+                    "learning": 10,
+                    "interactive": 6,
+                    "bootcamp": 5.2,
+                    "analytics": 4.5,
+                    "coding": 3.7,
+                    "career": 3.5,
+                    "students": 3,
+                    "tech": 2.2,
+                    "training": 2.1
+                },
+                "accuracy": "0.9%"
+            },
+            "projectBaseLibrariesKeywords": {
+                "keywords": {
+                    "interactive": 10,
+                    "modern": 3.7,
+                    "frontend": 2.6,
+                    "spa": 1.9,
+                    "lightweight": 1.5,
+                    "animation": 1.5,
+                    "performance": 1.5,
+                    "modular": 1.1,
+                    "legacy": 1.1,
+                    "react": 1.1
+                },
+                "accuracy": "0.1%"
+            },
+            "projectSupportLibrariesKeywords": {
+                "keywords": {
+                    "interactive": 10,
+                    "modern": 3.8,
+                    "frontend": 1.9,
+                    "spa": 1.9,
+                    "lightweight": 1.5,
+                    "animation": 1.5,
+                    "performance": 1.5,
+                    "modular": 1.1,
+                    "legacy": 1.1,
+                    "react": 1.1
+                },
+                "accuracy": "0.1%"
+            }
+        }
+    },
+    "projectInfo": {
+        "projectBranding": {
+            "fonts": {
+                "primaryFonts": "",
+                "secondaryFonts": "",
+                "thirdFonts": "",
+                "defaultFonts": ""
+            },
+            "colors": {
+                "primaryColor": "",
+                "secondaryColor": "",
+                "thirdColor": "",
+                "defaultColor": ""
+            }
+        },
+        "projectTheme": "flat-light",
+        "projectBrandingAssets": "star",
+        "projectLayout": [
+            "navbar\/nudge",
+            "hero\/hoist",
+            "overview",
+            "products\/paize",
+            "steps\/summer",
+            "features\/francis",
+            "clients\/calvo",
+            "certification",
+            "whyus",
+            "testimonials\/taylor",
+            "download\/dalix",
+            "products\/paize",
+            "community",
+            "faqs\/feign",
+            "content\/ceter",
+            "clients\/calvo",
+            "subscribe\/semor",
+            "cta\/cerry",
+            "footers\/flows"
+        ],
+        "projectText": [],
+        "projectImages": [
+            "url\/success\/green-dart-in-bullseye.jpg"
+        ],
+        "projectVideos": [],
+        "projectBaseLibraries": [],
+        "projectLibraries": {
+            "cssLibraries": [],
+            "jslibraries": []
+        }
+    },
+    "projectReviews": {
+        "projectRequirements": {
+            "userid": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "87ca5aefe7183d3c6b9e208dbb174e4b"
+            },
+            "projectId": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "9599386858"
+            },
+            "projectName": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "Dately"
+            },
+            "projectIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "Education"
+            },
+            "projectSubIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "Data Science"
+            },
+            "projectType": {
+                "accuracy": "100%",
+                "feedback": "Commonly searched training type",
+                "correct": "MOOC"
+            },
+            "projectPurpose": {
+                "accuracy": "100%",
+                "feedback": "Clearly outlined what the user actually wants",
+                "correct": "Convert visitors into active learners by showcasing structured career paths, interactive coding features, and successful alumni stories."
+            },
+            "projectAudience": {
+                "accuracy": "100%",
+                "feedback": "Well-defined target audience",
+                "correct": "Aspiring data scientists, students, career switchers, and professionals looking to upskill in Python, SQL, and AI."
+            },
+            "projectTags": {
+                "accuracy": "100%",
+                "feedback": "Well-defined tags",
+                "correct": "Education, Data, Python, AI, Bootcamp, Coding, Analytics, Tech, Learning, Career"
+            },
+            "projectExamples": {
+                "accuracy": "100%",
+                "feedback": "Good example",
+                "correct": "Datacamp"
+            },
+            "projectTheme": {
+                "accuracy": "100%",
+                "feedback": "Well-defined theme",
+                "correct": "Modern, Clean, Encouraging"
+            },
+            "projectKeywords": {
+                "projectKeywords": {
+                    "accuracy": "50%",
+                    "feedback": [
+                        "The inclusion of 'healthcare' was contextually incorrect as the project focuses on Data Science and AI, not the medical industry.",
+                        "Critical technical keywords defined in the context, such as 'python', 'ai', and 'analytics', were completely missing.",
+                        "There was unnecessary redundancy with both 'education' and 'educational' being listed, wasting a keyword slot.",
+                        "The weight for 'data' (2.8) was significantly undervalued for a project explicitly centered around a Data Science platform."
+                    ],
+                    "correct": {
+                        "data": 10,
+                        "education": 9,
+                        "python": 8,
+                        "ai": 8,
+                        "coding": 7,
+                        "bootcamp": 7,
+                        "analytics": 6,
+                        "career": 6,
+                        "learning": 5,
+                        "tech": 5
+                    }
+                },
+                "projectFontsKeywords": {
+                    "accuracy": "60%",
+                    "feedback": [
+                        "Completely ignored the serif characteristics of the secondary font.",
+                        "Keywords were too generic and lacked specific typographic descriptors.",
+                        "Missed the elegant and calligraphic nature of Fenix."
+                    ],
+                    "correct": {
+                        "legible": 10,
+                        "geometric": 9,
+                        "humanist": 8,
+                        "bold": 7,
+                        "sans": 7,
+                        "serif": 10,
+                        "elegant": 9,
+                        "calligraphic": 8,
+                        "traditional": 7,
+                        "sharp": 6
+                    }
+                },
+                "projectColorsKeywords": {
+                    "accuracy": "70%",
+                    "feedback": [
+                        "Calm conflicts with the high-energy neon green primary.",
+                        "Wellness implies softness, clashing with the aggressive digital palette.",
+                        "Missed the electric intensity of the primary color."
+                    ],
+                    "correct": {
+                        "electric": 10,
+                        "vibrant": 9,
+                        "luminous": 8,
+                        "growth": 8,
+                        "trustworthy": 10,
+                        "professional": 9,
+                        "deep": 8,
+                        "innovative": 9,
+                        "digital": 8,
+                        "clear": 7
+                    }
+                },
+                "projectBrandAssetsKeywords": {
+                    "accuracy": "30%",
+                    "feedback": [
+                        "Previous list uses nouns instead of descriptive style adjectives.",
+                        "Keywords focus on course content rather than brand identity.",
+                        "Only 'coding' visually correlates with the terminal prompt symbol."
+                    ],
+                    "correct": {
+                        "programmatic": 10,
+                        "technical": 9,
+                        "minimalist": 8,
+                        "digital": 8,
+                        "interactive": 7,
+                        "computational": 7,
+                        "logical": 6,
+                        "progressive": 6,
+                        "foundational": 5,
+                        "direct": 5
+                    }
+                },
+                "projectThemeKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Old keywords list subjects, not thematic design attributes.",
+                        "Misses the 'encouraging' and 'modern' stylistic nuance.",
+                        "Fails to describe the look and feel of the site."
+                    ],
+                    "correct": {
+                        "minimalist": 10,
+                        "approachable": 10,
+                        "modern": 9,
+                        "sleek": 9,
+                        "inspiring": 8,
+                        "intuitive": 8,
+                        "supportive": 7,
+                        "clean": 7,
+                        "engaging": 6,
+                        "optimistic": 6
+                    }
+                },
+                "projectLayoutsKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Layout keywords should describe structural elements, not content topics.",
+                        "Misses essential layout features like 'responsive', 'modular', and 'grid-based'.",
+                        "Fails to capture the user experience design aspects."
+                    ],
+                    "correct": {
+                        "guide": 10,
+                        "focus": 10,
+                        "trust": 10,
+                        "topic": 6,
+                        "value": 9,
+                        "people": 8,
+                        "metrics": 8,
+                        "access": 7,
+                        "anchor": 5
+                    }
+                },
+                "projectTextsKeywords": {
+                    "accuracy": "30%",
+                    "feedback": [
+                        "Includes nouns instead of sticking to descriptive adjectives.",
+                        "Topic tags like 'Python' do not define content tone.",
+                        "Lacks motivational keywords essential for converting visitors."
+                    ],
+                    "correct": {
+                        "empowering": 10,
+                        "structured": 10,
+                        "practical": 9,
+                        "interactive": 9,
+                        "lucid": 8,
+                        "credible": 8,
+                        "motivating": 7,
+                        "professional": 7,
+                        "accessible": 6,
+                        "analytical": 6
+                    }
+                },
+                "projectImagesKeywords": {
+                    "accuracy": "30%",
+                    "feedback": [
+                        "List contains nouns/subjects instead of visual style adjectives.",
+                        "Only 'modern' describes the aesthetic; others describe content.",
+                        "Lacks emotional descriptors for the 'encouraging' project theme."
+                    ],
+                    "correct": {
+                        "aspirational": 10,
+                        "authentic": 10,
+                        "modern": 9,
+                        "clean": 9,
+                        "professional": 8,
+                        "diverse": 8,
+                        "dynamic": 7,
+                        "polished": 7,
+                        "technological": 6,
+                        "bright": 6
+                    }
+                },
+                "projectVideosKeywords": {
+                    "accuracy": "",
+                    "feedback": [
+                        "List consists mainly of nouns, not descriptive adjectives.",
+                        "Keywords describe content topics rather than video style.",
+                        "Lacks emotional descriptors for the 'encouraging' theme."
+                    ],
+                    "correct": {
+                        "inspiring": 10,
+                        "engaging": 10,
+                        "clear": 9,
+                        "modern": 9,
+                        "authentic": 8,
+                        "professional": 8,
+                        "dynamic": 7,
+                        "polished": 7,
+                        "uplifting": 6,
+                        "explanatory": 6
+                    }
+                },
+                "projectBaseLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        [
+                            "Keywords must reliably trigger selection of all mandatory base libraries.",
+                            "Use clear, canonical triggers (e.g., grid, forms, icons) instead of vague terms.",
+                            "Prioritise must-have libraries with higher weights and strict serial ordering.",
+                            "Remove filler/ambiguous words to avoid missing required base libraries.",
+                            "Add a fallback rule to auto-include core libraries if any trigger is absent."
+                        ]
+                    ],
+                    "correct": {
+                        "modern": 10,
+                        "responsive": 9,
+                        "frontend": 9,
+                        "components": 8,
+                        "grid": 8,
+                        "spa": 7,
+                        "widgets": 6,
+                        "icons": 6,
+                        "lightweight": 5,
+                        "performance": 5
+                    }
+                },
+                "projectSupportLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips.",
+                        "we can add another libraries if needed"
+                    ],
+                    "correct": {
+                        "animation": 10,
+                        "scroll": 9,
+                        "effects": 9,
+                        "motion": 8,
+                        "transition": 8,
+                        "interactive": 7,
+                        "visuals": 7,
+                        "dynamic": 6,
+                        "responsive": 6,
+                        "enhancement": 5
+                    }
+                }
+            }
+        },
+        "projectInfo": {
+            "projectBranding": {
+                "fonts": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        " rimary font 'Martel Sans' is a modern sans-serif, ideal for tech-focused educational platforms due to its clean and legible design.",
+                        "Secondary font 'Fenix' is a serif typeface that adds a touch of elegance and professionalism, suitable for headings and emphasis in educational content.",
+                        "The combination of a sans-serif primary and serif secondary font creates a balanced visual hierarchy"
+                    ],
+                    "correct": {
+                        "primaryFont": "Martel Sans",
+                        "secondaryFont": "Fenix"
+                    }
+                },
+                "colors": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "The primary color #03ef62 is a vibrant neon green, symbolizing growth, innovation, and energy, which aligns well with the dynamic field of Data Science and AI.",
+                        "The secondary color #0065d1 is a deep blue, conveying trust, professionalism, and reliability, essential qualities for an educational platform aiming to attract learners and professionals.",
+                        "The tertiary color #257dfe is a bright blue, adding a sense of clarity"
+                    ],
+                    "correct": {
+                        "primaryColor": "#03ef62",
+                        "secondaryColor": "#0065d1",
+                        "tertiaryColor": "#257dfe"
+                    }
+                }
+            },
+            "projectTheme": {
+                "accuracy": "100%",
+                "feedback": [
+                    "The 'flat-light' theme perfectly complements the project's modern and clean aesthetic, enhancing user experience and engagement.",
+                    "This theme choice aligns well with the educational purpose of the platform, providing a clear and uncluttered interface for learners."
+                ],
+                "correct": "flat-light"
+            },
+            "projectBrandingAssets": {
+                "accuracy": "0%",
+                "feedback": [
+                    "The 'star' branding asset, represented by a terminal prompt symbol, effectively conveys themes of coding, technology, and progress.",
+                    "This choice aligns well with the project's focus on Data Science and AI education, resonating with the target audience of aspiring data scientists and tech professionals."
+                ],
+                "correct": "code-terminal"
+            },
+            "projectLayout": {
+                "accuracy": "0%",
+                "feedback": [
+                    "The selected layout components align well with the project's educational focus, providing a structured and user-friendly experience."
+                ],
+                "correct": [
+                    "navbar/null",
+                    "hero/hugo",
+                    "clients/codra",
+                    "categories/cerulean",
+                    "products/pony",
+                    "teams/tavor",
+                    "counter/cade",
+                    "testimonials/tilor",
+                    "registration/ravek",
+                    "footers/funny"
+                ]
+            },
+            "projectText": {
+                "Navigation": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Path",
+                        "Courses",
+                        "Registration",
+                        "Login",
+                        "Get Started"
+                    ]
+                },
+                "Headline": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Master Data Science & AI",
+                        "Some of our happy clients",
+                        "Explore Your Path",
+                        "Trending Data Courses",
+                        "Meet Our Instructors",
+                        "Create Your Free Account",
+                        "What Our Learners Say?",
+                        "Learn",
+                        "Latest News",
+                        "Newsletter"
+                    ]
+                },
+                "Paragraph": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Launch your career with interactive courses, hands-on projects, and a structured learning path designed for beginners and pros.",
+                        "Specialized tracks designed to take you from beginner to job-ready.",
+                        "Master the world's most popular language for data.",
+                        "Uncover insights using SQL and Spreadsheets.",
+                        "Tell compelling stories with Tableau and Power BI.",
+                        "Drive decision-making with data-driven strategies.",
+                        "Learn the responsible use of Artificial Intelligence.",
+                        "Build predictive models and train neural networks.",
+                        "Scale your data skills with AWS and Azure.",
+                        "Build the infrastructure that powers Big Data.",
+                        "Learn the fundamentals of Python programming specifically designed for data science, covering syntax, data types, and basic algorithms to get you started.",
+                        "Understand the core concepts of supervised and unsupervised learning. Build your first predictive models using Scikit-Learn and real-world datasets.",
+                        "Master the art of storytelling with data. Learn to create impactful charts, graphs, and interactive dashboards using Tableau and Python libraries.",
+                        "Learn to communicate with databases. Master SELECT queries, joins, and aggregations to extract and analyze data from relational databases efficiently.",
+                        "Dive deep into neural networks and artificial intelligence. Explore computer vision and natural language processing using TensorFlow and PyTorch.",
+                        "Learn to handle massive datasets that traditional tools can't manage. Master Apache Spark for distributed computing and large-scale data processing.",
+                        "The world's leading platform for learning Data Science, AI, and Machine Learning. Master Python and SQL directly in your browser.",
+                        "Join 12M+ learners. Get data cheatsheets and coding tips delivered to your inbox."
+                    ]
+                },
+                "Button": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Start Learning For Free",
+                        "View Curriculum",
+                        "Get Started",
+                        "Join 12M+ Learners",
+                        "Start Coding Now",
+                        "Subscribe"
+                    ]
+                },
+                "Footer-Nav": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Python",
+                        "R Programming",
+                        "SQL",
+                        "Power BI",
+                        "Data Engineering",
+                        "Tableau",
+                        "For Business",
+                        "Terms of Use",
+                        "Privacy Policy"
+                    ]
+                },
+                "People": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Dr. Elena Ross",
+                        "James Wu",
+                        "Sarah Jenkins",
+                        "Michael Chen",
+                        "Marcus Thorne",
+                        "Priya Patel",
+                        "David Kim"
+                    ]
+                },
+                "Job": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Lead Data Scientist",
+                        "AI Research Head",
+                        "Python Instructor",
+                        "Curriculum Director",
+                        "Data Analyst",
+                        "ML Engineer",
+                        "Business Analyst"
+                    ]
+                },
+                "Announcement": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "New \"Introduction to ChatGPT\" course launched to help you master prompt engineering.",
+                        "Bloom partners with Top Tech Firms to offer exclusive job placements for certified graduates."
+                    ]
+                },
+                "Testimonial": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "The hands-on Python exercises were a game changer. I went from zero coding knowledge to landing a Junior Data Analyst role in just 6 months!",
+                        "Finally, a platform that explains Machine Learning without the confusing jargon. The interactive projects helped me build a portfolio that got me hired.",
+                        "The SQL and Power BI tracks are world-class. I use the skills I learned here every single day in my new job. Definitely worth the investment!"
+                    ]
+                },
+                "Product": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Python Programming",
+                        "Data Analysis",
+                        "Data Visualization",
+                        "Business Intelligence",
+                        "AI Ethics",
+                        "Machine Learning",
+                        "Cloud Computing",
+                        "Data Engineering",
+                        "Intro to Python",
+                        "Machine Learning Basics",
+                        "SQL Fundamentals",
+                        "Deep Learning & AI",
+                        "Big Data with Spark"
+                    ]
+                },
+                "FAQs": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Portfolio": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Pricing": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Labels": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Learners",
+                        "Courses",
+                        "Rating",
+                        "Avg Rating",
+                        "Global Learners",
+                        "Code Submissions",
+                        "Career Switch"
+                    ]
+                },
+                "Numbers": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "12M+",
+                        "450+",
+                        "4.8",
+                        "50M+",
+                        "85%"
+                    ]
+                },
+                "Placeholder": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Full Name",
+                        "Email Address",
+                        "Create Password",
+                        "Enter your email address"
+                    ]
+                },
+                "404": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Phone-Number": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "+1 (555) 123-4567"
+                    ]
+                },
+                "Dates": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Mon - Fri 9.00 - 18.00 EST",
+                        "2019"
+                    ]
+                },
+                "Email": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Icons": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "fas fa-sign-in-alt",
+                        "fas fa-rocket",
+                        "fab fa-facebook",
+                        "fab fa-twitter",
+                        "fab fa-linkedin-in",
+                        "fa fa-phone",
+                        "fas fa-clock",
+                        "fa fa-arrow-right",
+                        "fas fa-quote-right"
+                    ]
+                }
+            },
+            "projectImages": {
+                "accuracy": "0%",
+                "feedback": [
+                    "There was a lack of images in the content.",
+                    "New images need to be added for better coverage.",
+                    "Visuals should align more closely with the project context."
+                ],
+                "correct": [
+                    "assets/logo.png",
+                    "assets/logo1.png",
+                    "assets/Data-science-AI-machine-learning.jpg",
+                    "assets/images/dribble.png",
+                    "assets/images/facebook.png",
+                    "assets/images/google.png",
+                    "assets/images/in.png",
+                    "assets/images/sketch.png",
+                    "assets/images/client-abof.png",
+                    "assets/images/client-allsaints.png",
+                    "assets/images/client-lucubrate.png",
+                    "assets/images/client-restaurent.png",
+                    "assets/images/client-rimmel.png",
+                    "assets/images/people-one.jpg",
+                    "assets/images/people-two.jpg",
+                    "assets/images/people-three.jpg",
+                    "assets/images/people-eight.png"
+                ]
+            },
+            "projectVideos": {
+                "accuracy": "0%",
+                "feedback": [
+                    "No videos need in this template"
+                ],
+                "correct": ""
+            },
+            "projectBaseLibraries": {
+                "accuracy": "0%",
+                "feedback": [
+                    "These libraries are permanent by design.",
+                    "They must always be included in every template without exception."
+                ],
+                "correct": [
+                    "Bootstrap",
+                    "Bootstrap Bundle",
+                    "Bootstrap Icons",
+                    "Remix Icon",
+                    "jQuery",
+                    "jQuery UI",
+                    "jQuery Slim"
+                ]
+            },
+            "projectLibraries": {
+                "cssLibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                },
+                "jslibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "If a CSS library also provides a JS CDN, it should be auto-included.",
+                        "This ensures consistency between style and functionality."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                }
+            }
+        }
+    }
+}
