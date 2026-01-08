@@ -569,155 +569,262 @@
                     "footers/fund"
                 ]
             },
-            "projectText": {
-                "Navigation": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "Headline": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "Paragraph": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "Button": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "Footer-Nav": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "People": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "Job": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "Announcement": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "Testimonial": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "Product": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "FAQs": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "Portfolio": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "Pricing": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "Labels": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "Numbers": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "Placeholder": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "404": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "Phone-Number": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "Dates": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "Email": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                },
-                "Icons": {
-                    "accuracy": "0%",
-                    "feedback": [
-                        "Missing Project Context"
-                    ],
-                    "correct": []
-                }
-            },
+"projectText": {
+        "Navigation": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": [
+                "Why Us",
+                "Categories",
+                "Products",
+                "Faqs",
+                "Login",
+                "Get Started"
+            ]
+        },
+        "Headline": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": [
+                "Master New Skills with Professional Online Courses",
+                "Why Learners Trust Us",
+                "Trusted by 200,000+ leading organizations",
+                "Browse Top Categories",
+                "Trending Courses",
+                "Who is this for?",
+                "Student Success Stories",
+                "Frequently Asked Questions"
+            ]
+        },
+        "Paragraph": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": [
+                "Unlock your potential with our industry-leading platform. Access 10,000+ interactive lessons in Design, Business, and Technology taught by expert instructors. Start your learning journey today.",
+                "Find the perfect course to upgrade your skills and advance your career.",
+                "If any of these sound like you, you're in the right place.",
+                "Hear from our happy learners who have transformed their careers and skills with our innovative curriculum."
+            ]
+        },
+        "Button": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": [
+                "Start Learning Now",
+                "Explore All Features",
+                "Find Your Fit"
+            ]
+        },
+        "Footer-Nav": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": [
+                "Company",
+                "About Us",
+                "Our Story",
+                "Careers",
+                "Blog",
+                "Resources",
+                "Tutorials",
+                "Student Stories",
+                "Cheat Sheets",
+                "Forums",
+                "Support",
+                "Help Center",
+                "Terms of Use",
+                "Privacy Policy",
+                "Contact Us",
+                "Top Skills",
+                "Web Development",
+                "Data Science",
+                "UI/UX Design",
+                "Digital Marketing",
+                "Become an Instructor",
+                "Affiliate Program"
+            ]
+        },
+        "People": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": [
+                "Lauren Cox",
+                "Terry Fletcher",
+                "Sarah Jenkins"
+            ]
+        },
+        "Job": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": [
+                "UX Designer",
+                "Data Analyst",
+                "Freelance Developer"
+            ]
+        },
+        "Announcement": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": []
+        },
+        "Testimonial": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": [
+                "The UI/UX Bootcamp completely transformed my career. The course content was clear, practical, and engaging. Thanks to the expert instructors, I gained the skills needed to land my dream job at a top tech.",
+                "I loved the Data Science Mastery course! The lessons were concise and applicable, and the support from the community was fantastic. I've seen a significant improvement in my analysis workflow and got a promotion!",
+                "Taking the Full Stack Web Development course was the best decision I made. The hands-on projects and real-world examples helped me build a strong portfolio and secure my first three freelance clients"
+            ]
+        },
+        "Product": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": [
+                "3D Animation & VFX",
+                "Mobile App UI/UX",
+                "Data Science Fundamentals",
+                "Digital Marketing Strategy"
+            ]
+        },
+        "FAQs": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": [
+                "What is your refund policy? - We are confident you'll love our courses. However, if you are not satisfied, we offer a 30-day money-back guarantee, no questions asked. Just contact our support team.",
+                "Can I access the course materials on mobile? - Yes! Our platform is fully responsive. You can watch lectures, complete quizzes, and access resources from any smartphone, tablet, or desktop computer.",
+                "Do I get lifetime access to the courses? - Absolutely. Once you enroll, you have unlimited lifetime access to the course content, including any future updates and added bonus materials.",
+                "Are the certificates accredited? - You receive a verified certificate of completion for every course. While not a university degree, our certificates are recognized by industry leaders and can be added to your LinkedIn profile.",
+                "Do you offer discounts for teams? - Yes, we offer special pricing and management dashboards for corporate teams and educational institutions. Please contact our sales team for a custom quote."
+            ]
+        },
+        "Portfolio": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": []
+        },
+        "Pricing": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": [
+                "$53.55",
+                "$68.88",
+                "$75.55",
+                "$78.88",
+                "$99.99",
+                "$81.99"
+            ]
+        },
+        "Labels": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": [
+                "New",
+                "Hot",
+                "#Beginner",
+                "#CareerChanger",
+                "#TeamLead",
+                "#SelfTaughtDev",
+                "#Upskilling"
+            ]
+        },
+        "Numbers": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": [
+                "10,000+",
+                "200,000+",
+                "30-day"
+            ]
+        },
+        "Placeholder": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": []
+        },
+        "404": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": []
+        },
+        "Phone-Number": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": []
+        },
+        "Dates": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": [
+                "2019"
+            ]
+        },
+        "Email": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": []
+        },
+        "Icons": {
+            "accuracy": "0%",
+            "feedback": [
+                "Missing Project Context"
+            ],
+            "correct": [
+                "fas fa-laptop-code",
+                "fa fa-video",
+                "fas fa-chalkboard-teacher",
+                "fas fa-certificate",
+                "test-passed",
+                "chat-message",
+                "calendar",
+                "bullish",
+                "conference-call",
+                "microphone",
+                "fab fa-facebook-f",
+                "fab fa-twitter",
+                "fab fa-linkedin-in",
+                "fab fa-youtube"
+            ]
+        }
+    },
             "projectImages": {
                 "accuracy": "0%",
                 "feedback": [
