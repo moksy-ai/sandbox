@@ -283,7 +283,7 @@
             "projectTheme": {
                 "accuracy": "100%",
                 "feedback": "Well-defined theme",
-                "correct": ""
+                "correct": "Professional, Vibrant, Clean"
             },
             "projectKeywords": {
                 "projectKeywords": {
@@ -388,11 +388,23 @@
                     }
                 },
                 "projectLayoutsKeywords": {
-                    "accuracy": "",
+                    "accuracy": "0%",
                     "feedback": [
-                        ""
+                        " List contained nouns instead of layout-descriptive adjectives.",
+                        "Missed key layout attributes like 'conversion-focused' and 'user-centric'."
                     ],
-                    "correct": {}
+                    "correct": {
+                        "Guide": 10,
+  "Focus": 10,
+  "Commerce": 9,
+  "Topic": 8,
+  "Journey": 7,
+  "Trust": 6,
+  "Endorse": 5,
+  "Help": 4,
+  "Engage": 3,
+  "Anchor": 2
+                    }
                 },
                 "projectTextsKeywords": {
                     "accuracy": "40%",
