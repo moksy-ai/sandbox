@@ -75,7 +75,7 @@
     letter-spacing: -0.5px;
     background: linear-gradient(90deg, var(--accent) 0%, var(--accent-light) 100%);
     -webkit-background-clip: text;
-    color: transparent;
+    color: var(--dark);
     animation: fadeUp 0.9s cubic-bezier(0.23, 1, 0.32, 1) both;
   }
   
