@@ -1,0 +1,654 @@
+/* #niche(nicheNavbar) #css starts  */
+.nicheNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.nicheNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.nicheNavbar .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.nicheNavbar .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.nicheNavbar .btnone {
+    color: var(--color-tertiary) !important;
+    border: none;
+    background-color: transparent;
+}
+
+.nicheNavbar .col-3 {
+    padding-left: 0px !important;
+}
+
+/* #niche(nicheNavbar) #css ends  */
+/* #hues(huesHero) #css starts  */
+.huesHero p {
+    margin: 0 0 20px
+}
+
+.huesHero .page-banner {
+    background: url(https://images.moksy.com/templates/default/banner/online-learning.jpeg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    padding: 100px;
+    background-repeat: no-repeat;
+}
+
+.huesHero .page-banner-spacing {
+    padding-top: 170px;
+    padding-bottom: 174px
+}
+
+.huesHero .card-section {
+    position: relative;
+    bottom: 60px
+}
+
+.huesHero .card-block {
+    padding: 60px;
+    background: var(--color-white);
+}
+
+.huesHero .section-title {
+    margin-bottom: 60px
+}
+
+.huesHero .btn {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border-radius: var(--btn-radius-full);
+}
+
+@media (min-width: 576px) {
+    .huffyHero h1 {
+        font-size: var(--font-size-lg);
+    }
+}
+
+/* #hues(huesHero) #css ends  */
+/* #colix(colixCarousel) #css starts  */
+.colixCarousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.colixCarousel .container {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+}
+
+.colixCarousel .panel {
+    box-shadow: 0 5px 1rem var(--shadow-dark);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 30px;
+    color: var(--color-white);
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.5s ease-in;
+}
+
+/* Assign background images to panels */
+.colixCarousel .panel:nth-of-type(1) {
+    background-image: url('https://images.moksy.com/templates/default/general/class.jpg');
+}
+
+.colixCarousel .panel:nth-of-type(2) {
+    background-image: url('https://images.moksy.com/templates/default/general/student-four.jpg');
+}
+
+.colixCarousel .panel:nth-of-type(3) {
+    background-image: url('https://images.moksy.com/templates/default/general/student-three.jpg');
+}
+
+.colixCarousel .panel:nth-of-type(4) {
+    background-image: url('https://images.moksy.com/templates/default/general/student-two.jpg');
+}
+
+.colixCarousel .panel:nth-of-type(5) {
+    background-image: url('https://images.moksy.com/templates/default/general/student.jpg');
+}
+
+.colixCarousel .panel:nth-of-type(6) {
+    background-image: url('https://images.moksy.com/templates/default/general/ai.jpg');
+}
+
+.colixCarousel .panel.active {
+    flex: 5;
+}
+
+
+@media (max-width: 480px) {
+    .colixCarousel .container {
+        width: 100vw;
+    }
+
+    .colixCarousel .panel:nth-of-type(4),
+    .colixCarousel .panel:nth-of-type(5) {
+        display: none;
+    }
+}
+
+/* #colix(colixCarousel) #css ends  */
+/* #chrome(chromeCategories) #css starts  */
+    /* Chrome Categories Component Styles */
+
+    /* ===== Section header ===== */
+    .chromeCategories .section-header{
+      max-width: 640px;
+      margin: 0 auto var(--spacing-xl) auto;
+      text-align: center;
+    }
+    .chromeCategories .section-title{
+      font-weight: var(--font-weight-semibold);
+      font-size: var(--font-size-xl);
+      margin-bottom: var(--spacing-xs);
+      font-family: var(--font-family-base);
+      color: var(--color-text-primary);
+    }
+    .chromeCategories .section-subtitle{
+      color: var(--color-text-secondary);
+      font-size: var(--font-size-md);
+      font-family: var(--font-family-base);
+    }
+
+    /* ===== Grid layout ===== */
+    .chromeCategories .category-grid{
+      display: grid;
+      gap: var(--spacing-lg);
+      grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    }
+
+    /* ===== Category cards ===== */
+    .chromeCategories .category-card{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: var(--spacing-2xl) var(--spacing-lg);
+      border-radius: var(--border-radius-lg);
+      background: var(--color-surface);
+      box-shadow: var(--shadow-sm);
+      text-decoration: none;
+      color: inherit;
+      transition: transform var(--transition-duration) ease, box-shadow var(--transition-duration) ease;
+    }
+    .chromeCategories .category-card:hover{
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: var(--shadow-md);
+    }
+    .chromeCategories .category-card .icon{
+      font-size: var(--font-size-3xl);
+      margin-bottom: var(--spacing-md);
+      transition: transform var(--transition-duration) ease;
+    }
+    .chromeCategories .category-card:hover .icon{
+      transform: rotate(6deg) scale(1.1);
+    }
+    .chromeCategories .category-card .title{
+      font-size: var(--font-size-lg);
+      font-weight: var(--font-weight-semibold);
+      margin-bottom: var(--spacing-2xs);
+      font-family: var(--font-family-base);
+      color: var(--color-text-primary);
+    }
+    .chromeCategories .category-card .desc{
+      font-size: var(--font-size-sm);
+      color: var(--color-text-tertiary);
+      font-family: var(--font-family-base);
+    }
+
+    /* ===== Badges ===== */
+    .chromeCategories .badge{
+      position: absolute;
+      top: var(--spacing-md);
+      right: var(--spacing-md);
+      background: var(--color-danger);
+      color: var(--color-bg);
+      font-size: var(--font-size-2xs);
+      padding: var(--spacing-2xs) var(--spacing-xs);
+      border-radius: var(--border-radius-md);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .chromeCategories .badge.new{
+      background: var(--color-primary);
+    }
+
+    /* ===== Small devices ===== */
+    @media (max-width: 576px){
+      .chromeCategories.categories{
+        padding: var(--spacing-2xl) var(--spacing-md);
+      }
+      .chromeCategories .category-card{
+        padding: var(--spacing-xl) var(--spacing-md);
+      }
+    }
+/* #chrome(chromeCategories) #css ends  */
+/* #pleon(pleonProduct) #css starts  */
+.pleonProduct .product-grid {
+    text-align: center;
+    border: 1px solid var(--border-color);
+}
+
+.pleonProduct .product-grid .product-image {
+    overflow: hidden;
+    position: relative;
+}
+
+.pleonProduct .product-grid .product-image a.image {
+    display: block;
+}
+
+.pleonProduct .product-grid .product-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: all 0.05s ease 0s;
+}
+
+.pleonProduct .product-grid:hover .product-image img {
+    transform: scale(1.1);
+}
+
+.pleonProduct .product-grid .product-sale-label {
+    color: var(--color-background-primary);
+    background-color: var(--color-secondary);
+    font-size: var(--font-size-sm);
+    text-transform: capitalize;
+    padding: 3px 18px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.pleonProduct .product-grid .product-links {
+    background-color: var(--dark);
+    padding: 7px 10px;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transition: all 0.3s ease 0s
+}
+
+.pleonProduct .product-grid:hover .product-links {
+    opacity: 1;
+}
+
+.pleonProduct .product-grid .product-links li {
+    margin: 0 0 7px;
+    transform: translateX(30px);
+    transition: all 0.3s ease 0s;
+}
+
+.pleonProduct .product-grid .product-links li:nth-child(2) {
+    transition: all 0.3s ease 0.05s;
+}
+
+.pleonProduct .product-grid .product-links li:nth-child(3) {
+    transition: all 0.3s ease 0.1s;
+}
+
+.pleonProduct .product-grid .product-links li:nth-child(4) {
+    transition: all 0.3s ease 0.15s;
+}
+
+.pleonProduct .product-grid .product-links li:last-child {
+    margin: 0;
+}
+
+.pleonProduct .product-grid:hover .product-links li {
+    transform: translateX(0);
+}
+
+.pleonProduct .product-grid .product-links li a {
+    color: var(--color-background-primary);
+    font-size: var(--font-size-md);
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+.pleonProduct .product-grid .product-links li a:hover {
+    color: var(--color-background-primary);
+    text-shadow: 3px 3px 0 rgba(255, 255, 255, 0.2);
+}
+
+.pleonProduct .product-grid .product-links li a:before,
+.pleonProduct .product-grid .product-links li a:after {
+    content: attr(data-tip);
+    color: var(--color-background-primary);
+    background: var(--color-secondary);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    line-height: 18px;
+    text-shadow: none;
+    padding: 5px 10px;
+    white-space: nowrap;
+    display: none;
+    transform: translateY(-50%);
+    position: absolute;
+    right: 45px;
+    top: 50%;
+    transition: all 250ms ease-in-out 0s;
+}
+
+.pleonProduct .product-grid .product-links li a:after {
+    content: '';
+    height: 10px;
+    width: 10px;
+    padding: 0;
+    transform: translateY(-50%) rotate(45deg);
+    right: 41px;
+    z-index: -1;
+}
+
+.pleonProduct .product-grid .product-links li a:hover:before,
+.pleonProduct .product-grid .product-links li a:hover:after {
+    display: block;
+}
+
+.pleonProduct .product-grid .product-content {
+    text-align: left;
+    padding: 25px 15px;
+}
+
+.pleonProduct .product-grid .title {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-medium);
+    text-transform: capitalize;
+    margin: 0 0 6px;
+}
+
+.pleonProduct .product-grid .title a {
+    color: var(--dark);
+    transition: all 0.3s ease 0s;
+}
+
+.pleonProduct .product-grid .title a:hover {
+    color: var(--dark);
+}
+
+.pleonProduct .product-grid .price {
+    color: var(--color-secondary);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-bold);
+    margin: 0 0 4px;
+}
+
+.pleonProduct .product-grid .price span {
+    color: var(--dark);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-regular);
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 990px) {
+    .pleonProduct .product-grid {
+        margin: 0 0 30px;
+    }
+}
+
+/* #pleon(pleonProduct) #css ends  */
+/* #comex(comexCounters) #css starts  */
+.comexCounters .card-counter {
+    box-shadow: 2px 2px 10px var(--shadow-dark);
+    margin: 5px;
+    padding: 10px 10px;
+    background-color: var(--color-background-primary);
+    height: 100px;
+    border-radius: 5px;
+    transition: .3s linear all;
+}
+
+.comexCounters .card-counter:hover {
+    box-shadow: 4px 4px 20px var(--shadow-light);
+    transition: .3s linear all;
+}
+
+.comexCounters .card-counter {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.comexCounters .card-counter i {
+    font-size: var(--font-size-xxlOne);
+    opacity: 0.2;
+}
+
+.comexCounters .card-counter .count-numbers {
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    font-size: var(--font-size-xl);
+    display: block;
+}
+
+.comexCounters .card-counter .count-name {
+    position: absolute;
+    right: 35px;
+    top: 65px;
+    font-style: italic;
+    text-transform: capitalize;
+    opacity: 0.8;
+    display: block;
+    font-size: var(--font-size-md);
+}
+
+/* #comex(comexCounters) #css ends  */
+/* #willow(willowWhyus) #css starts  */
+/* Comparison Table Container */
+.willowWhyus .comparison-table {
+    width: 100%;
+}
+
+/* Table Header Styling */
+.willowWhyus .comparison-table thead th {
+    background-color: var(--color-background-secondary);
+    font-weight: var(--font-weight-semibold);
+    text-align: center;
+}
+
+/* Table Row Alternating Colors */
+.willowWhyus .comparison-table tbody tr:nth-of-type(odd) {
+    background-color: var(--color-background-primary);
+}
+
+.willowWhyus .comparison-table tbody tr:nth-of-type(even) {
+    background-color: var(--color-background-tertiary);
+}
+
+/* Table Cell Styling */
+.willowWhyus .comparison-table td,
+.willowWhyus .comparison-table th {
+    vertical-align: middle;
+    text-align: center;
+    padding: var(--spacing-sm);
+    border-top: 1px solid var(--border-color);
+}
+
+/* Feature Name Column */
+.willowWhyus .feature-name {
+    text-align: left;
+    font-weight: var(--font-weight-medium);
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 576px) {
+
+    /* Hide table header on mobile */
+    .willowWhyus .comparison-table thead {
+        display: none;
+    }
+
+    /* Convert table to block layout */
+    .willowWhyus .comparison-table,
+    .willowWhyus .comparison-table tbody,
+    .willowWhyus .comparison-table tr,
+    .willowWhyus .comparison-table td {
+        display: block;
+        width: 100%;
+    }
+
+    /* Row styling for mobile */
+    .willowWhyus .comparison-table tr {
+        margin-bottom: var(--spacing-md);
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius-sm);
+    }
+
+    /* Cell styling for mobile */
+    .willowWhyus .comparison-table td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+        border: none;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    /* Data label for mobile */
+    .willowWhyus .comparison-table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: var(--spacing-md);
+        width: 45%;
+        padding-right: var(--spacing-md);
+        text-align: left;
+        font-weight: var(--font-weight-semibold);
+        color: var(--color-text-primary);
+    }
+
+    /* Remove border from last cell */
+    .willowWhyus .comparison-table td:last-child {
+        border-bottom: 0;
+    }
+}
+
+/* #willow(willowWhyus) #css ends  */
+/* #solva(solvaSubscribe) #css starts */
+.solvaSubscribe .btn {
+    background-color: var(--color-tertiary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.solvaSubscribe .privacytxt {
+    margin-top: var(--spacing-sm);
+}
+
+.solvaSubscribe .lead {
+    color: var(--color-text-primary);
+}
+
+/* #solva(solvaSubscribe) #css starts */
+/* #feels(feelsFaq) #css starts  */
+
+.feelsFaq {
+    background-image: linear-gradient(135deg, var(--color-primary) 0%, var(--color-tertiary) 100%);
+    padding: 3rem 0rem 3rem 0rem;
+}
+
+.feelsFaq .collapsible-link::before {
+    content: '';
+    width: 14px;
+    height: 2px;
+    background: var(--dark);
+    position: absolute;
+    top: calc(50% - 1px);
+    right: 1rem;
+    display: block;
+    transition: all 0.3s;
+}
+
+/* Vertical line */
+.feelsFaq .collapsible-link::after {
+    content: '';
+    width: 2px;
+    height: 14px;
+    background: var(--dark);
+    position: absolute;
+    top: calc(50% - 7px);
+    right: calc(1rem + 6px);
+    display: block;
+    transition: all 0.3s;
+}
+
+.feelsFaq .collapsible-link[aria-expanded='true']::after {
+    transform: rotate(90deg) translateX(-1px);
+}
+
+.feelsFaq .collapsible-link[aria-expanded='true']::before {
+    transform: rotate(180deg);
+}
+
+.feelsFaq .stroke {
+    color: var(--color-white);
+}
+
+/* #feels(feelsFaq) #css ends  */
+/* #flora(floraFooter) #css starts */
+.floraFooter a {
+    color: var(--color-text-primary)
+}
+
+.floraFooter .shfooter .collapse {
+    display: inherit
+}
+
+.floraFooter .li-custom-class {
+    margin: 10px 0px 10px 0;
+}
+
+@media (max-width:767px) {
+    .floraFooter .shfooter ul {
+        margin-bottom: 0
+    }
+
+    .floraFooter .shfooter .collapse {
+        display: none
+    }
+
+    .floraFooter .shfooter .collapse.show {
+        display: block
+    }
+
+    .floraFooter.shfooter .title .fa-angle-up,
+    .floraFooter.shfooter .title[aria-expanded=true] .fa-angle-down {
+        display: none
+    }
+
+    .floraFooter .shfooter .title[aria-expanded=true] .fa-angle-up {
+        display: block
+    }
+
+    .floraFooter .shfooter .navbar-toggler {
+        display: inline-block;
+        padding: 0
+    }
+
+}
+
+/* #flora(floraFooter) #css ends */
