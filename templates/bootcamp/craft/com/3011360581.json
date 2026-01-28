@@ -1,0 +1,879 @@
+{
+    "projectRequirements": {
+        "userid": "87ca5aefe7183d3c6b9e208dbb174e4b",
+        "projectId": 3011360581,
+        "projectName": "Craft",
+        "projectIndustry": "Technology",
+        "projectSubIndustry": "EdTech",
+        "projectType": "MOOC",
+        "projectPurpose": "To convert visitors into users , ecosystem for creators for building their brand, sell digital products, and manage communities",
+        "projectAudience": "Digital creators, online coaches, educators, influencers,  solopreneurs",
+        "projectTags": "SaaS, Minimal, Creator, Monetization, Business, Growth, EdTech, Platform, Community, Digital",
+        "projectExamples": "Kajabi",
+        "projectTheme": "Professionalism, Clarity, Trust",
+        "projectKeywords": {
+            "projectKeywords": {
+                "keywords": {
+                    "digital": 7.2,
+                    "edtech": 4.2,
+                    "creators": 4.2,
+                    "professional": 3.5,
+                    "certification": 3.5,
+                    "massive": 3.5,
+                    "trust": 3.5,
+                    "clarity": 3.5,
+                    "mooc": 3.5,
+                    "community": 3.5
+                },
+                "accuracy": "6%"
+            },
+            "projectFontsKeywords": {
+                "keywords": {
+                    "minimal": 10,
+                    "clarity": 5.7,
+                    "modern": 5.2,
+                    "clean": 4.4,
+                    "sans-serif": 3.8,
+                    "professional": 3.8,
+                    "digital": 3.6,
+                    "tech": 3.1,
+                    "neutral": 2.6,
+                    "ui-friendly": 2.5
+                },
+                "accuracy": "3%"
+            },
+            "projectColorsKeywords": {
+                "keywords": {
+                    "saas": 10,
+                    "trust": 8.3,
+                    "clarity": 5.8,
+                    "modern": 2,
+                    "wellness": 1.7,
+                    "growth": 1.3,
+                    "vibrant": 1.2,
+                    "professional": 1.2,
+                    "friendly": 1.2,
+                    "calm": 1.1
+                },
+                "accuracy": "2.9%"
+            },
+            "projectBrandAssetsKeywords": {
+                "keywords": {
+                    "digital": 5,
+                    "certification": 3,
+                    "creators": 3,
+                    "massive": 3,
+                    "mooc": 3,
+                    "online": 3,
+                    "edtech": 3,
+                    "community": 3,
+                    "minimal": 2,
+                    "saas": 2
+                },
+                "accuracy": "2%"
+            },
+            "projectThemeKeywords": {
+                "keywords": {
+                    "digital": 5,
+                    "certification": 3,
+                    "creators": 3,
+                    "massive": 3,
+                    "mooc": 3,
+                    "online": 3,
+                    "edtech": 3,
+                    "community": 3,
+                    "minimal": 2,
+                    "saas": 2
+                },
+                "accuracy": "2%"
+            },
+            "projectLayoutsKeywords": {
+                "keywords": {
+                    "digital": 5,
+                    "certification": 3,
+                    "creators": 3,
+                    "massive": 3,
+                    "mooc": 3,
+                    "online": 3,
+                    "edtech": 3,
+                    "community": 3,
+                    "minimal": 2,
+                    "saas": 2
+                },
+                "accuracy": "2%"
+            },
+            "projectTextsKeywords": {
+                "keywords": {
+                    "digital": 5,
+                    "certification": 3,
+                    "creators": 3,
+                    "massive": 3,
+                    "mooc": 3,
+                    "online": 3,
+                    "edtech": 3,
+                    "community": 3,
+                    "minimal": 2,
+                    "saas": 2
+                },
+                "accuracy": "2%"
+            },
+            "projectImagesKeywords": {
+                "keywords": {
+                    "digital": 10,
+                    "technology": 8.6,
+                    "minimal": 7,
+                    "community": 3,
+                    "growth": 1.7,
+                    "platform": 1,
+                    "education": 1,
+                    "online": 0.7,
+                    "design": 0.7,
+                    "learning": 0.7
+                },
+                "accuracy": "0.4%"
+            },
+            "projectVideosKeywords": {
+                "keywords": {
+                    "digital": 10,
+                    "technology": 3.7,
+                    "online": 3,
+                    "minimal": 2.2,
+                    "training": 1.3,
+                    "community": 1.1,
+                    "mooc": 1.1,
+                    "growth": 1.1,
+                    "learning": 0.9,
+                    "microlearning": 0.8
+                },
+                "accuracy": "0.7%"
+            },
+            "projectBaseLibrariesKeywords": {
+                "keywords": {
+                    "minimal": 10,
+                    "ecosystem": 8,
+                    "frontend": 2.8,
+                    "spa": 2,
+                    "lightweight": 1.6,
+                    "animation": 1.6,
+                    "performance": 1.6,
+                    "templating": 1.2,
+                    "modular": 1.2,
+                    "react": 1.2
+                },
+                "accuracy": "0.3%"
+            },
+            "projectSupportLibrariesKeywords": {
+                "keywords": {
+                    "minimal": 10,
+                    "ecosystem": 8.1,
+                    "spa": 2,
+                    "frontend": 2,
+                    "animation": 1.6,
+                    "lightweight": 1.6,
+                    "performance": 1.6,
+                    "routing": 1.2,
+                    "modular": 1.2,
+                    "react": 1.2
+                },
+                "accuracy": "0.3%"
+            }
+        }
+    },
+    "projectInfo": {
+        "projectBranding": {
+            "fonts": {
+                "primaryFonts": "",
+                "secondaryFonts": "",
+                "thirdFonts": "",
+                "defaultFonts": ""
+            },
+            "colors": {
+                "primaryColor": "",
+                "secondaryColor": "",
+                "thirdColor": "",
+                "defaultColor": ""
+            }
+        },
+        "projectTheme": "",
+        "projectBrandingAssets": "star",
+        "projectLayout": [
+            "navbar\/nudge",
+            "hero\/hoist",
+            "overview",
+            "products\/paize",
+            "steps\/summer",
+            "features\/francis",
+            "clients\/calvo",
+            "certification",
+            "whyus",
+            "testimonials\/taylor",
+            "download\/dalix",
+            "products\/paize",
+            "community",
+            "faqs\/feign",
+            "content\/ceter",
+            "clients\/calvo",
+            "subscribe\/semor",
+            "cta\/cerry",
+            "footers\/flows"
+        ],
+        "projectText": [],
+        "projectImages": [
+            "url\/success\/green-dart-in-bullseye.jpg"
+        ],
+        "projectVideos": [],
+        "projectBaseLibraries": [],
+        "projectLibraries": {
+            "cssLibraries": [],
+            "jslibraries": []
+        }
+    },
+    "projectReviews": {
+        "projectRequirements": {
+            "userid": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "87ca5aefe7183d3c6b9e208dbb174e4b"
+            },
+            "projectId": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "3011360581"
+            },
+            "projectName": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "Craft"
+            },
+            "projectIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "Technology"
+            },
+            "projectSubIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "EdTech"
+            },
+            "projectType": {
+                "accuracy": "100%",
+                "feedback": "Commonly searched training type",
+                "correct": "MOOC"
+            },
+            "projectPurpose": {
+                "accuracy": "100%",
+                "feedback": "Clearly outlined what the user actually wants",
+                "correct": "To convert visitors into users , ecosystem for creators for building their brand, sell digital products, and manage communities"
+            },
+            "projectAudience": {
+                "accuracy": "100%",
+                "feedback": "Well-defined target audience",
+                "correct": "Digital creators, online coaches, educators, influencers,  solopreneurs"
+            },
+            "projectTags": {
+                "accuracy": "100%",
+                "feedback": "Well-defined tags",
+                "correct": "SaaS, Minimal, Creator, Monetization, Business, Growth, EdTech, Platform, Community, Digital"
+            },
+            "projectExamples": {
+                "accuracy": "100%",
+                "feedback": "Good example",
+                "correct": "Kajabi"
+            },
+            "projectTheme": {
+                "accuracy": "100%",
+                "feedback": "Well-defined theme",
+                "correct": "Professionalism, Clarity, Trust"
+            },
+            "projectKeywords": {
+                "projectKeywords": {
+                    "accuracy": "40%",
+                    "feedback": [
+                        "Terms like 'mooc' and 'massive' suggest large-scale institutional education, whereas the project focuses on individual creator entrepreneurship.",
+                        "Keywords such as 'certification' imply accredited academic learning, which misaligns with the goal of selling digital products and building a personal brand.",
+                        "The old list missed critical high-value drivers like 'monetization' and 'saas' that define the business model.",
+                        "'Trust' and 'clarity' are abstract design principles, not functional industry keywords that describe the product's core utility."
+                    ],
+                    "correct": {
+                        "monetization": 10,
+                        "creator": 10,
+                        "saas": 9,
+                        "platform": 9,
+                        "community": 8,
+                        "business": 8,
+                        "growth": 7,
+                        "digital": 7,
+                        "branding": 6,
+                        "coaching": 6
+                    }
+                },
+                "projectFontsKeywords": {
+                    "accuracy": "50%",
+                    "feedback": [
+                        "Completely missed the secondary serif font characteristics.",
+                        "Overlooked the elegant and literary style of Spectral.",
+                        "Too focused on generic tech and minimal UI terms."
+                    ],
+                    "correct": {
+                        "humanist": 10,
+                        "sans": 9,
+                        "friendly": 8,
+                        "modern": 8,
+                        "clean": 7,
+                        "serif": 9,
+                        "elegant": 8,
+                        "editorial": 7,
+                        "classic": 7,
+                        "refined": 6
+                    }
+                },
+                "projectColorsKeywords": {
+                    "accuracy": "50%",
+                    "feedback": [
+                        "Missed the bold, high-contrast nature of the primary black.",
+                        "Wellness and calm imply softer tones, not stark contrasts.",
+                        "SaaS is an industry name, not a descriptive visual adjective."
+                    ],
+                    "correct": {
+                        "sophisticated": 10,
+                        "bold": 9,
+                        "premium": 9,
+                        "stark": 8,
+                        "trustworthy": 9,
+                        "dynamic": 8,
+                        "reliable": 8,
+                        "authoritative": 8,
+                        "secure": 7,
+                        "corporate": 7
+                    }
+                },
+                "projectBrandAssetsKeywords": {
+                    "accuracy": "20%",
+                    "feedback": [
+                        "Keywords describe platform features, not the logo's visual identity.",
+                        "Terms like digital contradict the logo's physical tool imagery.",
+                        "Missed the core construction and practical skill symbolism."
+                    ],
+                    "correct": {
+                        "constructive": 10,
+                        "practical": 9,
+                        "vocational": 8,
+                        "applied": 8,
+                        "technical": 7,
+                        "industrial": 7,
+                        "robust": 6,
+                        "bold": 6,
+                        "foundational": 5,
+                        "minimal": 5
+                    }
+                },
+                "projectThemeKeywords": {
+                    "accuracy": "10%",
+                    "feedback": [
+                        "Used industry nouns instead of thematic descriptive adjectives.",
+                        "Terms like 'mooc' and 'massive' fit a different business model.",
+                        "Failed to capture the emotional qualities of trust."
+                    ],
+                    "correct": {
+                        "credible": 10,
+                        "authoritative": 10,
+                        "transparent": 9,
+                        "reliable": 9,
+                        "polished": 8,
+                        "sophisticated": 8,
+                        "structured": 7,
+                        "legitimate": 7,
+                        "precise": 6,
+                        "consistent": 6
+                    }
+                },
+                "projectLayoutsKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Used industry terms instead of functional layout categories.",
+                        "Ignored the provided UI component mapping guide.",
+                        "Keywords do not represent the actual website structure."
+                    ],
+                    "correct": {
+                        "Guide": 10,
+                        "Focus": 10,
+                        "Showcase": 7,
+                        "Topic": 8,
+                        "Value": 9,
+                        "Metrics": 6,
+                        "Difference": 7,
+                        "Conversion": 8,
+                        "Help": 6,
+                        "Anchor": 5
+                    }
+                },
+                "projectTextsKeywords": {
+                    "accuracy": "20%",
+                    "feedback": [
+                        "Used nouns instead of descriptive tone adjectives.",
+                        "Keywords defined the category, not the voice.",
+                        "Terms like 'certification' clash with the creator economy context."
+                    ],
+                    "correct": {
+                        "empowering": 10,
+                        "persuasive": 10,
+                        "professional": 9,
+                        "clear": 9,
+                        "actionable": 8,
+                        "inspiring": 8,
+                        "direct": 7,
+                        "trustworthy": 7,
+                        "engaging": 6,
+                        "innovative": 6
+                    }
+                },
+                "projectImagesKeywords": {
+                    "accuracy": "",
+                    "feedback": [
+                        ""
+                    ],
+                    "correct": {
+                        "authentic": 10,
+                        "aspirational": 10,
+                        "polished": 9,
+                        "professional": 9,
+                        "clean": 8,
+                        "modern": 8,
+                        "diverse": 7,
+                        "dynamic": 7,
+                        "engaging": 6,
+                        "premium": 6
+                    }
+                },
+                "projectVideosKeywords": {
+                    "accuracy": "",
+                    "feedback": [
+                        ""
+                    ],
+                    "correct": {}
+                },
+                "projectBaseLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        [
+                            "Keywords must reliably trigger selection of all mandatory base libraries.",
+                            "Use clear, canonical triggers (e.g., grid, forms, icons) instead of vague terms.",
+                            "Prioritise must-have libraries with higher weights and strict serial ordering.",
+                            "Remove filler/ambiguous words to avoid missing required base libraries.",
+                            "Add a fallback rule to auto-include core libraries if any trigger is absent."
+                        ]
+                    ],
+                    "correct": {
+                        "modern": 10,
+                        "responsive": 9,
+                        "frontend": 9,
+                        "components": 8,
+                        "grid": 8,
+                        "spa": 7,
+                        "widgets": 6,
+                        "icons": 6,
+                        "lightweight": 5,
+                        "performance": 5
+                    }
+                },
+                "projectSupportLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips.",
+                        "we can add another libraries if needed"
+                    ],
+                    "correct": {
+                        "animation": 10,
+                        "scroll": 9,
+                        "effects": 9,
+                        "motion": 8,
+                        "transition": 8,
+                        "interactive": 7,
+                        "visuals": 7,
+                        "dynamic": 6,
+                        "responsive": 6,
+                        "enhancement": 5
+                    }
+                }
+            }
+        },
+        "projectInfo": {
+            "projectBranding": {
+                "fonts": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "No fonts provided"
+                    ],
+                    "correct": {
+                        "primaryFont": "Lato",
+                        "secondaryFont": "Spectral"
+                    }
+                },
+                "colors": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "No Color provided"
+                    ],
+                    "correct": {
+                        "primaryColor": "#0a0a0a",
+                        "secondaryColor": "#006FBF",
+                        "tertiaryColor": "#003F66"
+                    }
+                }
+            },
+            "projectTheme": {
+                "accuracy": "0%",
+                "feedback": [
+                    "No theme provided"
+                ],
+                "correct": "flat-light"
+            },
+            "projectBrandingAssets": {
+                "accuracy": "0%",
+                "feedback": [
+                    "Wrong logo picked"
+                ],
+                "correct": "hammer"
+            },
+            "projectLayout": {
+                "accuracy": "0%",
+                "feedback": [
+                    "Layout is very random",
+                    "No proper snippet flow",
+                    "snippets are missing"
+                ],
+                "correct": [
+                    "navbar/niche",
+                    "hero/hues",
+                    "carousels/colix",
+                    "categories/chrome",
+                    "products/pleon",
+                    "counters/comex",
+                    "whyus/willow",
+                    "subscribe/solva",
+                    "faqs/feels",
+                    "footer/flora"
+                ]
+            },
+            "projectText": {
+                "Navigation": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Categories",
+                        "Courses",
+                        "Why Us",
+                        "Login",
+                        "Get Started"
+                    ]
+                },
+                "Headline": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Turn Your Expertise Into A Thriving Business",
+                        "Everything You Need to Grow",
+                        "Featured Creator Resources",
+                        "Why Top Creators Choose Craft",
+                        "Join the Creator Economy",
+                        "Frequently Asked Questions",
+                        "Connect With Us"
+                    ]
+                },
+                "Paragraph": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "The all-in-one platform for creators to build audiences, sell digital products, and monetize communities. No coding required—just pure creativity and growth.",
+                        "Powerful tools designed for the modern creator economy.",
+                        "Build and sell curriculum.",
+                        "Recurring revenue streams.",
+                        "Ebooks, presets, and more.",
+                        "1-on-1 booking tools.",
+                        "Own your audience data.",
+                        "No-code drag and drop.",
+                        "Track your sales growth.",
+                        "Engage your fanbase.",
+                        "Get our weekly \"Creator Growth\" newsletter. Tips on audience building, monetization strategies, and platform updates sent to 50,000+ creators.",
+                        "No spam. Unsubscribe anytime."
+                    ]
+                },
+                "Button": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Start Creating Free",
+                        "Login",
+                        "Get Started",
+                        "Join Free"
+                    ]
+                },
+                "Footer-Nav": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Features",
+                        "Pricing",
+                        "Mobile App",
+                        "Integrations",
+                        "About Us",
+                        "Careers",
+                        "Press",
+                        "Partners",
+                        "Blog",
+                        "Creator University",
+                        "Community",
+                        "Case Studies",
+                        "Contact Us",
+                        "System Status",
+                        "API Docs",
+                        "Legal"
+                    ]
+                },
+                "People": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Job": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Announcement": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Testimonial": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Product": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Podcast Launch Kit",
+                        "Social Growth Guide",
+                        "Brand Strategy Deck",
+                        "Lightroom Presets"
+                    ]
+                },
+                "FAQs": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Do I need coding skills to use Craft?",
+                        "Not at all. Our platform is completely drag-and-drop. You can build landing pages, courses, and checkout flows in minutes without writing a single line of code.",
+                        "How do I get paid?",
+                        "We integrate directly with Stripe and PayPal. Payments from your customers go straight to your bank account instantly. We don't hold your funds.",
+                        "Can I use my own custom domain?",
+                        "Yes! Every plan includes the ability to connect your own custom domain (e.g., www.yourname.com) so your brand stays front and center.",
+                        "Is there a free trial?",
+                        "Yes, we offer a 14-day free trial on all plans. You can explore all features, build your site, and launch your product before you pay a dime.",
+                        "Can I migrate my email list?",
+                        "Absolutely. We provide easy import tools for CSV files, or you can sync directly from Mailchimp, ConvertKit, and other major providers."
+                    ]
+                },
+                "Portfolio": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Pricing": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "$49.00",
+                        "$99.00",
+                        "$29.99",
+                        "$120.00",
+                        "$89.00",
+                        "$35.00"
+                    ]
+                },
+                "Labels": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Hot",
+                        "New",
+                        "Feature",
+                        "Craft",
+                        "Others"
+                    ]
+                },
+                "Numbers": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "100k+",
+                        "$500M+",
+                        "150+",
+                        "24/7",
+                        "0%",
+                        "5-10%"
+                    ]
+                },
+                "Placeholder": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "assets/images/logo.svg",
+                        "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=500&q=60",
+                        "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=500&q=60",
+                        "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&w=500&q=60",
+                        "https://www.inkydeals.com/wp-content/uploads/2023/10/1-43-2048x1365.jpg",
+                        "https://images.unsplash.com/photo-1557838923-2985c318be48?auto=format&fit=crop&w=600&q=60"
+                    ]
+                },
+                "404": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Phone-Number": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Dates": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Email": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Icons": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "fa-shopping-cart",
+                        "fa-heart",
+                        "fa-random",
+                        "fa-eye",
+                        "fa-users",
+                        "fa-dollar-sign",
+                        "fa-globe",
+                        "fa-rocket",
+                        "fa-check",
+                        "fa-facebook-square",
+                        "fa-linkedin",
+                        "fa-twitter-square",
+                        "fa-youtube-square"
+                    ]
+                }
+            },
+            "projectImages": {
+                "accuracy": "0%",
+                "feedback": [
+                    "There was a lack of images in the content.",
+                    "New images need to be added for better coverage.",
+                    "Visuals should align more closely with the project context."
+                ],
+                "correct": [
+                    "assets/images/logo.svg",
+                    "assets/images/podcast-launch-kit.jpg",
+                    "assets/images/social-growth-guide.jpg",
+                    "assets/images/brand-strategy-deck.jpg",
+                    "assets/images/lightroom-presets.jpg",
+                    "assets/images/newsletter-signup.jpg"
+                ]
+            },
+            "projectVideos": {
+                "accuracy": "0%",
+                "feedback": [
+                    "No videos need in this template"
+                ],
+                "correct": ""
+            },
+            "projectBaseLibraries": {
+                "accuracy": "0%",
+                "feedback": [
+                    "These libraries are permanent by design.",
+                    "They must always be included in every template without exception."
+                ],
+                "correct": [
+                    "Bootstrap",
+                    "Bootstrap Bundle",
+                    "Bootstrap Icons",
+                    "Remix Icon",
+                    "jQuery",
+                    "jQuery UI",
+                    "jQuery Slim"
+                ]
+            },
+            "projectLibraries": {
+                "cssLibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                },
+                "jslibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "If a CSS library also provides a JS CDN, it should be auto-included.",
+                        "This ensures consistency between style and functionality."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                }
+            }
+        }
+    }
+}
