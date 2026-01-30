@@ -847,18 +847,10 @@
                 ],
                 "correct": [
                     "assets/images/logo.png",
-                    "assets/images/students-collaborating.jpg",
-                    "assets/images/mentor-helping-student.jpg",
-                    "assets/images/map-route.jpg",
-                    "assets/images/book-and-coffee.jpg",
-                    "assets/images/search-concept.jpg",
-                    "assets/images/devices.jpg",
-                    "assets/images/checklist.jpg",
-                    "assets/images/calendar.jpg",
-                    "assets/images/thumbs-up.jpg",
-                    "assets/images/react-native-mastery.jpg",
-                    "assets/images/data-science-pro.jpg",
-                    "assets/images/ux-ui-design-sprint.jpg",
+                    "assets/images/react.jpeg",
+                    "assets/images/data.jpg",
+                    "assets/images/hack.jpg",
+                    "assets/images/ui.jpg",
                     "assets/images/craft.png",
                     "assets/images/dribble.png",
                     "assets/images/facebook.png",
@@ -871,8 +863,8 @@
                     "assets/images/client-nokia.png",
                     "assets/images/client-restaurent.png",
                     "assets/images/client-rimmel.png",
-                    "assets/images/sarah-jenkins.jpg",
-                    "assets/images/david-chen.jpg"
+                    "assets/images/people.jpg",
+                    "assets/images/people2.jpg"
                 ]
             },
             "projectVideos": {

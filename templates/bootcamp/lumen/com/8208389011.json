@@ -848,22 +848,22 @@
                     "Visuals should align more closely with the project context."
                 ],
                 "correct": [
-                    "assets/images/logo.png",
-                    "assets/images/banner.jpg",
-                    "assets/images/partnerships.png",
-                    "assets/images/analytics.png",
-                    "assets/images/certificates.png",
+                    "assets/images/logo.svg",
+                    "assets/images/hero.jpeg",
+                    "assets/images/support.png",
+                    "assets/images/note.png",
+                    "assets/images/verified.png",
                     "assets/images/platform.png",
-                    "assets/images/client-adobe.svg",
-                    "assets/images/client-amazon.svg",
-                    "assets/images/client-apple.svg",
-                    "assets/images/client-cisco.svg",
-                    "assets/images/client-discovery.svg",
-                    "assets/images/client-ebay.svg",
-                    "assets/images/leadership.png",
-                    "assets/images/executives.png",
-                    "assets/images/cyber.png",
-                    "assets/images/strategy.png"
+                    "assets/images/client-abof.png",
+                    "assets/images/client-allsaints.png",
+                    "assets/images/client-lucubrate.png",
+                    "assets/images/client-nokia.png",
+                    "assets/images/client-restaurent.png",
+                    "assets/images/client-rimmel.png",
+                    "assets/images/ai.jpeg",
+                    "assets/images/strategic.jpeg",
+                    "assets/images/cyber.jpeg",
+                    "assets/images/ai2.jpeg"
                 ]
             },
             "projectVideos": {
