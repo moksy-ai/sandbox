@@ -519,7 +519,7 @@
                 "fonts": {
                     "accuracy": "0%",
                     "feedback": [
-                       "No font was provided"
+                        "No font was provided"
                     ],
                     "correct": {
                         "primaryFont": "Google Sans",
@@ -844,28 +844,25 @@
                 ],
                 "correct": [
                     "assets/images/logo.svg",
-                    "assets/images/workshop-mentor-avatar.png",
-                    "assets/images/ui-ux-student-progress.png",
-                    "assets/images/success-story-google-hire.png",
-                    "assets/images/partner-logo-craft.png",
-                    "assets/images/partner-logo-dribbble.png",
-                    "assets/images/partner-logo-facebook.png",
-                    "assets/images/partner-logo-google.png",
-                    "assets/images/partner-logo-linkedin.png",
-                    "assets/images/partner-logo-sketch.png",
-                    "assets/images/partner-logo-abof.png",
-                    "assets/images/partner-logo-allsaints.png",
-                    "assets/images/partner-logo-lucubrate.png",
-                    "assets/images/partner-logo-nokia.png",
-                    "assets/images/partner-logo-restaurant.png",
-                    "assets/images/partner-logo-rimmel.png",
-                    "assets/images/course-3d-motion-graphics.png",
-                    "assets/images/course-app-ui-mastery.png",
-                    "assets/images/course-chemical-engineering.png",
-                    "assets/images/course-content-strategy.png",
-                    "assets/images/testimonial-lauren-cox.png",
-                    "assets/images/testimonial-terry-fletcher.png",
-                    "assets/images/testimonial-john-doe.png"
+                    "assets/images/people.jpg",
+                    "assets/images/craft.png",
+                    "assets/images/dribble.png",
+                    "assets/images/facebook.png",
+                    "assets/images/google.png",
+                    "assets/images/in.png",
+                    "assets/images/sketch.png",
+                    "assets/images/client-abof.png",
+                    "assets/images/client-allsaints.png",
+                    "assets/images/client-lucubrate.png",
+                    "assets/images/client-nokia.png",
+                    "assets/images/client-restaurent.png",
+                    "assets/images/client-rimmel.png",
+                    "assets/images/3d.jpg",
+                    "assets/images/app.png",
+                    "assets/images/checmical.jpg",
+                    "assets/images/content.jpg",
+                    "assets/images/people-one.jpg",
+                    "assets/images/people-two.jpg"
                 ]
             },
             "projectVideos": {

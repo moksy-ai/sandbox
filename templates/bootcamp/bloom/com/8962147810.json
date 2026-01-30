@@ -566,320 +566,320 @@
                     "footers/funny"
                 ]
             },
-           "projectText": {
-        "Navigation": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": [
-                "Courses",
-                "Why Us",
-                "Faqs",
-                "Pricing"
-            ]
-        },
-        "Headline": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": [
-                "Get 50% Off Annual Pro Membership",
-                "Unlock Your Potential with Expert-Led Courses",
-                "Popular Classes",
-                "Why Learners Choose Us",
-                "Curated Assets",
-                "Creative Community",
-                "Project-Based",
-                "Industry Pros",
-                "Lifetime Access",
-                "Certification",
-                "Common Questions",
-                "Who is this platform for?",
-                "✅ Perfect For",
-                "❌ Not Ideal For",
-                "Flexible Pricing",
-                "Student Success Stories",
-                "Explore",
-                "Latest News",
-                "Stay Updated"
-            ]
-        },
-        "Paragraph": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": [
-                "Unlock unlimited access to over 2,000+ creative and tech courses for half the price.",
-                "*Offer expires soon. Valid for new subscribers only.",
-                "Join millions of learners mastering new skills in design, development, business, and more. Access high-quality content, learn at your own pace, and fast-track your career in the digital economy.",
-                "Get exclusive access to source files, high-res textures, and templates to speed up your workflow.",
-                "Join thousands of creatives sharing work, giving feedback, and networking in our private forums.",
-                "Forget boring lectures. Master new skills by building real-world projects for your portfolio.",
-                "Learn directly from top professionals working at leading tech and design companies.",
-                "Buy a course once and own it forever. Learn at your own pace, on your own schedule.",
-                "Earn a signed certificate of completion with every course to showcase your new skills on LinkedIn.",
-                "🎯 Career switchers building a portfolio",
-                "🆕 Creatives wanting to learn new tools",
-                "👥 Freelancers looking to increase rates",
-                "💡 Students supplementing their university studies",
-                "🌐 Digital nomads needing flexible schedules",
-                "⚡ People looking for \"get rich quick\" schemes",
-                "⏳ Those unwilling to do hands-on exercises",
-                "🔬 Learners who prefer only reading textbooks",
-                "🏃‍♂️ Anyone expecting mastery without practice",
-                "🤖 Passive listeners who won't engage with projects",
-                "Unlimited access to 200+ courses",
-                "Standard community support",
-                "Course completion certificates",
-                "HD video lessons",
-                "Access on mobile app",
-                "Cancel anytime",
-                "Access to full course catalog",
-                "Downloadable project files",
-                "Offline viewing mode",
-                "Priority instructor feedback",
-                "Exclusive live workshops",
-                "Portfolio reviews",
-                "5 User licenses included",
-                "Team progress analytics",
-                "Dedicated success manager",
-                "Custom learning paths",
-                "SSO Integration",
-                "API Access",
-                "See how our platform helps learners around the world acquire new skills and advance their careers.",
-                "The leading destination for creative and technical learning. Join our global community to master the skills of tomorrow, today.",
-                "24/7 Support Available",
-                "Subscribe to get course updates, special offers, and learning tips directly to your inbox.",
-                "Bloom Learning. All rights reserved."
-            ]
-        },
-        "Button": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": [
-                "Claim Offer",
-                "Login",
-                "Signup",
-                "Explore Courses",
-                "Add to cart",
-                "Join For Free",
-                "Start Your Free Trial",
-                "Start Free Trial",
-                "Go Pro",
-                "Contact Sales",
-                "Subscribe"
-            ]
-        },
-        "Footer-Nav": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": [
-                "All Courses",
-                "Teach with Us",
-                "Enterprise",
-                "Success Stories",
-                "Community",
-                "Help Center",
-                "Blog",
-                "Terms of Service",
-                "Privacy Policy"
-            ]
-        },
-        "People": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": [
-                "Sarah Jenkins",
-                "David Chen",
-                "Emily Ross"
-            ]
-        },
-        "Job": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": [
-                "UX Designer",
-                "Freelance Developer",
-                "Marketing Manager"
-            ]
-        },
-        "Announcement": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": [
-                "Flash Sale",
-                "Get 50% Off Annual Pro Membership",
-                "Unlock unlimited access to over 2,000+ creative and tech courses for half the price."
-            ]
-        },
-        "Testimonial": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": [
-                "The project-based curriculum was a game changer. I went from knowing nothing about design to building a full portfolio that landed me my first junior designer role in just 3 months.",
-                "The advanced React course is world-class. The instructors don't just teach syntax; they teach you how to think like a senior engineer and structure large-scale applications.",
-                "I love the flexibility. Being able to download lessons and watch them during my commute allows me to keep upskilling without disrupting my busy work schedule. Highly recommended!"
-            ]
-        },
-        "Product": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": [
-                "3D Animation Fundamentals",
-                "Mobile App UI/UX Design",
-                "Organic Chemistry Basics",
-                "Digital Content Strategy"
-            ]
-        },
-        "FAQs": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": [
-                "What categories do you cover?",
-                "We focus on creative and tech skills including 3D Modeling, Web Development, UX Design, Illustration, and Digital Marketing.",
-                "How does the subscription work?",
-                "You can purchase individual courses for lifetime access or subscribe to our Pro plan for unlimited access to the entire catalog.",
-                "Do I need special software?",
-                "Requirements vary by course. Most coding courses just need a browser, while design courses may require tools like Photoshop or Figma (trial versions often suffice).",
-                "Is access really unlimited?",
-                "Yes! Once you buy a course, it stays in your library forever. You can return to refresh your memory anytime.",
-                "Will I get a certificate?",
-                "Absolutely. Every course you complete awards a personalized certificate that you can attach to your CV or LinkedIn profile.",
-                "Is there student support?",
-                "Yes, each course has a Q&A section where instructors and community TAs answer your specific technical questions.",
-                "What is the refund policy?",
-                "We offer a \"no questions asked\" 30-day money-back guarantee. We want you to love what you learn.",
-                "Can I watch offline?",
-                "Yes, with our mobile app, you can download lessons and watch them during your commute or while traveling without internet."
-            ]
-        },
-        "Portfolio": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": []
-        },
-        "Pricing": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": [
-                "Starter",
-                "$29",
-                "Pro",
-                "$49",
-                "Team",
-                "$199"
-            ]
-        },
-        "Labels": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": [
-                "Flash Sale",
-                "Days",
-                "Hours",
-                "Minutes",
-                "Seconds",
-                "New",
-                "/mo"
-            ]
-        },
-        "Numbers": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": [
-                "02",
-                "14",
-                "35",
-                "10",
-                "$49.99",
-                "$64.99",
-                "$39.99",
-                "$54.99",
-                "$29",
-                "$49",
-                "$199"
-            ]
-        },
-        "Placeholder": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": []
-        },
-        "404": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": []
-        },
-        "Phone-Number": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": [
-                "(555) 123-4567"
-            ]
-        },
-        "Dates": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": []
-        },
-        "Email": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": []
-        },
-        "Icons": {
-            "accuracy": "0%",
-            "feedback": [
-                "they are missing project context"
-            ],
-            "correct": [
-                "fas fa-shopping-cart",
-                "fas fa-heart",
-                "fa fa-random",
-                "fa fa-eye",
-                "fa fa-phone",
-                "fas fa-clock",
-                "fa fa-arrow-right"
-            ]
-        }
-    },
+            "projectText": {
+                "Navigation": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Courses",
+                        "Why Us",
+                        "Faqs",
+                        "Pricing"
+                    ]
+                },
+                "Headline": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Get 50% Off Annual Pro Membership",
+                        "Unlock Your Potential with Expert-Led Courses",
+                        "Popular Classes",
+                        "Why Learners Choose Us",
+                        "Curated Assets",
+                        "Creative Community",
+                        "Project-Based",
+                        "Industry Pros",
+                        "Lifetime Access",
+                        "Certification",
+                        "Common Questions",
+                        "Who is this platform for?",
+                        "✅ Perfect For",
+                        "❌ Not Ideal For",
+                        "Flexible Pricing",
+                        "Student Success Stories",
+                        "Explore",
+                        "Latest News",
+                        "Stay Updated"
+                    ]
+                },
+                "Paragraph": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Unlock unlimited access to over 2,000+ creative and tech courses for half the price.",
+                        "*Offer expires soon. Valid for new subscribers only.",
+                        "Join millions of learners mastering new skills in design, development, business, and more. Access high-quality content, learn at your own pace, and fast-track your career in the digital economy.",
+                        "Get exclusive access to source files, high-res textures, and templates to speed up your workflow.",
+                        "Join thousands of creatives sharing work, giving feedback, and networking in our private forums.",
+                        "Forget boring lectures. Master new skills by building real-world projects for your portfolio.",
+                        "Learn directly from top professionals working at leading tech and design companies.",
+                        "Buy a course once and own it forever. Learn at your own pace, on your own schedule.",
+                        "Earn a signed certificate of completion with every course to showcase your new skills on LinkedIn.",
+                        "🎯 Career switchers building a portfolio",
+                        "🆕 Creatives wanting to learn new tools",
+                        "👥 Freelancers looking to increase rates",
+                        "💡 Students supplementing their university studies",
+                        "🌐 Digital nomads needing flexible schedules",
+                        "⚡ People looking for \"get rich quick\" schemes",
+                        "⏳ Those unwilling to do hands-on exercises",
+                        "🔬 Learners who prefer only reading textbooks",
+                        "🏃‍♂️ Anyone expecting mastery without practice",
+                        "🤖 Passive listeners who won't engage with projects",
+                        "Unlimited access to 200+ courses",
+                        "Standard community support",
+                        "Course completion certificates",
+                        "HD video lessons",
+                        "Access on mobile app",
+                        "Cancel anytime",
+                        "Access to full course catalog",
+                        "Downloadable project files",
+                        "Offline viewing mode",
+                        "Priority instructor feedback",
+                        "Exclusive live workshops",
+                        "Portfolio reviews",
+                        "5 User licenses included",
+                        "Team progress analytics",
+                        "Dedicated success manager",
+                        "Custom learning paths",
+                        "SSO Integration",
+                        "API Access",
+                        "See how our platform helps learners around the world acquire new skills and advance their careers.",
+                        "The leading destination for creative and technical learning. Join our global community to master the skills of tomorrow, today.",
+                        "24/7 Support Available",
+                        "Subscribe to get course updates, special offers, and learning tips directly to your inbox.",
+                        "Bloom Learning. All rights reserved."
+                    ]
+                },
+                "Button": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Claim Offer",
+                        "Login",
+                        "Signup",
+                        "Explore Courses",
+                        "Add to cart",
+                        "Join For Free",
+                        "Start Your Free Trial",
+                        "Start Free Trial",
+                        "Go Pro",
+                        "Contact Sales",
+                        "Subscribe"
+                    ]
+                },
+                "Footer-Nav": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "All Courses",
+                        "Teach with Us",
+                        "Enterprise",
+                        "Success Stories",
+                        "Community",
+                        "Help Center",
+                        "Blog",
+                        "Terms of Service",
+                        "Privacy Policy"
+                    ]
+                },
+                "People": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Sarah Jenkins",
+                        "David Chen",
+                        "Emily Ross"
+                    ]
+                },
+                "Job": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "UX Designer",
+                        "Freelance Developer",
+                        "Marketing Manager"
+                    ]
+                },
+                "Announcement": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Flash Sale",
+                        "Get 50% Off Annual Pro Membership",
+                        "Unlock unlimited access to over 2,000+ creative and tech courses for half the price."
+                    ]
+                },
+                "Testimonial": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "The project-based curriculum was a game changer. I went from knowing nothing about design to building a full portfolio that landed me my first junior designer role in just 3 months.",
+                        "The advanced React course is world-class. The instructors don't just teach syntax; they teach you how to think like a senior engineer and structure large-scale applications.",
+                        "I love the flexibility. Being able to download lessons and watch them during my commute allows me to keep upskilling without disrupting my busy work schedule. Highly recommended!"
+                    ]
+                },
+                "Product": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "3D Animation Fundamentals",
+                        "Mobile App UI/UX Design",
+                        "Organic Chemistry Basics",
+                        "Digital Content Strategy"
+                    ]
+                },
+                "FAQs": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "What categories do you cover?",
+                        "We focus on creative and tech skills including 3D Modeling, Web Development, UX Design, Illustration, and Digital Marketing.",
+                        "How does the subscription work?",
+                        "You can purchase individual courses for lifetime access or subscribe to our Pro plan for unlimited access to the entire catalog.",
+                        "Do I need special software?",
+                        "Requirements vary by course. Most coding courses just need a browser, while design courses may require tools like Photoshop or Figma (trial versions often suffice).",
+                        "Is access really unlimited?",
+                        "Yes! Once you buy a course, it stays in your library forever. You can return to refresh your memory anytime.",
+                        "Will I get a certificate?",
+                        "Absolutely. Every course you complete awards a personalized certificate that you can attach to your CV or LinkedIn profile.",
+                        "Is there student support?",
+                        "Yes, each course has a Q&A section where instructors and community TAs answer your specific technical questions.",
+                        "What is the refund policy?",
+                        "We offer a \"no questions asked\" 30-day money-back guarantee. We want you to love what you learn.",
+                        "Can I watch offline?",
+                        "Yes, with our mobile app, you can download lessons and watch them during your commute or while traveling without internet."
+                    ]
+                },
+                "Portfolio": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Pricing": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Starter",
+                        "$29",
+                        "Pro",
+                        "$49",
+                        "Team",
+                        "$199"
+                    ]
+                },
+                "Labels": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Flash Sale",
+                        "Days",
+                        "Hours",
+                        "Minutes",
+                        "Seconds",
+                        "New",
+                        "/mo"
+                    ]
+                },
+                "Numbers": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "02",
+                        "14",
+                        "35",
+                        "10",
+                        "$49.99",
+                        "$64.99",
+                        "$39.99",
+                        "$54.99",
+                        "$29",
+                        "$49",
+                        "$199"
+                    ]
+                },
+                "Placeholder": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "404": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Phone-Number": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "(555) 123-4567"
+                    ]
+                },
+                "Dates": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Email": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Icons": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "fas fa-shopping-cart",
+                        "fas fa-heart",
+                        "fa fa-random",
+                        "fa fa-eye",
+                        "fa fa-phone",
+                        "fas fa-clock",
+                        "fa fa-arrow-right"
+                    ]
+                }
+            },
             "projectImages": {
                 "accuracy": "0%",
                 "feedback": [
@@ -887,7 +887,24 @@
                     "New images need to be added for better coverage.",
                     "Visuals should align more closely with the project context."
                 ],
-                "correct": []
+                "correct": [
+                    "assets/images/logo.png",
+                    "assets/images/animation.jpg",
+                    "assets/images/app-design.jpg",
+                    "assets/images/chemistry.jpg",
+                    "assets/images/content-creation.jpg",
+                    "assets/images/resources.png",
+                    "assets/images/group-chat.png",
+                    "assets/images/funnel.png",
+                    "assets/images/teachers-day.png",
+                    "assets/images/flexible.png",
+                    "assets/images/elearning-two.png",
+                    "assets/images/education-four.svg",
+                    "assets/images/people-one.jpg",
+                    "assets/images/people-two.jpg",
+                    "assets/images/people-three.jpg",
+                    "assets/images/logo2.png"
+                ]
             },
             "projectVideos": {
                 "accuracy": "0%",
