@@ -390,20 +390,20 @@
                 "projectLayoutsKeywords": {
                     "accuracy": "0%",
                     "feedback": [
-                        " List contained nouns instead of layout-descriptive adjectives.",
+                        "List contained nouns instead of layout-descriptive adjectives.",
                         "Missed key layout attributes like 'conversion-focused' and 'user-centric'."
                     ],
                     "correct": {
                         "Guide": 10,
-  "Focus": 10,
-  "Commerce": 9,
-  "Topic": 8,
-  "Journey": 7,
-  "Trust": 6,
-  "Endorse": 5,
-  "Help": 4,
-  "Engage": 3,
-  "Anchor": 2
+                        "Focus": 10,
+                        "Commerce": 9,
+                        "Topic": 8,
+                        "Journey": 7,
+                        "Trust": 6,
+                        "Endorse": 5,
+                        "Help": 4,
+                        "Engage": 3,
+                        "Anchor": 2
                     }
                 },
                 "projectTextsKeywords": {
@@ -555,8 +555,8 @@
             "projectLayout": {
                 "accuracy": "0%",
                 "feedback": [
-                    " The selected layout components do not align well with the project's educational and career-focused goals.",
-                    " The layout should better reflect the professional and motivational theme of the project."
+                    "The selected layout components do not align well with the project's educational and career-focused goals.",
+                    "The layout should better reflect the professional and motivational theme of the project."
                 ],
                 "correct": [
                     "navbar/nuance",
@@ -833,13 +833,22 @@
                 ],
                 "correct": [
                     "assets/images/logo.png",
-                    "assets/images/logo1.png",
+                    "assets/images/coding.jpeg",
+                    "assets/images/react.png",
+                    "assets/images/python.jpeg",
+                    "assets/images/data.jpeg",
+                    "assets/images/ai.jpeg",
+                    "assets/images/ui.jpeg",
+                    "assets/images/figma.png",
+                    "assets/images/project.jpeg",
+                    "assets/images/graph.jpeg",
                     "assets/images/client-houston.png",
                     "assets/images/client-oxford.png",
                     "assets/images/client-plymouth.png",
                     "assets/images/play-store.png",
                     "assets/images/app-store.png",
-                    "assets/images/phone-two.png"
+                    "assets/images/phone-two.png",
+                    "assets/images/logo1.png"
                 ]
             },
             "projectVideos": {

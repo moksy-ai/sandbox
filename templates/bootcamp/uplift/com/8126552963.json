@@ -819,12 +819,22 @@
                     "assets/images/math.png",
                     "assets/images/organizational.png",
                     "assets/images/pathways.png",
+                    "assets/images/project.png",
                     "assets/images/client-restaurent.png",
                     "assets/images/client-abof.png",
                     "assets/images/client-lilly.png",
                     "assets/images/client-lucubrate.png",
                     "assets/images/animation.jpg",
-                    "assets/images/demo.svg"
+                    "assets/images/web-development.jpeg",
+                    "assets/images/app-design.jpg",
+                    "assets/images/chemistry.jpg",
+                    "assets/images/content-creation.jpg",
+                    "assets/images/demo.svg",
+                    "assets/images/people-one.jpg",
+                    "assets/images/people-two.jpg",
+                    "assets/images/phone.png",
+                    "assets/images/email.png",
+                    "assets/images/location.png"
                 ]
             },
             "projectVideos": {

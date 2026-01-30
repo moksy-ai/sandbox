@@ -653,6 +653,13 @@
                         "Cloud Architect"
                     ]
                 },
+                "Announcement": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
                 "Testimonial": {
                     "accuracy": "0%",
                     "feedback": [
@@ -678,6 +685,20 @@
                         "Advanced Chemistry",
                         "Digital Content Creation"
                     ]
+                },
+                "FAQs": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Portfolio": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
                 },
                 "Pricing": {
                     "accuracy": "0%",
@@ -769,6 +790,20 @@
                         "$81.99"
                     ]
                 },
+                "Placeholder": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "404": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
                 "Phone-Number": {
                     "accuracy": "0%",
                     "feedback": [
@@ -830,8 +865,30 @@
                     "Visuals should align more closely with the project context."
                 ],
                 "correct": [
-                    "assets/images/EdTech.jpg",
-                    "assets/images/logo.png"
+                    "assets/images/logo.png",
+                    "assets/images/animation.jpg",
+                    "assets/images/app-design.jpg",
+                    "assets/images/chemistry.jpg",
+                    "assets/images/content-creation.jpg",
+                    "assets/images/client-adobe.svg",
+                    "assets/images/client-amazon.svg",
+                    "assets/images/client-apple.svg",
+                    "assets/images/client-cisco.svg",
+                    "assets/images/client-discovery.svg",
+                    "assets/images/client-ebay.svg",
+                    "assets/images/client-ibm.svg",
+                    "assets/images/client-intel.svg",
+                    "assets/images/client-orange.svg",
+                    "assets/images/client-panasonic.svg",
+                    "assets/images/people-one.jpg",
+                    "assets/images/people-two.jpg",
+                    "assets/images/people-one.png",
+                    "assets/images/people-nine.png",
+                    "assets/images/people-nine.jpeg",
+                    "assets/images/certificate.jpg",
+                    "assets/images/flexible.png",
+                    "assets/images/brainstorming.png",
+                    "assets/images/collaborative-projects.png"
                 ]
             },
             "projectVideos": {

@@ -49,7 +49,7 @@
     clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
     transition: clip-path 0.3s ease;
     min-height: 350px;
-    background-image: url(https://images.moksy.com/templates/default/hero/about.png);
+    background-image: url(../images/hero-banner.png);
     background-position: center;
     background-size: cover;
 }
@@ -133,23 +133,23 @@
 }
 
 .pennyProduct #product-1 .part-1::before {
-    background: url("https://images.moksy.com/templates/default/courses/video-editing.jpg") no-repeat center;
+    background: url("../images/video-editing.jpg") no-repeat center;
     background-size: cover;
     transition: all 0.3s;
 }
 
 .pennyProduct #product-2 .part-1::before {
-    background: url("https://images.moksy.com/templates/default/courses/wireframe.jpg") no-repeat center;
+    background: url("../images/wireframe.jpg") no-repeat center;
     background-size: cover;
 }
 
 .pennyProduct #product-3 .part-1::before {
-    background: url("https://images.moksy.com/templates/default/courses/web-development.jpeg") no-repeat center;
+    background: url("../images/web-development.jpeg") no-repeat center;
     background-size: cover;
 }
 
 .pennyProduct #product-4 .part-1::before {
-    background: url("https://images.moksy.com/templates/default/courses/pyton.jpeg") no-repeat center;
+    background: url("../images/pyton.jpeg") no-repeat center;
     background-size: cover;
 }
 
@@ -494,15 +494,15 @@
 }
 
 .bobBlog .BGIMG1 {
-    background-image: url(https://images.moksy.com/templates/default/blog/coding.jpg);
+    background-image: url(../images/coding.jpg);
 }
 
 .bobBlog .BGIMG2 {
-    background-image: url(https://images.moksy.com/templates/default/blog/design.jpg);
+    background-image: url(../images/design.jpg);
 }
 
 .bobBlog .BGIMG3 {
-    background-image: url(https://images.moksy.com/templates/default/blog/marketing.jpg);
+    background-image: url(../images/marketing.jpg);
 }
 
 .bobBlog .blog-category {

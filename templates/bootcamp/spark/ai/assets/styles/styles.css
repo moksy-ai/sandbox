@@ -108,27 +108,27 @@
 
 /* Assign background images to panels */
 .colixCarousel .panel:nth-of-type(1) {
-    background-image: url('https://images.moksy.com/templates/default/general/class.jpg');
+    background-image: url('../images/class.jpg');
 }
 
 .colixCarousel .panel:nth-of-type(2) {
-    background-image: url('https://images.moksy.com/templates/default/general/student-four.jpg');
+    background-image: url('../images/student-four.jpg');
 }
 
 .colixCarousel .panel:nth-of-type(3) {
-    background-image: url('https://images.moksy.com/templates/default/general/student-three.jpg');
+    background-image: url('../images/student-three.jpg');
 }
 
 .colixCarousel .panel:nth-of-type(4) {
-    background-image: url('https://images.moksy.com/templates/default/general/student-two.jpg');
+    background-image: url('../images/student-two.jpg');
 }
 
 .colixCarousel .panel:nth-of-type(5) {
-    background-image: url('https://images.moksy.com/templates/default/general/student.jpg');
+    background-image: url('../images/student.jpg');
 }
 
 .colixCarousel .panel:nth-of-type(6) {
-    background-image: url('https://images.moksy.com/templates/default/general/ai.jpg');
+    background-image: url('../images/ai.jpg');
 }
 
 .colixCarousel .panel.active {
@@ -217,23 +217,23 @@
 }
 
 .pennyProduct #product-1 .part-1::before {
-    background: url("https://images.moksy.com/templates/default/courses/video-editing.jpg") no-repeat center;
+    background: url("../images/video-editing.jpg") no-repeat center;
     background-size: cover;
     transition: all 0.3s;
 }
 
 .pennyProduct #product-2 .part-1::before {
-    background: url("https://images.moksy.com/templates/default/courses/wireframe.jpg") no-repeat center;
+    background: url("../images/wireframe.jpg") no-repeat center;
     background-size: cover;
 }
 
 .pennyProduct #product-3 .part-1::before {
-    background: url("https://images.moksy.com/templates/default/courses/web-development.jpeg") no-repeat center;
+    background: url("../images/web-development.jpeg") no-repeat center;
     background-size: cover;
 }
 
 .pennyProduct #product-4 .part-1::before {
-    background: url("https://images.moksy.com/templates/default/courses/pyton.jpeg") no-repeat center;
+    background: url("../images/pyton.jpeg") no-repeat center;
     background-size: cover;
 }
 
