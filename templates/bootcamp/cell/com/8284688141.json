@@ -883,15 +883,14 @@
                 ],
                 "correct": [
                     "assets/images/logo.svg",
-                    "assets/images/student-learning-on-tablet.jpg",
-                    "assets/images/sarah-j.jpg",
-                    "assets/images/david-r.jpg",
-                    "assets/images/emily.jpg",
-                    "assets/images/python-for-kids.jpg",
-                    "assets/images/digital-art-basics.jpg",
-                    "assets/images/math-wizards.jpg",
-                    "assets/images/public-speaking.jpg",
-                    "assets/images/logo.svg"
+                    "assets/images/cell.jpg",
+                    "assets/images/people-one.jpg",
+                    "assets/images/people-two.jpg",
+                    "assets/images/people-nine.jpeg",
+                    "assets/images/python.jpg",
+                    "assets/images/art.jpg",
+                    "assets/images/math.jpeg",
+                    "assets/images/public.jpg"
                 ]
             },
             "projectVideos": {
