@@ -1,0 +1,915 @@
+{
+    "projectRequirements": {
+        "userid": "87ca5aefe7183d3c6b9e208dbb174e4b",
+        "projectId": 3161554633,
+        "projectName": "Teacher",
+        "projectIndustry": "EdTech",
+        "projectSubIndustry": "Institutional Partnerships",
+        "projectType": "MOOC",
+        "projectPurpose": "Lead Generation & promoting solutions to educational entities",
+        "projectAudience": "Educators, school administrators, institutional decision-makers",
+        "projectTags": "Corporate,Education,Professional,Navy,Clean,Institutional,Educators,B2B,Landing,Trust",
+        "projectExamples": "Instructure",
+        "projectTheme": "Authoritative, Stable, Reliable",
+        "projectKeywords": {
+            "projectKeywords": {
+                "keywords": {
+                    "institutional": 7.7,
+                    "educators": 6.3,
+                    "certification": 4.3,
+                    "community": 4.3,
+                    "online": 4.3,
+                    "massive": 4.3,
+                    "mooc": 4.3,
+                    "professional": 3.7,
+                    "navy": 3.7,
+                    "clean": 3.7
+                },
+                "accuracy": "8%"
+            },
+            "projectFontsKeywords": {
+                "keywords": {
+                    "professional": 10,
+                    "clean": 10,
+                    "corporate": 3.3,
+                    "modern": 1.6,
+                    "sans-serif": 1.1,
+                    "minimal": 0.9,
+                    "tech": 0.9,
+                    "neutral": 0.8,
+                    "ui-friendly": 0.8,
+                    "bold": 0.7
+                },
+                "accuracy": "2.9%"
+            },
+            "projectColorsKeywords": {
+                "keywords": {
+                    "trust": 10,
+                    "corporate": 10,
+                    "professional": 10,
+                    "clean": 9.5,
+                    "stable": 3.6,
+                    "modern": 1.4,
+                    "premium": 1.3,
+                    "wellness": 1.2,
+                    "saas": 1.1,
+                    "clarity": 0.9
+                },
+                "accuracy": "3%"
+            },
+            "projectBrandAssetsKeywords": {
+                "keywords": {
+                    "institutional": 5,
+                    "educators": 4,
+                    "corporate": 3,
+                    "professional": 3,
+                    "community": 3,
+                    "online": 3,
+                    "massive": 3,
+                    "mooc": 3,
+                    "certification": 3,
+                    "landing": 3
+                },
+                "accuracy": "2%"
+            },
+            "projectThemeKeywords": {
+                "keywords": {
+                    "institutional": 5,
+                    "educators": 4,
+                    "corporate": 3,
+                    "professional": 3,
+                    "community": 3,
+                    "online": 3,
+                    "massive": 3,
+                    "mooc": 3,
+                    "certification": 3,
+                    "landing": 3
+                },
+                "accuracy": "2%"
+            },
+            "projectLayoutsKeywords": {
+                "keywords": {
+                    "pricing": 10,
+                    "testimonials": 10,
+                    "cta": 10,
+                    "institutional": 5,
+                    "educators": 4,
+                    "corporate": 3,
+                    "professional": 3,
+                    "community": 3,
+                    "online": 3,
+                    "massive": 3
+                },
+                "accuracy": "20%"
+            },
+            "projectTextsKeywords": {
+                "keywords": {
+                    "professional": 10,
+                    "clear": 10,
+                    "engaging": 10,
+                    "institutional": 5,
+                    "educators": 4,
+                    "corporate": 3,
+                    "navy": 3,
+                    "community": 3,
+                    "online": 3,
+                    "massive": 3
+                },
+                "accuracy": "20%"
+            },
+            "projectImagesKeywords": {
+                "keywords": {
+                    "professional": 8.6,
+                    "corporate": 7.3,
+                    "school": 4.6,
+                    "trust": 1.8,
+                    "office": 1.5,
+                    "clean": 1.4,
+                    "education": 1.3,
+                    "technology": 1.2,
+                    "teamwork": 1.1,
+                    "design": 1
+                },
+                "accuracy": "0.4%"
+            },
+            "projectVideosKeywords": {
+                "keywords": {
+                    "corporate": 10,
+                    "webinar": 2.6,
+                    "presentation": 2.6,
+                    "case": 2.4,
+                    "training": 1.7,
+                    "trust": 1.4,
+                    "clean": 1.4,
+                    "mooc": 1.4,
+                    "professional": 1.4,
+                    "learning": 1.2
+                },
+                "accuracy": "0.8%"
+            },
+            "projectBaseLibrariesKeywords": {
+                "keywords": {
+                    "frontend": 3.5,
+                    "spa": 2.5,
+                    "performance": 2,
+                    "lightweight": 2,
+                    "animation": 2,
+                    "legacy": 1.5,
+                    "components": 1.5,
+                    "react": 1.5,
+                    "reactive": 1.5,
+                    "modular": 1.5
+                },
+                "accuracy": "0%"
+            },
+            "projectSupportLibrariesKeywords": {
+                "keywords": {
+                    "frontend": 2.5,
+                    "spa": 2.5,
+                    "performance": 2,
+                    "lightweight": 2,
+                    "animation": 2,
+                    "legacy": 1.5,
+                    "components": 1.5,
+                    "react": 1.5,
+                    "reactive": 1.5,
+                    "routing": 1.5
+                },
+                "accuracy": "0%"
+            }
+        }
+    },
+    "projectInfo": {
+        "projectBranding": {
+            "fonts": {
+                "primaryFonts": "",
+                "secondaryFonts": "",
+                "thirdFonts": "",
+                "defaultFonts": ""
+            },
+            "colors": {
+                "primaryColor": "",
+                "secondaryColor": "",
+                "thirdColor": "",
+                "defaultColor": ""
+            }
+        },
+        "projectTheme": "",
+        "projectBrandingAssets": "lightbulb",
+        "projectLayout": [
+            "navbar\/nudge",
+            "hero\/hoist",
+            "overview",
+            "products\/paize",
+            "steps\/summer",
+            "features\/francis",
+            "clients\/calvo",
+            "certification",
+            "whyus",
+            "testimonials\/taylor",
+            "download\/dalix",
+            "products\/paize",
+            "community",
+            "faqs\/feign",
+            "content\/ceter",
+            "clients\/calvo",
+            "subscribe\/semor",
+            "cta\/cerry",
+            "footers\/flows"
+        ],
+        "projectText": [],
+        "projectImages": [
+            "url\/success\/green-dart-in-bullseye.jpg"
+        ],
+        "projectVideos": [],
+        "projectBaseLibraries": [],
+        "projectLibraries": {
+            "cssLibraries": [],
+            "jslibraries": []
+        }
+    },
+    "projectReviews": {
+        "projectRequirements": {
+            "userid": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "87ca5aefe7183d3c6b9e208dbb174e4b"
+            },
+            "projectId": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "3161554633"
+            },
+            "projectName": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "3161554633"
+            },
+            "projectIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "EdTech"
+            },
+            "projectSubIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "Institutional Partnerships"
+            },
+            "projectType": {
+                "accuracy": "100%",
+                "feedback": "Commonly searched training type",
+                "correct": "MOOC"
+            },
+            "projectPurpose": {
+                "accuracy": "100%",
+                "feedback": "Clearly outlined what the user actually wants",
+                "correct": "Lead Generation & promoting solutions to educational entities"
+            },
+            "projectAudience": {
+                "accuracy": "100%",
+                "feedback": "Well-defined target audience",
+                "correct": "Educators, school administrators, institutional decision-makers"
+            },
+            "projectTags": {
+                "accuracy": "100%",
+                "feedback": "Well-defined tags",
+                "correct": "Corporate,Education,Professional,Navy,Clean,Institutional,Educators,B2B,Landing,Trust"
+            },
+            "projectExamples": {
+                "accuracy": "100%",
+                "feedback": "Good example",
+                "correct": "Instructure"
+            },
+            "projectTheme": {
+                "accuracy": "100%",
+                "feedback": "Well-defined theme",
+                "correct": "Authoritative, Stable, Reliable"
+            },
+            "projectKeywords": {
+                "projectKeywords": {
+                    "accuracy": "40%",
+                    "feedback": [
+                        "Several previous keywords like mooc, massive, and online were too specific to course delivery rather than the core purpose of B2B lead generation.",
+                        "The inclusion of certification and community lacked direct alignment with the goal of promoting solutions to decision-makers.",
+                        "The previous weights used prohibited fractional numbers, which were explicitly requested to be avoided in the current logic.",
+                        "The old list missed the sales and lead aspect entirely, focusing more on the student experience than the institutional buyer. "
+                    ],
+                    "correct": {
+                        "institutional": 10,
+                        "administration": 9,
+                        "solutions": 9,
+                        "corporate": 8,
+                        "b2b": 8,
+                        "professional": 7,
+                        "trust": 7,
+                        "navy": 6,
+                        "clean": 6,
+                        "leads": 5
+                    }
+                },
+                "projectFontsKeywords": {
+                    "accuracy": "20%",
+                    "feedback": [
+                        "Old tags ignored the Lora font characteristics entirely.",
+                        "Previous weights used prohibited fractional numbers.",
+                        "Failed to represent the primary font's geometric identity."
+                    ],
+                    "correct": {
+                        "modern": 10,
+                        "geometric": 9,
+                        "versatile": 8,
+                        "clean": 8,
+                        "dynamic": 7,
+                        "elegant": 10,
+                        "serif": 9,
+                        "classic": 8,
+                        "literary": 8,
+                        "sophisticated": 7
+                    }
+                },
+                "projectColorsKeywords": {
+                    "accuracy": "30%",
+                    "feedback": [
+                        "Old weights used invalid fractional numbers.",
+                        "Wellness tag was irrelevant to this corporate palette.",
+                        "Previous list failed to capture the primary color's lightness."
+                    ],
+                    "correct": {
+                        "airy": 10,
+                        "pristine": 9,
+                        "neutral": 8,
+                        "minimalist": 8,
+                        "authoritative": 10,
+                        "profound": 9,
+                        "infinite": 8,
+                        "reliable": 10,
+                        "institutional": 9,
+                        "steadfast": 8
+                    }
+                },
+                "projectBrandAssetsKeywords": {
+                    "accuracy": "30%",
+                    "feedback": [
+                        "Old list focused on business models, not visual attributes.",
+                        "Previous weights failed to emphasize the digital-first nature.",
+                        "The term 'massive' doesn't reflect this personalized icon style."
+                    ],
+                    "correct": {
+                        "virtual": 10,
+                        "educational": 10,
+                        "interactive": 9,
+                        "digital": 9,
+                        "accessible": 8,
+                        "mentorship": 8,
+                        "academic": 7,
+                        "instructional": 7,
+                        "simplified": 6,
+                        "modern": 6
+                    }
+                },
+                "projectThemeKeywords": {
+                    "accuracy": "20%",
+                    "feedback": [
+                        "Old keywords focused on industry nouns rather than thematic adjectives.",
+                        "Previous list completely missed the core theme of stability.",
+                        "The weights failed to reflect the requested authoritative hierarchy."
+                    ],
+                    "correct": {
+                        "authoritative": 10,
+                        "stable": 10,
+                        "reliable": 10,
+                        "trustworthy": 9,
+                        "prestigious": 9,
+                        "established": 8,
+                        "secure": 8,
+                        "steadfast": 7,
+                        "consistent": 7,
+                        "formal": 6
+                    }
+                },
+                "projectLayoutsKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Old tags used section names instead of category keywords.",
+                        "Weights failed to follow the requested 1-10 integer logic.",
+                        "Industry nouns like 'massive' do not define layout mapping."
+                    ],
+                    "correct": {
+                        "guide": 10,
+                        "focus": 10,
+                        "metrics": 8,
+                        "offer": 9,
+                        "sample": 7,
+                        "topic": 8,
+                        "value": 9,
+                        "trust": 9,
+                        "help": 7,
+                        "anchor": 10
+                    }
+                },
+                "projectTextsKeywords": {
+                    "accuracy": "20%",
+                    "feedback": [
+                        "Previous list included nouns like navy instead of adjectives.",
+                        "Old weights failed to prioritize high-intent lead generation language.",
+                        "Content feel was lost to generic industry descriptors."
+                    ],
+                    "correct": {
+                        "authoritative": 10,
+                        "persuasive": 10,
+                        "educational": 9,
+                        "strategic": 9,
+                        "professional": 8,
+                        "collaborative": 8,
+                        "visionary": 7,
+                        "systematic": 7,
+                        "reliable": 6,
+                        "concise": 6
+                    }
+                },
+                "projectImagesKeywords": {
+                    "accuracy": "30%",
+                    "feedback": [
+                        "Previous weights used prohibited fractional numbers.",
+                        "Nouns like office and school failed adjective-only requirement.",
+                        "Old list lacked the requested authoritative and stable tone."
+                    ],
+                    "correct": {
+                        "authoritative": 10,
+                        "institutional": 10,
+                        "sophisticated": 9,
+                        "trustworthy": 9,
+                        "collaborative": 8,
+                        "academic": 8,
+                        "polished": 7,
+                        "authentic": 7,
+                        "visionary": 6,
+                        "orderly": 6
+                    }
+                },
+                "projectVideosKeywords": {
+                    "accuracy": "20%",
+                    "feedback": [
+                        "Old list used nouns instead of required adjectives.",
+                        "Previous weights utilized prohibited fractional numbers.",
+                        "Webinar and training labels failed to capture authoritative style."
+                    ],
+                    "correct": {
+                        "authoritative": 10,
+                        "cinematic": 10,
+                        "professional": 9,
+                        "inspiring": 9,
+                        "credible": 8,
+                        "educational": 8,
+                        "stable": 7,
+                        "polished": 7,
+                        "authentic": 6,
+                        "minimalist": 6
+                    }
+                },
+                "projectBaseLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        [
+                            "Keywords must reliably trigger selection of all mandatory base libraries.",
+                            "Use clear, canonical triggers (e.g., grid, forms, icons) instead of vague terms.",
+                            "Prioritise must-have libraries with higher weights and strict serial ordering.",
+                            "Remove filler/ambiguous words to avoid missing required base libraries.",
+                            "Add a fallback rule to auto-include core libraries if any trigger is absent."
+                        ]
+                    ],
+                    "correct": {
+                        "modern": 10,
+                        "responsive": 9,
+                        "frontend": 9,
+                        "components": 8,
+                        "grid": 8,
+                        "spa": 7,
+                        "widgets": 6,
+                        "icons": 6,
+                        "lightweight": 5,
+                        "performance": 5
+                    }
+                },
+                "projectSupportLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips.",
+                        "we can add another libraries if needed"
+                    ],
+                    "correct": {
+                        "animation": 10,
+                        "scroll": 9,
+                        "effects": 9,
+                        "motion": 8,
+                        "transition": 8,
+                        "interactive": 7,
+                        "visuals": 7,
+                        "dynamic": 6,
+                        "responsive": 6,
+                        "enhancement": 5
+                    }
+                }
+            }
+        },
+        "projectInfo": {
+            "projectBranding": {
+                "fonts": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "No font was selected"
+                    ],
+                    "correct": {
+                        "primaryFont": "Plus Jakarta Sans",
+                        "secondaryFont": "Lora"
+                    }
+                },
+                "colors": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "No color was selected"
+                    ],
+                    "correct": {
+                        "primaryColor": "#F4F6F8",
+                        "secondaryColor": "#061C30",
+                        "tertiaryColor": "#003F66"
+                    }
+                }
+            },
+            "projectTheme": {
+                "accuracy": "0%",
+                "feedback": [
+                    "No theme was selected"
+                ],
+                "correct": "flat-light"
+            },
+            "projectBrandingAssets": {
+                "accuracy": "0%",
+                "feedback": [
+                    "Wrong font selected"
+                ],
+                "correct": "online-class"
+            },
+            "projectLayout": {
+                "accuracy": "0%",
+                "feedback": [
+                    "Layout is very random",
+                    "No proper snippet flow",
+                    "snippets are missing"
+                ],
+                "correct": [
+                    "navbar/null",
+                    "hero/hope",
+                    "counters/county",
+                    "services/samon",
+                    "preview/pearl",
+                    "categories/caravan",
+                    "products/pasion",
+                    "testimonials/texor",
+                    "faqs/foul",
+                    "footers/footers"
+                ]
+            },
+            "projectText": {
+                "Navigation": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Solutions",
+                        "Showcases",
+                        "Programs",
+                        "Login"
+                    ]
+                },
+                "Headline": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Face the Challenges of Tomorrow",
+                        "Institutional Solutions",
+                        "Institutional Showcases",
+                        "Explore Our Solutions Ecosystem",
+                        "Institutional Learning Programs",
+                        "Partner Testimonials",
+                        "Support & FAQs"
+                    ]
+                },
+                "Paragraph": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "We provide scalable EdTech solutions and strategic frameworks designed for educators and academic institutions. Streamline your learning ecosystem with professional-grade tools tailored for modern pedagogy and institutional success.",
+                        "We bridge the gap between technology and education by offering professional services that empower educators and streamline administrative operations for schools and universities.",
+                        "See how global institutions are leveraging our professional platform to revolutionize the learning experience.",
+                        "Specialized frameworks and digital tools designed to empower every level of the educational institution."
+                    ]
+                },
+                "Button": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Get Started",
+                        "Partner With Us",
+                        "Explore Institutional Packages",
+                        "View Educator Solutions",
+                        "View Higher Ed Tools",
+                        "View Corporate Services",
+                        "View Admin Strategy",
+                        "Register Seat"
+                    ]
+                },
+                "Footer-Nav": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "K-12 Education",
+                        "Higher Education",
+                        "Corporate Learning",
+                        "Partner Ecosystem",
+                        "Case Studies",
+                        "Webinars",
+                        "Digital Pedagogy",
+                        "Help Center",
+                        "Privacy Policy",
+                        "Security Standards",
+                        "Terms of Service",
+                        "Compliance",
+                        "About Us",
+                        "Careers",
+                        "Contact Sales",
+                        "Newsroom"
+                    ]
+                },
+                "People": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Dr. Sarah Jenkins",
+                        "Michael Ross",
+                        "Elena Rodriguez"
+                    ]
+                },
+                "Job": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Academic Dean",
+                        "CTO",
+                        "School Administrator"
+                    ]
+                },
+                "Announcement": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "B2B Early Access",
+                        "Hot"
+                    ]
+                },
+                "Testimonial": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "The institutional integration was seamless. Our faculty has seen a marked increase in engagement through the digital pedagogy framework.",
+                        "Scale and security were our primary concerns. This platform provided the enterprise-grade infrastructure we required for global operations.",
+                        "The professional analytics dashboards have transformed how we measure student outcomes and administrative efficiency."
+                    ]
+                },
+                "Product": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Strategic Leadership",
+                        "Digital Pedagogy",
+                        "Research Methodologies",
+                        "Data Governance"
+                    ]
+                },
+                "FAQs": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Are there bulk institutional licenses?",
+                        "Is the platform FERPA/GDPR compliant?",
+                        "Can we integrate our existing tools?",
+                        "Do you provide faculty training?"
+                    ]
+                },
+                "Portfolio": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Higher Ed Frameworks",
+                        "K-12 Digital Strategy",
+                        "Corporate Upskilling",
+                        "Administrative Growth"
+                    ]
+                },
+                "Pricing": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "Institutional License Only",
+                        "Faculty Development",
+                        "Advanced Cohort",
+                        "Corporate Compliance"
+                    ]
+                },
+                "Labels": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "University",
+                        "Scalability",
+                        "Schools",
+                        "Pedagogy",
+                        "Professional",
+                        "Business",
+                        "Operations",
+                        "Success",
+                        "K-12",
+                        "Admin"
+                    ]
+                },
+                "Numbers": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "256",
+                        "2M",
+                        "1500",
+                        "98",
+                        "2019"
+                    ]
+                },
+                "Placeholder": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "404": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Phone-Number": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Dates": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "2019",
+                        "2026"
+                    ]
+                },
+                "Email": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": []
+                },
+                "Icons": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "they are missing project context"
+                    ],
+                    "correct": [
+                        "fa-sign-in-alt",
+                        "fa-wave-square",
+                        "fa-university",
+                        "fa-globe-americas",
+                        "fa-book-reader",
+                        "fa-chart-line",
+                        "fa-layer-group",
+                        "fa-chart-pie",
+                        "fa-user-tie",
+                        "fa-shield-alt",
+                        "fa-network-wired",
+                        "fa-lightbulb",
+                        "fa-play",
+                        "fa-chalkboard-teacher",
+                        "fa-briefcase",
+                        "fa-project-diagram",
+                        "fa-search",
+                        "fa-heart",
+                        "fa-random",
+                        "fa-quote-left",
+                        "fa-facebook-f",
+                        "fa-twitter",
+                        "fa-linkedin-in",
+                        "fa-youtube"
+                    ]
+                }
+            },
+            "projectImages": {
+                "accuracy": "0%",
+                "feedback": [
+                    "There was a lack of images in the content.",
+                    "New images need to be added for better coverage.",
+                    "Visuals should align more closely with the project context."
+                ],
+                "correct": [
+                    "assets/images/logo.png",
+      "assets/images/highed.jpg",
+      "assets/images/k-12.jpg",
+      "assets/images/corporate.jpg",
+      "assets/images/admin.jpg",
+      "assets/images/strategy.jpg",
+      "assets/images/pedagogy.jpg",
+      "assets/images/growth.jpg",
+      "assets/images/data.jpg"
+                ]
+            },
+            "projectVideos": {
+                "accuracy": "0%",
+                "feedback": [
+                    "No videos need in this template"
+                ],
+                "correct": ""
+            },
+            "projectBaseLibraries": {
+                "accuracy": "0%",
+                "feedback": [
+                    "These libraries are permanent by design.",
+                    "They must always be included in every template without exception."
+                ],
+                "correct": [
+                    "Bootstrap",
+                    "Bootstrap Bundle",
+                    "Bootstrap Icons",
+                    "Remix Icon",
+                    "jQuery",
+                    "jQuery UI",
+                    "jQuery Slim"
+                ]
+            },
+            "projectLibraries": {
+                "cssLibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                },
+                "jslibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "If a CSS library also provides a JS CDN, it should be auto-included.",
+                        "This ensures consistency between style and functionality."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                }
+            }
+        }
+    }
+}
