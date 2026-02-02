@@ -194,8 +194,9 @@
 
 .samonService .section-title h2 {
     margin: 0 0 15px;
-    border-left: 5px solid var(--color-primary);
-    padding-left: 15px
+    border-left: 5px solid var(--color-secondary);
+    padding-left: 15px;
+    color: var(--color-secondary);
 }
 
 .samonService .btn {
@@ -225,6 +226,7 @@
         font-weight: var(--font-weight-bold);
         font-size: var(--font-size-xl);
         margin-bottom: var(--spacing-xs);
+        color: var(--color-secondary);
       }
   
       /* Preview heading subtitle */
@@ -334,7 +336,9 @@
       background: var(--color-bg);
       scroll-behavior: smooth;
     }
-
+ .caravanCategories .section-title{
+    color: var(--color-secondary);
+ }
     /* Section title styling */
     .caravanCategories .categories .section-title {
       font-family: var(--font-family-base);
@@ -472,10 +476,12 @@
     }
 /* #caravan(caravanCategories) #css ends  */
 /* #pasion(pasionProduct) #css starts  */
-.pasionProduct .product-grid {
+.pasionProduct .branded {
+   color: var(--color-secondary);
+}
+.pasionProduct {
     text-align: center;
 }
-
 .pasionProduct .product-grid .product-image {
     overflow: hidden;
     position: relative;
@@ -616,7 +622,9 @@
 
 /* #pasion(pasionProduct) #css ends  */
 /* #texor(texorTestimonial) #css starts  */
-
+.texorTestimonial .branded{
+    color: var(--color-secondary);
+}
 .texorTestimonial .card {
     border: 1px solid var(--border-color);
     border-radius: 0.5rem;
