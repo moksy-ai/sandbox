@@ -26,7 +26,7 @@
 /* #null(nullNavbar) #css ends */
 /* #hope(hopeHero) #css starts  */
 .hopeHero .logo-header {
-    background: linear-gradient(rgb(117 123 129 / 60%), rgba(62, 63, 64, 0.6)), url(https://images.moksy.com/templates/default/banner/keyboard-background.jpg);
+    background: linear-gradient(rgb(117 123 129 / 60%), rgba(62, 63, 64, 0.6)), url(../images/hero.jpg);
     background-size: cover;
     background-position: center bottom;
     color: var(--color-white);
@@ -223,7 +223,7 @@
       /* Preview heading title */
       .pearlPreview .preview-heading h2 {
         font-weight: var(--font-weight-bold);
-        font-size: var(--font-size-xxlTwo);
+        font-size: var(--font-size-xl);
         margin-bottom: var(--spacing-xs);
       }
   
@@ -255,6 +255,7 @@
         width: 100%;
         height: auto;
         display: block;
+        cursor: pointer;
       }
   
       /* Play button overlay */
