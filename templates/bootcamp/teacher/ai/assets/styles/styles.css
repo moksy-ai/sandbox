@@ -400,7 +400,7 @@
     /* Tab label hover effect */
     .caravanCategories .tab-labels label:hover {
       background: var(--color-hover);
-      color: var(--color-primary);
+      color: var(--color-tertiary);
     }
 
     /* Active tab label styling */
