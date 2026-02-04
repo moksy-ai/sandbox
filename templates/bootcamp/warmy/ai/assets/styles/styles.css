@@ -1,0 +1,621 @@
+/* #niche(nicheNavbar) #css starts  */
+.nicheNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.nicheNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.nicheNavbar .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.nicheNavbar .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.nicheNavbar .btnone {
+    color: var(--color-tertiary) !important;
+    border: none;
+    background-color: transparent;
+}
+
+.nicheNavbar .col-3 {
+    padding-left: 0px !important;
+}
+
+/* #niche(nicheNavbar) #css ends  */
+
+/* #hoard(hoardHero) #css starts  */
+.hoardHero .Background {
+    background-color: var(--color-background-primary);
+}
+
+.hoardHero .image {
+    margin-top: 30px !important;
+}
+
+.hoardHero .stroke {
+    background-color: var(--color-text-primary);
+    color: var(--color-white);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    font-style: italic
+}
+
+.hoardHero .btn {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border-radius: var(--btn-radius-full);
+}
+
+
+
+/* #hoard(hoardHero) #css ends  */
+
+/* #cerulean(ceruleanCategories) #css starts  */
+    /* Cerulean Categories Component Styles */
+    /* =====  SECTION HEADER  ===== */
+    .ceruleanCategories .categories .section-header {
+        text-align: center;
+        margin-bottom: var(--spacing-2xl);
+      }
+  
+      .ceruleanCategories .categories .section-header h2 {
+        font-size: var(--font-size-2xl);
+        font-weight: var(--font-weight-bold);
+        margin: 0 0 var(--spacing-xs);
+        font-family: var(--font-family-base);
+      }
+  
+      .ceruleanCategories .categories .section-header p {
+        font-size: var(--font-size-md);
+        color: var(--color-text-secondary);
+        max-width: 600px;
+        margin: 0 auto;
+        font-family: var(--font-family-base);
+      }
+  
+      /* =====  CATEGORIES GRID  ===== */
+      .ceruleanCategories .categories-grid {
+        display: grid;
+        gap: var(--spacing-lg);
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      }
+  
+      /* =====  CARD STYLES  ===== */
+      .ceruleanCategories .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: inherit;
+        background: var(--color-surface);
+        border-radius: var(--border-radius-lg);
+        padding: var(--spacing-2xl) var(--spacing-lg);
+        box-shadow: var(--shadow-sm);
+        transition: var(--transition-duration) ease;
+        border: 1px solid var(--color-border);
+        overflow: hidden;
+      }
+  
+      /* Card icon styling */
+      .ceruleanCategories .card .icon {
+        font-size: var(--font-size-3xl);
+        margin-bottom: var(--spacing-md);
+        transition: transform var(--transition-duration) ease;
+      }
+  
+      /* Card title styling */
+      .ceruleanCategories .card .title {
+        font-size: var(--font-size-lg);
+        font-weight: var(--font-weight-semibold);
+        margin: 0;
+        font-family: var(--font-family-base);
+        color: var(--color-text-primary);
+      }
+  
+      /* Card description styling */
+      .ceruleanCategories .card .desc {
+        font-size: var(--font-size-sm);
+        margin-top: var(--spacing-sm);
+        opacity: 0;
+        transform: translateY(6px);
+        transition: opacity var(--transition-duration) ease, transform var(--transition-duration) ease;
+        color: var(--color-text-secondary);
+        text-align: center;
+        font-family: var(--font-family-base);
+      }
+  
+      /* Card hover and focus states */
+      .ceruleanCategories .card:hover,
+      .ceruleanCategories .card:focus,
+      .ceruleanCategories .card:target {
+        background: var(--color-accent);
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-md);
+        justify-content: flex-start;
+      }
+  
+      .ceruleanCategories .card:hover .icon,
+      .ceruleanCategories .card:focus .icon,
+      .ceruleanCategories .card:target .icon {
+        transform: scale(1.1);
+      }
+  
+      .ceruleanCategories .card:hover .desc,
+      .ceruleanCategories .card:focus .desc,
+      .ceruleanCategories .card:target .desc {
+        opacity: 1;
+        transform: translateY(0);
+      }
+  
+      /* Focus styles for accessibility */
+      .ceruleanCategories .card:focus {
+        outline: 3px dashed var(--color-primary);
+        outline-offset: 4px;
+      }
+  
+      /* =====  RESPONSIVE DESIGN  ===== */
+      @media (min-width: 1200px) {
+        .ceruleanCategories .categories-grid {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+  
+      @media (min-width: 768px) and (max-width: 1199px) {
+        .ceruleanCategories .categories-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+  
+      @media (max-width: 767px) {
+        .ceruleanCategories .categories-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+/* #cerulean(ceruleanCategories) #css ends  */
+
+/* #caisy(caisyClients) #css starts  */
+.caisyClients img {
+    max-height: 50px;
+}
+
+/* #caisy(caisyClients) #css ends  */
+
+/* #penny(pennyProduct) #css starts  */
+
+.pennyProduct .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.pennyProduct .single-product .part-1::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.3s;
+}
+
+.pennyProduct .single-product:hover .part-1::before {
+    transform: scale(1.2, 1.2) rotate(5deg);
+}
+
+.pennyProduct #product-1 .part-1::before {
+    background: url("../images/video-editing.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+} 
+
+.pennyProduct #product-2 .part-1::before {
+    background: url("../images/wireframe.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.pennyProduct #product-3 .part-1::before {
+    background: url("../images/web-development.jpeg") no-repeat center;
+    background-size: cover;
+}
+
+.pennyProduct #product-4 .part-1::before {
+    background: url("../images/pyton.jpeg") no-repeat center;
+    background-size: cover;
+}
+
+.pennyProduct .single-product .part-1 .discount,
+.pennyProduct .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+    padding: 2px 8px;
+    text-transform: capitalize;
+}
+
+.pennyProduct .single-product .part-1 .new {
+    left: 0;
+    background-color: var(--color-secondary);
+}
+
+.pennyProduct .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.pennyProduct .single-product:hover .part-1 ul {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.pennyProduct .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.pennyProduct .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+}
+
+.pennyProduct .single-product .part-1 ul li a:hover {
+    color: var(--color-white);
+}
+
+.pennyProduct .single-product .part-2 .product-title {
+    font-size: var(--font-size-base);
+    color: var(--dark);
+}
+
+.pennyProduct .single-product .part-2 h4 {
+    display: inline-block;
+}
+
+.pennyProduct .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+    color: var(--dark);
+}
+
+.pennyProduct .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--dark);
+    transform: translateY(-50%);
+}
+
+/* #penny(pennyProduct) #css ends  */
+
+/* #lumenate(lumenateLeaderboard) #css starts  */
+    /* Section Title */
+    .lumenateLeaderboard .section-title{
+        font-size: var(--font-size-xxl);
+        font-weight: var(--font-weight-bold);
+        margin-bottom: var(--spacing-xs);
+        text-align: center;
+      }
+  
+      /* Section Subtitle */
+      .lumenateLeaderboard .section-subtitle{
+        font-size: var(--font-size-lg);
+        color: #6c757d;
+        text-align: center;
+        margin-bottom: var(--spacing-xxl);
+      }
+  
+      /* Podium Container */
+      .lumenateLeaderboard .podium{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        margin-bottom: var(--spacing-xl);
+      }
+  
+      /* Individual Podium Item */
+      .lumenateLeaderboard .podium-item{
+        position: relative;
+        margin: 0 var(--spacing-md);
+        text-align: center;
+      }
+  
+      /* Avatar Container */
+      .lumenateLeaderboard .podium-item .avatar{
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 4px solid #fff;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin: 0 auto var(--spacing-sm);
+        background: #f8f9fa;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: var(--font-size-xl);
+        font-weight: var(--font-weight-semibold);
+        color: #495057;
+      }
+  
+      /* Participant Name */
+      .lumenateLeaderboard .podium-item .name{
+        font-weight: var(--font-weight-semibold);
+        margin-bottom: var(--spacing-xs);
+      }
+  
+      /* Participant Score */
+      .lumenateLeaderboard .podium-item .score{
+        font-size: var(--font-size-sm);
+        color: #6c757d;
+      }
+  
+      /* Pedestal Container */
+      .lumenateLeaderboard .pedestal{
+        width: 120px;
+        border-radius: 4px 4px 0 0;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: var(--font-size-xl);
+        line-height: 1;
+      }
+  
+      /* First Place Pedestal */
+      .lumenateLeaderboard .first .pedestal{
+        height: 120px;
+        background: #FFD700;
+      }
+  
+      /* Second Place Pedestal */
+      .lumenateLeaderboard .second .pedestal{
+        height: 100px;
+        background: #C0C0C0;
+      }
+  
+      /* Third Place Pedestal */
+      .lumenateLeaderboard .third .pedestal{
+        height: 90px;
+        background: #CD7F32;
+      }
+  
+      /* First Place Positioning */
+      .lumenateLeaderboard .first{
+        transform: translateY(-20px);
+      }
+  
+      /* Leaderboard Table Header */
+      .lumenateLeaderboard .leaderboard-table thead th{
+        border-top: 0;
+        font-weight: var(--font-weight-semibold);
+      }
+  
+      /* Table Row Animation */
+      .lumenateLeaderboard .leaderboard-table tbody tr{
+        animation: fadeInUp 0.6s ease both;
+      }
+  
+      /* Rank Number Styling */
+      .lumenateLeaderboard .leaderboard-table .rank-number{
+        font-weight: var(--font-weight-semibold);
+      }
+  
+      /* Progress Bar Container */
+      .lumenateLeaderboard .leaderboard-table .progress{
+        height: 6px;
+        background: #e9ecef;
+      }
+  
+      /* Progress Bar Fill */
+      .lumenateLeaderboard .leaderboard-table .progress-bar{
+        background: #28a745;
+      }
+  
+      /* Progress Bar Width Classes */
+      .lumenateLeaderboard .progress-bar[data-width="80%"] { width: 80%; }
+      .lumenateLeaderboard .progress-bar[data-width="75%"] { width: 75%; }
+      .lumenateLeaderboard .progress-bar[data-width="70%"] { width: 70%; }
+      .lumenateLeaderboard .progress-bar[data-width="65%"] { width: 65%; }
+      .lumenateLeaderboard .progress-bar[data-width="60%"] { width: 60%; }
+      .lumenateLeaderboard .progress-bar[data-width="57%"] { width: 57%; }
+      .lumenateLeaderboard .progress-bar[data-width="55%"] { width: 55%; }
+  
+      /* Fade In Up Animation */
+      @keyframes fadeInUp{
+        from{opacity: 0; transform: translateY(20px);}  
+        to{opacity: 1; transform: translateY(0);}  
+      }
+  
+      /* Responsive Design for Mobile */
+      @media (max-width: 767.98px){
+        .lumenateLeaderboard .podium{
+          flex-direction: row;
+          align-items: flex-end;
+          justify-content: center;
+        }
+        .lumenateLeaderboard .first{
+          transform: none;
+        }
+        .lumenateLeaderboard .pedestal{
+          width: 100px;
+        }
+        .lumenateLeaderboard .leaderboard-table{
+          overflow-x: auto;
+        }
+        .lumenateLeaderboard .leaderboard-table table{
+          min-width: 600px;
+        }
+      }
+/* #lumenate(lumenateLeaderboard) #css ends  */
+
+/* #county(countyCounters) #css starts  */
+
+.countyCounters .counter-box {
+    display: block;
+    background: var(--color-white);
+    padding: 40px 20px 37px;
+    text-align: center
+}
+
+.countyCounters .counter-box p {
+    margin: 5px 0 0;
+    padding: 0;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-md);
+}
+
+.countyCounters .counter-box i {
+    font-size: var(--font-size-xxlTwo);
+    margin: 0 0 15px;
+    color: var(--color-text-secondary);
+}
+
+.countyCounters .counter {
+    display: block;
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-secondary);
+    line-height: 28px
+}
+
+.countyCounters .counter-box.colored {
+    background: var(--color-secondary);
+}
+
+.countyCounters .counter-box.colored p,
+.countyCounters .counter-box.colored i,
+.countyCounters .counter-box.colored .counter {
+    color: var(--color-white)
+}
+
+/* #county(countyCounters) #css ends  */
+
+/* #bolix(bolixBlog) #css starts  */
+.bolixBlog .btn {
+    background-color: var(--dark);
+    color: var(--color-white);
+}
+
+.bolixBlog .heading-custom-class {
+    color: var(--dark);
+}
+
+/* #bolix(bolixBlog) #css ends  */
+
+/* #fierce(fierceFaq) #css starts  */
+.fierceFaq .accordion__single__hidden {
+    display: none;
+}
+
+.fierceFaq .accordion__single__hidden:checked~.accordion__single__answer {
+    max-height: 400px;
+    opacity: 1;
+    transform: translate(0, 0);
+    margin-top: 14px;
+}
+
+.fierceFaq .accordion__single__hidden:checked~.accordion__single__question:after {
+    content: "-";
+}
+
+.fierceFaq .accordion__single__answer {
+    margin-top: 0;
+    max-height: 0;
+    opacity: 0;
+    transform: translate(0, 50%);
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.fierceFaq .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fierceFaq .accordion {
+    font-weight: var(--font-weight-light);
+    line-height: 1.5;
+    max-width: 80%;
+}
+
+.fierceFaq .accordion__single {
+    margin-bottom: 30px;
+}
+
+.fierceFaq .accordion__single__question {
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+}
+
+.fierceFaq .accordion__single__question:hover,
+.fierceFaq .accordion__single__question:focus {
+    text-decoration: underline;
+}
+
+.fierceFaq .accordion__single__question:after {
+    display: inline-block;
+    margin-left: 10px;
+    color: var(--color-secondary);
+    content: "+";
+}
+
+.fierceFaq .accordion__single__answer {
+    margin-top: 5px;
+}
+
+/* #fierce(fierceFaq) #css ends  */
+
+/* #foot(footFooter) #css starts */
+.footFooter h3 {
+    color: var(--color-text-primary);
+}
+
+.footFooter .nav-link {
+    padding: 0.5rem 0rem;
+}
+
+.footFooter a {
+    color: var(--color-text-primary);
+}
+
+.footFooter .text {
+    color: var(--color-text-primary);
+}
+
+/* #foot(footFooter) #css ends */
