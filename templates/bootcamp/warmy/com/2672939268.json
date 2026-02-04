@@ -1,0 +1,928 @@
+{
+    "projectRequirements": {
+        "userid": "87ca5aefe7183d3c6b9e208dbb174e4b",
+        "projectId": 2672939268,
+        "projectName": "Warmy",
+        "projectIndustry": "Education",
+        "projectSubIndustry": "Course Marketplace",
+        "projectType": "MOOC",
+        "projectPurpose": "To help users discover, compare, and access educational courses from various universities and providers in one centralized platform.",
+        "projectAudience": "Students, lifelong learners, and professionals seeking online courses, certifications, or upskilling opportunities.",
+        "projectTags": "Education, Aggregator, Courses, E-learning, Marketplace, University, Directory, Academic, Search, Catalog",
+        "projectExamples": "Class Central",
+        "projectTheme": "Professional, Clean, Organized",
+        "projectKeywords": {
+            "projectKeywords": {
+                "keywords": {
+                    "courses": 6.2,
+                    "education": 4.8,
+                    "marketplace": 3.6,
+                    "educational": 3,
+                    "motivational": 3,
+                    "certification": 3,
+                    "community": 3,
+                    "massive": 3,
+                    "clean": 3,
+                    "professional": 3
+                },
+                "accuracy": "14%"
+            },
+            "projectFontsKeywords": {
+                "keywords": {
+                    "clean": 10,
+                    "professional": 10,
+                    "academic": 10,
+                    "modern": 4.3,
+                    "friendly": 2.2,
+                    "sans-serif": 2.1,
+                    "readable": 1.8,
+                    "tech": 1.7,
+                    "ui-friendly": 1.4,
+                    "neutral": 1.4
+                },
+                "accuracy": "3%"
+            },
+            "projectColorsKeywords": {
+                "keywords": {
+                    "professional": 10,
+                    "clean": 7.6,
+                    "modern": 3.3,
+                    "wellness": 2.8,
+                    "saas": 2.6,
+                    "clarity": 2.2,
+                    "vibrant": 2,
+                    "friendly": 2,
+                    "calm": 1.9,
+                    "premium": 1.9
+                },
+                "accuracy": "3.3%"
+            },
+            "projectBrandAssetsKeywords": {
+                "keywords": {
+                    "courses": 5,
+                    "certification": 3,
+                    "community": 3,
+                    "marketplace": 3,
+                    "massive": 3,
+                    "mooc": 3,
+                    "online": 3,
+                    "aggregator": 2,
+                    "catalog": 2,
+                    "e-learning": 2
+                },
+                "accuracy": "2%"
+            },
+            "projectThemeKeywords": {
+                "keywords": {
+                    "courses": 5,
+                    "certification": 3,
+                    "community": 3,
+                    "marketplace": 3,
+                    "massive": 3,
+                    "mooc": 3,
+                    "online": 3,
+                    "aggregator": 2,
+                    "catalog": 2,
+                    "e-learning": 2
+                },
+                "accuracy": "2%"
+            },
+            "projectLayoutsKeywords": {
+                "keywords": {
+                    "curriculum": 10,
+                    "modules": 10,
+                    "faqs": 10,
+                    "courses": 5,
+                    "certification": 3,
+                    "community": 3,
+                    "marketplace": 3,
+                    "massive": 3,
+                    "mooc": 3,
+                    "online": 3
+                },
+                "accuracy": "20%"
+            },
+            "projectTextsKeywords": {
+                "keywords": {
+                    "educational": 10,
+                    "motivational": 10,
+                    "concise": 10,
+                    "courses": 5,
+                    "certification": 3,
+                    "community": 3,
+                    "marketplace": 3,
+                    "massive": 3,
+                    "mooc": 3,
+                    "online": 3
+                },
+                "accuracy": "20%"
+            },
+            "projectImagesKeywords": {
+                "keywords": {
+                    "students": 7.7,
+                    "academic": 3.8,
+                    "professional": 3,
+                    "access": 1.9,
+                    "university": 1.4,
+                    "education": 1.4,
+                    "classroom": 1.2,
+                    "technology": 1.2,
+                    "books": 1.1,
+                    "design": 1
+                },
+                "accuracy": "0.4%"
+            },
+            "projectVideosKeywords": {
+                "keywords": {
+                    "academic": 10,
+                    "university": 5.4,
+                    "students": 5.4,
+                    "online": 3.6,
+                    "assessment": 2.7,
+                    "tutorial": 2.3,
+                    "lecture": 2.3,
+                    "training": 1.6,
+                    "mooc": 1.4,
+                    "learning": 1.1
+                },
+                "accuracy": "0.8%"
+            },
+            "projectBaseLibrariesKeywords": {
+                "keywords": {
+                    "frontend": 3.5,
+                    "spa": 2.5,
+                    "performance": 2,
+                    "lightweight": 2,
+                    "animation": 2,
+                    "legacy": 1.5,
+                    "components": 1.5,
+                    "react": 1.5,
+                    "reactive": 1.5,
+                    "modular": 1.5
+                },
+                "accuracy": "0%"
+            },
+            "projectSupportLibrariesKeywords": {
+                "keywords": {
+                    "frontend": 2.5,
+                    "spa": 2.5,
+                    "performance": 2,
+                    "lightweight": 2,
+                    "animation": 2,
+                    "legacy": 1.5,
+                    "components": 1.5,
+                    "react": 1.5,
+                    "reactive": 1.5,
+                    "routing": 1.5
+                },
+                "accuracy": "0%"
+            }
+        }
+    },
+    "projectInfo": {
+        "projectBranding": {
+            "fonts": {
+                "primaryFonts": "",
+                "secondaryFonts": "",
+                "thirdFonts": "",
+                "defaultFonts": ""
+            },
+            "colors": {
+                "primaryColor": "",
+                "secondaryColor": "",
+                "thirdColor": "",
+                "defaultColor": ""
+            }
+        },
+        "projectTheme": "flat-light",
+        "projectBrandingAssets": "lightbulb",
+        "projectLayout": [
+            "navbar\/nudge",
+            "hero\/hoist",
+            "overview",
+            "products\/paize",
+            "steps\/summer",
+            "features\/francis",
+            "clients\/calvo",
+            "certification",
+            "whyus",
+            "testimonials\/taylor",
+            "download\/dalix",
+            "products\/paize",
+            "community",
+            "faqs\/feign",
+            "content\/ceter",
+            "clients\/calvo",
+            "subscribe\/semor",
+            "cta\/cerry",
+            "footers\/flows"
+        ],
+        "projectText": [],
+        "projectImages": [
+            "url\/success\/green-dart-in-bullseye.jpg"
+        ],
+        "projectVideos": [],
+        "projectBaseLibraries": [],
+        "projectLibraries": {
+            "cssLibraries": [],
+            "jslibraries": []
+        }
+    },
+    "projectReviews": {
+        "projectRequirements": {
+            "userid": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "87ca5aefe7183d3c6b9e208dbb174e4b"
+            },
+            "projectId": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "2672939268"
+            },
+            "projectName": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "Warmy"
+            },
+            "projectIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "Education"
+            },
+            "projectSubIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "Course Marketplace"
+            },
+            "projectType": {
+                "accuracy": "100%",
+                "feedback": "Commonly searched training type",
+                "correct": "MOOC"
+            },
+            "projectPurpose": {
+                "accuracy": "100%",
+                "feedback": "Clearly outlined what the user actually wants",
+                "correct": "To help users discover, compare, and access educational courses from various universities and providers in one centralized platform."
+            },
+            "projectAudience": {
+                "accuracy": "100%",
+                "feedback": "Well-defined target audience",
+                "correct": "Students, lifelong learners, and professionals seeking online courses, certifications, or upskilling opportunities."
+            },
+            "projectTags": {
+                "accuracy": "100%",
+                "feedback": "Well-defined tags",
+                "correct": "Education, Aggregator, Courses, E-learning, Marketplace, University, Directory, Academic, Search, Catalog"
+            },
+            "projectExamples": {
+                "accuracy": "100%",
+                "feedback": "Good example",
+                "correct": "Class Central"
+            },
+            "projectTheme": {
+                "accuracy": "100%",
+                "feedback": "Well-defined theme",
+                "correct": "Professional, Clean, Organized"
+            },
+            "projectKeywords": {
+                "projectKeywords": {
+                    "accuracy": "50%",
+                    "feedback": [
+                        "Irrelevant Descriptors: Terms like 'motivational' and 'clean' refer to emotional tone or visual style rather than the project's functional core (aggregator/directory).",
+                        "Unsupported Context: 'Community' and 'massive' were not derived from the provided Project Purpose or Audience, leading to scope creep.",
+                        "Redundancy: 'Educational' is the adjective form of 'education' (which was already listed), creating an unnecessary duplicate that wastes a keyword slot.",
+                        "Formatting Inconsistency: The use of fractional weights (e.g., 6.2, 4.8) implies a level of precision not supported by the general categorical analysis."
+                    ],
+                    "correct": {
+                        "education": 10,
+                        "courses": 10,
+                        "aggregator": 9,
+                        "learning": 9,
+                        "marketplace": 8,
+                        "university": 8,
+                        "certification": 7,
+                        "directory": 7,
+                        "search": 6,
+                        "skills": 6
+                    }
+                },
+                "projectFontsKeywords": {
+                    "accuracy": "50%",
+                    "feedback": [
+                        "Fractional weights violate the required integer scoring format.",
+                        "Hyphenated phrases fail the single-word keyword constraint.",
+                        "Generic terms lack specific typographic distinction between fonts."
+                    ],
+                    "correct": {
+                        "editorial": 9,
+                        "humanist": 9,
+                        "legible": 8,
+                        "warm": 7,
+                        "balanced": 7,
+                        "interface": 10,
+                        "functional": 9,
+                        "neutral": 9,
+                        "geometric": 8,
+                        "digital": 8
+                    }
+                },
+                "projectColorsKeywords": {
+                    "accuracy": "40%",
+                    "feedback": [
+                        "Fractional weights violate the integer-only requirement.",
+                        "Terms like 'wellness' clash with the dark corporate palette.",
+                        "Keywords like 'friendly' misinterpret the serious, heavy aesthetic."
+                    ],
+                    "correct": {
+                        "authoritative": 10,
+                        "corporate": 10,
+                        "secure": 9,
+                        "trustworthy": 9,
+                        "royal": 8,
+                        "creative": 8,
+                        "sophisticated": 7,
+                        "stable": 7,
+                        "balanced": 6,
+                        "industrial": 6
+                    }
+                },
+                "projectBrandAssetsKeywords": {
+                    "accuracy": "10%",
+                    "feedback": [
+                        "Keywords listed business functions instead of visual logo attributes.",
+                        "Included nouns rather than the required descriptive adjectives.",
+                        "Failed to interpret the flame iconography or design style."
+                    ],
+                    "correct": {
+                        "illuminating": 10,
+                        "minimalist": 10,
+                        "dynamic": 9,
+                        "abstract": 9,
+                        "modern": 8,
+                        "fluid": 8,
+                        "bold": 7,
+                        "essential": 7,
+                        "organic": 6,
+                        "iconic": 6
+                    }
+                },
+                "projectThemeKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Listed nouns (content types) instead of thematic adjectives.",
+                        "Described business model rather than visual style or mood.",
+                        "Ignored the 'Clean' and 'Professional' constraints provided."
+                    ],
+                    "correct": {
+                        "professional": 10,
+                        "clean": 10,
+                        "organized": 10,
+                        "structured": 9,
+                        "efficient": 9,
+                        "trustworthy": 8,
+                        "accessible": 8,
+                        "modern": 7,
+                        "intuitive": 7,
+                        "academic": 6
+                    }
+                },
+                "projectLayoutsKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Used content terms instead of defined layout category keys.",
+                        "Ignored the required parent-child mapping for section categorization.",
+                        "Listed specific features rather than structural functional groups."
+                    ],
+                    "correct": {
+                        "guide": 10,
+                        "focus": 10,
+                        "topic": 8,
+                        "trust": 7,
+                        "value": 9,
+                        "metrics": 6,
+                        "knowledge": 7,
+                        "metrics": 6,
+                        "help": 5,
+                        "anchor": 4
+                    }
+                },
+                "projectTextsKeywords": {
+                    "accuracy": "30%",
+                    "feedback": [
+                        "Included nouns instead of adjectives describing content tone.",
+                        "Listed platform features rather than communication style or voice.",
+                        "Terms like 'massive' define scale, not textual feeling."
+                    ],
+                    "correct": {
+                        "informative": 10,
+                        "clear": 10,
+                        "authoritative": 9,
+                        "engaging": 9,
+                        "professional": 8,
+                        "academic": 8,
+                        "accessible": 7,
+                        "encouraging": 7,
+                        "structured": 6,
+                        "comprehensive": 6
+                    }
+                },
+                "projectImagesKeywords": {
+                    "accuracy": "20%",
+                    "feedback": [
+                        "Listed nouns (subjects) instead of stylistic adjectives.",
+                        "Fractional weights violate the integer-only scoring rule.",
+                        "Focused on image content rather than visual aesthetics."
+                    ],
+                    "correct": {
+                        "professional": 10,
+                        "clean": 10,
+                        "academic": 9,
+                        "authentic": 9,
+                        "modern": 8,
+                        "diverse": 8,
+                        "focused": 7,
+                        "inspiring": 7,
+                        "sharp": 6,
+                        "bright": 6
+                    }
+                },
+                "projectVideosKeywords": {
+                    "accuracy": "10%",
+                    "feedback": [
+                        "Used nouns (subjects) instead of visual style adjectives.",
+                        "Fractional weights violate the integer-only scoring requirement.",
+                        "Listed content types rather than video aesthetic qualities."
+                    ],
+                    "correct": {
+                        "professional": 10,
+                        "clear": 10,
+                        "instructional": 9,
+                        "engaging": 9,
+                        "polished": 8,
+                        "high-definition": 8,
+                        "modern": 7,
+                        "concise": 7,
+                        "structured": 6,
+                        "authentic": 6
+                    }
+                },
+                "projectBaseLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        [
+                            "Keywords must reliably trigger selection of all mandatory base libraries.",
+                            "Use clear, canonical triggers (e.g., grid, forms, icons) instead of vague terms.",
+                            "Prioritise must-have libraries with higher weights and strict serial ordering.",
+                            "Remove filler/ambiguous words to avoid missing required base libraries.",
+                            "Add a fallback rule to auto-include core libraries if any trigger is absent."
+                        ]
+                    ],
+                    "correct": {
+                        "modern": 10,
+                        "responsive": 9,
+                        "frontend": 9,
+                        "components": 8,
+                        "grid": 8,
+                        "spa": 7,
+                        "widgets": 6,
+                        "icons": 6,
+                        "lightweight": 5,
+                        "performance": 5
+                    }
+                },
+                "projectSupportLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips.",
+                        "we can add another libraries if needed"
+                    ],
+                    "correct": {
+                        "animation": 10,
+                        "scroll": 9,
+                        "effects": 9,
+                        "motion": 8,
+                        "transition": 8,
+                        "interactive": 7,
+                        "visuals": 7,
+                        "dynamic": 6,
+                        "responsive": 6,
+                        "enhancement": 5
+                    }
+                }
+            }
+        },
+        "projectInfo": {
+            "projectBranding": {
+                "fonts": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "No font was selected"
+                    ],
+                    "correct": {
+                        "primaryFont": "Martel Sans",
+                        "secondaryFont": "Source Sans 3"
+                    }
+                },
+                "colors": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "No color was selected"
+                    ],
+                    "correct": {
+                        "primaryColor": "#0a2540",
+                        "secondaryColor": "#2b0380",
+                        "tertiaryColor": "#003F66"
+                    }
+                }
+            },
+            "projectTheme": {
+                "accuracy": "100%",
+                "feedback": [
+                    "100 accurate theme"
+                ],
+                "correct": "flat-light"
+            },
+            "projectBrandingAssets": {
+                "accuracy": "0%",
+                "feedback": [
+                    "Wrong logo selected"
+                ],
+                "correct": "fire"
+            },
+            "projectLayout": {
+                "accuracy": "0%",
+                "feedback": [
+                    "Layout is very random",
+                    "No proper snippet flow",
+                    "snippets are missing"
+                ],
+                "correct": [
+                    "navbar/niche",
+                    "hoard/hero",
+                    "categories/cerulean",
+                    "clients/caisy",
+                    "products/penny",
+                    "leaderboard/lumenate",
+                    "counters/county",
+                    "blogs/bolix",
+                    "faqs/fierce",
+                    "footers/foot"
+                ]
+            },
+            "projectText": {
+                "Navigation": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Category",
+                        "Courses",
+                        "Contributors",
+                        "Faqs",
+                        "Login",
+                        "Get Started"
+                    ]
+                },
+                "Headline": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Find the best courses, wherever they exist.",
+                        "Browse by Category",
+                        "Trending Courses",
+                        "Top Community Contributors",
+                        "Latest Insights",
+                        "Frequently Asked Questions",
+                        "Our happy clients",
+                        "About Us",
+                        "Explore",
+                        "Why Choose us?",
+                        "Follow us"
+                    ]
+                },
+                "Paragraph": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "We aggregate thousands of top-rated courses from world-class universities and industry leaders. Compare curricula, read reviews, and find the perfect certificate to advance your career—all in one place.",
+                        "Explore our most popular subjects and university tracks.",
+                        "Recognizing the learners who help others find the best path.",
+                        "Compare 50,000+ courses from world-class universities. We provide unbiased reviews, transparent pricing, and curated learning pathways to help you advance.",
+                        "We ranked the best distance-learning business degrees based on tuition, curriculum, alumni networking, and career outcomes.",
+                        "A breakdown of how short, focused certifications from Google and IBM are changing the hiring landscape in tech and data science.",
+                        "Learn how to apply for scholarships, grants, and employer reimbursement for your online professional certificates.",
+                        "You are ranked #1,204. Write more reviews to climb the ladder!"
+                    ]
+                },
+                "Button": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Search Courses",
+                        "Login",
+                        "Get Started",
+                        "Read More"
+                    ]
+                },
+                "Footer-Nav": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Our Mission",
+                        "Partners",
+                        "Impact Report",
+                        "Careers",
+                        "Universities",
+                        "Degrees",
+                        "Certificates",
+                        "Free Courses"
+                    ]
+                },
+                "People": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "David Chen",
+                        "Sarah Jenkins",
+                        "Morgan Alif",
+                        "Jessica W.",
+                        "Tom H.",
+                        "Elena R.",
+                        "Chris P.",
+                        "Amanda L.",
+                        "Rajiv M.",
+                        "Sophie K.",
+                        "Dr. Emily Chen",
+                        "Mark Johnson",
+                        "Sarah Williams"
+                    ]
+                },
+                "Job": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Announcement": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Testimonial": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Product": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Video Editing (Stanford)",
+                        "Google UX Design Cert",
+                        "The Science of Coding",
+                        "IBM Data Science"
+                    ]
+                },
+                "FAQs": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Q: Is this platform free to use? A: Yes, searching and comparing courses on our platform is completely free. Tuition fees depend on the specific university or provider you choose to enroll with.",
+                        "Q: Are the certificates accredited? A: We only list courses from accredited universities and recognized industry leaders. Accreditation details are listed on each individual course page.",
+                        "Q: Can I transfer credits to my university? A: Many of the degree-credit courses listed here are transferable, but policies vary by institution. We recommend checking with your university's admissions office.",
+                        "Q: What is the difference between Audit and Verified tracks? A: The Audit track is usually free and gives access to course materials. The Verified track typically costs money but provides graded assignments and a shareable certificate.",
+                        "Q: How do I apply for financial aid? A: Most of our partners offer financial aid. Look for the \"Financial Aid Available\" link near the enrollment button on the course details page."
+                    ]
+                },
+                "Portfolio": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Web Development",
+                        "Data Science",
+                        "Art & Design",
+                        "Marketing",
+                        "Cyber Security",
+                        "Artificial Intelligence",
+                        "Cloud Computing",
+                        "Product Management"
+                    ]
+                },
+                "Pricing": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "$79.00",
+                        "Free Audit",
+                        "$39/mo",
+                        "$49.00",
+                        "Free"
+                    ]
+                },
+                "Labels": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Best Seller",
+                        "New",
+                        "Rank",
+                        "Learner",
+                        "Reviews",
+                        "Reputation",
+                        "Full Stack, React, & Node.js",
+                        "Analytics, Python, & ML",
+                        "UI/UX, Graphic Design & 3D",
+                        "SEO, Social Media & Strategy",
+                        "Network Defense & Ethics",
+                        "Deep Learning & NLP",
+                        "AWS, Azure & Google Cloud",
+                        "Agile, Scrum & Roadmaps"
+                    ]
+                },
+                "Numbers": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "1.2M",
+                        "8.5M+",
+                        "50,000",
+                        "15M+",
+                        "2,450 pts",
+                        "3,100 pts",
+                        "2,100 pts"
+                    ]
+                },
+                "Placeholder": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "404": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Phone-Number": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Dates": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "2026",
+                        "2019"
+                    ]
+                },
+                "Email": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Icons": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "fas fa-search",
+                        "fas fa-code",
+                        "fas fa-database",
+                        "fas fa-pen-nib",
+                        "fas fa-bullhorn",
+                        "fas fa-shield-alt",
+                        "fas fa-robot",
+                        "fas fa-cloud",
+                        "fas fa-tasks",
+                        "fas fa-shopping-cart",
+                        "fas fa-heart",
+                        "fas fa-plus",
+                        "fas fa-expand",
+                        "fas fa-thumbs-up",
+                        "fas fa-user",
+                        "fas fa-desktop",
+                        "fas fa-dollar-sign",
+                        "fab fa-facebook",
+                        "fab fa-twitter",
+                        "fab fa-linkedin-in",
+                        "fab fa-youtube"
+                    ]
+                }
+            },
+            "projectImages": {
+                "accuracy": "0%",
+                "feedback": [
+                    "There was a lack of images in the content.",
+                    "New images need to be added for better coverage.",
+                    "Visuals should align more closely with the project context."
+                ],
+                "correct": [
+                    "assets/images/logo.svg",
+                    "assets/images/hero.jpg",
+                    "assets/images/client-adobe.svg",
+                    "assets/images/client-amazon.svg",
+                    "assets/images/client-apple.svg",
+                    "assets/images/client-cisco.svg",
+                    "assets/images/client-discovery.svg",
+                    "assets/images/client-ebay.svg",
+                    "assets/images/client-ibm.svg",
+                    "assets/images/client-intel.svg",
+                    "assets/images/client-orange.svg",
+                    "assets/images/client-panasonic.svg",
+                    "assets/images/video-editing.jpg",
+                    "assets/images/wireframe.jpg",
+                    "assets/images/web-development.jpeg",
+                    "assets/images/cpyton.jpeg"
+                ]
+            },
+            "projectVideos": {
+                "accuracy": "0%",
+                "feedback": [
+                    "No videos need in this template"
+                ],
+                "correct": ""
+            },
+            "projectBaseLibraries": {
+                "accuracy": "0%",
+                "feedback": [
+                    "These libraries are permanent by design.",
+                    "They must always be included in every template without exception."
+                ],
+                "correct": [
+                    "Bootstrap",
+                    "Bootstrap Bundle",
+                    "Bootstrap Icons",
+                    "Remix Icon",
+                    "jQuery",
+                    "jQuery UI",
+                    "jQuery Slim"
+                ]
+            },
+            "projectLibraries": {
+                "cssLibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                },
+                "jslibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "If a CSS library also provides a JS CDN, it should be auto-included.",
+                        "This ensures consistency between style and functionality."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                }
+            }
+        }
+    }
+}
