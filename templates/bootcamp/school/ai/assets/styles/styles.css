@@ -1,0 +1,835 @@
+/* #novel(novelNavbar) #css starts  */
+.novelNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.novelNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.novelNavbar .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.novelNavbar .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.novelNavbar .col-3 {
+    padding-left: 0px !important;
+}
+
+/* #novel(novelNavbar) #css ends  */
+/* #hues(huesHero) #css starts  */
+.huesHero p {
+    margin: 0 0 20px
+}
+
+.huesHero .page-banner {
+    background: url(../images/hero.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    padding: 100px;
+    background-repeat: no-repeat;
+}
+
+.huesHero .page-banner-spacing {
+    padding-top: 170px;
+    padding-bottom: 174px
+}
+
+.huesHero .card-section {
+    position: relative;
+    bottom: 60px
+}
+
+.huesHero .card-block {
+    padding: 60px;
+    background: var(--color-white);
+}
+
+.huesHero .section-title {
+    margin-bottom: 60px
+}
+
+.huesHero .btn {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border-radius: var(--btn-radius-full);
+}
+
+@media (min-width: 576px) {
+    .huffyHero h1 {
+        font-size: var(--font-size-lg);
+    }
+}
+
+/* #hues(huesHero) #css ends  */
+/* #calvo(calvoClients) #css starts  */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 8))
+    }
+}
+
+.calvoClients .partners-logo-slider {
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    background-color: var(--color-white);
+    padding: 16px 0px;
+}
+
+.calvoClients .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.calvoClients .sliderTitle {
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.calvoClients .slide {
+    height: 100px;
+    width: 250px;
+    filter: grayscale(100%);
+}
+
+.calvoClients .slide:hover {
+    filter: grayscale(0%);
+}
+
+.calvoClients .partners-logo-slider img {
+    max-height: 100px;
+    max-width: 250px;
+    margin-right: 100px;
+}
+
+/* #calvo(calvoClients) #css ends  */
+/* #cerulean(ceruleanCategories) #css starts  */
+    /* Cerulean Categories Component Styles */
+    /* =====  SECTION HEADER  ===== */
+    .ceruleanCategories .categories .section-header {
+        text-align: center;
+        margin-bottom: var(--spacing-2xl);
+      }
+  
+      .ceruleanCategories .categories .section-header h2 {
+        font-size: var(--font-size-2xl);
+        font-weight: var(--font-weight-bold);
+        margin: 0 0 var(--spacing-xs);
+        font-family: var(--font-family-base);
+      }
+  
+      .ceruleanCategories .categories .section-header p {
+        font-size: var(--font-size-md);
+        color: var(--color-text-secondary);
+        max-width: 600px;
+        margin: 0 auto;
+        font-family: var(--font-family-base);
+      }
+  
+      /* =====  CATEGORIES GRID  ===== */
+      .ceruleanCategories .categories-grid {
+        display: grid;
+        gap: var(--spacing-lg);
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      }
+  
+      /* =====  CARD STYLES  ===== */
+      .ceruleanCategories .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: inherit;
+        background: var(--color-surface);
+        border-radius: var(--border-radius-lg);
+        padding: var(--spacing-2xl) var(--spacing-lg);
+        box-shadow: var(--shadow-sm);
+        transition: var(--transition-duration) ease;
+        border: 1px solid var(--color-border);
+        overflow: hidden;
+      }
+  
+      /* Card icon styling */
+      .ceruleanCategories .card .icon {
+        font-size: var(--font-size-3xl);
+        margin-bottom: var(--spacing-md);
+        transition: transform var(--transition-duration) ease;
+      }
+  
+      /* Card title styling */
+      .ceruleanCategories .card .title {
+        font-size: var(--font-size-lg);
+        font-weight: var(--font-weight-semibold);
+        margin: 0;
+        font-family: var(--font-family-base);
+        color: var(--color-text-primary);
+      }
+  
+      /* Card description styling */
+      .ceruleanCategories .card .desc {
+        font-size: var(--font-size-sm);
+        margin-top: var(--spacing-sm);
+        opacity: 0;
+        transform: translateY(6px);
+        transition: opacity var(--transition-duration) ease, transform var(--transition-duration) ease;
+        color: var(--color-text-secondary);
+        text-align: center;
+        font-family: var(--font-family-base);
+      }
+  
+      /* Card hover and focus states */
+      .ceruleanCategories .card:hover,
+      .ceruleanCategories .card:focus,
+      .ceruleanCategories .card:target {
+        background: var(--color-accent);
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-md);
+        justify-content: flex-start;
+      }
+  
+      .ceruleanCategories .card:hover .icon,
+      .ceruleanCategories .card:focus .icon,
+      .ceruleanCategories .card:target .icon {
+        transform: scale(1.1);
+      }
+  
+      .ceruleanCategories .card:hover .desc,
+      .ceruleanCategories .card:focus .desc,
+      .ceruleanCategories .card:target .desc {
+        opacity: 1;
+        transform: translateY(0);
+      }
+  
+      /* Focus styles for accessibility */
+      .ceruleanCategories .card:focus {
+        outline: 3px dashed var(--color-primary);
+        outline-offset: 4px;
+      }
+  
+      /* =====  RESPONSIVE DESIGN  ===== */
+      @media (min-width: 1200px) {
+        .ceruleanCategories .categories-grid {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+  
+      @media (min-width: 768px) and (max-width: 1199px) {
+        .ceruleanCategories .categories-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+  
+      @media (max-width: 767px) {
+        .ceruleanCategories .categories-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+/* #cerulean(ceruleanCategories) #css ends  */
+/* #pulox(puloxProduct) #css starts  */
+.puloxProduct .product-grid {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.puloxProduct .product-grid:before {
+    content: "";
+    height: 81%;
+    width: 100%;
+    background: var(--color-background-primary);
+    border: 1px solid var(--shadow-dark);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+}
+
+.puloxProduct .product-grid:hover:before {
+    opacity: 1;
+    height: 100%;
+}
+
+.puloxProduct .product-grid .product-image {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.puloxProduct .product-grid .product-image a {
+    display: block;
+    height: 100%;
+}
+
+.puloxProduct .product-grid .product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.puloxProduct .product-grid .pic-1 {
+    opacity: 1;
+    transition: all 0.5s ease-out 0s;
+}
+
+.puloxProduct .product-grid:hover .pic-1 {
+    opacity: 0;
+}
+
+.puloxProduct .product-grid .pic-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease-out 0s;
+}
+
+.puloxProduct .product-grid:hover .pic-2 {
+    opacity: 1;
+}
+
+.puloxProduct .product-grid .social {
+    width: 120px;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -23px;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
+}
+
+.puloxProduct .product-grid:hover .social {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.puloxProduct .product-grid .social li {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.puloxProduct .product-grid .social li a {
+    color: var(--dark);
+    background: var(--color-background-primary);
+    font-size: var(--font-size-md);
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--shadow-light);
+    border-radius: 50%;
+    margin: 0 2px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 25px;
+}
+
+.puloxProduct .product-grid .social li a:hover {
+    background: var(--color-secondary);
+    color: var(--color-background-primary);
+}
+
+.puloxProduct .product-grid .social li a i {
+    line-height: inherit;
+}
+
+.puloxProduct .product-grid .product-new-label,
+.puloxProduct .product-grid .product-discount-label {
+    background-color: var(--color-secondary);
+    color: var(--color-background-primary);
+    font-size: var(--font-size-md);
+    padding: 2px 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: all 0.3s;
+}
+
+.puloxProduct .product-grid:hover .product-new-label,
+.puloxProduct .product-grid:hover .product-discount-label {
+    opacity: 0;
+}
+
+.puloxProduct .product-grid .product-content {
+    z-index: -1;
+    padding: 15px;
+    text-align: left;
+}
+
+.puloxProduct .product-grid .title {
+    font-size: var(--font-size-sm);
+    text-transform: capitalize;
+    margin: 0 0 7px;
+    transition: all 0.3s ease 0s;
+}
+
+.puloxProduct .product-grid .title a {
+    color: var(--dark);
+}
+
+.puloxProduct .product-grid:hover .title {
+    opacity: 0;
+}
+
+.puloxProduct .product-grid .price {
+    color: var(--dark);
+    font-size: var(--font-size-base);
+    letter-spacing: 1px;
+    font-weight: var(--font-weight-semibold);
+    margin-right: 2px;
+    display: inline-block;
+}
+
+.puloxProduct .product-grid .price span {
+    color: var(--neutral-light);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    letter-spacing: 0;
+    text-decoration: line-through;
+    text-align: left;
+    display: inline-block;
+    margin-top: -2px;
+}
+
+.puloxProduct .product-grid .rating {
+    padding: 0;
+    margin: -22px 0 0;
+    list-style: none;
+    text-align: right;
+    display: block;
+}
+
+.puloxProduct .product-grid .rating li {
+    color: var(--color-warning);
+    font-size: var(--font-size-sm);
+    display: inline-block;
+}
+
+.puloxProduct .product-grid .rating li.disable {
+    color: var(--neutral-dark);
+}
+
+@media only screen and (max-width: 1200px) {
+    .puloxProduct .product-grid .rating {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .puloxProduct .product-grid {
+        margin-bottom: 30px;
+    }
+
+    .puloxProduct .product-grid .rating {
+        margin: -22px 0 0;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    .puloxProduct .product-grid .rating {
+        margin: 0;
+    }
+}
+
+/* #pulox(puloxProduct) #css ends  */
+/* #cade(cadeCounters) #css starts  */
+
+
+.cadeCounters h4 {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-primary)
+}
+
+.cadeCounters .h-50 {
+    margin-top: -66px
+}
+
+@media (min-width: 576px) {
+    .cadeCounters .col-md-3 {
+        margin-bottom: 30px;
+        text-align: center
+    }
+}
+
+@media (max-width: 576px) {
+    .cadeCounters .col-md-3 {
+        margin-bottom: 30px;
+        text-align: center
+    }
+
+    .cadeCounters .h-50 {
+        display: none
+    }
+}
+
+@media (max-width: 900px) {
+    .cadeCounters .col-md-3 {
+        margin-bottom: 30px;
+        text-align: center
+    }
+
+    .cadeCounters .h-50 {
+        display: none
+    }
+}
+
+/* #cade(cadeCounters) #css ends  */
+/* #trove(troveTestimonial) #css starts  */
+.troveTestimonial {
+    display: flex;
+    align-items: center;
+}
+
+.troveTestimonial #demo {
+    background: linear-gradient(112deg, var(--color-background-primary) 50%, var(--color-border-hover) 50%);
+    max-width: 900px;
+    margin: auto;
+}
+
+.troveTestimonial .carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: var(--dark);
+    text-align: center;
+    line-height: 2rem;
+}
+
+@media(max-width:767px) {
+    .troveTestimonial .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+}
+
+.troveTestimonial .carousel-caption img {
+    width: 6rem;
+    border-radius: 5rem;
+    margin-top: 2rem;
+}
+
+@media(max-width:767px) {
+    .troveTestimonial .carousel-caption img {
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem;
+    }
+}
+
+.troveTestimonial #image-caption {
+    margin-top: 0.5rem;
+}
+
+@media(max-width:767px) {
+    .troveTestimonial #image-caption {
+        margin-top: 0.5rem;
+    }
+}
+
+.troveTestimonial i {
+    background-color: var(--color-secondary);
+    padding: 1.4rem;
+}
+
+@media(max-width:767px) {
+    .troveTestimonial i {
+        padding: 0.8rem;
+    }
+}
+
+.troveTestimonial .carousel-control-prev {
+    justify-content: flex-start;
+}
+
+.troveTestimonial .carousel-control-next {
+    justify-content: flex-end;
+}
+
+.troveTestimonial .carousel-control-prev,
+.troveTestimonial .carousel-control-next {
+    transition: none;
+    opacity: unset;
+}
+
+/* #trove(troveTestimonial) #css ends  */
+/* #enzor(enzorEvents) #css starts  */
+.enzorEvents .fl-left {
+    float: left
+}
+
+.enzorEvents .fl-right {
+    float: right
+}
+
+.enzorEvents h2 {
+    border-left: 10px solid var(--color-primary);
+    padding-left: 10px;
+    margin-bottom: 30px
+}
+
+.enzorEvents .row {
+    overflow: hidden
+}
+
+.enzorEvents .card {
+    display: table-row;
+    width: 49%;
+    background-color: var(--color-background-primary);
+    color: var(--dark);
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    ;
+    border-radius: var(--border-radius-md);
+    position: relative
+}
+
+.enzorEvents .card+.card {
+    margin-left: 2%
+}
+
+.enzorEvents .date {
+    display: table-cell;
+    width: 25%;
+    position: relative;
+    text-align: center;
+    border-right: 2px dashed var(--border-color)
+}
+
+.enzorEvents .date:before,
+.enzorEvents .date:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-background-secondary);
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    z-index: 1;
+    border-radius: 50%
+}
+
+.enzorEvents .date:after {
+    top: auto;
+    bottom: -15px
+}
+
+.enzorEvents .date time {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.enzorEvents .date time span {
+    display: block
+}
+
+.enzorEvents .date time span:first-child {
+    color: var(--dark);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-xl)
+}
+
+.enzorEvents .date time span:last-child {
+    text-transform: capitalize;
+    ;
+    font-weight: var(--font-weight-semibold);
+    margin-top: -10px
+}
+
+.enzorEvents .card-cont {
+    display: table-cell;
+    width: 75%;
+    font-size: var(--font-size-md);
+    padding: 10px 10px 30px 50px
+}
+
+.enzorEvents .card-cont h3 {
+    color: var(--dark);
+}
+
+.enzorEvents .card-cont>div {
+    display: table-row
+}
+
+.enzorEvents .card-cont .even-date i,
+.enzorEvents .card-cont .even-info i,
+.enzorEvents .card-cont .even-date time,
+.enzorEvents .card-cont .even-info p {
+    display: table-cell
+}
+
+.enzorEvents .card-cont .even-date i,
+.enzorEvents .card-cont .even-info i {
+    padding: 5% 5% 0 0
+}
+
+.enzorEvents .card-cont .even-info p {
+    padding: 30px 50px 0 0;
+    color: var(--dark);
+}
+
+.enzorEvents .card-cont .even-date time span {
+    display: block;
+    color: var(--dark);
+}
+
+.enzorEvents .card-cont a {
+    display: block;
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+    background-color: var(--color-background-primary);
+    color: var(--color-white);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 2px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px
+}
+
+.enzorEvents .book-btn {
+    background-color: var(--color-secondary) !important;
+    color: var(--color-white);
+    border: none;
+    border-radius: var(--border-radius-sm) !important;
+}
+
+
+
+@media screen and (max-width: 860px) {
+    .enzorEvents .card {
+        display: block;
+        float: none;
+        width: 100%;
+        margin-bottom: 10px
+    }
+
+    .enzorEvents .card+.card {
+        margin-left: 0
+    }
+
+    .enzorEvents .card-cont .even-date,
+    .enzorEvents .card-cont .even-info {
+        font-size: var(--font-size-md)
+    }
+}
+
+/* #enzor(enzorEvents) #css ends  */
+
+/* #fierce(fierceFaq) #css starts  */
+.fierceFaq .accordion__single__hidden {
+    display: none;
+}
+
+.fierceFaq .accordion__single__hidden:checked~.accordion__single__answer {
+    max-height: 400px;
+    opacity: 1;
+    transform: translate(0, 0);
+    margin-top: 14px;
+}
+
+.fierceFaq .accordion__single__hidden:checked~.accordion__single__question:after {
+    content: "-";
+}
+
+.fierceFaq .accordion__single__answer {
+    margin-top: 0;
+    max-height: 0;
+    opacity: 0;
+    transform: translate(0, 50%);
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.fierceFaq .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fierceFaq .accordion {
+    font-weight: var(--font-weight-light);
+    line-height: 1.5;
+    max-width: 80%;
+}
+
+.fierceFaq .accordion__single {
+    margin-bottom: 30px;
+}
+
+.fierceFaq .accordion__single__question {
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+}
+
+.fierceFaq .accordion__single__question:hover,
+.fierceFaq .accordion__single__question:focus {
+    text-decoration: underline;
+}
+
+.fierceFaq .accordion__single__question:after {
+    display: inline-block;
+    margin-left: 10px;
+    color: var(--color-secondary);
+    content: "+";
+}
+
+.fierceFaq .accordion__single__answer {
+    margin-top: 5px;
+}
+
+/* #fierce(fierceFaq) #css ends  */
+/* #foot(footFooter) #css starts */
+.footFooter h3 {
+    color: var(--color-text-primary);
+}
+
+.footFooter .nav-link {
+    padding: 0.5rem 0rem;
+}
+
+.footFooter a {
+    color: var(--color-text-primary);
+}
+
+.footFooter .text {
+    color: var(--color-text-primary);
+}
+
+/* #foot(footFooter) #css ends */
