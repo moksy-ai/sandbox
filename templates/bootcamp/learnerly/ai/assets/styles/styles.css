@@ -1,0 +1,627 @@
+/* #taste(tasteTicker) #css starts  */
+.tasteTicker {
+    background-color: var(--color-secondary);
+    padding: 0;
+    overflow: hidden;
+    border-top: 1px solid var(--shadow-dark);
+    border-bottom: 1px solid var(--shadow-dark);
+}
+
+.tasteTicker .ticker {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    position: relative;
+}
+
+.tasteTicker .news {
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+}
+
+.tasteTicker .news-content {
+    display: inline-flex;
+    gap: 100px;
+    padding-right: 100px;
+    animation: tickerScroll 40s linear infinite;
+}
+
+.tasteTicker .news-content p {
+    color: var(--color-white);
+    margin: 0;
+    white-space: nowrap;
+}
+
+.tasteTicker .news-content p::before {
+    content: "📢";
+    margin-right: 6px;
+}
+
+@keyframes tickerScroll {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .tasteTicker .news-content {
+        gap: 50px;
+        animation-duration: 60s;
+    }
+
+    .tasteTicker .news-content p {
+        font-size: var(--font-size-sm);
+    }
+}
+
+/* #taste(tasteTicker) #css ends  */
+/* #natal(natalNavbar) #css starts  */
+.natalNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.natalNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.natalNavbar .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.natalNavbar .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.natalNavbar .col-3 {
+    padding-left: 0px !important;
+}
+
+/* #natal(natalNavbar) #css ends  */
+/* #horde(hordeHero) #css starts  */
+.hordeHero p {
+    color: var(--color-white);
+}
+
+.hordeHero #outlined:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.hordeHero .height {
+    height: 100vh;
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hordeHero .maindiv {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(24 23 23 / 63%);
+}
+
+.hordeHero .btn1 {
+    border-radius: var(--btn-radius-full);
+    background-color: var(--color-primary);
+}
+
+.hordeHero .btn2 {
+    border-radius: var(--btn-radius-full);
+    border: 1px solid var(--color-primary);
+}
+
+.hordeHero .white {
+    color: var(--color-white);
+}
+
+/* #horde(hordeHero) #css ends  */
+/* #cipher(cipherCertification) #css starts  */
+    /* Cipher Certification Component Styles */
+    /* Main certification section styling */
+    .cipherCertification .certification {
+        text-align: center;
+      }
+  
+      /* Certificate title with gradient effect */
+      .cipherCertification .cert-title {
+        font-size: var(--font-size-xl);
+        font-weight: var(--font-weight-bold);
+        margin-bottom: var(--spacing-xs);
+        background: linear-gradient(90deg, var(--color-primary), var(--color-warning));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+  
+      /* Certificate subtitle styling */
+      .cipherCertification .cert-subtext {
+        font-size: var(--font-size-lg);
+        margin-bottom: var(--spacing-lg);
+        color: var(--color-text-secondary);
+      }
+  
+      /* Certificate card container with 3D perspective */
+      .cipherCertification .cert-card-container {
+        perspective: 1000px;
+        margin-bottom: var(--spacing-lg);
+        display: flex;
+        justify-content: center;
+      }
+  
+      /* Certificate card styling with 3D effects */
+      .cipherCertification .certificate-card {
+        width: 320px;
+        height: 200px;
+        border-radius: var(--border-radius-lg);
+        background: var(--color-white);
+        box-shadow: var(--shadow-large);
+        overflow: hidden;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform var(--transition-duration) ease, filter var(--transition-duration) ease;
+        filter: blur(6px);
+        cursor: pointer;
+      }
+  
+      /* Certificate card image styling */
+      .cipherCertification .certificate-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+  
+      /* Lock icon overlay styling */
+      .cipherCertification .lock-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: var(--font-size-xxl);
+        color: var(--color-primary);
+        z-index: 2;
+        transition: transform var(--transition-duration) ease, opacity var(--transition-duration) ease;
+      }
+  
+      /* Certificate badge styling */
+      .cipherCertification .cert-badge {
+        position: absolute;
+        bottom: var(--spacing-xs);
+        left: 50%;
+        transform: translateX(-50%) translateY(20px);
+        opacity: 0;
+        transition: all 0.5s ease 0.4s;
+        background: var(--color-primary);
+        color: var(--color-white);
+        padding: var(--spacing-xs) var(--spacing-md);
+        border-radius: var(--border-radius-pill);
+        font-weight: var(--font-weight-semibold);
+        font-size: var(--font-size-sm);
+        white-space: nowrap;
+      }
+  
+      /* Certificate card pseudo-element for overlay effects */
+      .cipherCertification .certificate-card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: transparent;
+        pointer-events: none;
+        opacity: 0;
+      }
+  
+      /* Certificate card hover effects */
+      .cipherCertification .certificate-card:hover {
+        filter: blur(0);
+        transform: rotateY(8deg) rotateX(4deg);
+      }
+  
+      /* Lock icon hover animation */
+      .cipherCertification .certificate-card:hover .lock-icon {
+        transform: translate(-50%, -50%) rotateZ(90deg) scale(0);
+        opacity: 0;
+      }
+  
+      /* Certificate badge hover animation */
+      .cipherCertification .certificate-card:hover .cert-badge {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+      }
+  
+      /* Benefits list styling */
+      .cipherCertification .benefits {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto var(--spacing-lg) auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+  
+      /* Benefits list item styling */
+      .cipherCertification .benefits li {
+        margin: 0 var(--spacing-md) var(--spacing-md);
+        font-size: var(--font-size-base);
+        display: flex;
+        align-items: center;
+        color: var(--color-text-primary);
+      }
+  
+      /* Benefits list item icon styling */
+      .cipherCertification .benefits li i {
+        margin-right: var(--spacing-xs);
+        color: var(--color-primary);
+      }
+  
+      /* Call-to-action button styling */
+      .cipherCertification .btn-cta {
+        font-size: var(--font-size-lg);
+        padding: var(--spacing-sm) var(--spacing-xl);
+        font-weight: var(--font-weight-semibold);
+        border-radius: var(--border-radius-pill);
+        background: var(--color-primary);
+        color: var(--color-white);
+        border: none;
+      }
+  
+      /* Responsive design for mobile devices */
+      @media (max-width: 767px) {
+        .cipherCertification .certificate-card {
+          width: 260px;
+          height: 160px;
+        }
+  
+        .cipherCertification .cert-title {
+          font-size: var(--font-size-xl);
+        }
+      }
+  
+/* #cipher(cipherCertification) #css ends  */
+/* #codra(codraClients) #css starts  */
+/* Wrapper */
+.codraClients .logo-slider {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Track */
+.codraClients .logos-slide {
+    display: flex;
+    animation: scroll-left 30s linear infinite;
+}
+
+/* Logos */
+.codraClients .logos-slide img {
+    width: 150px;
+    height: auto;
+    margin: 0 20px;
+    flex-shrink: 0;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+/* Optional hover zoom */
+.codraClients .logos-slide img:hover {
+    transform: scale(1.05);
+}
+
+/* Infinite scroll animation */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* #codra(codraClients) #css ends  */
+/* #parve(parveProduct) #css starts  */
+.parveProduct .product-grid {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+}
+
+.parveProduct .product-grid .product-image {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.parveProduct .product-grid .product-image a.image {
+    display: block;
+}
+
+.parveProduct .product-grid .product-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: all 0.5s ease 0s;
+}
+
+.parveProduct .product-grid .product-image .pic-1 {
+    transition: all 0.5s ease 0s;
+}
+
+.parveProduct .product-grid .product-image:hover .pic-1 {
+    opacity: 0;
+}
+
+.parveProduct .product-grid .product-image .pic-2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    backface-visibility: hidden;
+    opacity: 0;
+    transform: rotateY(90deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease 0s;
+}
+
+.parveProduct .product-grid .product-image:hover .pic-2 {
+    opacity: 1;
+    transform: rotateY(0);
+}
+
+.parveProduct .product-grid .product-new-label {
+    color: var(--color-background-primary);
+    background-color: var(--color-secondary);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-light);
+    text-transform: capitalize;
+    padding: 15px 30px 2px;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: -6px;
+    left: -31px;
+    z-index: 1;
+}
+
+.parveProduct .product-grid .product-links {
+    font-size: 0;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+}
+
+.parveProduct .product-grid .product-links li {
+    display: inline-block;
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 0.3s, transform 1s ease 0s;
+}
+
+.parveProduct .product-grid .product-image:hover .product-links li {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.parveProduct .product-grid .product-links li a {
+    color: var(--color-background-primary);
+    background: var(--dark);
+    font-size: var(--font-size-base);
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    transition: all 0.5s ease-out;
+}
+
+.parveProduct .product-grid:hover .product-links li a:hover {
+    color: var(--color-background-primary);
+    background-color: var(--color-secondary);
+}
+
+.parveProduct .product-grid .product-content {
+    padding: 12px 0 0;
+    position: relative;
+}
+
+.parveProduct .product-grid .title {
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-regular);
+    text-transform: capitalize;
+    margin: 0 0 5px;
+}
+
+.parveProduct .product-grid .title a {
+    color: var(--dark);
+    transition: all 0.3s ease 0s;
+}
+
+.parveProduct .product-grid .title a:hover {
+    color: var(--color-secondary);
+}
+
+.parveProduct .product-grid .price {
+    color: var(--color-secondary);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    transition: all 0.5s ease-in-out 0.2s;
+}
+
+.parveProduct .product-grid:hover .price {
+    transform: translateX(100%);
+}
+
+.parveProduct .product-grid .add-to-cart {
+    color: var(--color-secondary);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-medium);
+    text-transform: capitalize;
+    opacity: 0;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    transition: left 0.3s ease 0s, opacity 0.5s ease 0s;
+}
+
+.parveProduct .product-grid:hover .add-to-cart {
+    opacity: 1;
+    left: 50%;
+}
+
+
+@media screen and (max-width: 990px) {
+    .parveProduct .product-grid {
+        margin: 0 0 30px;
+    }
+}
+
+/* #parve(parveProduct) #css ends  */
+/* #bolix(bolixBlog) #css starts  */
+.bolixBlog .btn {
+    background-color: var(--dark);
+    color: var(--color-white);
+}
+
+.bolixBlog .heading-custom-class {
+    color: var(--dark);
+}
+
+/* #bolix(bolixBlog) #css ends  */
+/* #trevor(trevorTestimonial) #css starts  */
+.trevorTestimonial a,
+.trevorTestimonial a:active,
+.trevorTestimonial a:focus {
+    color: var(--dark);
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+
+.trevorTestimonial img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.trevorTestimonial .testimonials .heading {
+    margin-bottom: 60px;
+}
+
+.trevorTestimonial .testimonials .heading p {
+    color: var(--dark);
+    line-height: 26px;
+    margin: 0;
+    max-width: none !important;
+}
+
+.trevorTestimonial .testimonials .box {
+    box-shadow: 0 10px 30px var(--shadow-light);
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: all 0.4s ease-in-out;
+}
+
+
+.trevorTestimonial .testimonials .box:hover {
+    transform: translateY(-10px);
+}
+
+.trevorTestimonial .testimonials .box h3 span {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-secondary);
+    margin-left: 10px;
+}
+
+.trevorTestimonial .testimonials .box p {
+    line-height: 24px;
+    margin: 0;
+    color: var(--dark);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+.trevorTestimonial .testimonials .box .image img {
+    width: 200px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.trevorTestimonial .testimonials .box .icon {
+    border: 1px solid var(--color-secondary);
+    color: var(--dark);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.trevorTestimonial .testimonials .box .icon:hover {
+    color: var(--color-white);
+    border: 1px solid var(--color-secondary);
+    background: var(--color-secondary);
+}
+
+/* #trevor(trevorTestimonial) #css ends  */
+/* #cyron(cyronCTA) #css starts  */
+.cyronCTA .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.cyronCTA .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.cyronCTA .lead {
+    color: var(--color-text-primary);
+}
+
+/* #cyron(cyronCTA) #css ends  */
+/* #foils(foilsFooter) #css starts */
+.foilsFooter h5 {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+}
+
+.foilsFooter .icons {
+    color: var(--dark);
+}
+
+/* #foils(foilsFooter) #css ends */
