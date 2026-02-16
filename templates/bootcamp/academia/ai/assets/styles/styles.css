@@ -1,0 +1,635 @@
+/* #niche(nicheNavbar) #css starts  */
+.nicheNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.nicheNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.nicheNavbar .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.nicheNavbar .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.nicheNavbar .btnone {
+    color: var(--color-tertiary) !important;
+    border: none;
+    background-color: transparent;
+}
+
+.nicheNavbar .col-3 {
+    padding-left: 0px !important;
+}
+
+/* #niche(nicheNavbar) #css ends  */
+/* #hope(hopeHero) #css starts  */
+.hopeHero .logo-header {
+    background: linear-gradient(rgb(117 123 129 / 35%), rgb(62 63 64)), url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    color: var(--color-white);
+    padding-top: 150px;
+    padding-bottom: 100px
+}
+
+.hopeHero .logo-header h1 {
+    margin: 0 auto 0.2em auto;
+    color: var(--color-white);
+}
+
+.hopeHero .logo-header p {
+    color: var(--color-white);
+    margin: 0 auto 2em auto
+}
+
+.hopeHero .logo-header .btn {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-radius: var(--btn-radius-full);
+}
+
+
+@media (min-width: 992px) {
+    .hopeHero .logo-header {
+        height: 100vh;
+        padding-top: 0;
+        padding-bottom: 0
+    }
+}
+
+/* #hope(hopeHero) #css ends  */
+/* #phoebe(phoebeProduct) #css starts  */
+
+.phoebeProduct .product-grid {
+    position: relative;
+    z-index: 1;
+}
+
+.phoebeProduct .product-grid .product-image {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.phoebeProduct .product-grid .product-image a {
+    display: block;
+    height: 100%;
+}
+
+.phoebeProduct .product-grid .product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.phoebeProduct .product-grid .pic-1 {
+    opacity: 1;
+    transition: all 0.5s ease-out 0s;
+}
+
+.phoebeProduct .product-grid:hover .pic-1 {
+    opacity: 0;
+}
+
+.phoebeProduct .product-grid .pic-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease-out 0s;
+}
+
+.phoebeProduct .product-grid:hover .pic-2 {
+    opacity: 1;
+}
+
+.phoebeProduct .product-grid .product-full-view {
+    color: var(--dark);
+    background-color: var(--color-background-primary);
+    font-size: var(--font-size-base);
+    height: 45px !important;
+    width: 45px;
+    padding: 18px;
+    border-radius: 100px 0 0;
+    display: block;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.phoebeProduct .product-grid .product-full-view:hover {
+    color: var(--color-secondary);
+}
+
+.phoebeProduct .product-grid:hover .product-full-view {
+    opacity: 1;
+}
+
+.phoebeProduct .product-grid .product-content {
+    padding: 12px 12px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.phoebeProduct .product-content .rating {
+    padding: 0;
+    margin: 0 0 7px 0;
+    list-style: none;
+}
+
+.phoebeProduct .product-grid .rating li {
+    font-size: var(--font-size-xs);
+    color: var(--color-warning);
+    transition: all 0.3s ease 0s;
+}
+
+.phoebeProduct .product-grid .rating li.disable {
+    color: var(--shadow-dark);
+}
+
+.phoebeProduct .product-grid .title {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-regular);
+    text-transform: capitalize;
+    margin: 0 0 3px;
+    transition: all 0.3s ease 0s;
+}
+
+.phoebeProduct .product-grid .title a {
+    color: var(--color-text-primary);
+}
+
+.phoebeProduct .product-grid .title a:hover {
+    color: var(--color-secondary);
+}
+
+.phoebeProduct .product-grid .price {
+    color: var(--dark);
+    font-size: var(--font-size-md);
+    margin: 0;
+    display: block;
+    transition: all 0.5s ease 0s;
+}
+
+.phoebeProduct .product-grid:hover .price {
+    opacity: 0;
+}
+
+.phoebeProduct .product-grid .add-to-cart {
+    display: block;
+    color: var(--color-secondary);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-sm);
+    opacity: 0;
+    position: absolute;
+    left: 10px;
+    bottom: -20px;
+    transition: all 0.5s ease 0s;
+}
+
+.phoebeProduct .product-grid:hover .add-to-cart {
+    opacity: 1;
+    bottom: 0;
+}
+
+.phoebeProduct .product-grid .product-full-view,
+.phoebeProduct .product-grid .title a,
+.phoebeProduct .product-grid .add-to-cart {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 990px) {
+    .phoebeProduct .product-grid {
+        margin-bottom: 30px;
+    }
+}
+
+/* #phoebe(phoebeProduct) #css ends  */
+/* #final(finalFeature) #css starts  */
+.finalFeature h2 {
+    margin-bottom: var(--spacing-xl);
+}
+
+.finalFeature .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+    margin-top: var(--spacing-xl);
+}
+
+.finalFeature .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+/* #final(finalFeature) #css ends  */
+/* #tolem(tolemTestimonial) #css starts  */
+.tolemTestimonial .mok-block {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: var(--color-background-primary)
+}
+
+.tolemTestimonial .mok-block .mok-box {
+    background: var(--color-background-primary);
+    padding: 3.75rem 2.5rem;
+    overflow: hidden;
+    color: var(--dark);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.3125rem 0.875rem 0 var(--shadow-dark)
+}
+
+.tolemTestimonial .img3 {
+    height: 71.25px;
+}
+
+.tolemTestimonial .lead {
+    color: var(--dark);
+}
+
+/* #tolem(tolemTestimonial) #css ends  */
+/* #willow(willowWhyus) #css starts  */
+/* Comparison Table Container */
+.willowWhyus .comparison-table {
+    width: 100%;
+}
+
+/* Table Header Styling */
+.willowWhyus .comparison-table thead th {
+    background-color: var(--color-background-secondary);
+    font-weight: var(--font-weight-semibold);
+    text-align: center;
+}
+
+/* Table Row Alternating Colors */
+.willowWhyus .comparison-table tbody tr:nth-of-type(odd) {
+    background-color: var(--color-background-primary);
+}
+
+.willowWhyus .comparison-table tbody tr:nth-of-type(even) {
+    background-color: var(--color-background-tertiary);
+}
+
+/* Table Cell Styling */
+.willowWhyus .comparison-table td,
+.willowWhyus .comparison-table th {
+    vertical-align: middle;
+    text-align: center;
+    padding: var(--spacing-sm);
+    border-top: 1px solid var(--border-color);
+}
+
+/* Feature Name Column */
+.willowWhyus .feature-name {
+    text-align: left;
+    font-weight: var(--font-weight-medium);
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 576px) {
+
+    /* Hide table header on mobile */
+    .willowWhyus .comparison-table thead {
+        display: none;
+    }
+
+    /* Convert table to block layout */
+    .willowWhyus .comparison-table,
+    .willowWhyus .comparison-table tbody,
+    .willowWhyus .comparison-table tr,
+    .willowWhyus .comparison-table td {
+        display: block;
+        width: 100%;
+    }
+
+    /* Row styling for mobile */
+    .willowWhyus .comparison-table tr {
+        margin-bottom: var(--spacing-md);
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius-sm);
+    }
+
+    /* Cell styling for mobile */
+    .willowWhyus .comparison-table td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+        border: none;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    /* Data label for mobile */
+    .willowWhyus .comparison-table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: var(--spacing-md);
+        width: 45%;
+        padding-right: var(--spacing-md);
+        text-align: left;
+        font-weight: var(--font-weight-semibold);
+        color: var(--color-text-primary);
+    }
+
+    /* Remove border from last cell */
+    .willowWhyus .comparison-table td:last-child {
+        border-bottom: 0;
+    }
+}
+
+/* #willow(willowWhyus) #css ends  */
+/* #cash(cashCounters) #css starts  */
+.cashCounters h2 {
+    color: var(--color-text-primary);
+    margin-top: var(--spacing-sm);
+    margin-bottom: 0;
+}
+
+.cashCounters .BG {
+    background-color: var(--color-background-primary)
+}
+
+.cashCounters i {
+    font-size: var(--font-size-lg)
+}
+
+.cashCounters h4 {
+    font-size: var(--font-size-lg);
+}
+
+@media (min-width: 576px) {
+    .cashCounters .col-md-3 {
+        margin-bottom: 30px;
+        text-align: center
+    }
+}
+
+@media (max-width: 576px) {
+    .cashCounters .col-md-3 {
+        margin-bottom: 30px;
+        text-align: center
+    }
+}
+
+/* #cash(cashCounters) #css ends  */
+/* #cyclone(cycloneCertification) #css starts  */
+
+    /* Progress tracker container */
+    .cycloneCertification .progress-tracker {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    /* Individual step styling */
+    .cycloneCertification .step {
+      background: var(--color-white);
+      border-radius: var(--border-radius-lg);
+      padding: var(--spacing-xl) var(--spacing-md);
+      width: 260px;
+      flex: 1 1 240px;
+      text-align: center;
+      position: relative;
+      box-shadow: var(--shadow-md);
+      transition: transform var(--transition-duration) ease;
+    }
+
+    /* Step hover effect */
+    .cycloneCertification .step:hover {
+      transform: translateY(-4px);
+    }
+
+    /* Step icon styling */
+    .cycloneCertification .step .icon {
+      font-size: var(--font-size-xxxl);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    /* Step heading */
+    .cycloneCertification .step h3 {
+      font-size: var(--font-size-lg);
+      margin-bottom: var(--spacing-xs);
+      font-weight: var(--font-weight-semibold);
+    }
+
+    /* Step description */
+    .cycloneCertification .step p {
+      font-size: var(--font-size-sm);
+      color: var(--color-text-secondary);
+    }
+
+    /* Connecting line between steps */
+    .cycloneCertification .step::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: -40px;
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-success) 100%);
+      transform: translateY(-50%);
+      z-index: -1;
+    }
+
+    /* Remove line from last step */
+    .cycloneCertification .step:last-child::after {
+      display: none;
+    }
+
+    /* Completed steps styling */
+    .cycloneCertification .completed .icon,
+    .cycloneCertification .completed h3 {
+      color: var(--color-success);
+    }
+
+    /* Final step with pulse animation */
+    .cycloneCertification .step.final {
+      animation: cyclonePulse 2.5s infinite;
+      border: var(--border-width-md) solid var(--color-warning);
+    }
+
+    /* Pulse animation keyframes */
+    @keyframes cyclonePulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(250, 204, 21, .5);
+      }
+
+      70% {
+        box-shadow: 0 0 0 24px rgba(250, 204, 21, 0);
+      }
+
+      100% {
+        box-shadow: 0 0 0 0 rgba(250, 204, 21, 0);
+      }
+    }
+
+    /* Download button styling */
+    .cycloneCertification .btn-download {
+      display: inline-block;
+      margin-top: var(--spacing-md);
+      padding: var(--spacing-sm) var(--spacing-lg);
+      background: var(--color-primary);
+      color: var(--color-white);
+      border-radius: var(--border-radius-pill);
+      font-size: var(--font-size-sm);
+      transition: background var(--transition-duration) ease;
+    }
+
+    /* Download button hover effect */
+    .cycloneCertification .btn-download:hover {
+      background: var(--color-primary-dark);
+      text-decoration: none;
+      color: var(--color-white);
+    }
+
+    /* Statistics text */
+    .cycloneCertification .after-stats {
+      text-align: center;
+      margin-top: var(--spacing-xl);
+      font-size: var(--font-size-base);
+      font-weight: var(--font-weight-medium);
+      color: var(--color-text-primary);
+    }
+
+    /* Mobile responsive layout */
+    @media (max-width: 768px) {
+      .cycloneCertification .progress-tracker {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .cycloneCertification .step {
+        margin-bottom: var(--spacing-xl);
+        width: 100%;
+        max-width: 340px;
+      }
+
+      .cycloneCertification .step::after {
+        top: auto;
+        left: 50%;
+        right: auto;
+        width: 4px;
+        height: 80px;
+        transform: translateX(-50%);
+        background: linear-gradient(180deg, var(--color-primary) 0%, var(--color-success) 100%);
+      }
+    }
+/* #cyclone(cycloneCertification) #css ends  */
+/* #regin(reginRegistration) #css starts */
+.reginRegistration .homepage-hero-module {
+    min-height: 50vh;
+    background-image: url(../images/registration.jpg);
+    background-size: cover;
+    position: relative
+}
+
+.reginRegistration .bg-overlay {
+    background: linear-gradient(to bottom, #dc151500, var(--color-secondary));
+    width: 100%;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0
+}
+
+.reginRegistration .bg-primary {
+    background-color: var(--color-secondary) !important
+}
+
+.reginRegistration .btn,
+.reginRegistration .btn-dark:not(:disabled):not(.disabled).active,
+.reginRegistration .btn-dark:not(:disabled):not(.disabled):active {
+    background-color: var(--color-white);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--dark);
+}
+
+.reginRegistration h2 {
+    color: var(--color-white);
+}
+
+.reginRegistration p {
+    color: var(--color-white);
+}
+
+.reginRegistration .white {
+    color: var(--color-white);
+}
+
+/* #regin(reginRegistration) #css ends */
+/* #fanta(fantaFooter) #css starts */
+.fantaFooter {
+    overflow: hidden;
+}
+
+.fantaFooter .footer-wrap {
+    padding-top: var(--spacing-xxl);
+    background: var(--color-background-primary);
+    background-size: cover
+}
+
+.fantaFooter .footer-wrap p {
+    margin-top: var(--spacing-md)
+}
+
+.fantaFooter .footer-links li a {
+    line-height: var(-line-height-lg);
+    color: var(--color-text-primary);
+}
+
+.fantaFooter .footer-category li a {
+    line-height: var(-line-height-lg);
+    color: var(--color-text-primary);
+}
+
+.fantaFooter .copyright {
+    color: var(--color-text-primary);
+    text-align: center;
+    background: var(--color-white);
+    padding: var(--spacing-md) 0 var(--spacing-md) 0;
+}
+
+.fantaFooter footer .first_class {
+    padding-bottom: var(--spacing-md)
+}
+
+.fantaFooter ul {
+    padding-left: var(--spacing-xs)
+}
+
+.fantaFooter footer li {
+    color: var(--color-tertiary);
+}
+
+@media(max-width:768px) {
+    .fantaFooter .footer-wrap h3 {
+        margin-top: 27px
+    }
+}
+
+@media(max-width:320px) {
+    .fantaFooter .copyright {
+        font-size: var(--font-size-sm)
+    }
+}
+
+/* #fanta(fantaFooter) #css ends */
