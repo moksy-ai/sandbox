@@ -367,7 +367,7 @@
     /* Section title styling */
     .pulsePreview .section-title {
       font-weight: var(--font-weight-bold);
-      font-size: var(--font-size-2xl);
+      font-size: var(--font-size-xl);
     }
 
     /* Section subtitle styling */
