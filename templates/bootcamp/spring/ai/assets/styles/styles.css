@@ -1,0 +1,793 @@
+/* #natal(natalNavbar) #css starts  */
+.natalNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.natalNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.natalNavbar .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.natalNavbar .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.natalNavbar .col-3 {
+    padding-left: 0px !important;
+}
+
+/* #natal(natalNavbar) #css ends  */
+/* #regin(reginRegistration) #css starts */
+.reginRegistration .homepage-hero-module {
+    min-height: 50vh;
+    background-image: url(../images/hero.jpg);
+    background-size: top;
+    position: relative
+}
+
+.reginRegistration .bg-overlay {
+    background: linear-gradient(to bottom, var(--color-primary), var(--color-tertiary));
+    width: 100%;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.9;
+}
+
+.reginRegistration .bg-primary {
+    background-color: var(--color-secondary) !important
+}
+
+.reginRegistration .btn,
+.reginRegistration .btn-dark:not(:disabled):not(.disabled).active,
+.reginRegistration .btn-dark:not(:disabled):not(.disabled):active {
+    background-color: var(--color-white);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--dark);
+}
+
+.reginRegistration h2 {
+    color: var(--color-white);
+}
+
+.reginRegistration p {
+    color: var(--color-white);
+}
+
+.reginRegistration .white {
+    color: var(--color-white);
+}
+.reginRegistration label{
+    color: var(--color-primary);
+}
+.reginRegistration .btn{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+.reginRegistration .small{
+    color: var(--color-primary);
+}
+/* #regin(reginRegistration) #css ends */
+/* #cepra(cepraClients) #css starts  */
+.cepraClients .client {
+    margin-top: 20px;
+}
+
+.cepraClients .img-responsive {
+    max-height: 150px;
+    max-width: 150px
+}
+
+.cepraClients .client .thumbnail:hover {
+    border: 2px solid var(--color-secondary);
+    -webkit-transform: scale(1.2);
+}
+
+/* #cepra(cepraClients) #css ends  */
+
+/* #parve(parveProduct) #css starts  */
+.parveProduct .product-grid {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+}
+.parveProduct p{
+    max-width: none;
+}
+.parveProduct .product-grid .product-image {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.parveProduct .product-grid .product-image a.image {
+    display: block;
+}
+
+.parveProduct .product-grid .product-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: all 0.5s ease 0s;
+}
+
+.parveProduct .product-grid .product-image .pic-1 {
+    transition: all 0.5s ease 0s;
+}
+
+.parveProduct .product-grid .product-image:hover .pic-1 {
+    opacity: 0;
+}
+
+.parveProduct .product-grid .product-image .pic-2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    backface-visibility: hidden;
+    opacity: 0;
+    transform: rotateY(90deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease 0s;
+}
+
+.parveProduct .product-grid .product-image:hover .pic-2 {
+    opacity: 1;
+    transform: rotateY(0);
+}
+
+.parveProduct .product-grid .product-new-label {
+    color: var(--color-background-primary);
+    background-color: var(--color-secondary);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-light);
+    text-transform: capitalize;
+    padding: 15px 30px 2px;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: -6px;
+    left: -31px;
+    z-index: 1;
+}
+
+.parveProduct .product-grid .product-links {
+    font-size: 0;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+}
+
+.parveProduct .product-grid .product-links li {
+    display: inline-block;
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 0.3s, transform 1s ease 0s;
+}
+
+.parveProduct .product-grid .product-image:hover .product-links li {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.parveProduct .product-grid .product-links li a {
+    color: var(--color-background-primary);
+    background: var(--dark);
+    font-size: var(--font-size-base);
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    transition: all 0.5s ease-out;
+}
+
+.parveProduct .product-grid:hover .product-links li a:hover {
+    color: var(--color-background-primary);
+    background-color: var(--color-secondary);
+}
+
+.parveProduct .product-grid .product-content {
+    padding: 12px 0 0;
+    position: relative;
+}
+
+.parveProduct .product-grid .title {
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-regular);
+    text-transform: capitalize;
+    margin: 0 0 5px;
+}
+
+.parveProduct .product-grid .title a {
+    color: var(--dark);
+    transition: all 0.3s ease 0s;
+}
+
+.parveProduct .product-grid .title a:hover {
+    color: var(--color-secondary);
+}
+
+.parveProduct .product-grid .price {
+    color: var(--color-secondary);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    transition: all 0.5s ease-in-out 0.2s;
+}
+
+.parveProduct .product-grid:hover .price {
+    transform: translateX(100%);
+}
+
+.parveProduct .product-grid .add-to-cart {
+    color: var(--color-secondary);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-medium);
+    text-transform: capitalize;
+    opacity: 0;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    transition: left 0.3s ease 0s, opacity 0.5s ease 0s;
+    color: var(--color-white);
+}
+
+.parveProduct .product-grid:hover .add-to-cart {
+    opacity: 1;
+    left: 50%;
+}
+
+
+@media screen and (max-width: 990px) {
+    .parveProduct .product-grid {
+        margin: 0 0 30px;
+    }
+}
+
+/* #parve(parveProduct) #css ends  */
+/* #flash(flashFeature) #css starts */
+.flashFeature .mok-block img.mok-icon {
+    width: var(--icon-size-xl);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flashFeature h2 {
+    margin-bottom: var(--spacing-xl);
+}
+
+.flashFeature h3 {
+    margin-top: var(--spacing-sm);
+}
+
+.flashFeature .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+    margin-top: var(--spacing-xl);
+}
+
+.flashFeature .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+/* #flash(flashFeature) #css starts */
+
+/* #pexo(pexoPricing) #css starts  */
+.pexoPricing .heading {
+    color: var(--dark);
+}
+
+.pexoPricing .btn {
+    background-color: var(--color-secondary);
+    border-radius: var(--btn-radius-full);
+    font-weight: var(--font-weight-semibold);
+}
+
+.pexoPricing .price {
+    color: var(--color-secondary);
+}
+
+.pexoPricing .mb-5 {
+    margin-bottom: 1rem !important;
+}
+
+.pexoPricing .white {
+    color: var(--color-white);
+}
+
+/* #pexo(pexoPricing) #css ends  */
+
+/* #compass(compassCertification) #css starts  */
+  /* Compass Certification Component Styles */
+  /* Certificate card base */
+  .compassCertification .certificate-card {
+    border: var(--border-width-md) solid var(--color-white);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-large);
+    transition: transform var(--transition-duration) ease, box-shadow var(--transition-duration) ease;
+  }
+
+  /* Hover elevation */
+  .compassCertification .certificate-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-xl);
+  }
+
+  /* Subtle glow overlay */
+  .compassCertification .certificate-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: var(--border-radius-lg);
+    box-shadow: 0 0 12px 4px rgba(255, 223, 0, 0.5);
+    opacity: .3;
+    pointer-events: none;
+  }
+
+  /* Circular success badge */
+  .compassCertification .certificate-badge {
+    position: absolute;
+    top: calc(var(--spacing-sm) * -1);
+    right: calc(var(--spacing-sm) * -1);
+    background: var(--color-success);
+    color: var(--color-white);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--border-radius-full);
+  }
+
+  /* Pulse animation for check icon */
+  @keyframes compassPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+    100% { transform: scale(1); }
+  }
+  .compassCertification .animated-check { animation: compassPulse 2s infinite; }
+
+  /* Section title */
+  .compassCertification .section-title { color: var(--color-text-primary); }
+
+  /* Included label pill */
+  .compassCertification .included-label {
+    background: var(--color-success-100);
+    padding: var(--spacing-2xs) var(--spacing-sm);
+    border-radius: var(--border-radius-pill);
+    font-weight: var(--font-weight-semibold);
+  }
+
+  /* Partner logos */
+  .compassCertification .partner-logos img {
+    filter: grayscale(100%);
+    opacity: 0.8;
+    transition: opacity var(--transition-duration) ease;
+  }
+  .compassCertification .partner-logos img:hover { opacity: 1; }
+
+  /* Responsive */
+  @media (max-width: 767.98px) {
+    .compassCertification .section-title,
+    .compassCertification .included-label,
+    .compassCertification .partner-logos { text-align: center; }
+    .compassCertification .included-label,
+    .compassCertification .partner-logos { justify-content: center; }
+  }
+/* #compass(compassCertification) #css ends  */
+
+/* #cade(cadeCounters) #css starts  */
+
+
+.cadeCounters h4 {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-primary)
+}
+
+.cadeCounters .h-50 {
+    margin-top: -66px
+}
+
+@media (min-width: 576px) {
+    .cadeCounters .col-md-3 {
+        margin-bottom: 30px;
+        text-align: center
+    }
+}
+
+@media (max-width: 576px) {
+    .cadeCounters .col-md-3 {
+        margin-bottom: 30px;
+        text-align: center
+    }
+
+    .cadeCounters .h-50 {
+        display: none
+    }
+}
+
+@media (max-width: 900px) {
+    .cadeCounters .col-md-3 {
+        margin-bottom: 30px;
+        text-align: center
+    }
+
+    .cadeCounters .h-50 {
+        display: none
+    }
+}
+
+/* #cade(cadeCounters) #css ends  */
+/* #favor(favorFaq) #css starts  */
+
+.favorFaq .accordion-style .card {
+    background: transparent;
+    box-shadow: none;
+    margin-bottom: 15px;
+    margin-top: 0 !important;
+    border: none;
+}
+
+.favorFaq .accordion-style .card:last-child {
+    margin-bottom: 0;
+}
+
+.favorFaq .accordion-style .card-header {
+    border: 0;
+    background: none;
+    padding: 0;
+    border-bottom: none;
+}
+
+.favorFaq .accordion-style .btn-link {
+    color: var(--color-background-primary);
+    position: relative;
+    background: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    display: block;
+    width: 100%;
+    font-size: var(--font-size-md);
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    text-align: left;
+    white-space: normal;
+    box-shadow: none;
+    padding: 15px 55px;
+    text-decoration: none;
+}
+
+.favorFaq .accordion-style .btn-link:hover {
+    text-decoration: none;
+}
+
+.favorFaq .accordion-style .btn-link.collapsed {
+    background: var(--color-background-primary);
+    border: 1px solid var(--dark);
+    color: var(--dark);
+    border-radius: 3px;
+}
+
+.favorFaq .accordion-style .btn-link.collapsed:after {
+    background: none;
+    border-radius: 3px;
+    content: "+";
+    left: 16px;
+    right: inherit;
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    line-height: 26px;
+    height: 26px;
+    transform: none;
+    width: 26px;
+    top: 15px;
+    text-align: center;
+    background-color: var(--dark);
+    color: var(--color-background-primary);
+}
+
+.favorFaq .accordion-style .btn-link:after {
+    background: var(--color-background-primary);
+    border: none;
+    border-radius: 3px;
+    content: "-";
+    left: 16px;
+    right: inherit;
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    height: 26px;
+    line-height: 26px;
+    transform: none;
+    width: 26px;
+    top: 15px;
+    position: absolute;
+    color: var(--dark);
+    text-align: center;
+}
+
+.favorFaq .accordion-style .card-body {
+    padding: 20px;
+    border-top: none;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-left: 1px solid var(--color-secondary);
+    border-right: 1px solid var(--color-secondary);
+    border-bottom: 1px solid var(--color-secondary);
+}
+
+@media screen and (max-width: 767px) {
+    .accordion-style .btn-link {
+        padding: 15px 40px 15px 55px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .accordion-style .btn-link {
+        padding: 15px 20px 15px 55px;
+    }
+}
+
+.favorFaq .card-style1 {
+    box-shadow: 0px 0px 10px 0px var(--shadow-light);
+}
+
+.favorFaq .border-0 {
+    border: 0 !important;
+}
+
+.favorFaq .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: var(--color-background-primary);
+    background-clip: border-box;
+    border: 1px solid var(--shadow-light);
+    border-radius: 0.25rem;
+}
+
+.favorFaq {
+    overflow: hidden;
+    background: var(--color-background-primary);
+}
+
+.favorFaq .mb-2-3,
+.favorFaq .my-2-3 {
+    margin-bottom: 2.3rem;
+}
+
+.favorFaq .section-title {
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    color: var(--color-secondary);
+}
+
+/* #favor(favorFaq) #css ends  */
+/* #funny(funnyFooter) #css starts */
+.funnyFooter {
+    min-height: 40vh
+}
+
+.funnyFooter ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.funnyFooter img {
+    max-width: 100%;
+    height: auto
+}
+
+.funnyFooter .footer-section {
+    background-color: var(--color-text-primary);
+    position: relative;
+    overflow: hidden;
+    z-index: 9
+}
+
+.funnyFooter .footer-section:before {
+    content: '';
+    position: absolute;
+    top: -146%;
+    left: -18%;
+    width: 44%;
+    height: 257%;
+    transform: rotate(54deg);
+    background-color: rgb(31, 47, 64);
+    -webkit-transform: rotate(54deg);
+    -moz-transform: rotate(54deg);
+    -ms-transform: rotate(54deg);
+    -o-transform: rotate(54deg);
+    z-index: -10
+}
+
+.funnyFooter .footer-section:after {
+    position: absolute;
+    content: '';
+    background-color: var(--shadow);
+    top: -24%;
+    right: 4%;
+    width: 26%;
+    height: 264%;
+    transform: rotate(44deg);
+    -webkit-transform: rotate(44deg);
+    -moz-transform: rotate(44deg);
+    -ms-transform: rotate(44deg);
+    -o-transform: rotate(44deg);
+    z-index: -10
+}
+
+.funnyFooter .footer-top {
+    padding-top: 40px;
+    padding-bottom: 50px
+}
+
+.funnyFooter .footer-top p,
+.funnyFooter .company-footer-contact-list li {
+    color: var(--color-white)
+}
+
+.funnyFooter .company-footer-contact-list {
+    margin-top: 30px
+}
+
+.funnyFooter .company-footer-contact-list li {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center
+}
+
+.funnyFooter .company-footer-contact-list li+li {
+    margin-top: 5px
+}
+
+.funnyFooter .company-footer-contact-list li i {
+    margin-right: 10px;
+    display: inline-block
+}
+
+.funnyFooter .footer-top .site-logo {
+    margin-bottom: 25px;
+    display: block;
+    max-width: 170px
+}
+
+.funnyFooter .widget-title {
+    text-transform: capitalize
+}
+
+.funnyFooter .footer-top .widget-title {
+    color: var(--color-white);
+    margin-bottom: 15px
+}
+
+.funnyFooter .courses-link-list li+li {
+    margin-top: 10px
+}
+
+.funnyFooter .courses-link-list li a {
+    color: var(--color-primary);
+    text-transform: capitalize;
+}
+
+.funnyFooter .courses-link-list li a:hover {
+    color: var(--color-warning)
+}
+
+.funnyFooter .courses-link-list li i {
+    margin-right: 5px
+}
+
+.funnyFooter .footer-top .small-post-title a {
+
+    color: var(--color-white);
+}
+
+.funnyFooter .small-post-item .post-date {
+    color: var(--color-warning);
+    margin-bottom: 3px;
+}
+
+.funnyFooter .small-post-list li+li {
+    margin-top: 30px
+}
+
+.funnyFooter .news-letter-form {
+    margin-top: 15px
+}
+
+.funnyFooter .news-letter-form input {
+    width: 100%;
+    padding: 12px 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.funnyFooter .news-letter-form .email-btn {
+    width: auto;
+    border: none;
+    background-color: var(--color-warning);
+    padding: 9px 30px;
+    border-radius: var(--border-radius-lg);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: var(--color-white);
+    margin-top: 10px
+}
+
+.funnyFooter .footer-bottom {
+    padding: 15px 0;
+    border-top: 1px solid var(--shadow)
+}
+
+.funnyFooter .copy-right-text {
+    color: var(--color-white)
+}
+
+.funnyFooter .copy-right-text a {
+    color: var(--color-warning)
+}
+
+.funnyFooter .terms-privacy li+li {
+    margin-left: 30px
+}
+
+.funnyFooter .terms-privacy li a {
+    color: var(--color-white);
+    position: relative
+}
+
+.funnyFooter .terms-privacy li a:after {
+    position: absolute;
+    content: '-';
+    color: var(--color-white);
+    display: inline-block;
+    top: 0;
+    right: -18px
+}
+
+.funnyFooter .terms-privacy li+li a:after {
+    display: none
+}
+
+.funnyFooter .number {
+    color: var(--color-white);
+}
+
+@media (min-width: 564px) and (max-width: 767.98px) {
+    .funnyFooter .footer-top .widget-title {
+        margin-top: 25px !important;
+    }
+}
+
+/* #funny(funnyFooter) #css ends */
