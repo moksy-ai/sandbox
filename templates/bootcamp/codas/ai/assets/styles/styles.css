@@ -1,0 +1,725 @@
+/* #nooks(nooksNavbar) #css starts  */
+.nooksNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.nooksNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.nooksNavbar .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.nooksNavbar .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+/* #nooks(nooksNavbar) #css ends  */
+/* #hope(hopeHero) #css starts  */
+.hopeHero .logo-header {
+    background: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    color: var(--color-white);
+    padding-top: 150px;
+    padding-bottom: 100px
+}
+
+.hopeHero .logo-header h1 {
+    margin: 0 auto 0.2em auto
+}
+
+.hopeHero .logo-header p {
+    color: var(--color-white);
+    margin: 0 auto 2em auto
+}
+
+.hopeHero .logo-header .btn {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border-radius: var(--btn-radius-full);
+}
+
+
+@media (min-width: 992px) {
+    .hopeHero .logo-header {
+        height: 100vh;
+        padding-top: 0;
+        padding-bottom: 0
+    }
+}
+
+/* #hope(hopeHero) #css ends  */
+    
+/* #county(countyCounters) #css starts  */
+
+.countyCounters .counter-box {
+    display: block;
+    background: var(--color-white);
+    padding: 40px 20px 37px;
+    text-align: center
+}
+
+.countyCounters .counter-box p {
+    margin: 5px 0 0;
+    padding: 0;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-md);
+}
+
+.countyCounters .counter-box i {
+    font-size: var(--font-size-xxlTwo);
+    margin: 0 0 15px;
+    color: var(--color-text-secondary);
+}
+
+.countyCounters .counter {
+    display: block;
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-secondary);
+    line-height: 28px
+}
+
+.countyCounters .counter-box.colored {
+    background: var(--color-secondary);
+}
+
+.countyCounters .counter-box.colored p,
+.countyCounters .counter-box.colored i,
+.countyCounters .counter-box.colored .counter {
+    color: var(--color-white)
+}
+
+/* #county(countyCounters) #css ends  */
+/* #peter(peterProduct) #css starts  */
+.peterProduct .product-grid {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+
+.peterProduct .product-grid:hover {
+    box-shadow: 0 0 10px var(--shadow-dark);
+}
+
+.peterProduct .product-grid .product-image {
+    overflow: hidden;
+}
+
+.peterProduct .product-grid .product-image a {
+    display: block;
+}
+
+.peterProduct .product-grid .product-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: all 0.5s ease 0s;
+
+}
+
+.peterProduct .product-grid:hover .product-image img {
+    transform: scale(1.1);
+}
+
+.peterProduct .product-grid .product-content {
+    padding: 12px 12px 15px 12px;
+    transition: all 0.5s ease 0s;
+}
+
+.peterProduct .product-grid:hover .product-content {
+    opacity: 0;
+}
+
+.peterProduct .product-grid .title {
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    text-transform: capitalize;
+    margin: 0 0 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.peterProduct .product-grid .title a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.peterProduct .product-grid .title a:hover {
+    color: var(--dark);
+}
+
+.peterProduct .product-grid .price {
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    color: var(--dark);
+}
+
+.peterProduct .product-grid .price span {
+    color: var(--dark);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-regular);
+    text-decoration: line-through;
+    margin-left: 7px;
+    display: inline-block;
+}
+
+.peterProduct .product-grid .social {
+    background-color: var(--color-background-primary);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+}
+
+.peterProduct .product-grid:hover .social {
+    opacity: 1;
+    bottom: 20px;
+}
+
+.peterProduct .product-grid .social li {
+    display: inline-block;
+}
+
+.peterProduct .product-grid .social li a {
+    color: var(--dark);
+    font-size: var(--font-size-base);
+    line-height: 45px;
+    text-align: center;
+    height: 45px;
+    width: 45px;
+    margin: 0 7px;
+    border: 1px solid var(--color-secondary);
+    border-radius: 50px;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.peterProduct .product-grid .social li a i {
+    line-height: inherit;
+}
+
+.peterProduct .product-grid .social li a:hover {
+    color: var(--color-background-primary);
+    background-color: var(--color-secondary);
+    width: 80px;
+}
+
+.peterProduct .product-grid .social li a:before,
+.peterProduct .product-grid .social li a:after {
+    content: attr(data-tip);
+    color: var(--color-background-primary);
+    background-color: var(--dark);
+    font-size: var(--font-size-xs);
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: 1px 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: -30px;
+}
+
+.peterProduct .product-grid .social li a:after {
+    content: "";
+    height: 15px;
+    width: 15px;
+    border-radius: 0;
+    transform: translateX(-50%) rotate(45deg);
+    top: -20px;
+    z-index: -1;
+}
+
+.peterProduct .product-grid .social li a:hover:before,
+.peterProduct .product-grid .social li a:hover:after {
+    opacity: 1;
+}
+
+@media only screen and (max-width:990px) {
+    .peterProduct .product-grid {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* #peter(peterProduct) #css ends  */
+/* #fierce(fierceFaq) #css starts  */
+.fierceFaq .accordion__single__hidden {
+    display: none;
+}
+
+.fierceFaq .accordion__single__hidden:checked~.accordion__single__answer {
+    max-height: 400px;
+    opacity: 1;
+    transform: translate(0, 0);
+    margin-top: 14px;
+}
+
+.fierceFaq .accordion__single__hidden:checked~.accordion__single__question:after {
+    content: "-";
+}
+
+.fierceFaq .accordion__single__answer {
+    margin-top: 0;
+    max-height: 0;
+    opacity: 0;
+    transform: translate(0, 50%);
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.fierceFaq .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fierceFaq .accordion {
+    font-weight: var(--font-weight-light);
+    line-height: 1.5;
+    max-width: 80%;
+}
+
+.fierceFaq .accordion__single {
+    margin-bottom: 30px;
+}
+
+.fierceFaq .accordion__single__question {
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+}
+
+.fierceFaq .accordion__single__question:hover,
+.fierceFaq .accordion__single__question:focus {
+    text-decoration: underline;
+}
+
+.fierceFaq .accordion__single__question:after {
+    display: inline-block;
+    margin-left: 10px;
+    color: var(--color-secondary);
+    content: "+";
+}
+
+.fierceFaq .accordion__single__answer {
+    margin-top: 5px;
+}
+
+/* #fierce(fierceFaq) #css ends  */
+
+/* #tilor(tilorTestimonial) #css starts  */
+.tilorTestimonial {
+    overflow: hidden;
+}
+
+.tilorTestimonial .clients {
+    color: var(--dark);
+}
+
+/* Styling for testimonial section */
+.tilorTestimonial .testimonial-card {
+    background-color: var(--color-background-primary);
+    /* White background for card */
+    border: 1px solid var(--border-color);
+    /* Light border for card */
+    border-radius: 8px;
+    /* Rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tilorTestimonial .testimonial-card:hover {
+    transform: scale(1.05);
+    /* Slightly enlarge card on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    /* Add shadow on hover */
+}
+
+.tilorTestimonial .testimonial-card .icon {
+    font-size: var(--font-size-lg);
+    color: var(--color-secondary);
+}
+
+.tilorTestimonial .testimonial-card p {
+    font-size: var(--font-size-base);
+    /* Text size for testimonial content */
+    line-height: 1.6;
+    /* Better readability */
+}
+
+.tilorTestimonial .testimonial-card span.text-dark {
+    font-size: var(--font-size-md);
+    /* Name font size */
+    margin-top: 10px;
+    /* Add spacing above name */
+}
+
+.tilorTestimonial .testimonial-card span.text-secondary {
+    font-size: var(--font-size-md);
+    /* Profession font size */
+    color: var(--dark);
+    /* Subtle text color */
+}
+
+.tilorTestimonial .text {
+    color: var(--dark);
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 576px) {
+    .tilorTestimonial .testimonial-card {
+        padding: 3rem 1rem;
+        /* Adjust padding for small screens */
+    }
+
+    .tilorTestimonial .testimonial-card .icon {
+        font-size: 30px;
+        /* Reduce icon size for small screens */
+    }
+}
+
+/* #tilor(tilorTestimonial) #css ends  */
+
+/* #ravek(ravekRegistration) #css starts */
+
+.ravekRegistration .mok-block.mok-viewport .container {
+    min-height: calc(100% - 2 * 7.5rem)
+}
+
+.ravekRegistration .mok-block .mok-box {
+    background: var(--color-background-primary);
+    padding: 3.75rem 2.5rem;
+    overflow: hidden;
+    color: var(--dark);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.3125rem 0.875rem 0 var(--shadow-dark)
+}
+
+.ravekRegistration .mok-block .mok-touch {
+    border-top: solid 0.3125rem var(--color-primary);
+    z-index: 2
+}
+
+.ravekRegistration .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+/* #ravek(ravekRegistration) #css starts */
+
+/* #coral(coralCalendar) #css starts  */
+    /* Coral Calendar Component Styles */
+    /* Reset paragraph max-width */
+    .coralCalendar p {
+      max-width: none;
+    }
+
+    /* Header section styling */
+    .coralCalendar .header {
+      text-align: center;
+      margin-bottom: var(--spacing-xl);
+    }
+
+    /* Header title styling */
+    .coralCalendar .header h3 {
+      font-size: var(--font-size-xl);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    /* Header subtitle styling */
+    .coralCalendar .header p {
+      font-size: var(--font-size-md);
+      color: var(--color-text-secondary);
+    }
+
+    /* Event card container styling */
+    .coralCalendar .event-card {
+      max-width: 700px;
+      margin: 0 auto;
+      background: var(--color-white);
+      border: 1px dashed var(--color-border-light);
+      box-shadow: var(--shadow-lg);
+      border-radius: var(--border-radius-lg);
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      overflow: visible;
+    }
+
+    /* Event card decorative circles */
+    .coralCalendar .event-card::before,
+    .coralCalendar .event-card::after {
+      content: "";
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      background: var(--bg-light);
+      border: 1px solid var(--color-border-light);
+      border-radius: 50%;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 2;
+    }
+
+    /* Left decorative circle */
+    .coralCalendar .event-card::before {
+      left: -12px;
+    }
+
+    /* Right decorative circle */
+    .coralCalendar .event-card::after {
+      right: -12px;
+    }
+
+    /* Event info section styling */
+    .coralCalendar .event-card .info {
+      flex: 1 1 60%;
+      padding: var(--spacing-xl);
+    }
+
+    /* Event actions section styling */
+    .coralCalendar .event-card .actions {
+      flex: 1 1 40%;
+      padding: var(--spacing-md) var(--spacing-xl);
+      border-left: 1px dashed var(--color-border-light);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    /* Event card title styling */
+    .coralCalendar .event-card h2 {
+      font-size: var(--font-size-xl);
+      margin-bottom: var(--spacing-md);
+    }
+
+    /* Event meta information styling */
+    .coralCalendar .event-card .meta {
+      font-size: var(--font-size-base);
+      line-height: var(--line-height-relaxed);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    /* Event meta span styling */
+    .coralCalendar .event-card .meta span {
+      display: block;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    /* Add to calendar button styling */
+    .coralCalendar .event-card .add-btn {
+      margin-top: 0;
+      padding: var(--spacing-sm) var(--spacing-lg);
+      font-size: var(--font-size-base);
+      font-weight: var(--font-weight-semibold);
+      background: var(--color-primary);
+      color: var(--color-white);
+      border: none;
+      border-radius: var(--border-radius-md);
+      width: 100%;
+    }
+
+    /* Dropdown container styling */
+    .coralCalendar .event-card .dropdown {
+      width: 100%;
+      margin-top: var(--spacing-sm);
+      position: relative;
+    }
+
+    /* Dropdown menu styling */
+    .coralCalendar .event-card .dropdown-menu {
+      width: 100%;
+    }
+
+    /* Reminder checkbox styling */
+    .coralCalendar .reminder-checkbox {
+      margin-top: var(--spacing-sm);
+      font-size: var(--font-size-sm);
+    }
+
+    /* Microcopy text styling */
+    .coralCalendar .microcopy {
+      font-size: var(--font-size-xs);
+      color: var(--color-text-muted);
+      margin-top: var(--spacing-sm);
+    }
+
+    /* Mobile responsive styles */
+    @media (max-width: 575.98px) {
+      .coralCalendar .event-card {
+        flex-direction: column;
+      }
+
+      .coralCalendar .event-card .actions {
+        border-left: none;
+        border-top: 1px dashed var(--color-border-light);
+        width: 100%;
+        position: sticky;
+        bottom: 0;
+        background: var(--color-white);
+      }
+
+      .coralCalendar .event-card .add-btn {
+        width: 100%;
+      }
+    }
+/* #coral(coralCalendar) #css ends  */
+/* #linen(linenLimitedspots) #css starts  */
+.linenLimitedspots .section-title {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text-primary);
+}
+
+.linenLimitedspots .section-subtitle {
+    font-size: var(--font-size-base);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-xl);
+}
+
+.linenLimitedspots .capacity-meter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--spacing-xxl);
+}
+
+.linenLimitedspots .progress-wrapper {
+    flex: 1 1 260px;
+}
+
+.linenLimitedspots .progress-bar {
+    position: relative;
+    width: 100%;
+    height: 16px;
+    background: var(--neutral-light);
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+}
+
+.linenLimitedspots .progress-fill {
+    display: block;
+    height: 100%;
+    width: 72%;
+    background: linear-gradient(90deg, var(--color-success), var(--color-info));
+    border-radius: var(--border-radius-md);
+    animation: fillAnim 1.5s ease-out forwards;
+}
+
+@keyframes fillAnim {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 72%;
+    }
+}
+
+.linenLimitedspots .progress-info {
+    font-size: var(--font-size-sm);
+    margin-top: var(--spacing-sm);
+    color: var(--color-text-primary);
+    font-weight: var(--font-weight-semibold);
+}
+
+.linenLimitedspots .progress-info .remaining {
+    color: var(--color-alert);
+}
+
+.linenLimitedspots .cta-button {
+    display: inline-block;
+    padding: var(--btn-padding-lg);
+    background: var(--color-primary);
+    color: var(--color-background-primary);
+    border-radius: var(--btn-radius-sm);
+    font-weight: var(--font-weight-semibold);
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.linenLimitedspots .cta-button:hover,
+.linenLimitedspots .cta-button:focus {
+    background: var(--color-hover-primary);
+    color: var(--color-background-primary);
+    text-decoration: none;
+}
+
+.linenLimitedspots .countdown {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    margin-top: var(--spacing-lg);
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+    .linenLimitedspots .capacity-meter {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .linenLimitedspots .progress-wrapper {
+        flex: none;
+    }
+
+    .linenLimitedspots .cta-button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* #linen(linenLimitedspots) #css ends  */
+
+/* #fund(fundFooter) #css starts */
+.fundFooter {
+    background-color: var(--color-background-secondary);
+    padding: var(--spacing-sm);
+}
+
+.fundFooter h5 {
+    color: var(--color-text-primary);
+}
+
+.fundFooter li a {
+    color: var(--color-text-primary);
+}
+
+.fundFooter .btn-outline-light {
+    color: var(--color-text-primary);
+}
+
+.fundFooter .btn-outline-light:hover {
+    background-color: var(--color-white);
+    color: var(--color-text-primary);
+    border-color: var(--color-white);
+}
+
+/* #fund(fundFooter) #css ends */
+
+
+
+
