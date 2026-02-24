@@ -54,9 +54,9 @@ Covers all HTML content tags used in landing pages that are Compatible with Boot
     --letter-spacing-wide: 0.5px;
 
 /* Brand Colors */
---color-primary: #ff8451;      /* Creative action blue */
---color-secondary: #006FBF;    /* Professional deep blue */
---color-tertiary: #003F66;     /* Cinematic dark blue */
+--color-primary: #ff8451;      
+--color-secondary: #006FBF;    
+--color-tertiary: #003F66;     
 
 /* Background Colors */
 --color-white: #F4F6F8;
