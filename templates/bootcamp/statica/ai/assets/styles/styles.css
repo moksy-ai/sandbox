@@ -69,7 +69,7 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background: linear-gradient(45deg, #6366f1, #8b5cf6);
+    background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
     top: -100px;
     right: -100px;
     animation-delay: 0s;
@@ -79,7 +79,7 @@
   .hugoHero .shape.square {
     width: 200px;
     height: 200px;
-    background: linear-gradient(45deg, #3b82f6, #6366f1);
+    background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
     transform: rotate(45deg);
     bottom: -50px;
     left: -50px;
@@ -147,7 +147,7 @@
   
   /* Gradient Text Effect */
   .hugoHero .gradient-text {
-    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    background: linear-gradient(135deg, var(--color-white) 0%, var(--color-secondary) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -174,7 +174,7 @@
     align-items: center;
     gap: var(--spacing-xs);
     padding: var(--spacing-sm) var(--spacing-lg);
-    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary) 100%);
     color: white;
     border-radius: 0.5rem;
     font-weight: var(--font-weight-semibold);
@@ -337,7 +337,9 @@
     margin-left: 20px;
     margin-top: 20px
 }
-
+.flintFeature h2{
+  color: var(--color-white);
+}
 .flintFeature .card:hover {
     box-shadow: var(--shadow-light) 0px 10px 15px -3px, var(--shadow-dark) 0px 4px 6px -2px
 }
@@ -528,12 +530,6 @@
       transition: background var(--transition-duration) ease;
     }
 
-    /* Download button hover effect */
-    .cycloneCertification .btn-download:hover {
-      background: var(--color-primary-dark);
-      text-decoration: none;
-      color: var(--color-white);
-    }
 
     /* Statistics text */
     .cycloneCertification .after-stats {
@@ -847,16 +843,17 @@
 
     /* Main Section Title */
     .breezeBonus .section-title {
-      font-size: var(--font-size-xxl);
+      font-size: var(--font-size-xl) !important;
       font-weight: var(--font-weight-semibold);
       margin-bottom: var(--spacing-xs);
     }
 
     /* Section Subtitle */
     .breezeBonus .section-subtitle {
-      font-size: var(--font-size-lg);
+      font-size: var(--font-size-md);
       color: #666;
       margin-bottom: var(--spacing-xl);
+      max-width: none;
     }
 
     /* Section Introduction Text */
