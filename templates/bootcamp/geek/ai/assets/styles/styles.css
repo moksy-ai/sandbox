@@ -1,0 +1,999 @@
+/* #natal(natalNavbar) #css starts  */
+.natalNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.natalNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.natalNavbar .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.natalNavbar .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.natalNavbar .col-3 {
+    padding-left: 0px !important;
+}
+
+/* #natal(natalNavbar) #css ends  */
+/* #heather(heatherHero) #css starts  */
+/* Main Hero Section */
+.heatherHero .hero-section {
+    min-height: 100vh;
+    background: #0a0a0a;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Particle Container */
+.heatherHero .particle-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* Hero Content */
+.heatherHero .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    padding: var(--spacing-lg);
+    text-align: center;
+}
+
+/* Glow Effect */
+.heatherHero .glow-effect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150%;
+    height: 150%;
+    background: radial-gradient(circle, var(--color-primary), transparent 70%);
+    filter: blur(40px);
+    z-index: -1;
+    animation: pulse 4s infinite;
+}
+
+/* Main Heading */
+.heatherHero h1 {
+    font-size: 5rem;
+    font-weight: var(--font-weight-black);
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary), var(--color-tertiary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: var(--spacing-sm);
+    letter-spacing: -2px;
+    transform: translateZ(30px);
+}
+
+/* Animated Text */
+.heatherHero .animated-text {
+    font-size: var(--font-size-2xl);
+    color: #fff;
+    height: 3rem;
+    margin: var(--spacing-sm) 0;
+}
+
+/* Description Paragraph */
+.heatherHero p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: var(--font-size-lg);
+    line-height: 1.6;
+    max-width: 800px;
+    margin: var(--spacing-md) auto;
+    transform: translateZ(20px);
+}
+
+/* CTA Container */
+.heatherHero .cta-container {
+    display: flex;
+    gap: var(--spacing-md);
+    justify-content: center;
+    margin: var(--spacing-xl) 0;
+}
+
+/* CTA Buttons */
+.heatherHero .cta-button {
+    position: relative;
+    padding: var(--spacing-md) var(--spacing-xl);
+    border-radius: 12px;
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.heatherHero .cta-button.primary {
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    border: none;
+    color: white;
+}
+
+.heatherHero .cta-button.secondary {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+/* Button Glow Effect */
+.heatherHero .button-glow {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3), transparent 50%);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+/* Play Icon */
+.heatherHero .play-icon {
+    font-size: var(--font-size-sm);
+    background: white;
+    color: #8b5cf6;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Feature Cards */
+.heatherHero .feature-cards {
+    display: flex;
+    gap: var(--spacing-lg);
+    justify-content: center;
+    margin-top: var(--spacing-2xl);
+    perspective: 1000px;
+}
+
+/* Individual Cards */
+.heatherHero .card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: var(--spacing-lg);
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transform-style: preserve-3d;
+    transform: translateZ(0);
+    transition: transform 0.3s ease;
+}
+
+/* Card Icon */
+.heatherHero .card-icon {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-sm);
+    transform: translateZ(30px);
+}
+
+/* Card Title */
+.heatherHero .card h3 {
+    color: white;
+    font-size: var(--font-size-lg);
+    margin: 0;
+    transform: translateZ(20px);
+}
+
+/* Card Hover Effect */
+.heatherHero .card-hover-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at var(--mouse-x) var(--mouse-y), 
+                rgba(255, 255, 255, 0.1), 
+                transparent 40%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.heatherHero .card:hover .card-hover-effect {
+    opacity: 1;
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.5;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.1);
+        opacity: 0.7;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .heatherHero h1 {
+        font-size: 3rem;
+    }
+
+    .heatherHero .feature-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heatherHero .card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .heatherHero .cta-container {
+        flex-direction: column;
+    }
+
+    .heatherHero .cta-button {
+        width: 100%;
+    }
+}
+/* #heather(heatherHero) #css ends  */
+/* #cepra(cepraClients) #css starts  */
+.cepraClients .client {
+    margin-top: 20px;
+}
+
+.cepraClients .img-responsive {
+    max-height: 150px;
+    max-width: 150px
+}
+
+.cepraClients .client .thumbnail:hover {
+    border: 2px solid var(--color-secondary);
+    -webkit-transform: scale(1.2);
+}
+
+/* #cepra(cepraClients) #css ends  */
+
+/* #willow(willowWhyus) #css starts  */
+/* Comparison Table Container */
+.willowWhyus .comparison-table {
+    width: 100%;
+}
+
+/* Table Header Styling */
+.willowWhyus .comparison-table thead th {
+    background-color: var(--color-background-secondary);
+    font-weight: var(--font-weight-semibold);
+    text-align: center;
+}
+
+/* Table Row Alternating Colors */
+.willowWhyus .comparison-table tbody tr:nth-of-type(odd) {
+    background-color: var(--color-background-primary);
+}
+
+.willowWhyus .comparison-table tbody tr:nth-of-type(even) {
+    background-color: var(--color-background-tertiary);
+}
+
+/* Table Cell Styling */
+.willowWhyus .comparison-table td,
+.willowWhyus .comparison-table th {
+    vertical-align: middle;
+    text-align: center;
+    padding: var(--spacing-sm);
+    border-top: 1px solid var(--border-color);
+}
+
+/* Feature Name Column */
+.willowWhyus .feature-name {
+    text-align: left;
+    font-weight: var(--font-weight-medium);
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 576px) {
+
+    /* Hide table header on mobile */
+    .willowWhyus .comparison-table thead {
+        display: none;
+    }
+
+    /* Convert table to block layout */
+    .willowWhyus .comparison-table,
+    .willowWhyus .comparison-table tbody,
+    .willowWhyus .comparison-table tr,
+    .willowWhyus .comparison-table td {
+        display: block;
+        width: 100%;
+    }
+
+    /* Row styling for mobile */
+    .willowWhyus .comparison-table tr {
+        margin-bottom: var(--spacing-md);
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius-sm);
+    }
+
+    /* Cell styling for mobile */
+    .willowWhyus .comparison-table td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+        border: none;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    /* Data label for mobile */
+    .willowWhyus .comparison-table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: var(--spacing-md);
+        width: 45%;
+        padding-right: var(--spacing-md);
+        text-align: left;
+        font-weight: var(--font-weight-semibold);
+        color: var(--color-text-primary);
+    }
+
+    /* Remove border from last cell */
+    .willowWhyus .comparison-table td:last-child {
+        border-bottom: 0;
+    }
+}
+
+/* #willow(willowWhyus) #css ends  */
+
+/* #cazel(cazelCounters) #css starts  */
+
+.cazelCounters .counter-section i {
+    display: block;
+
+}
+
+.cazelCounters .counter-section span.counter {
+    font-size: var(--font-size-xl);
+    color: var(--color-text-primary);
+    line-height: 50px;
+    display: block;
+    letter-spacing: var(--letter-spacing-wide)
+}
+
+.cazelCounters .counter-title {
+    letter-spacing: 2px;
+}
+
+.cazelCounters .counter-icon {
+    top: 25px;
+    position: relative
+}
+
+.cazelCounters .counter-style2 .counter-title {
+    letter-spacing: var(--letter-spacing-wide);
+    float: left;
+}
+
+.cazelCounters .counter-style2 span.counter {
+    letter-spacing: var(--letter-spacing-wide);
+    float: left;
+    margin-right: 10px;
+}
+
+.cazelCounters .counter-style2 i {
+    float: right;
+    line-height: 26px;
+    margin: 0 10px 0 0
+}
+
+.cazelCounters .counter-subheadline span {
+    float: right;
+}
+
+.cazelCounters .medium-icon {
+    font-size: var(--font-size-xl) !important;
+
+}
+
+/* #cazel(cazelCounters) #css ends  */
+
+/* #potex(potexProduct) #css starts  */
+.potexProduct .product-grid {
+    text-align: center;
+    border: 1px solid var(--border-color);
+    transition: all 0.5s ease 0s;
+}
+
+.potexProduct .product-grid:hover {
+    border-color: var(--color-secondary);
+}
+
+.potexProduct .product-grid .product-image {
+    background-color: var(--dark);
+    margin: 5px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.potexProduct .product-grid .product-image a.image {
+    display: block;
+}
+
+.potexProduct .product-grid .product-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.potexProduct .product-grid .product-image .pic-1 {
+    transition: all 0.5s ease 0s;
+}
+
+.potexProduct .product-grid .product-image:hover .pic-1 {
+    opacity: 0;
+}
+
+.potexProduct .product-grid .product-image .pic-2 {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease 0s;
+    object-fit: cover;
+}
+
+.potexProduct .product-grid .product-image:hover .pic-2 {
+    opacity: 0.7;
+}
+
+.potexProduct .product-grid .product-new-label,
+.potexProduct .product-grid .product-sale-label {
+    color: var(--color-background-primary);
+    background-color: var(--color-secondary);
+    font-size: var(--font-size-sm);
+    text-transform: capitalize;
+    padding: 3px 8px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.potexProduct .product-grid .product-sale-label {
+    background-color: var(--color-secondary);
+    left: auto;
+    right: 0;
+}
+
+.potexProduct .product-grid .product-links {
+    width: 97px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all 0.3s ease 0s
+}
+
+.potexProduct .product-grid .product-image:hover .product-links {
+    opacity: 1;
+}
+
+.potexProduct .product-grid .product-links li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.potexProduct .product-grid .product-links li a {
+    color: var(--dark);
+    background: var(--color-background-primary);
+    font-size: var(--font-size-base);
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 3px 10px var(--shadow-dark);
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+
+.potexProduct .product-grid .product-links li a:hover {
+    color: var(--color-background-primary);
+    background: var(--color-secondary);
+}
+
+.potexProduct .product-grid .product-content {
+    padding: 10px 0 0;
+}
+
+.potexProduct .product-grid .title {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-semibold);
+    text-transform: capitalize;
+    margin: 0 0 6px;
+}
+
+.potexProduct .product-grid .title a {
+    color: var(--dark);
+    transition: all 0.3s ease 0s;
+}
+
+.potexProduct .product-grid .title a:hover {
+    color: var(--color-secondary);
+}
+
+.potexProduct .product-grid .price {
+    color: var(--color-secondary);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-bold);
+    margin: 0 0 4px;
+}
+
+.potexProduct .product-grid .price span {
+    color: var(--dark);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-regular);
+    text-decoration: line-through;
+}
+
+.potexProduct .product-grid .rating {
+    color: var(--color-warning);
+    font-size: var(--font-size-xs);
+    padding: 0;
+    margin: 0 0 17px;
+    list-style: none;
+}
+
+.potexProduct .product-grid .rating li.fas {
+    color: var(--color-warning);
+}
+
+.potexProduct .product-grid .product-buttons {
+    font-size: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.potexProduct .product-grid .product-buttons li {
+    display: inline-block;
+    width: 50%;
+}
+
+.potexProduct .product-grid .product-buttons li:nth-child(2) {
+    margin: 0 0 0 -1px;
+}
+
+.potexProduct .product-grid .product-buttons li a {
+    color: var(--dark);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    padding: 10px 3px 8px;
+    border: 1px solid var(--border-color);
+    border-bottom: none;
+    border-left: none;
+    display: block;
+    transition: all 0.3s;
+}
+
+.potexProduct .product-grid .product-buttons li:nth-child(2) a {
+    border-right: none;
+    border-left: 1px solid transparent;
+}
+
+.potexProduct .product-grid .product-buttons li a:hover {
+    color: var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+
+@media screen and (max-width: 990px) {
+    .potexProduct .product-grid {
+        margin: 0 0 30px;
+    }
+}
+
+/* #potex(potexProduct) #css ends  */
+
+/* #flash(flashFeature) #css starts */
+.flashFeature .mok-block img.mok-icon {
+    width: var(--icon-size-xl);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flashFeature h2 {
+    margin-bottom: var(--spacing-xl);
+}
+
+.flashFeature h3 {
+    margin-top: var(--spacing-sm);
+}
+
+.flashFeature .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+    margin-top: var(--spacing-xl);
+}
+
+.flashFeature .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+/* #flash(flashFeature) #css starts */
+/* #clover(cloverComparison) #css starts  */
+    /* Clover Comparison Component Styles */
+    /* Comparison subtitle styling */
+    .cloverComparison .comparison p.subtitle {
+        font-size: var(--font-size-lg);
+        color: var(--color-text-secondary);
+        margin-bottom: var(--spacing-xxl);
+
+      }
+  .cloverComparison .subtitle{
+        max-width: none;
+  }
+      /* Comparison table base styling */
+      .cloverComparison .comparison-table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+      }
+  
+      /* Table header styling */
+      .cloverComparison .comparison-table thead th {
+        background: var(--color-gray-50);
+        font-weight: var(--font-weight-semibold);
+        text-align: center;
+        vertical-align: middle;
+        padding: var(--spacing-md);
+        border: var(--border-width-sm) solid var(--color-gray-300);
+      }
+  
+      /* Table body cell styling */
+      .cloverComparison .comparison-table tbody td,
+      .cloverComparison .comparison-table tbody th {
+        padding: var(--spacing-md);
+        text-align: center;
+        border: var(--border-width-sm) solid var(--color-gray-300);
+        vertical-align: middle;
+      }
+  
+      /* Table body header styling */
+      .cloverComparison .comparison-table tbody th {
+        text-align: left;
+        background: var(--color-white);
+        position: sticky;
+        left: 0;
+        z-index: 2;
+      }
+  
+      /* Table row hover effect */
+      .cloverComparison .comparison-table tbody tr:hover {
+        background: var(--color-gray-50);
+        transition: background var(--transition-duration) ease-in-out;
+      }
+  
+      /* Highlighted column styling */
+      .cloverComparison .highlight-col {
+        background: var(--color-warning-light);
+        font-weight: var(--font-weight-bold);
+        position: relative;
+      }
+  
+      /* Badge positioning in highlighted column */
+      .cloverComparison .highlight-col .badge {
+        position: absolute;
+        top: var(--spacing-sm);
+        right: var(--spacing-sm);
+        transform: none;
+      }
+  
+      /* Check icon styling */
+      .cloverComparison .icon-check {
+        color: var(--color-success);
+        font-size: var(--font-size-xl);
+      }
+  
+      /* Cross icon styling */
+      .cloverComparison .icon-cross {
+        color: var(--color-danger);
+        font-size: var(--font-size-xl);
+      }
+  
+      /* CTA heading styling */
+      .cloverComparison .cta h3 {
+        font-weight: var(--font-weight-semibold);
+      }
+  
+      /* CTA button styling */
+      .cloverComparison .cta .btn {
+        font-size: var(--font-size-base);
+        padding: var(--spacing-sm) var(--spacing-xxl);
+      }
+  
+      /* Mobile responsive styles */
+      @media (max-width: 768px) {
+        /* Hide table header on mobile */
+        .cloverComparison .comparison-table thead {
+          display: none;
+        }
+  
+        /* Convert table to block layout */
+        .cloverComparison .comparison-table,
+        .cloverComparison .comparison-table tbody,
+        .cloverComparison .comparison-table tr,
+        .cloverComparison .comparison-table td,
+        .cloverComparison .comparison-table th {
+          display: block;
+          width: 100%;
+        }
+  
+        /* Table row styling on mobile */
+        .cloverComparison .comparison-table tr {
+          margin-bottom: var(--spacing-lg);
+          border: var(--border-width-sm) solid var(--color-gray-300);
+        }
+  
+        /* Table cell styling on mobile */
+        .cloverComparison .comparison-table td {
+          text-align: right;
+          padding-left: 50%;
+          position: relative;
+        }
+  
+        /* Data label pseudo-element for mobile */
+        .cloverComparison .comparison-table td::before {
+          content: attr(data-label);
+          position: absolute;
+          left: var(--spacing-md);
+          top: 50%;
+          transform: translateY(-50%);
+          font-weight: var(--font-weight-semibold);
+          text-align: left;
+        }
+  
+        /* Highlighted column background on mobile */
+        .cloverComparison .highlight-col {
+          background: var(--color-warning-light);
+        }
+      }
+/* #clover(cloverComparison) #css ends  */
+/* #pexus(pexusPricing) #css starts  */
+.pexusPricing .heading {
+    color: var(--dark)
+}
+
+.pexusPricing .small {
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-base)
+}
+
+.pexusPricing .btn {
+    background-color: var(--color-secondary);
+    border-radius: var(--btn-radius-full);
+}
+
+.pexusPricing .headline {
+    font-weight: var(--font-weight-semibold);
+}
+
+.pexusPricing .white {
+    color: var(--color-white);
+}
+
+/* #pexus(pexusPricing) #css ends  */
+
+/* #flux(fluxFooter) #css starts */
+.fluxFooter .container-fluid {
+    padding: 0 0 0 0;
+}
+
+.fluxFooter {
+    overflow: hidden;
+}
+
+.fluxFooter .round-btn {
+    display: inline;
+    height: 40px;
+    width: 40px;
+    background: var(--color-white);
+    border-radius: var(--btn-radius-full);
+    float: left;
+    margin: 15px 8px;
+    box-shadow: 2px 2px 5px 0px var(--shadow-dark);
+}
+
+.fluxFooter .round-btn a {
+    display: block;
+    padding: 7px 12px;
+    border-radius: var(--btn-radius-full)
+}
+
+.fluxFooter .round-btn .icon img {
+    margin-top: 6px
+}
+
+.fluxFooter .btn-facebook a {
+    color: #3b5998;
+}
+
+.fluxFooter .btn-linkedin a {
+    color: #007bb6
+}
+
+.fluxFooter .btn-twitter a {
+    color: #1c9deb
+}
+
+.fluxFooter .btn-whatsapp a {
+    color: #155E54
+}
+
+.fluxFooter .standard_header .standard_social_links {
+    margin-left: 1rem
+}
+
+
+.fluxFooter .footer-wrap {
+    padding-top: 43px;
+    background-size: cover
+}
+
+.fluxFooter .footer-wrap h3 {
+    color: var(--color-white);
+    margin-bottom: 25px
+}
+
+.fluxFooter .footer-wrap p {
+    color: var(--color-background-secondary);
+    margin-top: 15px
+}
+
+.fluxFooter .footer-links li a {
+    line-height: var(--line-height-lg);
+    color: var(--color-white);
+}
+
+.fluxFooter .footer-links li:before {
+    content: "\f105";
+    font-family: 'FontAwesome';
+    padding-right: 10px;
+    color: var(--color-white)
+}
+
+.fluxFooter .footer-category li a {
+    line-height: 30px;
+    color: var(--color-white);
+}
+
+.fluxFooter .footer-category li:before {
+    content: "\f105";
+    font-family: 'FontAwesome';
+    padding-right: 10px;
+    color: var(--color-disabled)
+}
+
+
+
+.fluxFooter .copyright {
+    border-top: 1px solid var(--color-text-primary);
+    color: var(--color-disabled);
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+    background: var(--color-text-primary)
+}
+
+.fluxFooter footer .second_class {
+    border-bottom: 1px solid var(--dark);
+    padding-bottom: 25px
+}
+
+.fluxFooter footer .first_class {
+    padding-bottom: 21px;
+    border-bottom: 1px solid var(--dark)
+}
+
+.fluxFooter footer .fluxFooter .first_class p,
+footer .first_class h3 {
+    margin: 0 0
+}
+
+.fluxFooter footer {
+    background: #353535cf
+}
+
+.fluxFooter footer .newsletter input[type="text"] {
+    width: 100%;
+    background: var(--color-white);
+    color: var(--dark);
+    border: 1px solid var(--dark);
+    padding: 14px 20px;
+    border-radius: var(--btn-radius-full);
+    margin-top: 12px;
+    outline: none;
+}
+
+.fluxFooter .newsletter .newsletter_submit_btn {
+    background: var(--color-white);
+    position: absolute;
+    right: 30px;
+    border: 0;
+    top: 26px;
+    color: var(--dark)
+}
+
+.fluxFooter footer .second_class_bdr {
+    padding-top: 25px;
+    border-top: 1px solid var(--color-white)
+}
+
+.fluxFooter footer .btn-facebook a {
+    padding: 6px 14px
+}
+
+.fluxFooter footer .round-btn {
+    box-shadow: 2px 2px 5px 0px var(--dark)
+}
+
+.fluxFooter footer .round-btn {
+    margin: 15px 4px
+}
+
+.fluxFooter footer dl,
+.fluxFooter ol,
+.fluxFooter ul {
+    padding-left: 5px
+}
+
+@media(max-width:768px) {
+    .fluxFooter .footer-wrap h3 {
+        margin-top: 27px
+    }
+
+    .fluxFooter footer .round-btn {
+        margin: 15px 4px
+    }
+}
+
+@media(max-width:320px) {
+    .fluxFooter .copyright {
+        font-size: var(--font-size-sm)
+    }
+}
+
+/* #flux(fluxFooter) #css ends */
+
+
+
+
+
+
+
+
+
+
+
