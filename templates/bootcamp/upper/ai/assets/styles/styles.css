@@ -1,0 +1,660 @@
+/* #niche(nicheNavbar) #css starts  */
+.nicheNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.nicheNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.nicheNavbar .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.nicheNavbar .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.nicheNavbar .btnone {
+    color: var(--color-tertiary) !important;
+    border: none;
+    background-color: transparent;
+}
+
+.nicheNavbar .col-3 {
+    padding-left: 0px !important;
+}
+
+/* #niche(nicheNavbar) #css ends  */
+
+/* #hoard(hoardHero) #css starts  */
+.hoardHero .Background {
+    background-color: var(--color-background-primary);
+}
+
+.hoardHero .image {
+    margin-top: 30px !important;
+}
+
+.hoardHero .stroke {
+    background-color: var(--color-text-primary);
+    color: var(--color-white);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    font-style: italic
+}
+
+.hoardHero .btn {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border-radius: var(--btn-radius-full);
+}
+
+
+
+/* #hoard(hoardHero) #css ends  */
+
+/* #comex(comexCounters) #css starts  */
+.comexCounters .card-counter {
+    box-shadow: 2px 2px 10px var(--shadow-dark);
+    margin: 5px;
+    padding: 10px 10px;
+    background-color: var(--color-background-primary);
+    height: 100px;
+    border-radius: 5px;
+    transition: .3s linear all;
+}
+
+.comexCounters .card-counter:hover {
+    box-shadow: 4px 4px 20px var(--shadow-light);
+    transition: .3s linear all;
+}
+
+.comexCounters .card-counter {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.comexCounters .card-counter i {
+    font-size: var(--font-size-xxlOne);
+    opacity: 0.2;
+}
+
+.comexCounters .card-counter .count-numbers {
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    font-size: var(--font-size-xl);
+    display: block;
+}
+
+.comexCounters .card-counter .count-name {
+    position: absolute;
+    right: 35px;
+    top: 65px;
+    font-style: italic;
+    text-transform: capitalize;
+    opacity: 0.8;
+    display: block;
+    font-size: var(--font-size-md);
+}
+
+/* #comex(comexCounters) #css ends  */
+
+/* #penny(pennyProduct) #css starts  */
+
+.pennyProduct .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.pennyProduct .single-product .part-1::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.3s;
+}
+
+.pennyProduct .single-product:hover .part-1::before {
+    transform: scale(1.2, 1.2) rotate(5deg);
+}
+
+.pennyProduct #product-1 .part-1::before {
+    background: url("../images/web-dev.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.pennyProduct #product-2 .part-1::before {
+    background: url("../images/frontend.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.pennyProduct #product-3 .part-1::before {
+    background: url("../images/python.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.pennyProduct #product-4 .part-1::before {
+    background: url("../images/backend.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.pennyProduct .single-product .part-1 .discount,
+.pennyProduct .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+    padding: 2px 8px;
+    text-transform: capitalize;
+}
+
+.pennyProduct .single-product .part-1 .new {
+    left: 0;
+    background-color: var(--color-secondary);
+}
+
+.pennyProduct .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.pennyProduct .single-product:hover .part-1 ul {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.pennyProduct .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.pennyProduct .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+}
+
+.pennyProduct .single-product .part-1 ul li a:hover {
+    color: var(--color-white);
+}
+
+.pennyProduct .single-product .part-2 .product-title {
+    font-size: var(--font-size-base);
+    color: var(--dark);
+}
+
+.pennyProduct .single-product .part-2 h4 {
+    display: inline-block;
+}
+
+.pennyProduct .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+    color: var(--dark);
+}
+
+.pennyProduct .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--dark);
+    transform: translateY(-50%);
+}
+
+/* #penny(pennyProduct) #css ends  */
+
+/* #clyne(clyneClients) #css starts  */
+.clyneClients .client-image {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    max-height: 100px;
+    width: auto;
+    object-fit: contain;
+}
+
+.clyneClients .client-image:hover {
+    filter: none;
+    /* IE6-9 */
+    -webkit-filter: grayscale(0);
+    /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+.clyneClients h2 {
+    text-align: center;
+}
+
+.clyneClients i {
+    color: var(--dark);
+}
+
+/* #clyne(clyneClients) #css ends  */
+
+/* #trole(troleTestimonial) #css starts  */
+.troleTestimonial .card {
+    margin: 0 auto;
+    border: none;
+}
+
+.troleTestimonial .card .carousel-item {
+    min-height: 190px;
+}
+
+.troleTestimonial .card .carousel-caption {
+    padding: 0;
+    right: 15px;
+    left: 15px;
+    top: 15px;
+    color: var(--dark);
+    border: 1px solid var(--border-color);
+    min-height: 175px;
+    padding: 15px;
+}
+
+.troleTestimonial .card .carousel-caption .col-sm-3 {
+    display: flex;
+    align-items: center;
+}
+
+.troleTestimonial .card .carousel-caption .col-sm-9 {
+    text-align: left;
+}
+
+.troleTestimonial .card .carousel-control-prev,
+.troleTestimonial .card .carousel-control-next {
+    color: var(--dark) !important;
+    opacity: 1 !important;
+}
+
+.troleTestimonial .carousel-control-prev-icon,
+.troleTestimonial .carousel-control-next-icon {
+    background-image: none;
+    color: var(--color-white);
+    font-size: var(--font-size-base);
+    background-color: var(--color-secondary);
+    height: 32px;
+    line-height: 32px;
+    width: 32px;
+}
+
+.troleTestimonial .carousel-control-prev-icon:hover,
+.troleTestimonial .carousel-control-next-icon:hover {
+    opacity: 0.85;
+}
+
+.troleTestimonial .carousel-control-prev {
+    left: 40%;
+    top: 110%;
+}
+
+.troleTestimonial .carousel-control-next {
+    right: 40%;
+    top: 110%;
+}
+
+
+
+.troleTestimonial .carousel-caption h2 {
+    font-size: var(--font-size-base);
+}
+
+.troleTestimonial .carousel-caption h2 span {
+    color: var(--color-secondary);
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .troleTestimonial .carousel-caption {
+        position: relative;
+    }
+
+    .troleTestimonial .card .carousel-caption {
+        left: 0;
+        top: 0;
+        margin-bottom: 15px;
+    }
+
+    .troleTestimonial .card .carousel-caption img {
+        margin: 0 auto;
+    }
+
+    .troleTestimonial .carousel-control-prev {
+        left: 35%;
+        top: 105%;
+    }
+
+    .troleTestimonial .carousel-control-next {
+        right: 35%;
+        top: 105%;
+    }
+
+    .troleTestimonial .card .carousel-caption h3 {
+        margin-top: 0;
+        font-size: var(--font-size-base);
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .troleTestimonial .carousel-caption {
+        position: relative;
+    }
+
+    .troleTestimonial .card .carousel-caption {
+        left: 0;
+        top: 0;
+        margin-bottom: 15px;
+    }
+
+    .troleTestimonial .card .carousel-caption img {
+        margin: 0 auto;
+    }
+
+    .troleTestimonial .card .carousel-caption h3,
+    .troleTestimonial .card .carousel-caption small {
+        text-align: center;
+    }
+
+    .troleTestimonial .carousel-control-prev {
+        left: 35%;
+        top: 105%;
+    }
+
+    .troleTestimonial .carousel-control-next {
+        right: 35%;
+        top: 105%;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .troleTestimonial .card .carousel-caption h3 {
+        margin-top: 0;
+        font-size: var(--font-size-base);
+    }
+}
+
+/* #trole(troleTestimonial) #css ends  */
+/* #enzor(enzorEvents) #css starts  */
+.enzorEvents .fl-left {
+    float: left
+}
+
+.enzorEvents .fl-right {
+    float: right
+}
+
+.enzorEvents h2 {
+    border-left: 10px solid var(--color-primary);
+    padding-left: 10px;
+    margin-bottom: 30px
+}
+
+.enzorEvents .row {
+    overflow: hidden
+}
+
+.enzorEvents .card {
+    display: table-row;
+    width: 49%;
+    background-color: var(--color-background-primary);
+    color: var(--dark);
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    ;
+    border-radius: var(--border-radius-md);
+    position: relative
+}
+
+.enzorEvents .card+.card {
+    margin-left: 2%
+}
+
+.enzorEvents .date {
+    display: table-cell;
+    width: 25%;
+    position: relative;
+    text-align: center;
+    border-right: 2px dashed var(--border-color)
+}
+
+.enzorEvents .date:before,
+.enzorEvents .date:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-background-secondary);
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    z-index: 1;
+    border-radius: 50%
+}
+
+.enzorEvents .date:after {
+    top: auto;
+    bottom: -15px
+}
+
+.enzorEvents .date time {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.enzorEvents .date time span {
+    display: block
+}
+
+.enzorEvents .date time span:first-child {
+    color: var(--dark);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-xl)
+}
+
+.enzorEvents .date time span:last-child {
+    text-transform: capitalize;
+    ;
+    font-weight: var(--font-weight-semibold);
+    margin-top: -10px
+}
+
+.enzorEvents .card-cont {
+    display: table-cell;
+    width: 75%;
+    font-size: var(--font-size-md);
+    padding: 10px 10px 30px 50px
+}
+
+.enzorEvents .card-cont h3 {
+    color: var(--dark);
+}
+
+.enzorEvents .card-cont>div {
+    display: table-row
+}
+
+.enzorEvents .card-cont .even-date i,
+.enzorEvents .card-cont .even-info i,
+.enzorEvents .card-cont .even-date time,
+.enzorEvents .card-cont .even-info p {
+    display: table-cell
+}
+
+.enzorEvents .card-cont .even-date i,
+.enzorEvents .card-cont .even-info i {
+    padding: 5% 5% 0 0
+}
+
+.enzorEvents .card-cont .even-info p {
+    padding: 30px 50px 0 0;
+    color: var(--dark);
+}
+
+.enzorEvents .card-cont .even-date time span {
+    display: block;
+    color: var(--dark);
+}
+
+.enzorEvents .card-cont a {
+    display: block;
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+    background-color: var(--color-background-primary);
+    color: var(--color-white);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 2px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px
+}
+
+.enzorEvents .book-btn {
+    background-color: var(--color-secondary) !important;
+    color: var(--color-white);
+    border: none;
+    border-radius: var(--border-radius-sm) !important;
+}
+
+
+
+@media screen and (max-width: 860px) {
+    .enzorEvents .card {
+        display: block;
+        float: none;
+        width: 100%;
+        margin-bottom: 10px
+    }
+
+    .enzorEvents .card+.card {
+        margin-left: 0
+    }
+
+    .enzorEvents .card-cont .even-date,
+    .enzorEvents .card-cont .even-info {
+        font-size: var(--font-size-md)
+    }
+}
+
+/* #enzor(enzorEvents) #css ends  */
+
+/* #first(firstFeature) #css starts */
+.firstFeature h2 {
+    margin-bottom: var(--spacing-xl);
+}
+
+.firstFeature .mok-block img+h3,
+.firstFeature .mok-block img+h4 {
+    margin-top: 1.25rem
+}
+
+.firstFeature .mok-block img.mok-icon {
+    width: var(--font-size-xxl);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.firstFeature .btn {
+    color: var(--color-white);
+    border-color: var(--dark);
+    background-color: var(--dark);
+}
+
+.firstFeature .lead {
+    color: var(--color-text-primary);
+}
+
+/* #first(firstFeature) #css starts */
+/* #wisp(wispWhyus) #css starts  */
+/* Value List Styling */
+.wispWhyus .value-list li {
+    list-style: none;
+    margin-bottom: var(--spacing-lg);
+}
+
+.wispWhyus .value-list li h5 {
+    font-weight: var(--font-weight-bold);
+    margin-bottom: var(--spacing-xs);
+}
+
+.wispWhyus .value-list li p {
+    margin-bottom: 0;
+    color: var(--color-text-secondary);
+}
+
+/* Icon Styling for Value List */
+.wispWhyus .value-list .icon i {
+    color: var(--color-primary);
+}
+
+/* Testimonial Card Styling */
+.wispWhyus .testimonial.card {
+    border: none;
+    border-radius: var(--border-radius-md);
+    box-shadow: 0 0.5rem 1rem var(--shadow-light);
+}
+
+.wispWhyus .testimonial i {
+    color: var(--color-primary);
+    margin-right: var(--spacing-sm);
+}
+
+.wispWhyus .blockquote-footer {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+}
+
+/* #wisp(wispWhyus) #css ends  */
+
+/* #fandom(fandomFooter) #css starts */
+.fandomFooter .h5 {
+    font-weight: var(--font-weight-semibold);
+}
+
+.fandomFooter .icons {
+    color: var(--color-text-primary);
+}
+
+/* #fandom(fandomFooter) #css ends */
