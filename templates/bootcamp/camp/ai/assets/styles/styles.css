@@ -1,0 +1,801 @@
+/* #notch(notchNavbar) #css starts  */
+.notchNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.notchNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.notchNavbar .col-2 {
+    padding-left: 0px !important;
+}
+
+/* #notch(notchNavbar) #css ends  */
+/* #handel(handelHero) #css starts  */
+.handelHero .masthead {
+    padding: 3rem 0 7rem;
+    position: relative;
+    background-color: var(--color-primary);
+    background-image: linear-gradient(45deg, var(--color-primary) 0%, var(--color-tertiary) 100%);
+    background-size: cover;
+    z-index: 0;
+}
+
+.handelHero .masthead svg.wave {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+.handelHero .masthead h1 {
+    line-height: 1.1;
+    z-index: 1;
+    color: var(--color-white);
+}
+
+.handelHero .masthead a {
+    color: var(--dark);
+    z-index: 1;
+}
+
+.handelHero .masthead a:hover {
+    color: var(--color-secondary);
+}
+
+.handelHero .masthead a:active {
+    text-decoration: none;
+}
+
+.handelHero .masthead .masthead-cards {
+    position: relative;
+    z-index: 1;
+}
+
+.handelHero .masthead .masthead-cards .shape {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .3);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+}
+
+.handelHero .masthead .masthead-cards .card {
+    opacity: 1;
+    font-size: .8rem;
+    text-transform: capitalize;
+    font-weight: 800;
+    letter-spacing: .05rem;
+    color: var(--dark);
+    transition: .15s all;
+}
+
+.handelHero .masthead .masthead-cards .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+}
+
+.handelHero .masthead .masthead-cards .card:active {
+    margin-top: inherit;
+    margin-bottom: inherit;
+}
+
+.handelHero .masthead .masthead-cards .card.border-bottom-blue:hover {
+    color: var(--color-primary);
+}
+
+.handelHero .masthead .masthead-cards .card.border-bottom-green:hover {
+    color: var(--color-secondary);
+}
+
+.handelHero .masthead .masthead-cards .card.border-bottom-red:hover {
+    color: var(--color-tertiary);
+}
+
+.handelHero .masthead .masthead-cards .card.border-bottom-yellow:hover {
+    color: var(--color-alert);
+}
+
+.handelHero .masthead-page {
+    padding: 1rem 0 4rem;
+}
+
+
+.handelHero .border-bottom-blue,
+.handelHero .border-bottom-green,
+.handelHero .border-bottom-red,
+.handelHero .border-bottom-yellow {
+    border-bottom: .4rem solid !important;
+}
+
+.handelHero .shadow-lg {
+    box-shadow: 0 2rem 1.5rem -1.5rem var(--shadow-light), 0 0 1.5rem .5rem var(--shadow-light) !important;
+}
+
+.handelHero .border-0 {
+    border: 0 !important;
+}
+
+.handelHero .btn {
+    border-radius: var(--btn-radius-full);
+    background-color: var(--color-white);
+    margin-top: 40px !important;
+}
+
+.handelHero .paragraph {
+    color: var(--color-white);
+}
+
+/* #handel(handelHero) #css ends  */
+/* #floor(floorFeature) #css starts */
+.floorFeature .card-img-top {
+    max-width: var(--icon-size-xl);
+    margin-left: 30px;
+    margin-top: 20px
+}
+
+.floorFeature .card:hover {
+    box-shadow: var(--shadow-light) 0px 10px 15px -3px, var(--shadow-dark) 0px 4px 6px -2px
+}
+
+.floorFeature .card-link {
+    color: var(--color-text-primary);
+}
+
+/* #floor(floorFeature) #css ends */
+/* #paige(paigeProduct) #css starts */
+.paigeProduct .product-grid {
+    text-align: center;
+    padding: 0 0 72px;
+    border: 1px solid var(--shadow-light);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.paigeProduct .product-grid .product-image {
+    position: relative;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    height: 300px;
+}
+
+.paigeProduct .product-grid .product-image a {
+    display: block;
+    height: 100%;
+}
+
+.paigeProduct .product-grid .product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.paigeProduct .product-grid .pic-1 {
+    opacity: 1;
+    transition: all 0.3s ease-out 0s;
+}
+
+.paigeProduct .product-grid .pic-2 {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease-out 0s;
+}
+
+.paigeProduct .product-grid .social {
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.paigeProduct .product-grid .social li {
+    display: inline-block;
+}
+
+.paigeProduct .product-grid .social li a {
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+    font-size: var(--font-size-base);
+    line-height: 40px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 2px;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.paigeProduct .product-grid .social li a:hover {
+    color: var(--color-white);
+    background-color: var(--color-tertiary);
+}
+
+.paigeProduct .product-grid .social li a i {
+    line-height: inherit;
+}
+
+.paigeProduct .product-grid .social li a:before,
+.paigeProduct .product-grid .social li a:after {
+    content: attr(data-tip);
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+    font-size: var(--font-size-xs);
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: 1px 5px;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: -30px;
+}
+
+.paigeProduct .product-grid .social li a:after {
+    content: "";
+    height: 15px;
+    width: 15px;
+    border-radius: 0;
+    transform: translateX(-50%) rotate(45deg);
+    top: -20px;
+    z-index: -1;
+}
+
+.paigeProduct .product-grid .social li a:hover:before,
+.paigeProduct .product-grid .social li a:hover:after {
+    opacity: 1;
+}
+
+.paigeProduct .product-grid .product-new-label,
+.paigeProduct .product-grid .product-discount-label {
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+    font-size: var(--font-size-xs);
+    padding: 2px 7px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.paigeProduct .product-grid .product-discount-label {
+    background-color: var(--dark);
+    left: auto;
+    right: 0;
+}
+
+.paigeProduct .product-grid .rating {
+    color: var(--color-warning);
+    font-size: var(--font-size-xs);
+    padding: 12px 0 0;
+    margin: 10px;
+    list-style: none;
+    position: relative;
+    z-index: -1;
+}
+
+.paigeProduct .product-grid .rating li.disable {
+    color: var(--color-text-secondary);
+}
+
+.paigeProduct .product-grid .product-content {
+    background-color: var(--color-white);
+    text-align: center;
+    padding: 12px 0;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -27px;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.paigeProduct:hover .product-content {
+    bottom: 0;
+}
+
+.paigeProduct .product-grid .title {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-regular);
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.paigeProduct .product-grid .title a {
+    color: var(--color-text-secondary);
+}
+
+.paigeProduct .product-grid .title a:hover {
+    color: var(--color-secondary);
+}
+
+.paigeProduct:hover .title a {
+    color: var(--color-secondary);
+}
+
+.paigeProduct .product-grid .price {
+    color: var(--dark);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: 0.6px;
+    margin-bottom: 8px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.paigeProduct .product-grid .price span {
+    color: var(--dark);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-regular);
+    text-decoration: line-through;
+    margin-left: 3px;
+    display: inline-block;
+}
+
+.paigeProduct .product-grid .add-to-cart {
+    color: var(--dark);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-semibold);
+}
+
+.paigeProduct .product-grid .title a,
+.paigeProduct .product-grid .add-to-cart {
+    text-decoration: none;
+}
+
+
+.paigeProduct .product-grid:hover .social {
+    opacity: 1;
+    top: 50%;
+}
+
+.paigeProduct .product-grid:hover .product-content {
+    bottom: 0;
+}
+
+@media only screen and (max-width: 990px) {
+    .paigeProduct .product-grid {
+        margin-bottom: 30px;
+    }
+}
+
+/* #paige(paigeProduct) #css ends */
+/* #cosmic(cosmicComparison) #css starts  */
+    /* Cosmic Comparison Component Styles */
+    /* Section subtitle styling */
+    .cosmicComparison .section-subtitle {
+        font-size: var(--font-size-lg);
+        color: var(--color-text-secondary);
+        margin-bottom: var(--spacing-xl);
+      }
+  
+      /* Comparison cards grid layout */
+      .cosmicComparison .comparison-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: var(--spacing-lg);
+        margin-top: var(--spacing-md);
+      }
+  
+      /* Individual comparison card */
+      .cosmicComparison .comparison-card {
+        background: var(--color-white);
+        border-radius: var(--border-radius-lg);
+        padding: var(--spacing-xl) var(--spacing-lg);
+        box-shadow: var(--shadow-md);
+        position: relative;
+        transition: transform var(--transition-duration) ease, box-shadow var(--transition-duration) ease;
+      }
+  
+      /* Comparison card hover effect */
+      .cosmicComparison .comparison-card:hover {
+        transform: translateY(-8px);
+        box-shadow: var(--shadow-lg);
+      }
+  
+      /* Top badge styling */
+      .cosmicComparison .comparison-card .top-badge {
+        position: absolute;
+        top: var(--spacing-md);
+        right: var(--spacing-md);
+        background: var(--color-warning);
+        color: var(--color-black);
+        font-weight: var(--font-weight-semibold);
+        padding: var(--spacing-xs) var(--spacing-sm);
+        border-radius: var(--border-radius-full);
+        font-size: var(--font-size-xs);
+      }
+  
+      /* Card title styling */
+      .cosmicComparison .comparison-card .card-title {
+        font-size: var(--font-size-xl);
+        font-weight: var(--font-weight-semibold);
+        margin-bottom: var(--spacing-md);
+      }
+  
+      /* Features list styling */
+      .cosmicComparison .features {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-xs);
+      }
+  
+      /* Feature list item */
+      .cosmicComparison .features li {
+        display: flex;
+        align-items: center;
+        font-size: var(--font-size-base);
+      }
+  
+      /* Feature icon spacing */
+      .cosmicComparison .features li i {
+        margin-right: var(--spacing-xs);
+      }
+  
+      /* Available feature styling */
+      .cosmicComparison .available {
+        color: var(--color-success);
+      }
+  
+      /* Unavailable feature styling */
+      .cosmicComparison .unavailable {
+        color: var(--color-danger);
+      }
+  
+      /* Cost indicator styling */
+      .cosmicComparison .cost {
+        font-weight: var(--font-weight-semibold);
+        padding: var(--spacing-xs) var(--spacing-xs);
+        border-radius: var(--border-radius-sm);
+        font-size: var(--font-size-sm);
+      }
+  
+      /* Low cost styling */
+      .cosmicComparison .cost.low {
+        background: var(--color-success-light);
+        color: var(--color-success);
+      }
+  
+      /* Medium cost styling */
+      .cosmicComparison .cost.medium {
+        background: var(--color-warning-light);
+        color: var(--color-warning);
+      }
+  
+      /* High cost styling */
+      .cosmicComparison .cost.high {
+        background: var(--color-danger-light);
+        color: var(--color-danger);
+      }
+  
+      /* Course card border */
+      .cosmicComparison .card-course {
+        border-top: 4px solid var(--color-success);
+      }
+  
+      /* Bootcamp card border */
+      .cosmicComparison .card-bootcamp {
+        border-top: 4px solid var(--color-warning);
+      }
+  
+      /* Tutorial card border */
+      .cosmicComparison .card-tutorial {
+        border-top: 4px solid var(--color-primary);
+      }
+  
+      /* CTA section styling */
+      .cosmicComparison .cta {
+        text-align: center;
+        margin-top: var(--spacing-xl);
+      }
+  
+      /* CTA button styling */
+      .cosmicComparison .cta .btn {
+        padding: var(--spacing-sm) var(--spacing-lg);
+        font-size: var(--font-size-lg);
+        border-radius: var(--border-radius-md);
+      }
+/* #cosmic(cosmicComparison) #css ends  */
+
+/* #taylor(taylorTestimonial) #css starts  */
+.taylorTestimonial .mok-block {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: var(--color-background-primary)
+}
+
+.taylorTestimonial .mok-block .container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.taylorTestimonial .lead {
+    color: var(--dark);
+}
+
+.taylorTestimonial .mok-block .mok-box {
+    background: var(--color-background-primary);
+    padding: 3.75rem 2.5rem;
+    overflow: hidden;
+    color: var(--dark);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.3125rem 0.875rem 0 rgba(129, 129, 129, 0.2)
+}
+
+.taylorTestimonial .BGContainer {
+    background-image: url(https://images.moksy.com/templates/default/shapes/shape-purple.svg)
+}
+
+/* #taylor(taylorTestimonial) #css ends  */
+
+/* #catch(catchCounters) #css starts  */
+.catchCounters .icon-home {
+    width: 80px;
+    height: 80px;
+}
+
+.catchCounters i {
+    font-size: var(--spacing-xl);
+}
+
+.catchCounters .bg-primary {
+    background-color: var(--color-primary) !important;
+}
+
+.catchCounters .text-secondary {
+    color: var(--color-text-primary) !important;
+}
+
+@media (max-width: 991.98px) {
+
+    .catchCounters .three,
+    .catchCounters .four {
+        margin-top: var(--spacing-xl);
+    }
+}
+
+/* #catch(catchCounters) #css ends  */
+
+/* #loyal(loyalLeaderboard) #css starts  */
+    /* Section Title */
+    .loyalLeaderboard .leaderboard .section-title{
+        font-weight: var(--font-weight-bold);
+        font-size: var(--font-size-xl);
+        margin-bottom: var(--spacing-xs);
+        color: #111;
+    }
+
+    /* Section Subtitle */
+    .loyalLeaderboard .leaderboard .section-subtitle{
+        color: #555;
+        font-size: var(--font-size-base);
+        margin-bottom: var(--spacing-xl);
+    }
+
+    /* Leaderboard List Container */
+    .loyalLeaderboard .leaderboard-list{
+        max-height: 70vh;
+        overflow-y: auto;
+        padding-right: var(--spacing-xs);
+    }
+
+    /* Individual Leaderboard Card */
+    .loyalLeaderboard .leaderboard-card{
+        display: flex;
+        align-items: center;
+        background: #fff;
+        border-radius: 1rem;
+        padding: var(--spacing-md) var(--spacing-lg);
+        margin-bottom: var(--spacing-md);
+        box-shadow: 0 4px 12px rgba(0,0,0,.05);
+        transition: transform .2s ease, box-shadow .2s ease;
+        position: relative;
+    }
+
+    /* Card Hover Effects */
+    .loyalLeaderboard .leaderboard-card:hover{
+        transform: translateY(-4px);
+        box-shadow: 0 8px 20px rgba(0,0,0,.08);
+    }
+
+    /* Rank Badge Styling */
+    .loyalLeaderboard .rank-badge{
+        width: 42px;
+        height: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: var(--font-weight-bold);
+        border-radius: 50%;
+        margin-right: var(--spacing-md);
+        font-size: var(--font-size-base);
+        color: #fff;
+    }
+
+    /* Top 3 Rank Badge Colors */
+    .loyalLeaderboard .rank-1 .rank-badge{background: gold; color: #111;}
+    .loyalLeaderboard .rank-2 .rank-badge{background: #c0c0c0; color: #111;}
+    .loyalLeaderboard .rank-3 .rank-badge{background: #cd7f32; color: #fff;}
+
+    /* Avatar Container */
+    .loyalLeaderboard .avatar{
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: #eef3ff;
+        color: #4a61ff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: var(--font-weight-semibold);
+        margin-right: var(--spacing-md);
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    /* Avatar Image */
+    .loyalLeaderboard .avatar img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Profile Information Container */
+    .loyalLeaderboard .profile-info{
+        flex: 1 1 auto;
+    }
+
+    /* Username Display */
+    .loyalLeaderboard .username{
+        margin: 0;
+        font-size: var(--font-size-base);
+        font-weight: var(--font-weight-semibold);
+        color: #222;
+    }
+
+    /* Progress Text */
+    .loyalLeaderboard .progress-text{
+        font-size: var(--font-size-sm);
+        color: #666;
+        margin: 0 0 var(--spacing-sm) 0;
+    }
+
+    /* Tags Container */
+    .loyalLeaderboard .tags{
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--spacing-xs);
+    }
+
+    /* Individual Tag */
+    .loyalLeaderboard .tag{
+        background: #f0f2ff;
+        color: #4a61ff;
+        padding: var(--spacing-xs) var(--spacing-sm);
+        border-radius: .5rem;
+        font-size: var(--font-size-xs);
+        font-weight: var(--font-weight-medium);
+    }
+
+    /* Cheer Button */
+    .loyalLeaderboard .cheer-btn{
+        background: transparent;
+        border: none;
+        font-size: var(--font-size-md);
+        cursor: pointer;
+        transition: transform .2s;
+        margin-left: var(--spacing-md);
+    }
+
+    /* Cheer Button Hover Effect */
+    .loyalLeaderboard .cheer-btn:hover{
+        transform: scale(1.15);
+    }
+
+    /* Scrollbar Styling for Webkit Browsers */
+    .loyalLeaderboard .leaderboard-list::-webkit-scrollbar{
+        width: 6px;
+    }
+    .loyalLeaderboard .leaderboard-list::-webkit-scrollbar-track{
+        background: transparent;
+    }
+    .loyalLeaderboard .leaderboard-list::-webkit-scrollbar-thumb{
+        background: #d7d7d7;
+        border-radius: 3px;
+    }
+
+    /* Responsive Design for Mobile */
+    @media (max-width: 576px){
+        .loyalLeaderboard .leaderboard-card{
+            padding: var(--spacing-md);
+        }
+        .loyalLeaderboard .rank-badge{
+            width: 36px;
+            height: 36px;
+            margin-right: var(--spacing-sm);
+        }
+        .loyalLeaderboard .avatar{
+            width: 40px;
+            height: 40px;
+            margin-right: var(--spacing-sm);
+        }
+    }
+
+    /* Summary Card Sticky Positioning */
+    .loyalLeaderboard .leaderboard-summary{
+        position: sticky;
+        top: var(--spacing-md);
+        background: #fff;
+        border: 2px solid #4a61ff;
+        border-radius: 1rem;
+        padding: var(--spacing-md) var(--spacing-lg);
+        font-weight: var(--font-weight-semibold);
+        color: #4a61ff;
+        margin-bottom: var(--spacing-lg);
+    }
+/* #loyal(loyalLeaderboard) #css ends  */
+
+/* #baira(bairaBlog) #css starts  */
+.bairaBlog .heading {
+    color: var(--dark);
+}
+
+.bairaBlog .para {
+    line-height: 1.8;
+}
+
+.bairaBlog .date {
+    margin-top: 0.1rem !important;
+}
+
+/* #baira(bairaBlog) #css ends  */
+
+/* #fund(fundFooter) #css starts */
+.fundFooter {
+    background-color: var(--color-background-secondary);
+    padding: var(--spacing-sm);
+}
+
+.fundFooter h5 {
+    color: var(--color-text-primary);
+}
+
+.fundFooter li a {
+    color: var(--color-text-primary);
+}
+
+.fundFooter .btn-outline-light {
+    color: var(--color-text-primary);
+}
+
+.fundFooter .btn-outline-light:hover {
+    background-color: var(--color-white);
+    color: var(--color-text-primary);
+    border-color: var(--color-white);
+}
+
+/* #fund(fundFooter) #css ends */
+
