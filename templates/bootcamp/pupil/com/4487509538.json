@@ -1,0 +1,1177 @@
+{
+    "projectRequirements": {
+        "userid": "87ca5aefe7183d3c6b9e208dbb174e4b",
+        "projectId": 4487509538,
+        "projectName": "Pupil",
+        "projectIndustry": "EdTech",
+        "projectSubIndustry": "Software Training",
+        "projectType": "Bootcamp",
+        "projectPurpose": "To attract and enroll prospective students and building immediate trust",
+        "projectAudience": "Prospective students, career-switchers, adult learners",
+        "projectTags": "edtech, elearning, courses, curriculum, testimonials, statistics, learning, upskilling, bootcamp, students",
+        "projectExamples": "Chegg",
+        "projectTheme": "Warm, Inviting, Structured",
+        "projectKeywords": {
+            "projectKeywords": {
+                "keywords": {
+                    "education": 7.4,
+                    "bootcamp": 5.7,
+                    "edtech": 5.1,
+                    "prospective": 5.1,
+                    "students": 4.8,
+                    "admissions": 4.3,
+                    "career": 4.3,
+                    "skills": 4.3,
+                    "projects": 4.3,
+                    "curriculum": 4.3
+                },
+                "accuracy": "8%"
+            },
+            "projectFontsKeywords": {
+                "keywords": {
+                    "modern": 8.9,
+                    "bold": 5.4,
+                    "clean": 4.9,
+                    "professional": 4.3,
+                    "sans-serif": 4.3,
+                    "tech": 3.5,
+                    "neutral": 3,
+                    "ui-friendly": 2.9,
+                    "energetic": 2.9,
+                    "editorial": 2.5
+                },
+                "accuracy": "3.1%"
+            },
+            "projectColorsKeywords": {
+                "keywords": {
+                    "trust": 10,
+                    "warm": 10,
+                    "modern": 2.9,
+                    "wellness": 2.5,
+                    "dynamic": 2.3,
+                    "saas": 2.2,
+                    "professional": 1.7,
+                    "vibrant": 1.7,
+                    "friendly": 1.7,
+                    "premium": 1.6
+                },
+                "accuracy": "3%"
+            },
+            "projectBrandAssetsKeywords": {
+                "keywords": {
+                    "students": 5,
+                    "edtech": 3,
+                    "bootcamp": 3,
+                    "admissions": 3,
+                    "career": 3,
+                    "skills": 3,
+                    "prospective": 3,
+                    "projects": 3,
+                    "curriculum": 3,
+                    "upskilling": 2
+                },
+                "accuracy": "2%"
+            },
+            "projectThemeKeywords": {
+                "keywords": {
+                    "students": 5,
+                    "edtech": 3,
+                    "bootcamp": 3,
+                    "admissions": 3,
+                    "career": 3,
+                    "skills": 3,
+                    "prospective": 3,
+                    "projects": 3,
+                    "curriculum": 3,
+                    "upskilling": 2
+                },
+                "accuracy": "2%"
+            },
+            "projectLayoutsKeywords": {
+                "keywords": {
+                    "teams": 10,
+                    "training": 10,
+                    "careerhelp": 10,
+                    "students": 5,
+                    "edtech": 3,
+                    "bootcamp": 3,
+                    "admissions": 3,
+                    "career": 3,
+                    "skills": 3,
+                    "prospective": 3
+                },
+                "accuracy": "24%"
+            },
+            "projectTextsKeywords": {
+                "keywords": {
+                    "motivational": 10,
+                    "engaging": 10,
+                    "action-oriented": 10,
+                    "students": 5,
+                    "edtech": 3,
+                    "bootcamp": 3,
+                    "admissions": 3,
+                    "career": 3,
+                    "skills": 3,
+                    "prospective": 3
+                },
+                "accuracy": "20%"
+            },
+            "projectImagesKeywords": {
+                "keywords": {
+                    "learning": 10,
+                    "students": 10,
+                    "software": 2.8,
+                    "statistics": 1.7,
+                    "training": 1.4,
+                    "education": 1,
+                    "trust": 0.9,
+                    "team": 0.9,
+                    "technology": 0.9,
+                    "design": 0.7
+                },
+                "accuracy": "0.5%"
+            },
+            "projectVideosKeywords": {
+                "keywords": {
+                    "training": 10,
+                    "learning": 10,
+                    "students": 10,
+                    "bootcamp": 8.7,
+                    "elearning": 5,
+                    "performance": 1.7,
+                    "demo": 1.4,
+                    "curriculum": 0.8,
+                    "statistics": 0.8,
+                    "microlearning": 0.6
+                },
+                "accuracy": "0.9%"
+            },
+            "projectBaseLibrariesKeywords": {
+                "keywords": {
+                    "frontend": 3.5,
+                    "spa": 2.5,
+                    "performance": 2,
+                    "lightweight": 2,
+                    "animation": 2,
+                    "legacy": 1.5,
+                    "components": 1.5,
+                    "react": 1.5,
+                    "reactive": 1.5,
+                    "modular": 1.5
+                },
+                "accuracy": "0%"
+            },
+            "projectSupportLibrariesKeywords": {
+                "keywords": {
+                    "frontend": 2.5,
+                    "spa": 2.5,
+                    "performance": 2,
+                    "lightweight": 2,
+                    "animation": 2,
+                    "legacy": 1.5,
+                    "components": 1.5,
+                    "react": 1.5,
+                    "reactive": 1.5,
+                    "routing": 1.5
+                },
+                "accuracy": "0%"
+            }
+        }
+    },
+    "projectInfo": {
+        "projectBranding": {
+            "fonts": {
+                "primaryFonts": "",
+                "secondaryFonts": "",
+                "thirdFonts": "",
+                "defaultFonts": ""
+            },
+            "colors": {
+                "primaryColor": "",
+                "secondaryColor": "",
+                "thirdColor": "",
+                "defaultColor": ""
+            }
+        },
+        "projectTheme": "",
+        "projectBrandingAssets": "lightbulb",
+        "projectLayout": [
+            "navbar\/nudge",
+            "hero\/hoist",
+            "overview",
+            "skills",
+            "curriculum",
+            "learningmode",
+            "whyus",
+            "teams\/treva",
+            "portfolio\/prave",
+            "careersupport",
+            "testimonials\/taylor",
+            "pricing\/pexus",
+            "testimonials\/taylor",
+            "counters\/catch",
+            "admissions",
+            "cta\/cerry",
+            "countdown\/camel",
+            "faqs\/feign",
+            "subscribe\/semor",
+            "contacts\/covel",
+            "clients\/calvo",
+            "calendar",
+            "blogs\/blond",
+            "footers\/flows"
+        ],
+        "projectText": {
+            "Navigation": [
+                "Home",
+                "About Us",
+                "Courses",
+                "Curriculum",
+                "Instructors",
+                "Testimonials",
+                "Faqs",
+                "Pricing",
+                "Enroll",
+                "Schedule",
+                "Career",
+                "Blog",
+                "Contact"
+            ],
+            "Primary-Headline": [
+                "Transform Your Career with Our Intensive Bootcamp",
+                "Master In-Demand Skills in Just Weeks",
+                "Launch Your Tech Career Today",
+                "From Beginner to Pro \u2013 Fast",
+                "Get Job-Ready with Hands-On Training",
+                "Code. Create. Conquer.",
+                "Break Into Tech \u2013 No Experience Needed",
+                "Accelerate Your Career with Expert Mentors",
+                "Upskill with Our Fast-Track Learning Model",
+                "Your Career Reset Starts Here"
+            ],
+            "Tagline": [
+                "Accelerate Your Skills. Fast-Track Your Future.",
+                "No Theory \u2013 Just Real-World Projects.",
+                "Train Hard. Land Your Dream Job.",
+                "Where Passion Meets Profession.",
+                "Your Shortcut to a New Career.",
+                "Join the Future of Learning.",
+                "Bootcamps That Build Careers.",
+                "Practical Skills, Real Results.",
+                "The Learning Curve Ends Here.",
+                "Get Ahead with Intensive Learning."
+            ],
+            "Sub-Headline": [
+                "Dive deep into practical skills with our expert-led, hands-on programs.",
+                "Designed for career changers and upskillers alike.",
+                "Learn by doing, guided by industry professionals.",
+                "Graduate with real-world experience and a solid portfolio.",
+                "No fluff \u2013 just what you need to land a job.",
+                "Zero to career-ready in 12 weeks.",
+                "Challenge yourself. Change your future.",
+                "Structured learning that fits into your life.",
+                "Learn full-stack development from scratch.",
+                "The fastest way to a future in tech."
+            ],
+            "Secondary-Headline": [
+                "Why Choose Our Bootcamps?",
+                "What You\u2019ll Learn",
+                "Meet Your Instructors",
+                "Career Support That Works",
+                "Upcoming Cohorts",
+                "Trusted by 10,000+ Grads",
+                "Flexible Payment Options",
+                "Real Projects, Real Skills",
+                "Industry-Backed Curriculum",
+                "Bootcamp Success Stories"
+            ],
+            "Paragraph": [
+                "Our bootcamps are designed for individuals seeking a rapid and comprehensive skill upgrade. With a focus on practical application and industry-relevant projects, you'll emerge with a robust portfolio and the confidence to excel.",
+                "In just a few weeks, you\u2019ll build job-ready skills with intensive training led by industry veterans. From coding to job prep, we\u2019ve got you covered.",
+                "We focus on teaching what employers want \u2013 fast. No outdated theory, just practical learning that leads to real jobs.",
+                "Every student gets career coaching, mock interviews, and support to land high-paying roles.",
+                "Bootcamp sessions are live and interactive, with real-time feedback and peer collaboration.",
+                "Gain hands-on experience by building full-scale projects from scratch.",
+                "We don\u2019t just teach \u2013 we mentor. You\u2019ll have access to experts guiding you every step of the way.",
+                "Our curriculum evolves constantly to reflect the demands of today\u2019s tech landscape.",
+                "Whether you\u2019re switching careers or leveling up, we make the transition seamless.",
+                "We don\u2019t stop at graduation \u2013 we support you until you get hired."
+            ],
+            "Primary-Button": [
+                "Apply Now",
+                "Start Learning",
+                "Join the Bootcamp",
+                "Enroll Today",
+                "Get Started",
+                "Book Your Spot",
+                "Secure Your Seat",
+                "Claim Your Offer",
+                "Start Free Trial",
+                "Schedule a Call"
+            ],
+            "Secondary-Button": [
+                "Learn More",
+                "View Curriculum",
+                "See How It Works",
+                "Meet the Instructors",
+                "Download Syllabus",
+                "Watch Demo",
+                "Browse Courses",
+                "Compare Plans",
+                "Explore Projects",
+                "Get a Brochure"
+            ],
+            "Footer-Nav": [
+                "Privacy Policy",
+                "Terms Of Service",
+                "Refund Policy",
+                "Cookie Policy",
+                "Careers",
+                "Affiliate Program",
+                "Support",
+                "Sitemap",
+                "Code Of Conduct"
+            ],
+            "Promo": [
+                "Limited-time offer: Get 15% off your enrollment when you apply this month!",
+                "Early bird discount ends in 3 days!",
+                "Refer a friend and get $100 off your tuition.",
+                "Free laptop with your first bootcamp enrollment!",
+                "Sign up now and receive a free 1:1 career coaching session.",
+                "Get certified for less \u2013 Summer Bootcamp Promo inside!",
+                "Join with a friend and both get 10% off!",
+                "Holiday Sale: Enroll now and save up to $300.",
+                "First 50 signups receive exclusive bonus content.",
+                "Flash Sale \u2013 Ends Midnight Tonight!"
+            ],
+            "Notices": [
+                "Next cohort starts September 15th. Limited seats available.",
+                "We're currently accepting applications for our October batch.",
+                "Only 5 spots left for the upcoming session!",
+                "Live bootcamp seats filling fast!",
+                "Check your eligibility before applying.",
+                "New course updates just launched.",
+                "Scholarships now available \u2013 apply today!",
+                "Virtual orientation happening this Friday.",
+                "Support hours extended during enrollment week.",
+                "New mentor announcements this week!"
+            ],
+            "Testimonial": [
+                "\"The bootcamp was intense but incredibly rewarding. I landed my dream job just two weeks after graduating!\" \u2013 Sarah K.",
+                "\"I had zero coding experience. Now I\u2019m a full-time developer.\" \u2013 Tom R.",
+                "\"Excellent instructors and real-world projects \u2013 it changed my life.\" \u2013 Priya D.",
+                "\"Highly recommend this for anyone switching careers.\" \u2013 Michael B.",
+                "\"The career support was outstanding \u2013 they helped me prep for every interview.\" \u2013 Leila N.",
+                "\"Projects we built during the course impressed my current employer!\" \u2013 James C.",
+                "\"This was more than a course \u2013 it was a complete career transformation.\" \u2013 Fatima H.",
+                "\"I loved the sense of community and mentorship.\" \u2013 Adam T.",
+                "\"I finally feel confident in my coding skills thanks to this bootcamp.\" \u2013 Reema P.",
+                "\"Worth every penny. Got hired within a month.\" \u2013 John M."
+            ],
+            "Product-Name": [
+                "Web Development Bootcamp",
+                "Full-Stack Developer Program",
+                "UX\/UI Design Bootcamp",
+                "Data Science Bootcamp",
+                "Frontend Fundamentals Course",
+                "Python for Beginners",
+                "Mobile App Development Bootcamp",
+                "Cloud & DevOps Crash Course",
+                "Cybersecurity Foundations",
+                "AI & Machine Learning Bootcamp"
+            ],
+            "Product-Description": [
+                "This 12-week intensive program covers front-end and back-end development, equipping you with the skills to build robust web applications from scratch.",
+                "Learn the full spectrum of development tools and frameworks used in today\u2019s tech jobs.",
+                "Hands-on training in UX\/UI design principles, prototyping tools, and user testing.",
+                "Master data analysis, visualization, and machine learning with real-world datasets.",
+                "Learn HTML, CSS, and JavaScript \u2013 the building blocks of the web.",
+                "Start coding with Python, one of the most versatile languages today.",
+                "Design and develop apps for Android and iOS using industry tools.",
+                "Get hands-on with cloud deployment, CI\/CD pipelines, and Docker.",
+                "Build a solid foundation in protecting digital assets and managing risk.",
+                "Explore neural networks, deep learning, and AI model deployment."
+            ],
+            "Product-Feature": [
+                "Live, instructor-led sessions",
+                "Career coaching and job prep",
+                "Real-world projects",
+                "Portfolio development",
+                "1-on-1 mentorship",
+                "Job guarantee programs",
+                "Weekly code reviews",
+                "Alumni network access",
+                "Flexible online format",
+                "Resume and LinkedIn optimization"
+            ],
+            "Pricing": [
+                "$1200 \u2013 Self-Paced",
+                "$1800 \u2013 Live Online",
+                "$2500 \u2013 Full Mentorship Plan",
+                "$99\/mo \u2013 Installment Plan",
+                "\u00a31500 \u2013 UK Edition",
+                "$1000 \u2013 Early Bird Offer",
+                "$2100 \u2013 Team Package",
+                "\u20ac1300 \u2013 EU Rate",
+                "\u20b975,000 \u2013 India Edition",
+                "$500 \u2013 Trial Package"
+            ],
+            "Form-Labels": [
+                "Full Name",
+                "Email Address",
+                "Phone Number",
+                "Preferred Course",
+                "Start Date",
+                "LinkedIn Profile",
+                "Country",
+                "Experience Level",
+                "Referral Source",
+                "Additional Notes"
+            ],
+            "Placeholder": [
+                "Enter your full name",
+                "Enter a valid email address",
+                "Include your phone number",
+                "Select a bootcamp",
+                "Pick your desired start date",
+                "Paste LinkedIn profile link",
+                "Choose your country",
+                "Select experience level",
+                "How did you hear about us?",
+                "Any questions or comments?"
+            ],
+            "404": [
+                "Page Not Found: Bootcamp Edition",
+                "Oops! This page graduated already.",
+                "404 \u2013 You\u2019ve hit a broken URL.",
+                "Hmm... this content skipped class.",
+                "Lost? Let\u2019s get you back to learning.",
+                "Course not found. Try another path.",
+                "Nothing to see here... yet!",
+                "You\u2019ve stumbled off the curriculum.",
+                "404 \u2013 That page didn\u2019t make the cut.",
+                "Broken link? Try the homepage."
+            ],
+            "Phone-Number": [
+                "+1 (800) 555-0199",
+                "+44 20 7946 0123",
+                "+61 2 9876 5432",
+                "+91 99999 88888",
+                "+49 30 12345678",
+                "+33 1 23 45 67 89",
+                "+971 4 123 4567",
+                "+81 3-1234-5678",
+                "+27 11 123 4567",
+                "+55 11 91234-5678"
+            ],
+            "Email": [
+                "admissions@bootcampacademy.com",
+                "info@techbootcamp.io",
+                "support@learntocodefast.com",
+                "contact@skillboosters.net",
+                "hello@careerlaunchers.org",
+                "team@codecampglobal.com",
+                "join@upskillnow.edu",
+                "enroll@nextlevelbootcamp.com",
+                "coach@futuredevs.io",
+                "students@intensivetechpath.com"
+            ]
+        },
+        "projectImages": [
+            "url\/success\/green-dart-in-bullseye.jpg"
+        ],
+        "projectVideos": [],
+        "projectBaseLibraries": [],
+        "projectLibraries": {
+            "cssLibraries": [],
+            "jslibraries": []
+        }
+    },
+    "projectReviews": {
+        "projectRequirements": {
+            "userid": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "87ca5aefe7183d3c6b9e208dbb174e4b"
+            },
+            "projectId": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "4487509538"
+            },
+            "projectName": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "Pupil"
+            },
+            "projectIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "EdTech"
+            },
+            "projectSubIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "Software Training"
+            },
+            "projectType": {
+                "accuracy": "100%",
+                "feedback": "Commonly searched training type",
+                "correct": "Bootcamp"
+            },
+            "projectPurpose": {
+                "accuracy": "100%",
+                "feedback": "Clearly outlined what the user actually wants",
+                "correct": "To attract and enroll prospective students and building immediate trust"
+            },
+            "projectAudience": {
+                "accuracy": "100%",
+                "feedback": "Well-defined target audience",
+                "correct": "Prospective students, career-switchers, adult learners"
+            },
+            "projectTags": {
+                "accuracy": "100%",
+                "feedback": "Well-defined tags",
+                "correct": "edtech, elearning, courses, curriculum, testimonials, statistics, learning, upskilling, bootcamp, students"
+            },
+            "projectExamples": {
+                "accuracy": "100%",
+                "feedback": "Good example",
+                "correct": "Chegg"
+            },
+            "projectTheme": {
+                "accuracy": "100%",
+                "feedback": "Well-defined theme",
+                "correct": "Warm, Inviting, Structured"
+            },
+            "projectKeywords": {
+                "projectKeywords": {
+                    "accuracy": "40%",
+                    "feedback": [
+                        "The old weights used fractional numbers instead of the required whole integers from 1 to 1",
+                        "The word 'prospective' is an adjective and doesn't hold enough weight as a standalone keyword",
+                        "It included words like 'admissions' and 'projects' that weren't present in your provided context or tags",
+                        "It entirely missed the crucial trust-building elements you emphasized, like 'testimonials' and 'statistics'"
+                    ],
+                    "correct": {
+                        "edtech": 10,
+                        "learning": 9,
+                        "students": 9,
+                        "bootcamp": 8,
+                        "courses": 8,
+                        "upskilling": 7,
+                        "career": 7,
+                        "curriculum": 6,
+                        "testimonials": 5,
+                        "statistics": 5
+                    }
+                },
+                "projectFontsKeywords": {
+                    "accuracy": "40%",
+                    "feedback": [
+                        "Used forbidden fractional numbers for weights.",
+                        "Included hyphenated terms breaking the single-word rule.",
+                        "Descriptors like editorial do not fit Saira."
+                    ],
+                    "correct": {
+                        "modern": 10,
+                        "geometric": 9,
+                        "technical": 9,
+                        "clean": 8,
+                        "versatile": 8,
+                        "structured": 7,
+                        "readable": 7,
+                        "professional": 6,
+                        "digital": 6,
+                        "legible": 5
+                    }
+                },
+                "projectColorsKeywords": {
+                    "accuracy": "30%",
+                    "feedback": [
+                        "Used forbidden fractional numbers for weights.",
+                        "Included nouns like saas instead of adjectives.",
+                        "Wellness does not match this exact color palette."
+                    ],
+                    "correct": {
+                        "energetic": 10,
+                        "vibrant": 9,
+                        "warm": 9,
+                        "bold": 8,
+                        "sophisticated": 8,
+                        "grounded": 7,
+                        "modern": 7,
+                        "trustworthy": 6,
+                        "reliable": 6,
+                        "secure": 5
+                    }
+                },
+                "projectBrandAssetsKeywords": {
+                    "accuracy": "10%",
+                    "feedback": [
+                        "Included mostly nouns instead of the requested adjectives.",
+                        "Described the general industry rather than the logo itself.",
+                        "Completely missed the visual style of the provided asset."
+                    ],
+                    "correct": {
+                        "educational": 10,
+                        "academic": 10,
+                        "authoritative": 9,
+                        "professional": 8,
+                        "accomplished": 8,
+                        "minimalist": 7,
+                        "classic": 7,
+                        "empowering": 6,
+                        "iconic": 6,
+                        "clear": 5
+                    }
+                },
+                "projectThemeKeywords": {
+                    "accuracy": "10%",
+                    "feedback": [
+                        "Used industry nouns instead of theme-defining adjectives.",
+                        "Failed to reflect the warm and inviting style.",
+                        "Completely ignored the structural aspect of the design."
+                    ],
+                    "correct": {
+                        "warm": 10,
+                        "inviting": 10,
+                        "structured": 9,
+                        "trustworthy": 9,
+                        "approachable": 8,
+                        "professional": 8,
+                        "supportive": 7,
+                        "clear": 7,
+                        "organized": 6,
+                        "accessible": 6
+                    }
+                },
+                "projectLayoutsKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Used industry terms instead of structural layout categories.",
+                        "Did not map to the provided layout taxonomy.",
+                        "Missed the required website section abstraction completely."
+                    ],
+                    "correct": {
+                        "guide": 10,
+                        "focus": 10,
+                        "metrics": 7,
+                        "offer": 8,
+                        "value": 9,
+                        "trust": 9,
+                        "audience": 8,
+                        "help": 6,
+                        "knowledge": 5,
+                        "anchor": 5
+                    }
+                },
+                "projectTextsKeywords": {
+                    "accuracy": "20%",
+                    "feedback": [
+                        "Included mostly nouns instead of the requested tone adjectives.",
+                        "Used a hyphenated word breaking the single-word rule.",
+                        "Described industry targets rather than the actual content tone."
+                    ],
+                    "correct": {
+                        "trustworthy": 10,
+                        "persuasive": 10,
+                        "motivating": 9,
+                        "encouraging": 9,
+                        "empowering": 8,
+                        "professional": 8,
+                        "clear": 7,
+                        "engaging": 7,
+                        "confident": 6,
+                        "welcoming": 6
+                    }
+                },
+                "projectImagesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Used nouns instead of required image-defining adjectives.",
+                        "Included forbidden fractional numbers for keyword weights.",
+                        "Described literal subjects rather than visual style."
+                    ],
+                    "correct": {
+                        "authentic": 10,
+                        "relatable": 10,
+                        "warm": 9,
+                        "professional": 9,
+                        "inviting": 8,
+                        "inspiring": 8,
+                        "inclusive": 7,
+                        "confident": 7,
+                        "approachable": 6,
+                        "structured": 6
+                    }
+                },
+                "projectVideosKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Used nouns instead of required video-defining adjectives.",
+                        "Included forbidden fractional numbers for keyword weights.",
+                        "Described content topics rather than visual style."
+                    ],
+                    "correct": {
+                        "trustworthy": 10,
+                        "professional": 10,
+                        "welcoming": 9,
+                        "engaging": 9,
+                        "inspiring": 8,
+                        "clear": 8,
+                        "structured": 7,
+                        "polished": 7,
+                        "authentic": 6,
+                        "relatable": 6
+                    }
+                },
+                "projectBaseLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        [
+                            "Keywords must reliably trigger selection of all mandatory base libraries.",
+                            "Use clear, canonical triggers (e.g., grid, forms, icons) instead of vague terms.",
+                            "Prioritise must-have libraries with higher weights and strict serial ordering.",
+                            "Remove filler/ambiguous words to avoid missing required base libraries.",
+                            "Add a fallback rule to auto-include core libraries if any trigger is absent."
+                        ]
+                    ],
+                    "correct": {
+                        "modern": 10,
+                        "responsive": 9,
+                        "frontend": 9,
+                        "components": 8,
+                        "grid": 8,
+                        "spa": 7,
+                        "widgets": 6,
+                        "icons": 6,
+                        "lightweight": 5,
+                        "performance": 5
+                    }
+                },
+                "projectSupportLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips.",
+                        "we can add another libraries if needed"
+                    ],
+                    "correct": {
+                        "animation": 10,
+                        "scroll": 9,
+                        "effects": 9,
+                        "motion": 8,
+                        "transition": 8,
+                        "interactive": 7,
+                        "visuals": 7,
+                        "dynamic": 6,
+                        "responsive": 6,
+                        "enhancement": 5
+                    }
+                }
+            }
+        },
+        "projectInfo": {
+            "projectBranding": {
+                "fonts": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "No Font was selected"
+                    ],
+                    "correct": {
+                        "primaryFont": "Saira",
+                        "secondaryFont": "Saira"
+                    }
+                },
+                "colors": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "No color was specified"
+                    ],
+                    "correct": {
+                        "primaryColor": "#EB7000",
+                        "secondaryColor": "#302C41",
+                        "tertiaryColor": "#003b8f"
+                    }
+                }
+            },
+            "projectTheme": {
+                "accuracy": "0%",
+                "feedback": [
+                    "No theme was selected"
+                ],
+                "correct": "flat-light"
+            },
+            "projectBrandingAssets": {
+                "accuracy": "0%",
+                "feedback": [
+                    "No proper icon was selected"
+                ],
+                "correct": "graduation-cap"
+            },
+            "projectLayout": {
+                "accuracy": "0%",
+                "feedback": [
+                    "Layout is very random",
+                    "No proper snippet flow",
+                    "snippets are missing"
+                ],
+                "correct": [
+                    "navbar/niche",
+                    "hero/hoist",
+                    "counters/catch",
+                    "features/filth",
+                    "products/percy",
+                    "testimonials/taylor",
+                    "learner/lance",
+                    "faqs/fog",
+                    "blogs/bolix",
+                    "footers/fandom"
+                ]
+            },
+            "projectText": {
+                "Navigation": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Why Us",
+                        "Trending",
+                        "Stories",
+                        "Faqs",
+                        "Login",
+                        "Get Started"
+                    ]
+                },
+                "Headline": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Bridge the gap between skills and success",
+                        "Proven Career Outcomes",
+                        "Industry-expert crafted for everyone",
+                        "Technical Skills",
+                        "Data Skills",
+                        "Business Skills",
+                        "Trending Learning Paths",
+                        "What Our Students Say",
+                        "Are These Programs Right for You?",
+                        "✅ Perfect For",
+                        "❌ Not Ideal For",
+                        "Frequently Asked Questions",
+                        "Career Advice & Insights",
+                        "5 Strategies to Accelerate Your Tech Career",
+                        "The Future of Data Analytics in 2024",
+                        "From Beginner to Cybersecurity Analyst",
+                        "Platform",
+                        "Support"
+                    ]
+                },
+                "Paragraph": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Learn with top industry experts and technology partners. Our online programs build real-world skills through interactive learning paths, tailored to help you launch or accelerate your tech career in a fast-paced digital world.",
+                        "Avg. Salary Increase",
+                        "Internal Promotions",
+                        "Return on Investment",
+                        "Student Satisfaction",
+                        "Master software engineering, cybersecurity, and cloud architecture to build resilient and scalable digital solutions.",
+                        "Unlock the power of data with analytics, data engineering, and machine learning to drive informed business decisions.",
+                        "Develop critical skills in leadership, effective communication, and modern digital marketing strategies for professional growth.",
+                        "🎯 Ambitious professionals looking to upskill",
+                        "🆕 Complete beginners ready to learn in-demand tech skills",
+                        "👥 Forward-thinking teams wanting to train together",
+                        "💡 Career changers seeking a structured, guided path",
+                        "🌐 Busy individuals needing flexible, remote learning",
+                        "⚡ Those looking for overnight success without effort",
+                        "⏳ People unwilling to commit to hands-on projects",
+                        "🔬 Learners who only want theoretical knowledge",
+                        "🏃‍♂️ Individuals not open to constructive mentorship feedback",
+                        "🤖 Anyone looking for a quick, unverified certificate",
+                        "Discover the key habits, networking strategies, and learning pathways that successful professionals use to land top-tier roles in the digital economy.",
+                        "Understand how predictive modeling, artificial intelligence, and machine learning are rapidly transforming the way businesses make critical decisions today.",
+                        "Read inspiring stories from our alumni who successfully navigated career transitions and secured high-paying, remote-friendly roles through our bootcamps.",
+                        "Empowering the next generation of digital professionals with real-world skills, expert mentorship, and career-defining learning pathways."
+                    ]
+                },
+                "Button": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Explore Programs",
+                        "Explore Technical Courses",
+                        "Explore Data Courses",
+                        "Explore Business Courses",
+                        "Enroll Now",
+                        "Find Your Learning Pathway",
+                        "Read Article"
+                    ]
+                },
+                "Footer-Nav": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "All Courses",
+                        "Student Success",
+                        "Our Mentors"
+                    ]
+                },
+                "People": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Lauren Cox",
+                        "Terry Fletcher",
+                        "Elena Rodriguez"
+                    ]
+                },
+                "Job": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Cybersecurity Analyst",
+                        "Data Engineer"
+                    ]
+                },
+                "Announcement": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Testimonial": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "The flexible curriculum and hands-on projects allowed me to transition into a tech role seamlessly. The mentorship was world-class, and I felt supported every single step of the way.",
+                        "This platform provided the exact data analytics framework I needed to level up. The instructors are industry veterans, and the real-world scenarios dramatically increased my confidence."
+                    ]
+                },
+                "Product": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Full-Stack Web Development",
+                        "Data Analytics Bootcamp",
+                        "AI & Machine Learning",
+                        "Digital Product Management"
+                    ]
+                },
+                "FAQs": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "What learning pathways do you offer?",
+                        "We offer comprehensive, industry-aligned programs in Software Engineering, Data Analytics, Cybersecurity, and Digital Product Management. Explore our curriculum categories for a detailed breakdown.",
+                        "How do I enroll in a bootcamp?",
+                        "Simply explore our available learning paths, choose the curriculum that best aligns with your career goals, and click the 'Enroll Now' button to start your journey.",
+                        "Are there any prerequisites for these programs?",
+                        "While some of our advanced technical skills tracks have prerequisites, our foundational bootcamps are designed for complete beginners and require no prior industry experience.",
+                        "How long do I have access to the curriculum?",
+                        "Once enrolled, you receive lifetime access to all course materials, video lectures, and future content updates, allowing you to review concepts whenever you need them.",
+                        "Do I receive a certificate upon completion?",
+                        "Yes, all our graduates receive an industry-recognized certificate of completion, which you can showcase on LinkedIn and add to your professional portfolio."
+                    ]
+                },
+                "Portfolio": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Pricing": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "$159.00",
+                        "$199.00",
+                        "$189.00",
+                        "$225.00",
+                        "$249.00",
+                        "$332.00",
+                        "$135.00",
+                        "$150.00"
+                    ]
+                },
+                "Labels": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "New",
+                        "-20%",
+                        "-15%",
+                        "-25%",
+                        "-10%"
+                    ]
+                },
+                "Numbers": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "$8.5k",
+                        "70%",
+                        "2x",
+                        "95%"
+                    ]
+                },
+                "Placeholder": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "404": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Phone-Number": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "0808 175 1749"
+                    ]
+                },
+                "Dates": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Email": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "[email protected]"
+                    ]
+                },
+                "Icons": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "fas fa-user",
+                        "fas fa-user-plus",
+                        "fa fa-video",
+                        "fas fa-award",
+                        "fas fa-arrow-circle-right",
+                        "fa fa-eye",
+                        "fa fa-random",
+                        "fa fa-heart",
+                        "fab fa-facebook",
+                        "fab fa-twitter",
+                        "fab fa-linkedin-in",
+                        "fab fa-youtube",
+                        "fab fa-google"
+                    ]
+                }
+            },
+            "projectImages": {
+                "accuracy": "0%",
+                "feedback": [
+                    "There was a lack of images in the content.",
+                    "New images need to be added for better coverage.",
+                    "Visuals should align more closely with the project context."
+                ],
+                "correct": [
+                    "assets/images/logo.png",
+                    "assets/images/technical.jpg",
+                    "assets/images/data.jpg",
+                    "assets/images/business.jpg",
+                    "assets/images/web-development.jpg",
+                    "assets/images/analytics.jpg",
+                    "assets/images/ai.jpg",
+                    "assets/images/digital.jpg",
+                    "assets/images/people-one.jpg",
+                    "assets/images/people-two.jpg"
+                ]
+            },
+            "projectVideos": {
+                "accuracy": "0%",
+                "feedback": [
+                    "No videos need in this template"
+                ],
+                "correct": ""
+            },
+            "projectBaseLibraries": {
+                "accuracy": "0%",
+                "feedback": [
+                    "These libraries are permanent by design.",
+                    "They must always be included in every template without exception."
+                ],
+                "correct": [
+                    "Bootstrap",
+                    "Bootstrap Bundle",
+                    "Bootstrap Icons",
+                    "Remix Icon",
+                    "jQuery",
+                    "jQuery UI",
+                    "jQuery Slim"
+                ]
+            },
+            "projectLibraries": {
+                "cssLibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                },
+                "jslibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "If a CSS library also provides a JS CDN, it should be auto-included.",
+                        "This ensures consistency between style and functionality."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                }
+            }
+        }
+    }
+}
