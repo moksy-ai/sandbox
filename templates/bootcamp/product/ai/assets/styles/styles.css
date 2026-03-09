@@ -1,0 +1,690 @@
+/* #novel(novelNavbar) #css starts  */
+.novelNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.novelNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.novelNavbar .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.novelNavbar .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.novelNavbar .col-3 {
+    padding-left: 0px !important;
+}
+
+/* #novel(novelNavbar) #css ends  */
+/* #hope(hopeHero) #css starts  */
+.hopeHero .logo-header {
+    background: linear-gradient(rgb(255 255 255 / 60%), rgb(152 203 255 / 60%)), url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    color: var(--color-white);
+    padding-top: 150px;
+    padding-bottom: 100px
+}
+
+.hopeHero .logo-header h1 {
+    margin: 0 auto 0.2em auto
+}
+
+.hopeHero .logo-header p {
+    color: var(--color-text-primary);
+    margin: 0 auto 2em auto;
+    font-size: var(--font-size-md)
+}
+
+.hopeHero .logo-header .btn {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border-radius: var(--btn-radius-full);
+}
+
+
+@media (min-width: 992px) {
+    .hopeHero .logo-header {
+        height: 100vh;
+        padding-top: 0;
+        padding-bottom: 0
+    }
+}
+
+/* #hope(hopeHero) #css ends  */
+/* #calvo(calvoClients) #css starts  */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 8))
+    }
+}
+
+.calvoClients .partners-logo-slider {
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    padding: 16px 0px;
+}
+
+.calvoClients .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.calvoClients .sliderTitle {
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.calvoClients .slide {
+    height: 100px;
+    width: 250px;
+    filter: grayscale(100%);
+}
+
+.calvoClients .slide:hover {
+    filter: grayscale(0%);
+}
+
+.calvoClients .partners-logo-slider img {
+    max-height: 100px;
+    max-width: 250px;
+    margin-right: 100px;
+}
+
+/* #calvo(calvoClients) #css ends  */
+/* #foster(fosterFeature) #css starts */
+.fosterFeature .mok-block img.mok-icon {
+    width: var(--icon-size-xl);
+}
+
+.fosterFeature h2 {
+    margin-bottom: var(--spacing-xl);
+}
+
+.fosterFeature .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+    margin-top: var(--spacing-xl);
+}
+
+.fosterFeature .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+/* #foster(fosterFeature) #css starts */
+    
+/* #willow(willowWhyus) #css starts  */
+/* Comparison Table Container */
+.willowWhyus .comparison-table {
+    width: 100%;
+}
+
+/* Table Header Styling */
+.willowWhyus .comparison-table thead th {
+    background-color: var(--color-background-secondary);
+    font-weight: var(--font-weight-semibold);
+    text-align: center;
+}
+
+/* Table Row Alternating Colors */
+.willowWhyus .comparison-table tbody tr:nth-of-type(odd) {
+    background-color: var(--color-background-primary);
+}
+
+.willowWhyus .comparison-table tbody tr:nth-of-type(even) {
+    background-color: var(--color-background-tertiary);
+}
+
+/* Table Cell Styling */
+.willowWhyus .comparison-table td,
+.willowWhyus .comparison-table th {
+    vertical-align: middle;
+    text-align: center;
+    padding: var(--spacing-sm);
+    border-top: 1px solid var(--border-color);
+}
+
+/* Feature Name Column */
+.willowWhyus .feature-name {
+    text-align: left;
+    font-weight: var(--font-weight-medium);
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 576px) {
+
+    /* Hide table header on mobile */
+    .willowWhyus .comparison-table thead {
+        display: none;
+    }
+
+    /* Convert table to block layout */
+    .willowWhyus .comparison-table,
+    .willowWhyus .comparison-table tbody,
+    .willowWhyus .comparison-table tr,
+    .willowWhyus .comparison-table td {
+        display: block;
+        width: 100%;
+    }
+
+    /* Row styling for mobile */
+    .willowWhyus .comparison-table tr {
+        margin-bottom: var(--spacing-md);
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius-sm);
+    }
+
+    /* Cell styling for mobile */
+    .willowWhyus .comparison-table td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+        border: none;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    /* Data label for mobile */
+    .willowWhyus .comparison-table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: var(--spacing-md);
+        width: 45%;
+        padding-right: var(--spacing-md);
+        text-align: left;
+        font-weight: var(--font-weight-semibold);
+        color: var(--color-text-primary);
+    }
+
+    /* Remove border from last cell */
+    .willowWhyus .comparison-table td:last-child {
+        border-bottom: 0;
+    }
+}
+
+/* #willow(willowWhyus) #css ends  */
+/* #pang(pangPricing) #css starts  */
+.pangPricing .pricing-table {
+    text-align: center;
+}
+
+.pangPricing .pricing-table .pricing-table-col {
+    border-radius: 6px;
+    margin-top: 20px;
+    min-height: 400px;
+    padding: 20px 20px 40px 20px;
+    transition: all 0.3s ease-out;
+    transform: scale(1);
+    /* Initial scale for hover effect */
+}
+
+.pangPricing .pricing-table .pricing-table-col:hover {
+    transform: scale(1.1);
+    /* Slightly scale up on hover */
+    box-shadow: 0px 10px 20px var(--shadow-dark);
+    /* Add shadow on hover */
+    z-index: 10;
+    /* Bring the hovered card to the front */
+}
+
+.pangPricing .pricing-table .pricing-table-col:hover .pricing-table-title,
+.pangPricing .pricing-table .pricing-table-col:hover .pricing-table-description {
+    color: var(--color-white);
+}
+
+.pangPricing .pricing-table .pricing-table-col .pricing-table-title {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    margin: 40px auto 60px auto;
+    color: var(--color-white);
+}
+
+.pangPricing .pricing-table .pricing-table-col .pricing-table-price {
+    color: var(--dark);
+    margin: 30px auto;
+    line-height: 28px;
+}
+
+.pangPricing .pricing-table .pricing-table-col .pricing-table-price .currency {
+    vertical-align: top;
+    font-size: var(--font-size-lg);
+}
+
+.pangPricing .pricing-table .pricing-table-col .pricing-table-price .price {
+    font-size: var(--font-size-xxlThree);
+    font-weight: var(--font-weight-bold);
+}
+
+.pangPricing .pricing-table .pricing-table-col .pricing-table-price .terms {
+    font-size: var(--font-size-lg);
+}
+
+.pangPricing .pricing-table .pricing-table-col .pricing-table-description {
+    margin: 40px 0;
+}
+
+.pangPricing .pricing-table .pricing-table-col.highlight {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.pangPricing .pricing-table .pricing-table-col.highlight .pricing-table-price {
+    color: var(--color-white);
+}
+
+.pangPricing .action .btn {
+    transition: background-color 0.3s ease-out;
+}
+
+.pangPricing .pricing-table-col:hover .btn {
+    background-color: var(--color-success);
+    color: var(--color-white);
+}
+
+/* #pang(pangPricing) #css ends  */
+/* #texor(texorTestimonial) #css starts  */
+
+.texorTestimonial .card {
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px var(--shadow-light);
+}
+
+.texorTestimonial .card-body {
+    padding: 1.5rem;
+}
+
+.texorTestimonial .blockquote {
+    position: relative;
+    color: var(--dark);
+}
+
+.texorTestimonial .blockquote-footer {
+    color: var(--color-secondary);
+}
+
+/* Quote Icon */
+.texorTestimonial .fa-quote-right {
+    color: var(--dark);
+}
+
+/* #texor(texorTestimonial) #css ends  */
+/* #tivel(tivelTeam) #css starts */
+.tivelTeam .our-team {
+    border: 1px solid var(--border-color);
+    text-align: center;
+    color: var(--color-tertiary);
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.tivelTeam .our-team:hover {
+    background: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.tivelTeam .our-team .pic {
+    position: relative;
+}
+
+.tivelTeam .our-team .pic img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: all 0.3s ease 0s;
+}
+
+.tivelTeam .our-team:hover .pic img {
+    transform: translateY(-20px);
+}
+
+.tivelTeam .our-team .social {
+    width: 20%;
+    height: 100%;
+    background: var(--color-secondary);
+    padding: 20px 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: -50%;
+    transition: all 0.5s ease 0s;
+}
+
+.tivelTeam .our-team:hover .social {
+    left: 0;
+}
+
+.tivelTeam .our-team .social li {
+    display: block;
+}
+
+.tivelTeam .our-team .social li a {
+    display: block;
+    padding: 10px 0;
+    font-size: var(--font-size-md);
+    color: var(--color-white);
+    transition: all 0.5s ease 0s;
+}
+
+.tivelTeam .our-team .social li a:hover {
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.tivelTeam .our-team .team-content {
+    padding: 25px 0;
+}
+
+.tivelTeam .our-team .title {
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0 0 10px 0;
+}
+
+.tivelTeam .our-team .post {
+    display: block;
+    text-transform: capitalize;
+}
+
+.tivelTeam .our-team:hover .post {
+    color: var(--color-white);
+}
+
+.tivelTeam .our-team:hover .title {
+    color: var(--color-white);
+}
+
+@media only screen and (max-width: 990px) {
+    .tivelTeam .our-team {
+        margin-bottom: 30px;
+    }
+}
+
+/* #tivel(tivelTeam) #css ends */
+/* #ronan(ronanRegistration) #css starts  */
+.ronanRegistration {
+    padding: 3rem 0;
+    background-image: linear-gradient(90deg, var(--color-primary) 0%, var(--color-secondary) 55%, var(--color-tertiary) 100%);
+
+}
+
+.ronanRegistration h4 {
+    margin-bottom: 2.5rem;
+}
+
+.ronanRegistration .form-wrapper {
+    background: var(--color-background-primary);
+    border-radius: var(--border-radius-sm);
+    padding: 50px;
+}
+
+.ronanRegistration .form-control,
+.ronanRegistration .custom-select {
+    border-radius: 0px;
+    color: var(--dark);
+    background-color: var(--color-white);
+    border-color: var(--color-background-primary)
+}
+
+.ronanRegistration.form-control:focus {
+    color: var(--dark);
+    background-color: var(--color-background-primary);
+    border: 1px solid var(--border-color);
+    outline: 0;
+    box-shadow: none;
+
+}
+
+.ronanRegistration.btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.ronanRegistration .btn:hover,
+.ronanRegistration .btn:focus,
+.ronanRegistration .btn:active,
+.ronanRegistration .btn-primary:not(:disabled):not(.disabled).active,
+.ronanRegistration .btn-primary:not(:disabled):not(.disabled):active,
+.ronanRegistration .show>.btn-primary.dropdown-toggle {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+/* #ronan(ronanRegistration) #css ends  */
+
+/* #foist(foistFooter) #css starts */
+.foistFooter .footer {
+    padding-top: 0;
+}
+
+.foistFooter .pg-footer {
+    padding-top: var(--spacing-md);
+}
+
+.foistFooter .footer {
+    background-color: var(--color-background-secondary);
+}
+
+.foistFooter .footer-wave-svg {
+    background-color: transparent;
+    display: block;
+    height: 30px;
+    position: relative;
+    top: -1px;
+    width: 100%;
+}
+
+.foistFooter .footer-wave-path {
+    fill: var(--color-background-primary);
+}
+
+.foistFooter .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 450px;
+    position: relative;
+}
+
+.foistFooter .footer-content-column {
+    box-sizing: border-box;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+.foistFooter .footer-content-column ul li a {
+    color: var(--color-text-primary);
+}
+
+.foistFooter .footer-logo-link {
+    display: inline-block;
+}
+
+.foistFooter .footer-menu {
+    margin-top: 30px;
+}
+
+.foistFooter .footer-menu-name {
+    color: var(--color-text-primary);
+    font-size: var(--font-size-md);
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: var(--spacing-xs);
+    line-height: var(--line-height-sm);
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+.foistFooter .footer-menu-list {
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+.foistFooter .footer-menu-list li {
+    margin-top: 5px;
+}
+
+.foistFooter .footer-call-to-action-description {
+    color: var(--color-text-primary);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.foistFooter .button:last-of-type {
+    margin-right: 0;
+    border: 1px solid var(--color-text-primary);
+}
+
+.foistFooter .footer-call-to-action-button:hover {
+    background-color: var(--color-text-primary);
+    color: var(--color-white);
+}
+
+.foistFooter .footer-call-to-action-button {
+    background-color: var(--color-white);
+    border-radius: var(--btn-radius-full);
+    color: var(--color-text-primary);
+    display: inline-block;
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: .1em;
+    line-height: 18px;
+    padding: 12px 30px;
+    margin: 0 10px 10px 0;
+    text-transform: capitalize;
+    transition: background-color .2s;
+    cursor: pointer;
+    position: relative;
+}
+
+.foistFooter .footer-call-to-action {
+    margin-top: 30px;
+}
+
+.foistFooter .footer-call-to-action-title {
+    color: var(--color-text-primary);
+    font-family: var(--font-primary);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: .1em;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+.foistFooter .footer-call-to-action-link-wrapper {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+
+.foistFooter .footer-copyright {
+    background-color: var(--color-text-primary);
+    color: var(--color-white);
+    padding: 15px 30px;
+}
+
+.foistFooter .footer-copyright-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.foistFooter .footer-copyright-text {
+    color: var(--color-white);
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.foistFooter .footer-copyright-link {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: var(--font-size-md);
+}
+
+.foistFooter .logo {
+    height: 100px;
+    width: 100px;
+    margin-left: -30px;
+}
+
+/* Media Query For different screens */
+@media (min-width: 320px) and (max-width: 479px) {
+    .foistFooter .footer-content {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1230px;
+        padding: 40px 15px 1050px;
+        position: relative;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 599px) {
+    .foistFooter .footer-content {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1230px;
+        padding: 40px 15px 1050px;
+        position: relative;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .foistFooter .footer-content {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1230px;
+        padding: 40px 15px 1050px;
+        position: relative;
+    }
+}
+
+@media (min-width: 760px) {
+    .foistFooter .footer-content {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1230px;
+        padding: 40px 15px 330px;
+        position: relative;
+    }
+
+    .foistFooter .footer-wave-svg {
+        height: 50px;
+    }
+
+    .foistFooter .footer-content-column {
+        width: 24.99%;
+    }
+}
+
+/* #foist(foistFooter) #css ends */
