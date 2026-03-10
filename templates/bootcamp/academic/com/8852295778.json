@@ -1,0 +1,1173 @@
+{
+    "projectRequirements": {
+        "userid": "87ca5aefe7183d3c6b9e208dbb174e4b",
+        "projectId": 8852295778,
+        "projectName": "Academic",
+        "projectIndustry": "EdTech",
+        "projectSubIndustry": "UIUX Career Programs",
+        "projectType": "Bootcamp",
+        "projectPurpose": "To establish trust right out of the gate and smoothly guide visitors into signing up for a tech career program",
+        "projectAudience": "Career changers, beginners, and aspiring tech professionals",
+        "projectTags": "bootcamp, edtech, career, technology, learning, approachable, pastel, trust, education, coding",
+        "projectExamples": "Avocademy",
+        "projectTheme": "Friendly, Inviting, Trustworthy",
+        "projectKeywords": {
+            "projectKeywords": {
+                "keywords": {
+                    "trust": 5.1,
+                    "bootcamp": 4.6,
+                    "career": 4.6,
+                    "education": 4.4,
+                    "tech": 4.2,
+                    "edtech": 4.2,
+                    "business": 3.7,
+                    "admissions": 3.5,
+                    "skills": 3.5,
+                    "curriculum": 3.5
+                },
+                "accuracy": "2%"
+            },
+            "projectFontsKeywords": {
+                "keywords": {
+                    "tech": 10,
+                    "friendly": 6.3,
+                    "trustworthy": 5.6,
+                    "clean": 3,
+                    "professional": 2.8,
+                    "modern": 2.3,
+                    "sans-serif": 1.7,
+                    "minimal": 1.3,
+                    "neutral": 1.1,
+                    "ui-friendly": 1.1
+                },
+                "accuracy": "3%"
+            },
+            "projectColorsKeywords": {
+                "keywords": {
+                    "tech": 10,
+                    "trust": 10,
+                    "friendly": 10,
+                    "approachable": 4.7,
+                    "modern": 1.7,
+                    "premium": 1.6,
+                    "wellness": 1.5,
+                    "saas": 1.3,
+                    "clarity": 1.2,
+                    "calm": 1
+                },
+                "accuracy": "2.9%"
+            },
+            "projectBrandAssetsKeywords": {
+                "keywords": {
+                    "bootcamp": 3,
+                    "edtech": 3,
+                    "admissions": 3,
+                    "skills": 3,
+                    "curriculum": 3,
+                    "tech": 3,
+                    "projects": 3,
+                    "trust": 3,
+                    "career": 3,
+                    "technology": 2
+                },
+                "accuracy": "0%"
+            },
+            "projectThemeKeywords": {
+                "keywords": {
+                    "bootcamp": 3,
+                    "edtech": 3,
+                    "admissions": 3,
+                    "skills": 3,
+                    "curriculum": 3,
+                    "tech": 3,
+                    "projects": 3,
+                    "trust": 3,
+                    "career": 3,
+                    "technology": 2
+                },
+                "accuracy": "0%"
+            },
+            "projectLayoutsKeywords": {
+                "keywords": {
+                    "pricing": 10,
+                    "testimonials": 10,
+                    "cta": 10,
+                    "bootcamp": 3,
+                    "edtech": 3,
+                    "admissions": 3,
+                    "skills": 3,
+                    "curriculum": 3,
+                    "tech": 3,
+                    "projects": 3
+                },
+                "accuracy": "26%"
+            },
+            "projectTextsKeywords": {
+                "keywords": {
+                    "professional": 10,
+                    "clear": 10,
+                    "engaging": 10,
+                    "bootcamp": 3,
+                    "edtech": 3,
+                    "admissions": 3,
+                    "skills": 3,
+                    "curriculum": 3,
+                    "tech": 3,
+                    "projects": 3
+                },
+                "accuracy": "18%"
+            },
+            "projectImagesKeywords": {
+                "keywords": {
+                    "technology": 10,
+                    "learning": 10,
+                    "tech": 6.9,
+                    "coding": 6.3,
+                    "pastel": 2.5,
+                    "trust": 1.8,
+                    "office": 0.9,
+                    "education": 0.8,
+                    "teamwork": 0.7,
+                    "design": 0.6
+                },
+                "accuracy": "0.4%"
+            },
+            "projectVideosKeywords": {
+                "keywords": {
+                    "learning": 10,
+                    "bootcamp": 9.5,
+                    "technology": 9,
+                    "career": 4.8,
+                    "tech": 3.6,
+                    "coding": 2.7,
+                    "presentation": 1.7,
+                    "webinar": 1.6,
+                    "trust": 1.5,
+                    "case": 1.5
+                },
+                "accuracy": "0.8%"
+            },
+            "projectBaseLibrariesKeywords": {
+                "keywords": {
+                    "frontend": 3.5,
+                    "spa": 2.5,
+                    "performance": 2,
+                    "lightweight": 2,
+                    "animation": 2,
+                    "legacy": 1.5,
+                    "components": 1.5,
+                    "react": 1.5,
+                    "reactive": 1.5,
+                    "modular": 1.5
+                },
+                "accuracy": "0%"
+            },
+            "projectSupportLibrariesKeywords": {
+                "keywords": {
+                    "frontend": 2.5,
+                    "spa": 2.5,
+                    "performance": 2,
+                    "lightweight": 2,
+                    "animation": 2,
+                    "legacy": 1.5,
+                    "components": 1.5,
+                    "react": 1.5,
+                    "reactive": 1.5,
+                    "routing": 1.5
+                },
+                "accuracy": "0%"
+            }
+        }
+    },
+    "projectInfo": {
+        "projectBranding": {
+            "fonts": {
+                "primaryFonts": "",
+                "secondaryFonts": "",
+                "thirdFonts": "",
+                "defaultFonts": ""
+            },
+            "colors": {
+                "primaryColor": "",
+                "secondaryColor": "",
+                "thirdColor": "",
+                "defaultColor": ""
+            }
+        },
+        "projectTheme": "",
+        "projectBrandingAssets": "rocket",
+        "projectLayout": [
+            "navbar\/nudge",
+            "hero\/hoist",
+            "overview",
+            "skills",
+            "curriculum",
+            "learningmode",
+            "whyus",
+            "teams\/treva",
+            "portfolio\/prave",
+            "careersupport",
+            "testimonials\/taylor",
+            "pricing\/pexus",
+            "testimonials\/taylor",
+            "counters\/catch",
+            "admissions",
+            "cta\/cerry",
+            "countdown\/camel",
+            "faqs\/feign",
+            "subscribe\/semor",
+            "contacts\/covel",
+            "clients\/calvo",
+            "calendar",
+            "blogs\/blond",
+            "footers\/flows"
+        ],
+        "projectText": {
+            "Navigation": [
+                "Home",
+                "About Us",
+                "Courses",
+                "Curriculum",
+                "Instructors",
+                "Testimonials",
+                "Faqs",
+                "Pricing",
+                "Enroll",
+                "Schedule",
+                "Career",
+                "Blog",
+                "Contact"
+            ],
+            "Primary-Headline": [
+                "Transform Your Career with Our Intensive Bootcamp",
+                "Master In-Demand Skills in Just Weeks",
+                "Launch Your Tech Career Today",
+                "From Beginner to Pro \u2013 Fast",
+                "Get Job-Ready with Hands-On Training",
+                "Code. Create. Conquer.",
+                "Break Into Tech \u2013 No Experience Needed",
+                "Accelerate Your Career with Expert Mentors",
+                "Upskill with Our Fast-Track Learning Model",
+                "Your Career Reset Starts Here"
+            ],
+            "Tagline": [
+                "Accelerate Your Skills. Fast-Track Your Future.",
+                "No Theory \u2013 Just Real-World Projects.",
+                "Train Hard. Land Your Dream Job.",
+                "Where Passion Meets Profession.",
+                "Your Shortcut to a New Career.",
+                "Join the Future of Learning.",
+                "Bootcamps That Build Careers.",
+                "Practical Skills, Real Results.",
+                "The Learning Curve Ends Here.",
+                "Get Ahead with Intensive Learning."
+            ],
+            "Sub-Headline": [
+                "Dive deep into practical skills with our expert-led, hands-on programs.",
+                "Designed for career changers and upskillers alike.",
+                "Learn by doing, guided by industry professionals.",
+                "Graduate with real-world experience and a solid portfolio.",
+                "No fluff \u2013 just what you need to land a job.",
+                "Zero to career-ready in 12 weeks.",
+                "Challenge yourself. Change your future.",
+                "Structured learning that fits into your life.",
+                "Learn full-stack development from scratch.",
+                "The fastest way to a future in tech."
+            ],
+            "Secondary-Headline": [
+                "Why Choose Our Bootcamps?",
+                "What You\u2019ll Learn",
+                "Meet Your Instructors",
+                "Career Support That Works",
+                "Upcoming Cohorts",
+                "Trusted by 10,000+ Grads",
+                "Flexible Payment Options",
+                "Real Projects, Real Skills",
+                "Industry-Backed Curriculum",
+                "Bootcamp Success Stories"
+            ],
+            "Paragraph": [
+                "Our bootcamps are designed for individuals seeking a rapid and comprehensive skill upgrade. With a focus on practical application and industry-relevant projects, you'll emerge with a robust portfolio and the confidence to excel.",
+                "In just a few weeks, you\u2019ll build job-ready skills with intensive training led by industry veterans. From coding to job prep, we\u2019ve got you covered.",
+                "We focus on teaching what employers want \u2013 fast. No outdated theory, just practical learning that leads to real jobs.",
+                "Every student gets career coaching, mock interviews, and support to land high-paying roles.",
+                "Bootcamp sessions are live and interactive, with real-time feedback and peer collaboration.",
+                "Gain hands-on experience by building full-scale projects from scratch.",
+                "We don\u2019t just teach \u2013 we mentor. You\u2019ll have access to experts guiding you every step of the way.",
+                "Our curriculum evolves constantly to reflect the demands of today\u2019s tech landscape.",
+                "Whether you\u2019re switching careers or leveling up, we make the transition seamless.",
+                "We don\u2019t stop at graduation \u2013 we support you until you get hired."
+            ],
+            "Primary-Button": [
+                "Apply Now",
+                "Start Learning",
+                "Join the Bootcamp",
+                "Enroll Today",
+                "Get Started",
+                "Book Your Spot",
+                "Secure Your Seat",
+                "Claim Your Offer",
+                "Start Free Trial",
+                "Schedule a Call"
+            ],
+            "Secondary-Button": [
+                "Learn More",
+                "View Curriculum",
+                "See How It Works",
+                "Meet the Instructors",
+                "Download Syllabus",
+                "Watch Demo",
+                "Browse Courses",
+                "Compare Plans",
+                "Explore Projects",
+                "Get a Brochure"
+            ],
+            "Footer-Nav": [
+                "Privacy Policy",
+                "Terms Of Service",
+                "Refund Policy",
+                "Cookie Policy",
+                "Careers",
+                "Affiliate Program",
+                "Support",
+                "Sitemap",
+                "Code Of Conduct"
+            ],
+            "Promo": [
+                "Limited-time offer: Get 15% off your enrollment when you apply this month!",
+                "Early bird discount ends in 3 days!",
+                "Refer a friend and get $100 off your tuition.",
+                "Free laptop with your first bootcamp enrollment!",
+                "Sign up now and receive a free 1:1 career coaching session.",
+                "Get certified for less \u2013 Summer Bootcamp Promo inside!",
+                "Join with a friend and both get 10% off!",
+                "Holiday Sale: Enroll now and save up to $300.",
+                "First 50 signups receive exclusive bonus content.",
+                "Flash Sale \u2013 Ends Midnight Tonight!"
+            ],
+            "Notices": [
+                "Next cohort starts September 15th. Limited seats available.",
+                "We're currently accepting applications for our October batch.",
+                "Only 5 spots left for the upcoming session!",
+                "Live bootcamp seats filling fast!",
+                "Check your eligibility before applying.",
+                "New course updates just launched.",
+                "Scholarships now available \u2013 apply today!",
+                "Virtual orientation happening this Friday.",
+                "Support hours extended during enrollment week.",
+                "New mentor announcements this week!"
+            ],
+            "Testimonial": [
+                "\"The bootcamp was intense but incredibly rewarding. I landed my dream job just two weeks after graduating!\" \u2013 Sarah K.",
+                "\"I had zero coding experience. Now I\u2019m a full-time developer.\" \u2013 Tom R.",
+                "\"Excellent instructors and real-world projects \u2013 it changed my life.\" \u2013 Priya D.",
+                "\"Highly recommend this for anyone switching careers.\" \u2013 Michael B.",
+                "\"The career support was outstanding \u2013 they helped me prep for every interview.\" \u2013 Leila N.",
+                "\"Projects we built during the course impressed my current employer!\" \u2013 James C.",
+                "\"This was more than a course \u2013 it was a complete career transformation.\" \u2013 Fatima H.",
+                "\"I loved the sense of community and mentorship.\" \u2013 Adam T.",
+                "\"I finally feel confident in my coding skills thanks to this bootcamp.\" \u2013 Reema P.",
+                "\"Worth every penny. Got hired within a month.\" \u2013 John M."
+            ],
+            "Product-Name": [
+                "Web Development Bootcamp",
+                "Full-Stack Developer Program",
+                "UX\/UI Design Bootcamp",
+                "Data Science Bootcamp",
+                "Frontend Fundamentals Course",
+                "Python for Beginners",
+                "Mobile App Development Bootcamp",
+                "Cloud & DevOps Crash Course",
+                "Cybersecurity Foundations",
+                "AI & Machine Learning Bootcamp"
+            ],
+            "Product-Description": [
+                "This 12-week intensive program covers front-end and back-end development, equipping you with the skills to build robust web applications from scratch.",
+                "Learn the full spectrum of development tools and frameworks used in today\u2019s tech jobs.",
+                "Hands-on training in UX\/UI design principles, prototyping tools, and user testing.",
+                "Master data analysis, visualization, and machine learning with real-world datasets.",
+                "Learn HTML, CSS, and JavaScript \u2013 the building blocks of the web.",
+                "Start coding with Python, one of the most versatile languages today.",
+                "Design and develop apps for Android and iOS using industry tools.",
+                "Get hands-on with cloud deployment, CI\/CD pipelines, and Docker.",
+                "Build a solid foundation in protecting digital assets and managing risk.",
+                "Explore neural networks, deep learning, and AI model deployment."
+            ],
+            "Product-Feature": [
+                "Live, instructor-led sessions",
+                "Career coaching and job prep",
+                "Real-world projects",
+                "Portfolio development",
+                "1-on-1 mentorship",
+                "Job guarantee programs",
+                "Weekly code reviews",
+                "Alumni network access",
+                "Flexible online format",
+                "Resume and LinkedIn optimization"
+            ],
+            "Pricing": [
+                "$1200 \u2013 Self-Paced",
+                "$1800 \u2013 Live Online",
+                "$2500 \u2013 Full Mentorship Plan",
+                "$99\/mo \u2013 Installment Plan",
+                "\u00a31500 \u2013 UK Edition",
+                "$1000 \u2013 Early Bird Offer",
+                "$2100 \u2013 Team Package",
+                "\u20ac1300 \u2013 EU Rate",
+                "\u20b975,000 \u2013 India Edition",
+                "$500 \u2013 Trial Package"
+            ],
+            "Form-Labels": [
+                "Full Name",
+                "Email Address",
+                "Phone Number",
+                "Preferred Course",
+                "Start Date",
+                "LinkedIn Profile",
+                "Country",
+                "Experience Level",
+                "Referral Source",
+                "Additional Notes"
+            ],
+            "Placeholder": [
+                "Enter your full name",
+                "Enter a valid email address",
+                "Include your phone number",
+                "Select a bootcamp",
+                "Pick your desired start date",
+                "Paste LinkedIn profile link",
+                "Choose your country",
+                "Select experience level",
+                "How did you hear about us?",
+                "Any questions or comments?"
+            ],
+            "404": [
+                "Page Not Found: Bootcamp Edition",
+                "Oops! This page graduated already.",
+                "404 \u2013 You\u2019ve hit a broken URL.",
+                "Hmm... this content skipped class.",
+                "Lost? Let\u2019s get you back to learning.",
+                "Course not found. Try another path.",
+                "Nothing to see here... yet!",
+                "You\u2019ve stumbled off the curriculum.",
+                "404 \u2013 That page didn\u2019t make the cut.",
+                "Broken link? Try the homepage."
+            ],
+            "Phone-Number": [
+                "+1 (800) 555-0199",
+                "+44 20 7946 0123",
+                "+61 2 9876 5432",
+                "+91 99999 88888",
+                "+49 30 12345678",
+                "+33 1 23 45 67 89",
+                "+971 4 123 4567",
+                "+81 3-1234-5678",
+                "+27 11 123 4567",
+                "+55 11 91234-5678"
+            ],
+            "Email": [
+                "admissions@bootcampacademy.com",
+                "info@techbootcamp.io",
+                "support@learntocodefast.com",
+                "contact@skillboosters.net",
+                "hello@careerlaunchers.org",
+                "team@codecampglobal.com",
+                "join@upskillnow.edu",
+                "enroll@nextlevelbootcamp.com",
+                "coach@futuredevs.io",
+                "students@intensivetechpath.com"
+            ]
+        },
+        "projectImages": [
+            "url\/success\/green-dart-in-bullseye.jpg"
+        ],
+        "projectVideos": [],
+        "projectBaseLibraries": [],
+        "projectLibraries": {
+            "cssLibraries": [],
+            "jslibraries": []
+        }
+    },
+    "projectReviews": {
+        "projectRequirements": {
+            "userid": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "87ca5aefe7183d3c6b9e208dbb174e4b"
+            },
+            "projectId": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": 8852295778
+            },
+            "projectName": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "Academic"
+            },
+            "projectIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "EdTech"
+            },
+            "projectSubIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "UIUX Career Programs"
+            },
+            "projectType": {
+                "accuracy": "100%",
+                "feedback": "Commonly searched training type",
+                "correct": "Bootcamp"
+            },
+            "projectPurpose": {
+                "accuracy": "100%",
+                "feedback": "Clearly outlined what the user actually wants",
+                "correct": "To establish trust right out of the gate and smoothly guide visitors into signing up for a tech career program"
+            },
+            "projectAudience": {
+                "accuracy": "100%",
+                "feedback": "Well-defined target audience",
+                "correct": "Career changers, beginners, and aspiring tech professionals"
+            },
+            "projectTags": {
+                "accuracy": "100%",
+                "feedback": "Well-defined tags",
+                "correct": "bootcamp, edtech, career, technology, learning, approachable, pastel, trust, education, coding"
+            },
+            "projectExamples": {
+                "accuracy": "100%",
+                "feedback": "Good example",
+                "correct": "Avocademy"
+            },
+            "projectTheme": {
+                "accuracy": "100%",
+                "feedback": "Well-defined theme",
+                "correct": "Friendly, Inviting, Trustworthy"
+            },
+            "projectKeywords": {
+                "projectKeywords": {
+                    "accuracy": "40%",
+                    "feedback": [
+                        "Used fractional numbers for weights instead of the requested whole integers",
+                        "Assigned unusually low weights to primary identifiers like 'bootcamp' and 'career'",
+                        "Included irrelevant context like 'business' instead of audience-specific terms like 'beginners'",
+                        "Missed visual and emotional intent keywords like 'approachable' entirely"
+                    ],
+                    "correct": {
+                        "bootcamp": 10,
+                        "career": 9,
+                        "edtech": 9,
+                        "trust": 8,
+                        "tech": 8,
+                        "beginners": 7,
+                        "coding": 7,
+                        "learning": 6,
+                        "education": 6,
+                        "approachable": 5
+                    }
+                },
+                "projectFontsKeywords": {
+                    "accuracy": "30%",
+                    "feedback": [
+                        "Used fractional numbers instead of whole integers.",
+                        "Included hyphenated words violating the single-word rule.",
+                        "Failed to separate primary and secondary font traits."
+                    ],
+                    "correct": {
+                        "clean": 10,
+                        "modern": 9,
+                        "approachable": 8,
+                        "legible": 8,
+                        "minimal": 7,
+                        "friendly": 10,
+                        "neutral": 9,
+                        "professional": 8,
+                        "versatile": 7,
+                        "readable": 7
+                    }
+                },
+                "projectColorsKeywords": {
+                    "accuracy": "20%",
+                    "feedback": [
+                        "Used nouns instead of strictly descriptive adjectives.",
+                        "Included fractional weights instead of whole integers.",
+                        "Failed to categorize keywords by primary, secondary, and tertiary."
+                    ],
+                    "correct": {
+                        "energetic": 10,
+                        "vibrant": 9,
+                        "cheerful": 8,
+                        "warm": 8,
+                        "professional": 7,
+                        "stable": 7,
+                        "deep": 6,
+                        "fresh": 5,
+                        "organic": 5,
+                        "balanced": 4
+                    }
+                },
+                "projectBrandAssetsKeywords": {
+                    "accuracy": "10%",
+                    "feedback": [
+                        "Used nouns instead of the requested descriptive adjectives.",
+                        "Failed to describe the visual style of the logo.",
+                        "Assigned flat, repetitive weights instead of scaling."
+                    ],
+                    "correct": {
+                        "educational": 10,
+                        "digital": 10,
+                        "academic": 9,
+                        "virtual": 9,
+                        "modern": 8,
+                        "accessible": 8,
+                        "minimal": 7,
+                        "clear": 7,
+                        "smart": 6,
+                        "bold": 6
+                    }
+                },
+                "projectThemeKeywords": {
+                    "accuracy": "10%",
+                    "feedback": [
+                        "Used industry nouns instead of descriptive theme adjectives.",
+                        "Described the business model rather than emotional tone.",
+                        "Assigned flat, repetitive weights instead of logical scaling."
+                    ],
+                    "correct": {
+                        "welcoming": 10,
+                        "reliable": 10,
+                        "approachable": 9,
+                        "warm": 9,
+                        "supportive": 8,
+                        "safe": 8,
+                        "dependable": 7,
+                        "accessible": 7,
+                        "credible": 6,
+                        "open": 6
+                    }
+                },
+                "projectLayoutsKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Used project tags instead of structural layout keywords.",
+                        "Included specific section names rather than high-level categories.",
+                        "Failed to match the requested layout keyword schema."
+                    ],
+                    "correct": {
+                        "guide": 9,
+                        "focus": 10,
+                        "metrics": 6,
+                        "journey": 7,
+                        "access": 9,
+                        "trust": 8,
+                        "learning": 8,
+                        "people": 7,
+                        "help": 5,
+                        "anchor": 10
+                    }
+                },
+                "projectTextsKeywords": {
+                    "accuracy": "20%",
+                    "feedback": [
+                        "Included nouns instead of strictly using descriptive adjectives.",
+                        "Mixed general project tags with content tone keywords.",
+                        "Failed to capture the supportive feel for beginners."
+                    ],
+                    "correct": {
+                        "trustworthy": 10,
+                        "encouraging": 9,
+                        "approachable": 9,
+                        "clear": 8,
+                        "supportive": 8,
+                        "empowering": 7,
+                        "persuasive": 7,
+                        "accessible": 6,
+                        "inviting": 6,
+                        "professional": 5
+                    }
+                },
+                "projectImagesKeywords": {
+                    "accuracy": "10%",
+                    "feedback": [
+                        "Used subject nouns instead of descriptive visual adjectives.",
+                        "Included fractional weights instead of requested whole integers.",
+                        "Described literal content rather than emotional image style."
+                    ],
+                    "correct": {
+                        "welcoming": 10,
+                        "approachable": 10,
+                        "authentic": 9,
+                        "genuine": 9,
+                        "relatable": 8,
+                        "warm": 8,
+                        "professional": 7,
+                        "encouraging": 7,
+                        "diverse": 6,
+                        "uplifting": 6
+                    }
+                },
+                "projectVideosKeywords": {
+                    "accuracy": "10%",
+                    "feedback": [
+                        "Used nouns instead of requested descriptive adjectives.",
+                        "Included fractional weights instead of whole integers.",
+                        "Described video topics rather than visual style."
+                    ],
+                    "correct": {
+                        "welcoming": 10,
+                        "reassuring": 10,
+                        "authentic": 9,
+                        "relatable": 9,
+                        "approachable": 8,
+                        "encouraging": 8,
+                        "clear": 7,
+                        "engaging": 7,
+                        "warm": 6,
+                        "professional": 6
+                    }
+                },
+                "projectBaseLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        [
+                            "Keywords must reliably trigger selection of all mandatory base libraries.",
+                            "Use clear, canonical triggers (e.g., grid, forms, icons) instead of vague terms.",
+                            "Prioritise must-have libraries with higher weights and strict serial ordering.",
+                            "Remove filler/ambiguous words to avoid missing required base libraries.",
+                            "Add a fallback rule to auto-include core libraries if any trigger is absent."
+                        ]
+                    ],
+                    "correct": {
+                        "modern": 10,
+                        "responsive": 9,
+                        "frontend": 9,
+                        "components": 8,
+                        "grid": 8,
+                        "spa": 7,
+                        "widgets": 6,
+                        "icons": 6,
+                        "lightweight": 5,
+                        "performance": 5
+                    }
+                },
+                "projectSupportLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips.",
+                        "we can add another libraries if needed"
+                    ],
+                    "correct": {
+                        "animation": 10,
+                        "scroll": 9,
+                        "effects": 9,
+                        "motion": 8,
+                        "transition": 8,
+                        "interactive": 7,
+                        "visuals": 7,
+                        "dynamic": 6,
+                        "responsive": 6,
+                        "enhancement": 5
+                    }
+                }
+            }
+        },
+        "projectInfo": {
+            "projectBranding": {
+                "fonts": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "No Font was selected"
+                    ],
+                    "correct": {
+                        "primaryFont": "Assistant",
+                        "secondaryFont": "Open Sans"
+                    }
+                },
+                "colors": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "No color was specified"
+                    ],
+                    "correct": {
+                        "primaryColor": "#ffcc33",
+                        "secondaryColor": "#162833",
+                        "tertiaryColor": "#53a752"
+                    }
+                }
+            },
+            "projectTheme": {
+                "accuracy": "0%",
+                "feedback": [
+                    "No theme was selected"
+                ],
+                "correct": "flat-light"
+            },
+            "projectBrandingAssets": {
+                "accuracy": "0%",
+                "feedback": [
+                    "No proper branding assets were selected"
+                ],
+                "correct": "online-graduation"
+            },
+            "projectLayout": {
+                "accuracy": "0%",
+                "feedback": [
+                    "Layout is very random",
+                    "No proper snippet flow",
+                    "snippets are missing"
+                ],
+                "correct": [
+                    "navbar/niche",
+                    "hero/humor",
+                    "counters/catch",
+                    "steps/sugar",
+                    "registration/ravek",
+                    "clients/caisy",
+                    "curriculum/calypso",
+                    "teams/tevio",
+                    "faqs/fever",
+                    "footers/foils"
+                ]
+            },
+            "projectText": {
+                "Navigation": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Process",
+                        "Modules",
+                        "Mentors",
+                        "Faqs",
+                        "Login",
+                        "Get Started"
+                    ]
+                },
+                "Headline": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Start Your Tech Career Without the Stress",
+                        "Real Results, Real People",
+                        "Your Path to Tech",
+                        "Say Hello",
+                        "Learn by Doing",
+                        "Get Hired",
+                        "Take the First Step Today",
+                        "Our happy clients",
+                        "What You'll Learn",
+                        "Module 1: Web Basics",
+                        "Module 2: Interactive UIs",
+                        "Module 3: UX/UI Principles",
+                        "Module 4: Back-End Basics",
+                        "Module 5: Real-World Projects",
+                        "Module 6: Career Prep",
+                        "Meet Your Mentors",
+                        "Common Questions",
+                        "Bootcamp",
+                        "Resources",
+                        "Admissions"
+                    ]
+                },
+                "Paragraph": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Beginner-Friendly Curriculum: Jump in with zero prior experience. Our step-by-step classes are designed to make complex coding concepts easy, visual, and fun to grasp.",
+                        "1-on-1 Mentorship: You are never alone. Get matched with a friendly industry pro who will gently guide you, review your code, and build your confidence.",
+                        "Career Coaching: From polishing your resume to practicing mock interviews, we support you completely until you land your first role in tech.",
+                        "Careers Launched",
+                        "Hiring Rate",
+                        "Friendly Support",
+                        "Student Satisfaction",
+                        "Book a quick, zero-pressure chat with our admissions team. We’ll help you figure out if coding is the right path for your unique goals.",
+                        "Dive into hands-on projects in a supportive virtual classroom. Make mistakes, ask questions, and build a stunning portfolio at your own pace.",
+                        "Work with our dedicated career coaches to ace your interviews, negotiate your salary, and step proudly into your new life as a tech professional.",
+                        "Already enrolled? Log in here.",
+                        "Our curriculum is designed specifically for beginners. We skip the confusing jargon and focus on the practical, modern skills you actually need to build real apps and get hired in tech.",
+                        "Start your journey by mastering the building blocks of the web. You'll learn HTML to structure pages, CSS to make them beautiful, and basic JavaScript to add simple interactivity.",
+                        "Bring your websites to life! Learn how to use modern, industry-standard tools like React.js to build fast, interactive user interfaces that look amazing on any screen size.",
+                        "A great app isn't just functional; it has to be intuitive. Discover how to design with the user in mind, creating layouts and experiences that people actually love to use.",
+                        "Look under the hood and see how the web really works. Understand how data is stored in databases and learn to build simple APIs to power your front-end applications.",
+                        "Put everything you've learned together. Work on collaborative coding projects that simulate a real work environment, giving you the perfect pieces to show off in your portfolio.",
+                        "We don't just teach you to code; we teach you how to get hired. Practice mock interviews, polish your tech resume, and connect with our network of hiring partners.",
+                        "Not at all! Our curriculum is built from the ground up for complete beginners. If you know how to browse the internet, you're ready to start learning with us.",
+                        "Our program is highly flexible. Most of our successful students dedicate about 10-15 hours a week, making it easy to balance with a full-time job or family commitments.",
+                        "You are never alone. You'll have unlimited access to our 1-on-1 mentorship sessions and a 24/7 Slack community of peers and instructors ready to help you untangle any code.",
+                        "Absolutely. Our dedicated career coaches will help you build a stunning portfolio, write a tech-focused resume, and run mock interviews until you land your first role.",
+                        "Yes we do! We believe education should be accessible. We offer upfront discounts, monthly installments, and Income Share Agreements so you don't pay until you get hired.",
+                        "© Academic. All rights reserved."
+                    ]
+                },
+                "Button": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Get Started",
+                        "Start Your Journey",
+                        "Get Your Free Syllabus"
+                    ]
+                },
+                "Footer-Nav": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Curriculum",
+                        "Mentorship",
+                        "Success Stories",
+                        "Free Intro Course",
+                        "Tech Career Blog",
+                        "Community Forum",
+                        "Apply Now",
+                        "Tuition & Financing",
+                        "Contact Us"
+                    ]
+                },
+                "People": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Sarah Jenkins",
+                        "David Chen",
+                        "Elena Rodriguez",
+                        "Marcus Taylor"
+                    ]
+                },
+                "Job": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Lead Coding Instructor",
+                        "Career Success Coach",
+                        "UX/UI Mentor",
+                        "Student Support"
+                    ]
+                },
+                "Announcement": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Testimonial": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Product": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "FAQs": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Do I need prior coding experience?",
+                        "How much time do I need to commit?",
+                        "What happens if I get stuck on a project?",
+                        "Will you actually help me find a job?",
+                        "Do you offer flexible payment plans?"
+                    ]
+                },
+                "Portfolio": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Pricing": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Labels": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Numbers": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "1,200+",
+                        "93%",
+                        "24/7",
+                        "4.9/5",
+                        "1",
+                        "2",
+                        "3"
+                    ]
+                },
+                "Placeholder": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Your First Name",
+                        "Your Best Email Address",
+                        "Create a Secure Password"
+                    ]
+                },
+                "404": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Phone-Number": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Dates": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Email": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Icons": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "fas fa-user",
+                        "fas fa-user-plus",
+                        "fa fa-video",
+                        "fas fa-award",
+                        "fas fa-code",
+                        "fab fa-react",
+                        "fas fa-palette",
+                        "fas fa-server",
+                        "fas fa-laptop-code",
+                        "fas fa-rocket",
+                        "fab fa-facebook",
+                        "fab fa-twitter",
+                        "fab fa-linkedin-in",
+                        "fab fa-youtube"
+                    ]
+                }
+            },
+            "projectImages": {
+                "accuracy": "0%",
+                "feedback": [
+                    "There was a lack of images in the content.",
+                    "New images need to be added for better coverage.",
+                    "Visuals should align more closely with the project context."
+                ],
+                "correct": [
+                    "assets/images/logo.png",
+                    "assets/images/hero1.jpg",
+                    "assets/images/hero2.jpg",
+                    "assets/images/hero3.jpg",
+                    "assets/images/laptop.png",
+                    "assets/images/people-working-together.png",
+                    "assets/images/rocket.png",
+                    "assets/images/client-adobe.svg",
+                    "assets/images/client-amazon.svg",
+                    "assets/images/client-apple.svg",
+                    "assets/images/client-cisco.svg",
+                    "assets/images/client-discovery.svg",
+                    "assets/images/client-ebay.svg",
+                    "assets/images/client-ibm.svg",
+                    "assets/images/client-intel.svg",
+                    "assets/images/client-orange.svg",
+                    "assets/images/client-panasonic.svg",
+                    "assets/images/people-one.jpg",
+                    "assets/images/people-two.jpg",
+                    "assets/images/people-nine.png",
+                    "assets/images/people-one.png"
+                ]
+            },
+            "projectVideos": {
+                "accuracy": "0%",
+                "feedback": [
+                    "No videos need in this template"
+                ],
+                "correct": ""
+            },
+            "projectBaseLibraries": {
+                "accuracy": "0%",
+                "feedback": [
+                    "These libraries are permanent by design.",
+                    "They must always be included in every template without exception."
+                ],
+                "correct": [
+                    "Bootstrap",
+                    "Bootstrap Bundle",
+                    "Bootstrap Icons",
+                    "Remix Icon",
+                    "jQuery",
+                    "jQuery UI",
+                    "jQuery Slim"
+                ]
+            },
+            "projectLibraries": {
+                "cssLibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                },
+                "jslibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "If a CSS library also provides a JS CDN, it should be auto-included.",
+                        "This ensures consistency between style and functionality."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                }
+            }
+        }
+    }
+}
