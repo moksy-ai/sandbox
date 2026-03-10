@@ -1,0 +1,352 @@
+/* #niche(nicheNavbar) #css starts  */
+.nicheNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.nicheNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.nicheNavbar .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.nicheNavbar .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.nicheNavbar .btnone {
+    color: var(--color-tertiary) !important;
+    border: none;
+    background-color: transparent;
+}
+
+.nicheNavbar .col-3 {
+    padding-left: 0px !important;
+}
+
+/* #niche(nicheNavbar) #css ends  */
+/* #humor(humorHero) #css starts  */
+.humorHero .images {
+    max-height: 50px;
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.humorHero .headline {
+    margin-bottom: 40px;
+}
+
+.humorHero .btn {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border-radius: var(--btn-radius-full);
+}
+
+/* #humor(humorHero) #css ends  */
+/* #catch(catchCounters) #css starts  */
+.catchCounters .icon-home {
+    width: 80px;
+    height: 80px;
+}
+.catchCounters h2{
+    color: var(--color-secondary);
+}
+.catchCounters i {
+    font-size: var(--spacing-xl);
+}
+
+.catchCounters .bg-primary {
+    background-color: var(--color-primary) !important;
+}
+
+.catchCounters .text-secondary {
+    color: var(--color-text-primary) !important;
+}
+
+@media (max-width: 991.98px) {
+
+    .catchCounters .three,
+    .catchCounters .four {
+        margin-top: var(--spacing-xl);
+    }
+}
+
+/* #catch(catchCounters) #css ends  */
+/* #sugar(sugarSteps) #css starts */
+.sugarSteps .service {
+    color: var(--dark)
+}
+
+.sugarSteps .div1,
+.sugarSteps .div2,
+.sugarSteps .div3 {
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+}
+
+.sugarSteps .font-icon {
+    width: 90px;
+    height: 90px;
+    margin-top: -45px;
+}
+
+/* #sugar(sugarSteps) #css ends */
+/* #ravek(ravekRegistration) #css starts */
+
+.ravekRegistration .mok-block.mok-viewport .container {
+    min-height: calc(100% - 2 * 7.5rem)
+}
+
+.ravekRegistration .mok-block .mok-box {
+    background: var(--color-background-primary);
+    padding: 3.75rem 2.5rem;
+    overflow: hidden;
+    color: var(--dark);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.3125rem 0.875rem 0 var(--shadow-dark)
+}
+
+.ravekRegistration .mok-block .mok-touch {
+    border-top: solid 0.3125rem var(--color-primary);
+    z-index: 2
+}
+
+.ravekRegistration .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+/* #ravek(ravekRegistration) #css starts */
+
+/* #caisy(caisyClients) #css starts  */
+.caisyClients img {
+    max-height: 50px;
+}
+
+/* #caisy(caisyClients) #css ends  */
+
+/* #calypso(calypsoCurriculam) #css starts  */
+
+/* Card appearance */
+.calypsoCurriculam .card {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.125rem 0.75rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.calypsoCurriculam .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+/* Icon styling */
+.calypsoCurriculam .card i {
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    color: var(--color-primary);
+}
+
+/* Spacing for grid */
+.calypsoCurriculam .calypsoCurriculam-row>[class^='col-'] {
+    margin-bottom: 1.5rem;
+}
+
+/* Center the intro lead paragraph */
+.calypsoCurriculam .lead {
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--color-secondary);
+}
+
+/* #calypso(calypsoCurriculam) #css ends  */
+
+/* #tevio(tevioTeam) #css starts */
+.tevioTeam .our-team {
+    text-align: center;
+}
+
+.tevioTeam .pic {
+    position: relative;
+}
+
+.tevioTeam .pic img {
+    width: 100%;
+    height: auto;
+}
+
+.tevioTeam .social_media_team {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease 0s;
+}
+
+.tevioTeam .team_social {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    top: 90%;
+    transition: all 0.3s ease 0s;
+    opacity: 0;
+}
+
+.tevioTeam .team_social>li {
+    display: inline-block;
+}
+
+.tevioTeam .team_social>li>a {
+    width: 25px;
+    height: 25px;
+    display: block;
+    color: var(--dark);
+    border: 1px solid var(--dark);
+    border-radius: 50%;
+    margin: 0 15px 2px 0;
+    line-height: 24px;
+}
+
+.tevioTeam .post-title {
+    color: var(--dark);
+    line-height: 24px;
+    letter-spacing: 3px;
+    margin: 15px 0 3px 0;
+}
+
+.tevioTeam .post {
+    color: var(--dark);
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+
+.tevioTeam .our-team:hover .social_media_team {
+    background-color: rgba(255, 255, 255, 0.75);
+    transition: all 0.3s ease 0s;
+}
+
+.tevioTeam .our-team:hover .team_social {
+    top: 80%;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width: 990px) {
+    .tevioTeam .our-team {
+        margin-bottom: 30px;
+    }
+}
+
+/* #tevio(tevioTeam) #css ends */
+
+/* #fever(feverFaq) #css starts  */
+.feverFaq details {
+    margin: 2rem auto;
+}
+
+.feverFaq details p {
+    line-height: 2;
+    text-align: left;
+}
+
+.feverFaq summary {
+    display: block;
+    font-size: var(--font-size-lg);
+}
+
+.feverFaq summary::-webkit-details-marker {
+    display: none;
+}
+
+.feverFaq summary:before {
+    display: inline-block;
+    content: "›";
+    margin-right: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: all 300ms ease;
+}
+
+.feverFaq summary:hover {
+    cursor: pointer;
+}
+
+.feverFaq details[open] summary {
+    color: var(--color-secondary);
+    transition: all 300ms ease;
+}
+
+.feverFaq details[open] p {
+    -webkit-animation: openDetail 400ms ease;
+    animation: openDetail 400ms ease;
+    background: var(--color-white);
+}
+
+.feverFaq details[open] summary::before {
+    transform: rotate(90deg);
+}
+
+@-webkit-keyframes openDetail {
+    0% {
+        opacity: 0;
+        background: var(--color-white);
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(3%);
+    }
+
+    100% {
+        opacity: 1;
+        background: var(--color-white);
+        transform: translateY(0%);
+    }
+}
+
+@keyframes openDetail {
+    0% {
+        opacity: 0;
+        background: var(--color-white);
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(3%);
+    }
+
+    100% {
+        opacity: 1;
+        background: var(--color-white);
+        transform: translateY(0%);
+    }
+}
+
+/* #fever(feverFaq) #css ends  */
+
+/* #foils(foilsFooter) #css starts */
+.foilsFooter h5 {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+}
+
+.foilsFooter .icons {
+    color: var(--dark);
+}
+
+/* #foils(foilsFooter) #css ends */
+
+
+
+
+
