@@ -8,7 +8,7 @@
 }
 
 .numbNavbar .btn {
-    background-color: var(--color-secondary);
+    background-color: var(--color-tertiary);
     border: none;
     padding: var(--btn-padding-sm);
     color: var(--color-white);
@@ -30,7 +30,7 @@
 }
 
 .hoardHero .stroke {
-    background-color: var(--color-text-primary);
+    background-color: var(--color-primary);
     color: var(--color-white);
     padding-left: 20px;
     padding-right: 20px;
@@ -39,9 +39,8 @@
 }
 
 .hoardHero .btn {
-    background-color: var(--color-secondary);
+    background-color: var(--color-tertiary);
     color: var(--color-white);
-    border-radius: var(--btn-radius-full);
 }
 
 
@@ -321,7 +320,7 @@
 /* #calypso(calypsoCurriculam) #css ends  */
 /* #sage(sageSkills) #css starts  */
 .sageSkills .skill-card {
-    background: var(--color-white);
+    background: var(--color-secondary);
     border-radius: 8px;
     padding: 30px 20px;
     text-align: center;
@@ -347,6 +346,7 @@
 .sageSkills .skill-title {
     font-weight: var(--font-weight-semibold);
     margin: 0;
+    color: var(--color-primary);
 }
 
 .sageSkills .section-title {
@@ -435,13 +435,15 @@
 .craigCTA .mok-block {
     padding: 5rem 0
 }
-
+.craigCTA h2{
+    color: var(--color-secondary);
+}
 .craigCTA .bg {
     background-color: var(--dark);
 }
 
 .craigCTA .btn {
-    background-color: var(--color-secondary);
+    background-color: var(--color-tertiary);
     border: none;
     padding: var(--btn-padding-sm);
     color: var(--color-white);
@@ -453,7 +455,7 @@
 }
 
 .craigCTA .lead {
-    color: var(--color-white);
+    color: #D1E3E8;
 }
 
 
@@ -504,7 +506,7 @@
       .duskDemo .field input {
         width: 100%;
         padding: var(--spacing-md) var(--spacing-lg);
-        border: 1px solid #e0e0e0;
+        border: 1px solid #DCE5E8;
         background: #ffffff;
         border-radius: 4px;
         font-size: var(--font-size-base);
