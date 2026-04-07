@@ -455,9 +455,11 @@ section {
 
 /* Space between consecutive sections */
 section + section {
-  margin-top: var(--spacing-md); /* 16px */
+  margin-top: var(--spacing-xxl); /* 16px */
 }
-
+.hero{
+  margin-top: 0;
+}
 .navbar {
   margin: 0;
   padding: 0;
@@ -493,11 +495,6 @@ section + section {
     height: 32px;
     max-width: 100px;
   }
-}
-.hero-section {
-  padding-top: var(--spacing-xl); /* 48px */
-  padding-bottom: var(--spacing-xl);
-  background-color: var(--color-background-primary);
 }
 
 .footer {

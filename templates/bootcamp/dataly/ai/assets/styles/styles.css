@@ -136,7 +136,7 @@
 
 .percyProduct .product-grid .social li a {
     color: var(--color-white);
-    background: var(--color-secondary);
+    background: var(--color-tertiary);
     font-size: var(--font-size-md);
     line-height: 36px;
     width: 40px;
@@ -148,8 +148,8 @@
 }
 
 .percyProduct .product-grid .social li a:hover {
-    color: var(--color-background-primary);
-    background: var(--dark);
+    color: var(--color-white);
+    background: var(--color-tertiary);
 }
 
 .percyProduct .product-grid .social li a i {
@@ -159,7 +159,7 @@
 .percyProduct .product-grid .social li a:before,
 .percyProduct .product-grid .social li a:after {
     content: attr(data-tip);
-    color: var(--color-background-primary);
+    color: var(--color-primary);
     background-color: var(--color-secondary);
     font-size: var(--font-size-xs);
     line-height: 20px;
@@ -243,7 +243,7 @@
 }
 
 .percyProduct .product-grid .price span {
-    color: var(--border-color);
+    color: var(--color-primary);
     font-size: var(--font-size-sm);
     font-weight: var(--font-weight-regular);
     letter-spacing: 0;
@@ -266,13 +266,13 @@
 
 .percyProduct .product-grid:hover .add-to-cart {
     border: 1px solid transparent;
-    background: var(--dark);
+    background: var(--color-tertiary);
     color: var(--color-background-primary);
     text-decoration: none;
 }
 
 .percyProduct .product-grid .add-to-cart:hover {
-    background-color: var(--dark);
+    background-color: var(--color-tertiary);
     box-shadow: 0 0 10px var(--shadow-light);
 }
 
@@ -315,6 +315,10 @@
 .calypsoCurriculam .lead {
     margin-left: auto;
     margin-right: auto;
+    color: var(--color-text-primary);
+}
+.calypsoCurriculam .card-title{
+    color: var(--color-text-primary);
 }
 
 /* #calypso(calypsoCurriculam) #css ends  */
@@ -484,6 +488,7 @@
         color: var(--color-text-secondary);
         margin-bottom: var(--spacing-xxl);
         text-align: center;
+        max-width: none;
       }
   
       /* Form Grid Layout */
