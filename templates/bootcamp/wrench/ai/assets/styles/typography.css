@@ -454,7 +454,7 @@ section {
 
 /* Space between consecutive sections */
 section + section {
-  margin-top: var(--spacing-md); /* 16px */
+  margin-top: var(--spacing-xl); /* 16px */
 }
 
 .navbar {
