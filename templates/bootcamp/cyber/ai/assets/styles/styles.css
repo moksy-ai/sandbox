@@ -47,7 +47,7 @@
     clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
     transition: clip-path 0.3s ease;
     min-height: 350px;
-    background-image: url(https://images.moksy.com/templates/default/hero/about.png);
+   
     background-position: center;
     background-size: cover;
 }
