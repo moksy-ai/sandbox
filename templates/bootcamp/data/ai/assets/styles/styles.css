@@ -1,0 +1,743 @@
+/* #natal(natalNavbar) #css starts  */
+.natalNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.natalNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.natalNavbar .btn {
+    background-color: var(--color-tertiary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-text-primary);
+}
+
+.natalNavbar .btn:hover {
+    color: var(--color-text-primary);
+    background-color: var(--color-tertiary);
+}
+
+.natalNavbar .col-3 {
+    padding-left: 0px !important;
+}
+
+/* #natal(natalNavbar) #css ends  */
+/* #handel(handelHero) #css starts  */
+.handelHero .masthead {
+    padding: 3rem 0 7rem;
+    position: relative;
+    background-size: cover;
+    z-index: 0;
+}
+
+.handelHero .masthead svg.wave {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+.handelHero .masthead h1 {
+    line-height: 1.1;
+    z-index: 1;
+    color: var(--color-primary);
+}
+
+.handelHero .masthead a {
+    color: var(--color-white);
+    z-index: 1;
+}
+
+.handelHero .masthead a:hover {
+    color: var(--color-secondary);
+}
+
+.handelHero .masthead a:active {
+    text-decoration: none;
+}
+
+.handelHero .masthead .masthead-cards {
+    position: relative;
+    z-index: 1;
+}
+
+.handelHero .masthead .masthead-cards .shape {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .3);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+}
+
+.handelHero .masthead .masthead-cards .card {
+    opacity: 1;
+    font-size: .8rem;
+    text-transform: capitalize;
+    font-weight: 800;
+    letter-spacing: .05rem;
+    color: var(--dark);
+    transition: .15s all;
+}
+
+.handelHero .masthead .masthead-cards .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+}
+
+.handelHero .masthead .masthead-cards .card:active {
+    margin-top: inherit;
+    margin-bottom: inherit;
+}
+
+.handelHero .masthead .masthead-cards .card.border-bottom-blue:hover {
+    color: var(--color-primary);
+}
+
+.handelHero .masthead .masthead-cards .card.border-bottom-green:hover {
+    color: var(--color-primary);
+}
+
+.handelHero .masthead .masthead-cards .card.border-bottom-red:hover {
+    color: var(--color-tertiary);
+}
+
+.handelHero .masthead .masthead-cards .card.border-bottom-yellow:hover {
+    color: var(--color-tertiary);
+}
+
+.handelHero .masthead-page {
+    padding: 1rem 0 4rem;
+}
+
+
+.handelHero .border-bottom-blue,
+.handelHero .border-bottom-green,
+.handelHero .border-bottom-red,
+.handelHero .border-bottom-yellow {
+    border-bottom: .4rem solid !important;
+}
+
+.handelHero .shadow-lg {
+    box-shadow: 0 2rem 1.5rem -1.5rem var(--shadow-light), 0 0 1.5rem .5rem var(--shadow-light) !important;
+}
+
+.handelHero .border-0 {
+    border: 0 !important;
+}
+
+.handelHero .btn {
+    background-color: var(--color-tertiary);
+    margin-top: 40px !important;
+    color: var(--color-text-primary) !important;
+    border: none
+}
+
+.handelHero .paragraph {
+    color: var(--color-primary);
+}
+
+/* #handel(handelHero) #css ends  */
+
+/* #willow(willowWhyus) #css starts  */
+/* Comparison Table Container */
+.willowWhyus .comparison-table {
+    width: 100%;
+}
+
+/* Table Header Styling */
+.willowWhyus .comparison-table thead th {
+    background-color: var(--color-background-secondary);
+    font-weight: var(--font-weight-semibold);
+    text-align: center;
+}
+
+/* Table Row Alternating Colors */
+.willowWhyus .comparison-table tbody tr:nth-of-type(odd) {
+    background-color: var(--color-background-primary);
+}
+
+.willowWhyus .comparison-table tbody tr:nth-of-type(even) {
+    background-color: var(--color-background-tertiary);
+}
+
+/* Table Cell Styling */
+.willowWhyus .comparison-table td,
+.willowWhyus .comparison-table th {
+    vertical-align: middle;
+    text-align: center;
+    padding: var(--spacing-sm);
+    border-top: 1px solid var(--border-color);
+}
+
+/* Feature Name Column */
+.willowWhyus .feature-name {
+    text-align: left;
+    font-weight: var(--font-weight-medium);
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 576px) {
+
+    /* Hide table header on mobile */
+    .willowWhyus .comparison-table thead {
+        display: none;
+    }
+
+    /* Convert table to block layout */
+    .willowWhyus .comparison-table,
+    .willowWhyus .comparison-table tbody,
+    .willowWhyus .comparison-table tr,
+    .willowWhyus .comparison-table td {
+        display: block;
+        width: 100%;
+    }
+
+    /* Row styling for mobile */
+    .willowWhyus .comparison-table tr {
+        margin-bottom: var(--spacing-md);
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius-sm);
+    }
+
+    /* Cell styling for mobile */
+    .willowWhyus .comparison-table td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+        border: none;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    /* Data label for mobile */
+    .willowWhyus .comparison-table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: var(--spacing-md);
+        width: 45%;
+        padding-right: var(--spacing-md);
+        text-align: left;
+        font-weight: var(--font-weight-semibold);
+        color: var(--color-text-primary);
+    }
+
+    /* Remove border from last cell */
+    .willowWhyus .comparison-table td:last-child {
+        border-bottom: 0;
+    }
+}
+
+/* #willow(willowWhyus) #css ends  */
+/* #flock(flockFeature) #css starts  */
+.flockFeature h2 {
+    margin-bottom: var(--spacing-xl);
+}
+
+.flockFeature .card {
+    box-shadow: none;
+}
+
+.flockFeature .card-img-top {
+    max-width: var(--icon-size-xl);
+    margin-left: 15px;
+    margin-top: 20px
+}
+
+.flockFeature .card-title {
+    margin-bottom: 15px;
+    color: var(--color-primary);
+}
+
+.flockFeature .btn {
+    background-color: var(--color-tertiary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-text-primary);
+    margin-top: var(--spacing-xl);
+}
+
+.flockFeature .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-tertiary);
+}
+
+@media (max-width: 991.98px) {
+    .flockFeature .card-img-top {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .flockFeature h5 {
+        text-align: center;
+    }
+}
+
+/* #flock(flockFeature) #css ends  */
+/* #calypso(calypsoCurriculam) #css starts  */
+
+/* Card appearance */
+.calypsoCurriculam .card {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.125rem 0.75rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.calypsoCurriculam .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+/* Icon styling */
+.calypsoCurriculam .card i {
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    color: var(--color-primary);
+}
+
+/* Spacing for grid */
+.calypsoCurriculam .calypsoCurriculam-row>[class^='col-'] {
+    margin-bottom: 1.5rem;
+}
+
+/* Center the intro lead paragraph */
+.calypsoCurriculam .lead {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* #calypso(calypsoCurriculam) #css ends  */
+/* #citadel(citadelComparison) #css starts  */
+    /* Citadel Comparison Component Styles */
+    /* Base comparison section */
+    .citadelComparison .comparison {
+        background: var(--color-white);
+        color: var(--color-text-primary);
+        padding: var(--spacing-xxl) var(--spacing-lg);
+        text-align: center;
+        font-family: var(--font-family-primary);
+      }
+  
+
+      /* Comparison subtitle */
+      .citadelComparison .subtitle {
+        max-width: none;
+      }
+  
+      /* Scorecards container */
+      .citadelComparison .scorecards {
+        display: flex;
+        justify-content: center;
+        gap: var(--spacing-xl);
+        flex-wrap: wrap;
+      }
+  
+      /* Individual scorecard */
+      .citadelComparison .scorecard {
+        position: relative;
+        background: var(--color-white);
+        border: var(--border-width-sm) solid var(--color-gray-100);
+        border-radius: var(--border-radius-xl);
+        padding: var(--spacing-xl) var(--spacing-lg) var(--spacing-xxl);
+        width: 300px;
+        box-shadow: var(--shadow-md);
+        overflow: hidden;
+        transform: translateY(40px);
+        opacity: 0;
+        animation: slideUp 0.8s forwards;
+      }
+  
+      /* Scorecard animation delays */
+      .citadelComparison .scorecard:nth-child(1) { animation-delay: 0.1s; }
+      .citadelComparison .scorecard:nth-child(2) { animation-delay: 0.2s; }
+      .citadelComparison .scorecard:nth-child(3) { animation-delay: 0.3s; }
+  
+      /* Slide up animation keyframes */
+      @keyframes slideUp {
+        to { transform: translateY(0); opacity: 1; }
+      }
+  
+      /* Scorecard header */
+      .citadelComparison .scorecard .card-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: var(--spacing-lg);
+      }
+  
+      /* Scorecard emoji */
+      .citadelComparison .scorecard .emoji {
+        font-size: var(--font-size-xxlTwo);
+      }
+  
+      /* Scorecard name */
+      .citadelComparison .scorecard .name {
+        font-size: var(--font-size-xl);
+        font-weight: var(--font-weight-semibold);
+        margin-top: var(--spacing-sm);
+      }
+  
+      /* Features list */
+      .citadelComparison .features {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+      }
+  
+      /* Feature list item */
+      .citadelComparison .features li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: var(--spacing-md);
+        font-size: var(--font-size-sm);
+      }
+  
+      /* Progress bar container */
+      .citadelComparison .bar {
+        position: relative;
+        flex: 1;
+        height: 8px;
+        background: var(--color-gray-200);
+        border-radius: var(--border-radius-sm);
+        margin-left: var(--spacing-md);
+      }
+  
+      /* Progress bar fill */
+      .citadelComparison .bar span {
+        display: block;
+        height: 100%;
+        border-radius: var(--border-radius-sm);
+        background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+      }
+  
+      /* CTA section */
+      .citadelComparison .cta {
+        margin-top: var(--spacing-xl);
+        
+      }
+  
+      /* CTA paragraph */
+      .citadelComparison .cta p {
+        font-size: var(--font-size-xl);
+        margin-bottom: var(--spacing-lg);
+      }
+  
+      /* CTA button */
+      .citadelComparison .btn-cta {
+        color: var(--color-text-primary);
+        padding: var(--spacing-sm) var(--spacing-lg);
+        border-radius: var(--border-radius-full);
+        font-weight: var(--font-weight-semibold);
+        text-decoration: none;
+        transition: opacity var(--transition-duration);
+        background-color: var(--color-tertiary);
+      }
+
+      /* Mobile responsive styles */
+      @media (max-width: 768px) {
+        .citadelComparison .scorecards {
+          flex-direction: column;
+          align-items: center;
+        }
+        
+        .citadelComparison .scorecard {
+          width: 100%;
+          max-width: 380px;
+          cursor: pointer;
+        }
+      }
+/* #citadel(citadelComparison) #css ends  */
+/* #cepra(cepraClients) #css starts  */
+.cepraClients .client {
+    margin-top: 20px;
+}
+
+.cepraClients .img-responsive {
+    max-height: 150px;
+    max-width: 150px
+}
+
+.cepraClients .client .thumbnail:hover {
+    border: 2px solid var(--color-secondary);
+    -webkit-transform: scale(1.2);
+}
+
+/* #cepra(cepraClients) #css ends  */
+/* #trail(trailTools) #css starts  */
+    /* Main Tools Container */
+    .trailTools .tools {
+      position: relative;
+      padding: var(--spacing-xxl) 0;
+      background: #ffffff;
+      color: var(--color-text-primary);
+      overflow: hidden;
+    }
+
+    /* Background Overlay */
+    .trailTools .tools::before {
+      content: '';
+      display: none;
+    }
+
+    /* Tools Title Styles */
+
+    /* Tools Subtitle Styles */
+    .trailTools .tools-subtitle{
+      max-width: none;
+    }
+
+    /* Tools Grid Layout */
+    .trailTools .tools-grid{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: var(--spacing-xxl);
+      perspective: 800px;
+    }
+
+    /* Tool Module Card Styles */
+    .trailTools .tool-module{
+      position: relative;
+      padding: var(--spacing-xxl) var(--spacing-xl);
+      border-radius: 20px;
+      background: rgba(255,255,255,0.9);
+      border: 1px solid rgba(0,0,0,0.08);
+      backdrop-filter: blur(6px) saturate(180%);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.6s cubic-bezier(.25,.8,.25,1), box-shadow 0.6s, background 0.6s, opacity 0.6s;
+    }
+
+    /* Tool Icon Styles */
+    .trailTools .tool-module .tool-icon{
+      font-size: var(--font-size-xxl);
+      display: inline-block;
+      margin-bottom: var(--spacing-md);
+      color: var(--color-primary);
+      text-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+      animation: pulse 3s infinite;
+    }
+
+    /* Pulse Animation Keyframes */
+    @keyframes pulse{
+      0%,100%{text-shadow: 0 0 6px rgba(0,136,255,0.6);}
+      50%{text-shadow: 0 0 20px rgba(0,136,255,1);}
+    }
+
+    /* Tool Name Styles */
+    .trailTools .tool-name{
+      font-size: var(--font-size-md);
+      font-weight: var(--font-weight-bold);
+      letter-spacing: 0.12em;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    /* Tool Status Styles */
+    .trailTools .tool-status{
+      letter-spacing: 0.15em;
+    }
+
+    /* Hover Effects for Grid Items */
+    .trailTools .tools-grid:hover .tool-module{
+      opacity: 0.6;
+      transform: translateZ(-40px) scale(0.95);
+    }
+
+    /* Tool Module Hover Effects */
+    .trailTools .tool-module:hover{
+      opacity: 1 !important;
+      transform: translateY(-25px) scale(1.05);
+      background: #ffffff;
+      box-shadow: 0 15px 35px rgba(0, 123, 255, 0.25), 0 5px 15px rgba(0, 0, 0, 0.06);
+      z-index: 5;
+    }
+
+    /* Responsive Design Styles */
+    @media (max-width: 768px){
+      .trailTools .tool-module{
+        padding: var(--spacing-xxl) var(--spacing-lg);
+      }
+
+      .trailTools .tools-grid{
+        grid-template-columns: 1fr;
+      }
+
+      .trailTools .tools-grid:hover .tool-module{
+        opacity: 1;
+        transform: none;
+      }
+
+      .trailTools .tool-module:hover{
+        transform: translateY(-10px) scale(1.03);
+      }
+    }
+/* #trail(trailTools) #css ends  */
+/* #inkwell(inkwellIndustries) #css starts  */
+/* Main Container Styling */
+.inkwellIndustries {
+    background: var(--color-background-primary);
+    padding: var(--spacing-xxl) 0;
+}
+
+/* Section Header Styling */
+
+
+.inkwellIndustries .section-subtitle {
+    max-width: none;
+}
+
+/* Industries List Container */
+.inkwellIndustries .industries-list {
+    width: 100%;
+}
+
+/* Individual Industry Item */
+.inkwellIndustries .industry-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
+    padding-bottom: var(--spacing-lg);
+    border-bottom: 1px solid var(--color-border-light);
+    flex-direction: row-reverse;
+}
+
+/* Remove border from last item */
+.inkwellIndustries .industry-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+/* Animation state for items in view */
+.inkwellIndustries .industry-item.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Industry Icon Styling */
+.inkwellIndustries .industry-icon {
+    font-size: var(--font-size-xxl);
+    line-height: 1;
+    transition: transform 0.4s ease;
+}
+
+/* Industry Icon Hover Effect */
+.inkwellIndustries .industry-item:hover .industry-icon {
+    transform: scale(1.2) rotate(5deg);
+}
+
+/* Industry Name Styling */
+.inkwellIndustries .industry-name {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+    margin: 0 0 var(--spacing-sm) 0;
+}
+
+/* Industry Description Styling */
+.inkwellIndustries .industry-desc {
+    margin: 0;
+    font-size: var(--font-size-md);
+    color: var(--color-text-primary);
+}
+
+/* Responsive Design - Mobile */
+@media (max-width: 767.98px) {
+    .inkwellIndustries .industry-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .inkwellIndustries .industry-icon {
+        margin-bottom: var(--spacing-md);
+    }
+}
+
+/* Bounce Animation Keyframes */
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.3);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    70% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Apply bounce animation to icons in view */
+.inkwellIndustries .industry-item.in-view .industry-icon {
+    animation: bounceIn 0.8s ease;
+}
+
+/* Two-column Layout for Larger Screens */
+@media (min-width: 992px) {
+    .inkwellIndustries .industries-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: var(--spacing-xl);
+        grid-row-gap: var(--spacing-xl);
+    }
+
+    .inkwellIndustries .industry-item {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    .inkwellIndustries .industry-item:nth-child(odd) {
+        border-right: 1px solid var(--color-border-light);
+        padding-right: var(--spacing-xl);
+    }
+
+    .inkwellIndustries .industry-item:nth-child(even) {
+        padding-left: var(--spacing-xl);
+    }
+    .inkwellIndustries .btn{
+        background-color: var(--color-tertiary);
+        border: none;
+        color: var(--color-text-primary);
+    }
+}
+
+/* #inkwell(inkwellIndustries) #css ends  */
+/* #fund(fundFooter) #css starts */
+.fundFooter {
+    background-color: var(--color-background-secondary);
+    padding: var(--spacing-sm);
+}
+
+.fundFooter h5 {
+    color: var(--color-text-primary);
+}
+
+.fundFooter li a {
+    color: var(--color-text-primary);
+}
+
+.fundFooter .btn-outline-light {
+    color: var(--color-text-primary);
+}
+
+.fundFooter .btn-outline-light:hover {
+    background-color: var(--color-white);
+    color: var(--color-text-primary);
+    border-color: var(--color-white);
+}
+
+/* #fund(fundFooter) #css ends */
