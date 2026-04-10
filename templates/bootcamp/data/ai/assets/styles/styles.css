@@ -538,6 +538,7 @@
       font-weight: var(--font-weight-bold);
       letter-spacing: 0.12em;
       margin-bottom: var(--spacing-xs);
+      color: var(--color-primary)
     }
 
     /* Tool Status Styles */
@@ -586,7 +587,9 @@
     background: var(--color-background-primary);
     padding: var(--spacing-xxl) 0;
 }
-
+.inkwellIndustries h3,h4{
+    color: var(--color-primary);
+}
 /* Section Header Styling */
 
 
