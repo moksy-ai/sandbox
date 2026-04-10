@@ -646,7 +646,10 @@
     font-size: var(--font-size-md);
     color: var(--color-text-primary);
 }
-
+.inkwellIndustries .btn{
+    background-color: var(--color-tertiary);
+    color: var(--color-primary);
+}
 /* Responsive Design - Mobile */
 @media (max-width: 767.98px) {
     .inkwellIndustries .industry-item {
