@@ -14,9 +14,8 @@
     color: var(--color-white);
 }
 
-.nicheNavbar .btn:hover {
+.nicheNavbar .btnone:hover {
     color: var(--color-white);
-    background-color: var(--color-primary);
 }
 
 .nicheNavbar .btnone {
@@ -28,7 +27,9 @@
 .nicheNavbar .col-3 {
     padding-left: 0px !important;
 }
-
+.nicheNavbar .btntwo{
+    background-color: var(--color-tertiary);
+}
 /* #niche(nicheNavbar) #css ends  */
 /* #horde(hordeHero) #css starts  */
 .hordeHero h1,
