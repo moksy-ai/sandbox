@@ -1,0 +1,577 @@
+    
+/* #natal(natalNavbar) #css starts  */
+.natalNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.natalNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.natalNavbar .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.natalNavbar .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.natalNavbar .col-3 {
+    padding-left: 0px !important;
+}
+
+/* #natal(natalNavbar) #css ends  */
+/* #hoard(hoardHero) #css starts  */
+.hoardHero .Background {
+    background-color: var(--color-background-primary);
+}
+
+.hoardHero .image {
+    margin-top: 30px !important;
+}
+
+.hoardHero .stroke {
+    background-color: var(--color-text-primary);
+    color: var(--color-white);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    font-style: italic
+}
+
+.hoardHero .btn {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border-radius: var(--btn-radius-full);
+}
+/* #hoard(hoardHero) #css ends  */
+
+/* #caisy(caisyClients) #css starts  */
+.caisyClients img {
+    max-height: 50px;
+}
+
+/* #caisy(caisyClients) #css ends  */
+/* #pewor(peworProduct) #css starts */
+.peworProduct .product-grid {
+    position: relative;
+    z-index: 1;
+}
+
+.peworProduct .product-grid .product-image {
+    border: 1px solid var(--shadow-dark);
+    overflow: hidden;
+    perspective: 1500px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    height: 300px;
+}
+
+.peworProduct .product-grid .product-image a {
+    display: block;
+    height: 100%;
+}
+
+.peworProduct .product-grid .product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.peworProduct .product-grid .pic-1 {
+    opacity: 1;
+    transition: all 0.5s ease-out 0s;
+}
+
+.peworProduct .product-grid .pic-2 {
+    opacity: 0;
+    transform: rotateY(-90deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease-out 0s;
+}
+
+.peworProduct .product-grid:hover .pic-2 {
+    opacity: 1;
+    transform: rotateY(0);
+}
+
+.peworProduct .product-grid .social {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 3px;
+    left: -20%;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+}
+
+.peworProduct .product-grid:hover .social {
+    left: 17px;
+}
+
+.peworProduct .product-grid .social li a {
+    color: var(--color-background-primary);
+    background-color: var(--dark);
+    font-size: var(--font-size-base);
+    line-height: 40px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin: 15px 0;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+
+.peworProduct .product-grid .social li a:hover {
+    color: var(--color-background-primary);
+    background-color: var(--color-secondary);
+}
+
+.peworProduct .product-grid .product-new-label {
+    color: var(--color-background-primary);
+    background-color: var(--color-secondary);
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.peworProduct .product-grid .product-content {
+    text-align: center;
+    padding: 20px 0 0;
+}
+
+.peworProduct .product-grid .title {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-regular);
+    text-transform: capitalize;
+    margin: 0 0 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.peworProduct .product-grid .title a {
+    color: var(--dark);
+}
+
+.peworProduct .product-grid .title a:hover {
+    color: var(--dark);
+}
+
+.peworProduct .product-grid .rating {
+    color: var(--color-warning);
+    font-size: var(--font-size-xs);
+    padding: 0;
+    margin: 0 0 10px;
+    list-style: none;
+}
+
+.peworProduct .product-grid .price {
+    color: var(--dark);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 8px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.peworProduct .product-grid .price span {
+    color: var(--dark);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-bold);
+    text-decoration: line-through;
+    margin-left: 7px;
+    display: inline-block;
+}
+
+.peworProduct .product-grid .title a,
+.peworProduct .product-grid .social li a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 990px) {
+    .peworProduct .product-grid {
+        margin-bottom: 30px;
+    }
+}
+
+/* #pewor(peworProduct) #css ends */
+/* #cyclone(cycloneCertification) #css starts  */
+
+    /* Progress tracker container */
+    .cycloneCertification .progress-tracker {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    /* Individual step styling */
+    .cycloneCertification .step {
+      background: var(--color-white);
+      border-radius: var(--border-radius-lg);
+      padding: var(--spacing-xl) var(--spacing-md);
+      width: 260px;
+      flex: 1 1 240px;
+      text-align: center;
+      position: relative;
+      box-shadow: var(--shadow-md);
+      transition: transform var(--transition-duration) ease;
+    }
+
+    /* Step hover effect */
+    .cycloneCertification .step:hover {
+      transform: translateY(-4px);
+    }
+
+    /* Step icon styling */
+    .cycloneCertification .step .icon {
+      font-size: var(--font-size-xxxl);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    /* Step heading */
+    .cycloneCertification .step h3 {
+      font-size: var(--font-size-lg);
+      margin-bottom: var(--spacing-xs);
+      font-weight: var(--font-weight-semibold);
+    }
+
+    /* Step description */
+    .cycloneCertification .step p {
+      font-size: var(--font-size-sm);
+      color: var(--color-text-secondary);
+    }
+
+    /* Connecting line between steps */
+    .cycloneCertification .step::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: -40px;
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-success) 100%);
+      transform: translateY(-50%);
+      z-index: -1;
+    }
+
+    /* Remove line from last step */
+    .cycloneCertification .step:last-child::after {
+      display: none;
+    }
+
+    /* Completed steps styling */
+    .cycloneCertification .completed .icon,
+    .cycloneCertification .completed h3 {
+      color: var(--color-success);
+    }
+
+    /* Final step with pulse animation */
+    .cycloneCertification .step.final {
+      animation: cyclonePulse 2.5s infinite;
+      border: var(--border-width-md) solid var(--color-warning);
+    }
+
+    /* Pulse animation keyframes */
+    @keyframes cyclonePulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(250, 204, 21, .5);
+      }
+
+      70% {
+        box-shadow: 0 0 0 24px rgba(250, 204, 21, 0);
+      }
+
+      100% {
+        box-shadow: 0 0 0 0 rgba(250, 204, 21, 0);
+      }
+    }
+
+    /* Download button styling */
+    .cycloneCertification .btn-download {
+      display: inline-block;
+      margin-top: var(--spacing-md);
+      padding: var(--spacing-sm) var(--spacing-lg);
+      background: var(--color-primary);
+      color: var(--color-white);
+      border-radius: var(--border-radius-pill);
+      font-size: var(--font-size-sm);
+      transition: background var(--transition-duration) ease;
+    }
+
+    /* Download button hover effect */
+    .cycloneCertification .btn-download:hover {
+      background: var(--color-primary-dark);
+      text-decoration: none;
+      color: var(--color-white);
+    }
+
+    /* Statistics text */
+    .cycloneCertification .after-stats {
+      text-align: center;
+      margin-top: var(--spacing-xl);
+      font-size: var(--font-size-base);
+      font-weight: var(--font-weight-medium);
+      color: var(--color-text-primary);
+    }
+
+    /* Mobile responsive layout */
+    @media (max-width: 768px) {
+      .cycloneCertification .progress-tracker {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .cycloneCertification .step {
+        margin-bottom: var(--spacing-xl);
+        width: 100%;
+        max-width: 340px;
+      }
+
+      .cycloneCertification .step::after {
+        top: auto;
+        left: 50%;
+        right: auto;
+        width: 4px;
+        height: 80px;
+        transform: translateX(-50%);
+        background: linear-gradient(180deg, var(--color-primary) 0%, var(--color-success) 100%);
+      }
+    }
+/* #cyclone(cycloneCertification) #css ends  */
+
+/* #pexus(pexusPricing) #css starts  */
+.pexusPricing .heading {
+    color: var(--dark)
+}
+
+.pexusPricing .small {
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-base)
+}
+
+.pexusPricing .btn {
+    background-color: var(--color-secondary);
+    border-radius: var(--btn-radius-full);
+}
+
+.pexusPricing .headline {
+    font-weight: var(--font-weight-semibold);
+}
+
+.pexusPricing .white {
+    color: var(--color-white);
+}
+
+/* #pexus(pexusPricing) #css ends  */
+
+/* #turza(turzaTestimonial) #css starts  */
+.turzaTestimonial .mok-block {
+    padding: 3rem 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: var(--color-background-primary);
+    background-image: url(https://images.moksy.com/templates/default/shapes/shape-red.svg)
+}
+
+.turzaTestimonial .mok-block .mok-box {
+    background: var(--color-background-primary);
+    padding: 3.75rem 2.5rem;
+    overflow: hidden;
+    color: var(--dark);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.3125rem 0.875rem 0 var(--shadow-dark)
+}
+
+.turzaTestimonial .lead {
+    color: var(--dark);
+}
+
+/* #turza(turzaTestimonial) #css ends  */
+
+/* #fang(fangFaq) #css starts  */
+.fangFaq .faq {
+    margin: 0 auto;
+}
+
+.fangFaq .question {
+    color: var(--dark);
+    position: relative;
+    background: var(--color-white);
+    margin: 0 auto;
+    opacity: .9;
+    padding: 10px 10px 10px 50px;
+    display: block;
+    cursor: pointer;
+}
+
+.fangFaq .answers {
+    border-top: 1px solid var(--dark);
+    background: var(--color-secondary);
+    padding: 0px 15px;
+    margin: 0 0 7px 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .7s ease;
+    -moz-transition: .7s ease;
+    -o-transition: .7s ease;
+    transition: .7s ease;
+}
+
+.fangFaq .questions:checked~.answers {
+    height: auto;
+    opacity: 1;
+    padding: 15px;
+    color: var(--color-white);
+}
+
+.fangFaq .plus {
+    position: absolute;
+    margin-left: 10px;
+    z-index: 5;
+    font-size: 1.8em;
+    line-height: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+    color: var(--dark);
+}
+
+.fangFaq .questions:checked~.plus {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.fangFaq .questions {
+    display: none;
+}
+
+/* #fang(fangFaq) #css ends  */
+
+/* #flush(flushFooter) #css starts */
+.flushFooter {
+    position: relative;
+}
+
+.flushFooter ul {
+    padding: 0;
+    margin: 0;
+}
+
+.flushFooter h4 {
+    color: var(--color-text-primary);
+}
+
+.flushFooter .footer-big .footer-widget {
+    margin-bottom: var(--spacing-xl);
+}
+
+
+.flushFooter .footer-big .footer-menu ul li a,
+.flushFooter .footer-big p,
+.flushFooter .footer-big ul li {
+    color: var(--color-text-primary);
+}
+
+.flushFooter .footer-menu ul li a {
+    line-height: var(--line-height-sm);
+}
+
+.flushFooter .footer-menu ul li a:hover {
+    color: var(--color-secondary);
+}
+
+.flushFooter .footer-widget-title {
+    line-height: var(--line-height-lg);
+    margin-bottom: 10px;
+}
+
+.flushFooter .mini-footer {
+    background: var(--color-text-primary);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.flushFooter .mini-footer p {
+    margin: 0;
+    line-height: var(--line-height-sm);
+    color: var(--color-white);
+}
+
+.flushFooter .widget-about img {
+    margin-bottom: var(--spacing-xl);
+}
+
+.flushFooter .widget-about .contact-details {
+    margin: 30px 0 0 0;
+}
+
+.flushFooter .widget-about .contact-details li {
+    margin-bottom: 10px;
+}
+
+.flushFooter .widget-about .contact-details li:last-child {
+    margin-bottom: 0;
+}
+
+.flushFooter .widget-about .contact-details li span {
+    padding-right: 12px;
+}
+
+.flushFooter .widget-about .contact-details li a {
+    color: var(--color-text-primary);
+}
+
+/* Center logo on small screens */
+@media (max-width: 575.98px) {
+    .flushFooter .widget-about img {
+        margin: 0 auto 30px auto;
+        /* Center the logo */
+    }
+
+    .flushFooter .footer-widget-title,
+    .flushFooter .footer-big p,
+    .flushFooter .footer-big ul li {
+        text-align: center;
+    }
+}
+
+/* Adjust padding for footer menu on medium screens */
+@media (max-width: 991px) {
+    .flushFooter .footer-menu {
+        padding-left: 0;
+    }
+}
+
+/* #flush(flushFooter) #css ends */
+
+
+
