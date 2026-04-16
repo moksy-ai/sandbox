@@ -230,7 +230,9 @@
 .cairoCurriculam .tab-pane.show {
     opacity: 1;
 }
-
+.cairoCurriculam h4{
+    color: var(--color-primary)
+}
 /* #cairo(cairoCurriculam) #css ends  */
 
 /* #tamara(tamaraTeam) #css starts */
