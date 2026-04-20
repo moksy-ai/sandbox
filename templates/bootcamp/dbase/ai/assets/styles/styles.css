@@ -1,0 +1,659 @@
+/* #nooks(nooksNavbar) #css starts  */
+.nooksNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.nooksNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.nooksNavbar .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.nooksNavbar .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+/* #nooks(nooksNavbar) #css ends  */
+
+/* #hues(huesHero) #css starts  */
+.huesHero p {
+    margin: 0 0 20px
+}
+
+.huesHero .page-banner {
+    background: url(https://images.moksy.com/templates/default/banner/online-learning.jpeg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    padding: 100px;
+    background-repeat: no-repeat;
+}
+
+.huesHero .page-banner-spacing {
+    padding-top: 170px;
+    padding-bottom: 174px
+}
+
+.huesHero .card-section {
+    position: relative;
+    bottom: 60px
+}
+
+.huesHero .card-block {
+    padding: 60px;
+    background: var(--color-white);
+}
+
+.huesHero .section-title {
+    margin-bottom: 60px
+}
+
+.huesHero .btn {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border-radius: var(--btn-radius-full);
+}
+
+@media (min-width: 576px) {
+    .huffyHero h1 {
+        font-size: var(--font-size-lg);
+    }
+}
+
+/* #hues(huesHero) #css ends  */
+
+/* #pipra(pipraProduct) #css starts  */
+.pipraProduct .product-grid {
+    background-color: var(--color-background-primary);
+    text-align: center;
+}
+
+.pipraProduct .product-grid .product-image {
+    overflow: hidden;
+    position: relative;
+}
+
+.pipraProduct .product-grid .product-image a.image {
+    display: block;
+}
+
+.pipraProduct .product-grid .product-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.pipraProduct .product-grid .product-image .pic-1 {
+    transition: all 0.3s ease 0s;
+}
+
+.pipraProduct .product-grid .product-image:hover .pic-1 {
+    transform: translateX(100%);
+}
+
+.pipraProduct .product-grid .product-image .pic-2 {
+    width: 100%;
+    height: 250px;
+    transform: translateX(-101%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.pipraProduct .product-grid .product-image:hover .pic-2 {
+    transform: translateX(0);
+}
+
+.pipraProduct .product-grid .product-sale-label {
+    color: var(--color-background-primary);
+    background: var(--color-secondary);
+    font-size: var(--font-size-sm);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 2px 8px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.pipraProduct .product-grid .product-like-icon {
+    color: var(--color-secondary);
+    font-size: var(--font-size-md);
+    line-height: 20px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.pipraProduct .product-grid .product-like-icon:hover {
+    color: var(--color-white);
+}
+
+.pipraProduct .product-grid .product-like-icon:before,
+.pipraProduct .product-grid .product-like-icon:after {
+    content: attr(data-tip);
+    color: var(--color-background-primary);
+    background-color: var(--dark);
+    font-size: var(--font-size-xs);
+    line-height: 18px;
+    padding: 7px 7px 5px;
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    transition: all 0.3s ease 0s;
+}
+
+.pipraProduct .product-grid .product-like-icon:after {
+    content: '';
+    height: 15px;
+    width: 15px;
+    padding: 0;
+    transform: translateX(-50%) rotate(45deg);
+    right: auto;
+    left: 50%;
+    top: 15px;
+    z-index: -1;
+}
+
+.pipraProduct .product-grid .product-like-icon:hover:before,
+.pipraProduct .product-grid .product-like-icon:hover:after {
+    visibility: visible;
+    top: 30px;
+}
+
+.pipraProduct .product-grid .product-links {
+    width: 170px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transition: all 0.3s ease 0s;
+}
+
+.pipraProduct .product-grid:hover .product-links {
+    bottom: 40px;
+    opacity: 1;
+}
+
+.pipraProduct .product-grid .product-links li {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.pipraProduct .product-grid .product-links li a {
+    color: var(--color-background-primary);
+    background: var(--color-secondary);
+    font-size: var(--font-size-base);
+    line-height: 48px;
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+
+.pipraProduct .product-grid:hover .product-links li a:hover {
+    background: var(--dark);
+}
+
+.pipraProduct .product-grid .product-content {
+    text-align: left;
+    padding: 15px 0 0;
+}
+
+.pipraProduct .product-grid .title {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    text-transform: capitalize;
+    margin: 0 0 8px;
+}
+
+.pipraProduct .product-grid .title a {
+    color: var(--dark);
+    transition: all 0.3s ease 0s;
+}
+
+.pipraProduct .product-grid .title a:hover {
+    color: var(--dark);
+}
+
+.pipraProduct .product-grid .price {
+    color: var(--color-secondary);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-medium);
+}
+
+.pipraProduct .product-grid .price span {
+    color: var(--dark);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-regular);
+    text-decoration: line-through;
+    margin: 0 5px 0 0;
+}
+
+@media screen and (max-width: 990px) {
+    .pipraProduct .product-grid {
+        margin: 0 0 30px;
+    }
+
+    .pipraProduct .product-grid .product-image img {
+        height: 250px;
+    }
+
+    .pipraProduct .product-grid .product-image .pic-2 {
+        height: 250px;
+    }
+}
+
+/* #pipra(pipraProduct) #css ends  */
+
+
+/* #onyx(onyxOverview) #css starts  */
+.onyxOverview {
+    position: relative;
+}
+
+.onyxOverview .section-heading::after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 4px;
+    background: var(--color-secondary);
+    margin: 0.5rem auto 1.5rem;
+    border-radius: 2px;
+}
+
+.onyxOverview .lead {
+    color: var(--color-text-secondary);
+    margin: 0 auto 3rem;
+    line-height: 1.6;
+}
+
+.onyxOverview .feature-card {
+    background: var(--color-background-primary);
+    border: 0;
+    border-radius: 1rem;
+    padding: 3rem 2rem;
+    box-shadow: 0 10px 25px var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.onyxOverview .feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+}
+
+.onyxOverview .icon-circle {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-background-primary);
+    font-size: var(--icon-size-md);
+    margin: 0 auto 1.25rem;
+    box-shadow: 0 4px 12px rgba(13, 110, 253, 0.4);
+}
+
+.onyxOverview .card-title {
+    margin-bottom: 0.75rem;
+    color: var(--color-text-primary);
+}
+
+.onyxOverview .card-text {
+    line-height: 1.55;
+}
+
+@media (max-width: 767.98px) {
+    .onyxOverview {
+        padding: 3rem 0;
+    }
+}
+
+/* #onyx(onyxOverview) #css ends  */
+
+/* #calypso(calypsoCurriculam) #css starts  */
+
+/* Card appearance */
+.calypsoCurriculam .card {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.125rem 0.75rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.calypsoCurriculam .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+/* Icon styling */
+.calypsoCurriculam .card i {
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    color: var(--color-primary);
+}
+
+/* Spacing for grid */
+.calypsoCurriculam .calypsoCurriculam-row>[class^='col-'] {
+    margin-bottom: 1.5rem;
+}
+
+/* Center the intro lead paragraph */
+.calypsoCurriculam .lead {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* #calypso(calypsoCurriculam) #css ends  */
+
+/* #tensor(tensorTestimonial) #css starts  */
+.tensorTestimonial .clients {
+    color: var(--dark)
+}
+
+.tensorTestimonial .image {
+    height: 55px;
+    width: 55px;
+}
+
+.tensorTestimonial .bg-circle {
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-secondary)
+}
+
+.tensorTestimonial .second-div {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.tensorTestimonial .text {
+    color: var(--color-white);
+}
+
+/* #tensor(tensorTestimonial) #css ends  */
+
+/* #clyne(clyneClients) #css starts  */
+.clyneClients .client-image {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    max-height: 100px;
+    width: auto;
+    object-fit: contain;
+}
+
+.clyneClients .client-image:hover {
+    filter: none;
+    /* IE6-9 */
+    -webkit-filter: grayscale(0);
+    /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+.clyneClients h2 {
+    text-align: center;
+}
+
+.clyneClients i {
+    color: var(--dark);
+}
+
+/* #clyne(clyneClients) #css ends  */
+
+/* #rexon(rexonRoadmap) #css starts  */
+.rexonRoadmap .main-timeline {
+    padding: 50px 0 0;
+    position: relative;
+}
+
+.rexonRoadmap .main-timeline .timeline {
+    margin: -42px 0 0 0;
+    position: relative;
+    z-index: 1;
+}
+
+.rexonRoadmap .main-timeline .timeline:before {
+    content: '';
+    border: 5px solid var(--color-primary);
+    border-right: 5px solid transparent;
+    height: calc(100% + 63px);
+    width: 50%;
+    border-radius: 100px 0 0 100px;
+    position: absolute;
+    left: 12%;
+    top: 50%;
+    z-index: -1;
+}
+
+.rexonRoadmap .main-timeline .timeline-content {
+    background-color: var(--dark);
+    text-align: center;
+    width: 60%;
+    border-radius: 30px 30px;
+    padding: 20px 15px;
+    position: relative;
+    margin: 0 auto 100px;
+    display: block;
+    z-index: 1;
+}
+
+.rexonRoadmap .main-timeline .timeline-content:hover {
+    text-decoration: none;
+}
+
+.rexonRoadmap .main-timeline .timeline-content:before {
+    content: "";
+    background: var(--color-background-primary);
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    border-radius: 20px 20px;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+}
+
+.rexonRoadmap .main-timeline .timeline-icon,
+.rexonRoadmap .main-timeline .timeline-year {
+    color: var(--dark);
+    font-size: var(--font-size-xl);
+    margin: 0 0 10px;
+}
+
+.rexonRoadmap .main-timeline .title {
+    color: var(--dark);
+    margin: 0;
+}
+
+.rexonRoadmap .main-timeline .description {
+    color: var(--dark);
+    letter-spacing: 1px;
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(even):before {
+    left: auto;
+    right: 12%;
+    border-radius: 0 100px 100px 0;
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+2) .timeline-content {
+    background: var(--dark);
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+2):before {
+    border-color: var(--color-primary);
+    border-left-color: transparent;
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+2) .timeline-icon,
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+2) .timeline-year {
+    color: var(--dark);
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+3) .timeline-content {
+    background: var(--dark);
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+3):before {
+    border-color: var(--color-primary);
+    border-right-color: transparent;
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+3) .timeline-icon,
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+3) .timeline-year {
+    color: var(--dark);
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+4) .timeline-content {
+    background: var(--dark);
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+4):before {
+    border: none;
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+4) .timeline-icon,
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+4) .timeline-year {
+    color: var(--dark);
+}
+
+@media only screen and (max-width:990px) {
+    .rexonRoadmap .main-timeline .timeline:before {
+        left: 5%;
+        border-radius: 120px;
+    }
+
+    .rexonRoadmap .main-timeline .timeline:nth-child(even):before {
+        right: 5%;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .rexonRoadmap .main-timeline:before {
+        width: 85%;
+    }
+
+    .rexonRoadmap .main-timeline .timeline {
+        margin: -38px 0 0 0;
+    }
+
+    .rexonRoadmap .main-timeline .timeline:before {
+        left: 0;
+    }
+
+    .rexonRoadmap .main-timeline .timeline:nth-child(even):before {
+        right: 0;
+    }
+
+    .rexonRoadmap .main-timeline .timeline-content {
+        width: 85%;
+    }
+
+    .rexonRoadmap .main-timeline .title {
+        font-size: var(--font-size-md);
+    }
+}
+
+/* #rexon(rexonRoadmap) #css ends  */
+
+/* #fierce(fierceFaq) #css starts  */
+.fierceFaq .accordion__single__hidden {
+    display: none;
+}
+
+.fierceFaq .accordion__single__hidden:checked~.accordion__single__answer {
+    max-height: 400px;
+    opacity: 1;
+    transform: translate(0, 0);
+    margin-top: 14px;
+}
+
+.fierceFaq .accordion__single__hidden:checked~.accordion__single__question:after {
+    content: "-";
+}
+
+.fierceFaq .accordion__single__answer {
+    margin-top: 0;
+    max-height: 0;
+    opacity: 0;
+    transform: translate(0, 50%);
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.fierceFaq .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fierceFaq .accordion {
+    font-weight: var(--font-weight-light);
+    line-height: 1.5;
+    max-width: 80%;
+}
+
+.fierceFaq .accordion__single {
+    margin-bottom: 30px;
+}
+
+.fierceFaq .accordion__single__question {
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+}
+
+.fierceFaq .accordion__single__question:hover,
+.fierceFaq .accordion__single__question:focus {
+    text-decoration: underline;
+}
+
+.fierceFaq .accordion__single__question:after {
+    display: inline-block;
+    margin-left: 10px;
+    color: var(--color-secondary);
+    content: "+";
+}
+
+.fierceFaq .accordion__single__answer {
+    margin-top: 5px;
+}
+
+/* #fierce(fierceFaq) #css ends  */
+
+/* #foils(foilsFooter) #css starts */
+.foilsFooter h5 {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+}
+
+.foilsFooter .icons {
+    color: var(--dark);
+}
+
+/* #foils(foilsFooter) #css ends */
