@@ -1,0 +1,712 @@
+/* #nooks(nooksNavbar) #css starts  */
+.nooksNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.nooksNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-primary);
+}
+
+.nooksNavbar .btn {
+    background-color: var(--color-tertiary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-dark);
+    border-radius: var(--border-radius-md);
+}
+
+/* #nooks(nooksNavbar) #css ends  */
+
+/* #hoard(hoardHero) #css starts  */
+.hoardHero .Background {
+    background-color: var(--color-background-primary);
+}
+
+.hoardHero .image {
+    margin-top: 30px !important;
+}
+
+.hoardHero .stroke {
+    background-color: var(--color-text-primary);
+    color: var(--color-white);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: var(--border-radius-md);
+    font-style: italic
+}
+
+.hoardHero .btn {
+    background-color: var(--color-tertiary);
+    color: var(--color-dark);
+    border-radius: var(--border-radius-md);
+}
+
+
+
+/* #hoard(hoardHero) #css ends  */
+
+/* #calvo(calvoClients) #css starts  */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 8))
+    }
+}
+
+.calvoClients .partners-logo-slider {
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    padding: 16px 0px;
+}
+
+.calvoClients .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.calvoClients .sliderTitle {
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.calvoClients .slide {
+    height: 100px;
+    width: 250px;
+    filter: grayscale(100%);
+}
+
+.calvoClients .slide:hover {
+    filter: grayscale(0%);
+}
+
+.calvoClients .partners-logo-slider img {
+    max-height: 100px;
+    max-width: 250px;
+    margin-right: 100px;
+}
+
+/* #calvo(calvoClients) #css ends  */
+
+/* #penny(pennyProduct) #css starts  */
+
+.pennyProduct .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.pennyProduct .single-product .part-1::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.3s;
+}
+
+.pennyProduct .single-product:hover .part-1::before {
+    transform: scale(1.2, 1.2) rotate(5deg);
+}
+
+.pennyProduct #product-1 .part-1::before {
+    background: url("../images/web-dev.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.pennyProduct #product-2 .part-1::before {
+    background: url("../images/uiux.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.pennyProduct #product-3 .part-1::before {
+    background: url("../images/data-ana.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.pennyProduct #product-4 .part-1::before {
+    background: url("../images/backend.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.pennyProduct .single-product .part-1 .discount,
+.pennyProduct .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    color: var(--dark);
+    background-color: var(--color-tertiary);
+    padding: 2px 8px;
+    text-transform: capitalize;
+}
+
+.pennyProduct .single-product .part-1 .new {
+    left: 0;
+    color: var(--dark);
+    background-color: var(--color-tertiary);
+}
+
+.pennyProduct .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.pennyProduct .single-product:hover .part-1 ul {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.pennyProduct .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.pennyProduct .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: var(--color-tertiary);
+    color: var(--color-dark);
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+}
+
+
+
+.pennyProduct .single-product .part-2 .product-title {
+    font-size: var(--font-size-base);
+    color: var(--dark);
+}
+
+.pennyProduct .single-product .part-2 h4 {
+    display: inline-block;
+    color: var(--color-primary);
+}
+
+.pennyProduct .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+    color: var(--color-text-primary) !important; 
+}
+
+.pennyProduct .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--dark);
+    transform: translateY(-50%);
+}
+
+/* #penny(pennyProduct) #css ends  */
+
+/* #tolem(tolemTestimonial) #css starts  */
+.tolemTestimonial .mok-block {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: var(--color-background-primary)
+}
+
+.tolemTestimonial .mok-block .mok-box {
+    background: var(--color-background-primary);
+    padding: 3.75rem 2.5rem;
+    overflow: hidden;
+    color: var(--dark);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.3125rem 0.875rem 0 var(--shadow-dark)
+}
+
+.tolemTestimonial .img3 {
+    height: 71.25px;
+}
+
+.tolemTestimonial .lead {
+    color: var(--dark);
+}
+
+/* #tolem(tolemTestimonial) #css ends  */
+
+/* #flint(flintFeature) #css starts  */
+.flintFeature .heading{
+    color: var(--color-text-primary)
+}
+.flintFeature .card-img-top {
+    max-width: var(--icon-size-xl);
+    margin-left: 20px;
+    margin-top: 20px
+}
+
+
+.flintFeature .card-title {
+    margin-bottom: var(--spacing-md);
+    color: var(--color-primary);
+}
+
+.flintFeature .Background {
+    background-color: var(--color-secondary);
+    padding: var(--spacing-xxl);
+}
+
+
+.flintFeature .stroke {
+    color: var(--color-primary);
+}
+
+.flintFeature .btndecor {
+    background-color: var(--color-tertiary);
+    border-radius: var(--btn-radius-md);
+    padding-right: 30px;
+    padding-left: 30px;
+    padding: var(--btn-padding-md);
+    margin-top: var(--spacing-sm);
+}
+
+@media (max-width: 991.98px) {
+    .flintFeature .card-img-top {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .flintFeature h5 {
+        text-align: center;
+    }
+}
+
+/* #flint(flintFeature) #css ends  */
+
+/* #dusk(duskDemo) #css starts  */
+    /* Main Demo Container */
+    .duskDemo .container {
+        color: var(--color-text-primary);
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 6vh var(--spacing-xl);
+        background: #fafafa url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiBmaWxsPSIjZmZmZmZmIi8+PC9zdmc+") repeat;
+      }
+  
+      /* Demo Title Styles */
+      .duskDemo .title {
+        font-size: var(--font-size-xl);
+        font-weight: var(--font-weight-semibold);
+        margin-bottom: var(--spacing-xs);
+        text-align: center;
+      }
+  
+      /* Demo Subtitle Styles */
+      .duskDemo .subtitle {
+        font-size: var(--font-size-base);
+        color: var(--color-text-secondary);
+        margin-bottom: var(--spacing-xxl);
+        text-align: center;
+      }
+  
+      /* Form Grid Layout */
+      .duskDemo .grid {
+        display: grid;
+        gap: var(--spacing-xl);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+          "name email"
+          "company button";
+      }
+  
+      /* Grid Area Assignments */
+      .duskDemo .full-name   { grid-area: name; }
+      .duskDemo .work-email  { grid-area: email; }
+      .duskDemo .company-name{ grid-area: company; }
+      .duskDemo .submit      { grid-area: button; }
+  
+      /* Form Field Styles */
+      .duskDemo .field input {
+        width: 100%;
+        padding: var(--spacing-md) var(--spacing-lg);
+        border: 1px solid #e0e0e0;
+        background: #ffffff;
+        border-radius: 4px;
+        font-size: var(--font-size-base);
+        transition: all .3s ease;
+      }
+  
+      /* Input Focus States */
+      .duskDemo .field input:focus {
+        outline: none;
+        box-shadow: inset 0 0 0 2px #d0d0d0;
+      }
+  
+      /* Field Container */
+      .duskDemo .field {
+        position: relative;
+      }
+  
+      /* Validation Checkmark */
+      .duskDemo .field input:valid + .check {
+        opacity: 1;
+        transform: scale(1);
+      }
+  
+      .duskDemo .check {
+        position: absolute;
+        right: var(--spacing-md);
+        top: 50%;
+        width: .75rem;
+        height: .4rem;
+        border-left: 2px solid #4caf50;
+        border-bottom: 2px solid #4caf50;
+        transform: translateY(-50%) rotate(-45deg) scale(0);
+        opacity: 0;
+        transition: all .3s ease;
+      }
+  
+      /* CTA Button Styles */
+      .duskDemo .cta {
+        width: 100%;
+        padding: var(--spacing-md) var(--spacing-lg);
+        background: transparent;
+        color: var(--color-text-primary);
+        border: 1px solid var(--color-text-primary);
+        border-radius: 4px;
+        font-size: var(--font-size-base);
+        font-weight: var(--font-weight-semibold);
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        transition: color .4s ease, transform .3s ease, box-shadow .3s ease;
+      }
+  
+      /* Button Background Effect */
+      .duskDemo .cta::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(135deg, #f5f5f5, #eaeaea);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform .4s ease;
+        z-index: -1;
+      }
+  
+      /* Button Hover and Focus States */
+      .duskDemo .cta:hover::before,
+      .duskDemo .cta:focus::before {
+        transform: scaleX(1);
+      }
+  
+      .duskDemo .cta:hover,
+      .duskDemo .cta:focus {
+        color: #000;
+        transform: translateY(-3px);
+        box-shadow: 0 6px 12px rgba(0,0,0,.08);
+      }
+  
+      /* Hover Effects for Grid Items */
+      .duskDemo .grid .field:hover,
+      .duskDemo .grid .submit:hover {
+        position: relative;
+      }
+  
+      .duskDemo .grid .field:hover::after,
+      .duskDemo .grid .submit:hover::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border: 2px solid #e0e0e0;
+        animation: pulse 1.5s infinite;
+        pointer-events: none;
+      }
+  
+      /* Pulse Animation Keyframes */
+      @keyframes pulse {
+        0%   { opacity: .3; }
+        50%  { opacity: .1; }
+        100% { opacity: .3; }
+      }
+  
+      /* Responsive Design Styles */
+      @media(max-width: 992px){
+        .duskDemo .grid{ 
+          grid-template-columns: repeat(2, 1fr); 
+        }
+      }
+  
+      @media(max-width: 576px){
+        .duskDemo .grid{
+          grid-template-columns: 1fr;
+          grid-template-areas:
+            "name"
+            "email"
+            "company"
+            "button";
+        }
+      }
+/* #dusk(duskDemo) #css ends  */
+
+/* #caravan(caravanCategories) #css starts  */
+    /* Caravan Categories Component Styles */
+    /* =====  SECTION WRAPPER  ===== */
+    .caravanCategories .categories {
+      padding: var(--spacing-2xl) var(--spacing-md);
+      background: var(--color-bg);
+      scroll-behavior: smooth;
+    }
+
+    /* Section subtitle styling */
+    .caravanCategories .categories .section-subtitle {
+      font-family: var(--font-family-base);
+      font-weight: var(--font-weight-normal);
+      color: var(--color-text-secondary);
+      text-align: center;
+      margin-bottom: var(--spacing-xl);
+    }
+
+    /* =====  LAYOUT  ===== */
+    .caravanCategories .categories-layout {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* =====  TABS  ===== */
+    .caravanCategories .category-tabs {
+      width: 100%;
+    }
+
+    /* Hide radio inputs */
+    .caravanCategories .category-tabs input[type="radio"] {
+      display: none;
+    }
+
+    /* Tab labels container */
+    .caravanCategories .tab-labels {
+      display: flex;
+      flex-wrap: wrap;
+      border-bottom: 1px solid var(--color-border);
+      margin-bottom: var(--spacing-md);
+    }
+
+    /* Individual tab label styling */
+    .caravanCategories .tab-labels label {
+      cursor: pointer;
+      padding: var(--spacing-sm) var(--spacing-md);
+      font-family: var(--font-family-base);
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-xs);
+      color: var(--color-text-primary);
+      border: 1px solid transparent;
+      border-top-left-radius: var(--border-radius-sm);
+      border-top-right-radius: var(--border-radius-sm);
+      background: var(--color-bg);
+      transition: color var(--transition-duration) ease, background var(--transition-duration) ease, border-color var(--transition-duration) ease;
+    }
+
+    /* Tab label hover effect */
+    .caravanCategories .tab-labels label:hover {
+      background: var(--color-hover);
+      color: var(--color-primary);
+    }
+
+    /* Active tab label styling */
+    .caravanCategories .category-tabs input:checked + label {
+      color: var(--color-primary);
+      font-weight: var(--font-weight-semibold);
+      border-color: var(--color-border) var(--color-border) var(--color-bg);
+    }
+
+    /* Tab panels container */
+    .caravanCategories .tab-panels {
+      width: 100%;
+    }
+
+    /* Individual tab panel styling */
+    .caravanCategories .tab-panel {
+      display: none;
+      border: 1px solid var(--color-border);
+      padding: var(--spacing-lg);
+      font-family: var(--font-family-base);
+      animation: slide-down .3s ease;
+    }
+
+    /* Tab panel visibility control */
+    .caravanCategories #tab-design:checked ~ .tab-panels .panel-design,
+    .caravanCategories #tab-tech:checked ~ .tab-panels .panel-tech,
+    .caravanCategories #tab-business:checked ~ .tab-panels .panel-business,
+    .caravanCategories #tab-strategy:checked ~ .tab-panels .panel-strategy {
+      display: block;
+    }
+
+    /* =====  ANIMATION (shared with accordion)  ===== */
+    @keyframes slide-down {
+      from {
+        opacity: 0;
+        transform: translateY(-5px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* =====  MISC SHARED STYLES  ===== */
+    .caravanCategories .sample-list {
+      list-style: disc;
+      margin: var(--spacing-xs) 0 0 var(--spacing-md);
+      padding-left: 0;
+    }
+
+    /* View all link styling */
+    .caravanCategories .view-all {
+      display: inline-block;
+      margin-top: var(--spacing-sm);
+      font-size: var(--font-size-sm);
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+
+    /* View all link hover effect */
+    .caravanCategories .view-all:hover {
+      text-decoration: underline;
+    }
+
+    /* =====  MOBILE TWEAKS  ===== */
+    @media (max-width: 575px) {
+      .caravanCategories .tab-labels label {
+        padding: var(--spacing-xs) var(--spacing-sm);
+      }
+      .caravanCategories .tab-panel {
+        padding: var(--spacing-md);
+      }
+    }
+/* #caravan(caravanCategories) #css en ds  */
+
+/* #clorn(clornContact) #css starts  */
+.clornContact .mok-block .mok-box {
+    padding: 3.75rem 2.5rem
+}
+
+.clornContact .mok-block .row-100 {
+    height: 0rem;
+    width: 100%
+}
+
+.clornContact .mok-block .row-50 {
+    height: 1rem;
+    width: 100%
+}
+
+.clornContact .mok-block .row-70 {
+    height: 0rem;
+    width: 100%
+}
+
+.clornContact .map {
+    width: 100%;
+    height: 300px;
+    border: none
+}
+
+.clornContact .icons {
+    max-height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clornContact .btn-cta {
+    background-color: var(--color-tertiary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-dark);
+    border-radius: var(--border-radius-md);
+}
+
+.clornContact .mx-2 {
+    color: var(--dark);
+}
+
+/* #clorn(clornContact) #css ends  */
+
+/* #fanta(fantaFooter) #css starts */
+.fantaFooter {
+    overflow: hidden;
+}
+.fantaFooter .heading-custom-class{
+        color: var(--color-primary);
+}
+.fantaFooter .footer-wrap {
+    padding-top: var(--spacing-xxl);
+    background: var(--color-background-primary);
+    background-size: cover
+}
+
+.fantaFooter .footer-wrap p {
+    margin-top: var(--spacing-md)
+}
+
+.fantaFooter .footer-links li a {
+    line-height: var(-line-height-lg);
+    color: var(--color-text-primary);
+}
+
+.fantaFooter .footer-category li a {
+    line-height: var(-line-height-lg);
+    color: var(--color-text-primary);
+}
+
+.fantaFooter .copyright {
+    color: var(--color-text-primary);
+    text-align: center;
+    background: var(--color-white);
+    padding: var(--spacing-md) 0 var(--spacing-md) 0;
+}
+
+.fantaFooter footer .first_class {
+    padding-bottom: var(--spacing-md)
+}
+
+.fantaFooter ul {
+    padding-left: var(--spacing-xs)
+}
+
+.fantaFooter footer li {
+    color: var(--color-primary);
+}
+
+@media(max-width:768px) {
+    .fantaFooter .footer-wrap h3 {
+        margin-top: 27px
+    }
+}
+
+@media(max-width:320px) {
+    .fantaFooter .copyright {
+        font-size: var(--font-size-sm)
+    }
+}
+
+/* #fanta(fantaFooter) #css ends */
