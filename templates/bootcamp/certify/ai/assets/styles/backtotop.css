@@ -1,0 +1,65 @@
+.scroll-top {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+  z-index: 999;
+  border-radius: 50%;
+  background: var(--color-white);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.scroll-top.active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.scroll-top svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.scroll-top circle {
+  fill: none;
+  stroke-width: 4;
+}
+
+.scroll-top .bg {
+  stroke: #e6e6e6;
+}
+
+.scroll-top .progress {
+  stroke: var(--color-primary);
+  stroke-linecap: round;
+  stroke-dasharray: 163.36;
+  stroke-dashoffset: 163.36;
+  transition: stroke-dashoffset 0.1s linear;
+}
+
+.scroll-top .arrow {
+  position: relative;
+  z-index: 1;
+  font-size: 20px;
+  font-weight: 700;
+  color:  var(--color-primary);
+  line-height: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
