@@ -4,7 +4,7 @@
 }
 
 .nooksNavbar .navbar-light .navbar-nav .nav-link:hover {
-    color: var(--color-hover-primary);
+    color: var(--color-primary);
 }
 
 .nooksNavbar .btn {
@@ -13,18 +13,12 @@
     padding: var(--btn-padding-sm);
     color: var(--color-white);
 }
-
-.nooksNavbar .btn:hover {
-    color: var(--color-white);
-    background-color: var(--color-primary);
-}
-
 /* #nooks(nooksNavbar) #css ends  */
 /* #heather(heatherHero) #css starts  */
 /* Main Hero Section */
 .heatherHero .hero-section {
-    min-height: 100vh;
-    background: #0a0a0a;
+    min-height: 80vh;
+    background: var(--color-secondary);
     position: relative;
     overflow: hidden;
     display: flex;
@@ -69,7 +63,7 @@
 .heatherHero h1 {
     font-size: 5rem;
     font-weight: var(--font-weight-black);
-    background: linear-gradient(135deg, #FF6B6B, #4ECDC4, #45B7D1, #9B59B6);
+    background: linear-gradient(135deg, var(--color-primary), var(--color-tertiary), var(--color-primary));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: var(--spacing-sm);
@@ -116,7 +110,7 @@
 }
 
 .heatherHero .cta-button.primary {
-    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    background: var(--color-primary);
     border: none;
     color: white;
 }
@@ -500,7 +494,7 @@
 
 .pangPricing .pricing-table .pricing-table-col:hover .pricing-table-title,
 .pangPricing .pricing-table .pricing-table-col:hover .pricing-table-description {
-    color: var(--color-white);
+    color: var(--color-text-primary);
 }
 
 .pangPricing .pricing-table .pricing-table-col .pricing-table-title {
@@ -535,20 +529,22 @@
 }
 
 .pangPricing .pricing-table .pricing-table-col.highlight {
-    background-color: var(--color-secondary);
-    color: var(--color-white);
+    background-color: var(--color-white);
+    color: var(--color-text-primary);
 }
 
 .pangPricing .pricing-table .pricing-table-col.highlight .pricing-table-price {
-    color: var(--color-white);
+    color: var(--color-text-primary);
 }
 
 .pangPricing .action .btn {
     transition: background-color 0.3s ease-out;
+    background-color: var(--color-secondary);
+    color: var(--color-white)
 }
 
 .pangPricing .pricing-table-col:hover .btn {
-    background-color: var(--color-success);
+    background-color: var(--color-secondary);
     color: var(--color-white);
 }
 
@@ -608,20 +604,6 @@
 
 /* #amber(amberAdmission) #css starts  */
  /* Section Title Styles */
- .amberAdmission .section-title {
-    font-size: var(--font-size-xxl);
-    font-weight: var(--font-weight-bold);
-    margin-bottom: var(--spacing-xs);
-  }
-
-  /* Section Subtitle Styles */
-  .amberAdmission .section-subtitle {
-    color: var(--color-text-secondary);
-    font-size: var(--font-size-base);
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-  }
 
   /* Admission Steps Card Styles */
   .amberAdmission .admission-steps .step-card {
@@ -641,7 +623,7 @@
     height: 64px;
     border-radius: 50%;
     background: var(--color-background-secondary);
-    color: var(--color-primary);
+    color: var(--dark);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -693,6 +675,10 @@
   /* Apply Now Button Styles */
   .amberAdmission .apply-now-btn {
     position: relative;
+  }
+  .amberAdmission .btn {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
   }
 
   /* Responsive Design */
@@ -761,20 +747,10 @@
 }
 
 .lagoonLimitedspots .cta-btn {
-    background-color: var(--color-primary);
-    color: var(--color-background-primary);
-    font-weight: var(--font-weight-bold);
-    padding: var(--btn-padding-lg);
-    border-radius: var(--btn-radius-md);
+    background-color: var(--color-secondary);
+    color: var(--color-white);
     border: none;
     display: inline-block;
-}
-
-.lagoonLimitedspots .cta-btn:hover,
-.lagoonLimitedspots .cta-btn:focus {
-    background-color: var(--color-hover-primary);
-    color: var(--color-background-primary);
-    text-decoration: none;
 }
 
 .lagoonLimitedspots .free-badge {
@@ -827,3 +803,12 @@
 }
 
 /* #fund(fundFooter) #css ends */
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 0%;
+  background: var(--color-primary);
+  z-index: 999;
+}
